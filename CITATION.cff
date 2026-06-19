@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "VSDLC Mining Pilot"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Sánchez
+    given-names: César Andrés
+  - family-names: Moncunill
+    given-names: David Martin
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/PLACEHOLDER_ORG/vsdlc-mining"
+url: "https://github.com/PLACEHOLDER_ORG/vsdlc-mining"
+doi: 10.5281/zenodo.PLACEHOLDER
+date-released: 2026-06-18
+keywords:
+  - software engineering
+  - mining software repositories
+  - AI-assisted software development provenance
+  - traceability
+  - GitHub
+  - reproducible research artifact
+abstract: >-
+  Initial public research artifact providing a repository mining framework for
+  AI-assisted software development provenance on GitHub. The pilot discovers
+  public repositories that contain AI instruction artifacts and filters a
+  repository traceability dataset to assess whether release, CI, and test
+  evidence is sufficient for release-unit trace reconstruction. Implements
+  Phase 1 (seed search) and Phase 2 (repository filtering).

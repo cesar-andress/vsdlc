@@ -1,0 +1,4712 @@
+{
+  "adjudicated_label_fields": [
+    "adjudicated_label",
+    "primary_label",
+    "label"
+  ],
+  "baseline_prediction_categories": [
+    "AI_PRODUCT",
+    "CONVENTIONAL_SOFTWARE"
+  ],
+  "baselines": {
+    "baseline_1_description_topics_keywords": {
+      "accuracy": 0.4303030303030303,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 101
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 142
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 87
+        }
+      },
+      "disagreements": [
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Lakr233/FlowDown"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kevandrew/sophia"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Hive-Academy/roocode-generator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Avarok-Cybersecurity/atlas"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Frankieli123/dokploy-i18n"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Comfy-Org/docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JuliusBrussee/caveman-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DeadmanAbir/AgentGenesis"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Bugb-Technologies/guardlink"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FlagAI-Open/FlagAI"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlbertoUAH/datos-gob-es-mcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Ageniti/Ageniti"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EpicStaff/EpicStaff"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HiveTrace/HiveTraceRed"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ComeOnOliver/skillshub"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GoodStartLabs/AI_Diplomacy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HenryLach/taskplane"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgiFlow/aicode-toolkit"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenSPG/KAG"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenCSGs/csghub-server"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DevopsArtFactory/unic"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QuantumNous/new-api-docs-v1"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Autonoma-Labs/Open-CoWork"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1amageek/SwiftAgent"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arenukvern/mcp_flutter"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Naridon-Inc/aura"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA-NeMo/Gym"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BruinGrowly/Emergent-Code"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Jamkris/everything-gemini-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arindam200/awesome-ai-apps"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MatthewSuttles/rubyn-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GuilhermeAlbert/awesome-ai-conventions"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Correia-jpv/fucking-awesome-swift"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Prismer-AI/Prismer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HomericIntelligence/ProjectOdyssey"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AISecurityConsortium/AIGoat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Cyfrin/Updraft"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DontFuckMyCode/dfmc"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QuasarBrains/Simple-Agent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Raphasha27/Raphasha27"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Oyl-Wallet/oyl-amm"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Azure-Samples/art-voice-agent-accelerator"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/fabric-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Affitor/affiliate-skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains/koog"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Gijsreyn/bicep-ext-databricks"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LastBotInc/nextjs-supabase-ai-webapp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ReflexioAI/reflexio"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Mybono/ai-orchestrator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CyberShadow/CyDo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/NeMo-Agent-Toolkit"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GreenteaOS/Caramel"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Gerstep/HumanCompiler"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LessUp/awesome-cursorrules-zh"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ROCm/hipDNN"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AIrjen/OneButtonPrompt"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Micrurus-Ai/Corvid-lang"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CreminiAI/skillpack"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agnuxo1/OpenCLAW-P2P"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Horace-Maxwell/horosa-skill"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/learn"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenCSGs/csghub-lite"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ParclLabs/parcl-ai-connect"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Li-Bailiang/prompt-refine-skill"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MieMieeeee/comfyui-agent-skill"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PurpleAILAB/Decepticon"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1jehuang/jcode"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ModelTC/LightX2V"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Martian-Engineering/volt"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "567-labs/instructor"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Minh-Tam-Solution/SDLC-Enterprise-Framework"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HeartWise-AI/DeepCORO_CLIP"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JeremyDev87/codingbuddy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HelpCode-ai/anythingmcp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PrestaShop/docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FerroxLabs/ijfw"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CompanyHelm/companyhelm"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BNETDocs/bnetdocs-web"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Alireza29675/yar-agent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HybridWare/hybrid-browser"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JackHopkins/factorio-learning-environment"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Certora/AIComposer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenHands/software-agent-sdk"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Eliezer-app/eliezer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/physicsnemo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LegnaOS/LegnaCode-cli"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftLearning/trainer-demo-deploy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HewlettPackard/llmesh"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/azure-ai-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HaiNinh1/oh-my-opencode"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlphaBitCore/nexus-gateway"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MCPJam/inspector"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LouisShark/chatgpt_system_prompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DevExpress/devextreme-documentation"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PrefectHQ/fastmcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ModelEngine-Group/nexent"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PlamenTSV/plamen"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GregorStocks/mage-bench"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KennispuntTwente/tidyprompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Maxsky5/openducktor"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GitGuardian/ggmcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Melvynx/aiblueprint"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "0xN0RMXL/BugBountySkills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DavidWells/stars"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JamesPaynter/mycelium"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MedAdemBHA/docflow"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Nakajima-Foundation/ownplate"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Owl-Listener/ai-design-skills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EliFuzz/awesome-system-prompts"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BoweyLou/obsidian-mcp-server-enhanced"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agents2AgentsAI/ata"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PulkitXChadha/awesome-databricks-mcp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CumulusNetworks/docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NickCrew/Claude-Cortex"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Nimble-Co/FoundryVTT-Nimble"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Houseofmvps/codesight"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ArdentAILabs/DE-Bench"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OvertliDS/overtli-studio-suite"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CavinHuang/comfyui-nodes-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GoogleCloudPlatform/kubernetes-engine-samples"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Escape/open-ice"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Alexli18/binex"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgentWrapper/agent-orchestrator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HKUDS/OpenHarness"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LazyAGI/LazyMind"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Emurasoft/emurasoft.github.io"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Community-Access/accessibility-agents"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HillPhelmuth/AdventuresInSemanticKernel"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Dong90/oh-my-taiyiforge"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JohnSnowLabs/spark-nlp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ExpressLRS/Docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agent-Threat-Rule/agent-threat-rules"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FavioVazquez/learnship"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1Password/SCAM"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulJPhilp/effect-notion"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CoreAgent-Project/CoreAgent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "IstiN/yoloit"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kong/developer.konghq.com"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Hacksore/cursed-repo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Copenhagen0x/solana-security-standard"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KubeRocketCI/kuberocketai"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ArisGuimera/MobiAI-Core"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains-Research/lca-baselines"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulDuvall/vibecoding"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgentOps-AI/agentops"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MStanislavov/stratoseer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GraflowAI/graflow"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Factory-AI/factory"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ExDragine/frontier"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EliasOenal/multimon-ng"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "26d0/vrchat-ime-chat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI45Lab/Code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Anson-Trio/BaiShou-Next"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NikiforovAll/claude-code-rules"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KyaniteLabs/mcp-video"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulJPhilp/effect-cli-tui"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MatrixCoreX/RustClaw"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kohaku-Lab/KohakuTerrarium"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PolyArch/humanize"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains-Research/verified-cogen"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Archeb/CyberGroupmate"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LaLanMo/muxagent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MuhammadUsmanGM/claude-code-best-practices"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CrispStrobe/CrispEmbed"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Automattic/newspack-workspace"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AsiaOstrich/universal-dev-standards"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Joanium/Skills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlexChesser/ail"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ClawStackStudios/GitLobster"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MemoriLabs/Memori"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Planning/l2p"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Chemaclass/agnostic-ai"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NakaokaRei/swift-mcp-gui"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EvolvingAgentsLabs/llmos"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QingJ01/Axiom"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Asymptote-Labs/agent-beacon"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HeavenOSK/rich-cline"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Insight-Services-APAC/ingenious"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HyunjunJeon/open-langgraph-platform"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arize-ai/client_python"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Mathews-Tom/armory"
+        }
+      ],
+      "evaluated_repositories": 330,
+      "per_class": {
+        "AI_PRODUCT": {
+          "fn": 101,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 0,
+          "fp": 188,
+          "precision": 0.4303030303030303,
+          "recall": 1.0,
+          "tp": 142
+        },
+        "EXCLUDE": {
+          "fn": 87,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        }
+      }
+    },
+    "baseline_2_name_topics_keywords": {
+      "accuracy": 0.44242424242424244,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 16,
+          "CONVENTIONAL_SOFTWARE": 85
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 130
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 84
+        }
+      },
+      "disagreements": [
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Lakr233/FlowDown"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kevandrew/sophia"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Avantis-Labs/avantis_trader_sdk"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Hive-Academy/roocode-generator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Avarok-Cybersecurity/atlas"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Frankieli123/dokploy-i18n"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Comfy-Org/docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JuliusBrussee/caveman-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "DeadmanAbir/AgentGenesis"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Bugb-Technologies/guardlink"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FlagAI-Open/FlagAI"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlbertoUAH/datos-gob-es-mcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Ageniti/Ageniti"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EpicStaff/EpicStaff"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HiveTrace/HiveTraceRed"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ComeOnOliver/skillshub"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GoodStartLabs/AI_Diplomacy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HenryLach/taskplane"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgiFlow/aicode-toolkit"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenSPG/KAG"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenCSGs/csghub-server"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DevopsArtFactory/unic"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QuantumNous/new-api-docs-v1"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Autonoma-Labs/Open-CoWork"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arenukvern/mcp_flutter"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Naridon-Inc/aura"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA-NeMo/Gym"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BruinGrowly/Emergent-Code"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Jamkris/everything-gemini-code"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Azure/azure-sdk-tools"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arindam200/awesome-ai-apps"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MatthewSuttles/rubyn-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GuilhermeAlbert/awesome-ai-conventions"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Correia-jpv/fucking-awesome-swift"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Prismer-AI/Prismer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HomericIntelligence/ProjectOdyssey"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AISecurityConsortium/AIGoat"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "AzureAD/microsoft-authentication-library-common-for-objc"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Cyfrin/Updraft"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DontFuckMyCode/dfmc"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Raphasha27/Raphasha27"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Oyl-Wallet/oyl-amm"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/fabric-docs"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "NewLifeX/NewLife.Agent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Affitor/affiliate-skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains/koog"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Gijsreyn/bicep-ext-databricks"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LastBotInc/nextjs-supabase-ai-webapp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ReflexioAI/reflexio"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Mybono/ai-orchestrator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CyberShadow/CyDo"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GreenteaOS/Caramel"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Gerstep/HumanCompiler"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LessUp/awesome-cursorrules-zh"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ROCm/hipDNN"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AIrjen/OneButtonPrompt"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Micrurus-Ai/Corvid-lang"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CreminiAI/skillpack"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agnuxo1/OpenCLAW-P2P"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Horace-Maxwell/horosa-skill"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/learn"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenCSGs/csghub-lite"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ParclLabs/parcl-ai-connect"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Li-Bailiang/prompt-refine-skill"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PurpleAILAB/Decepticon"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1jehuang/jcode"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ModelTC/LightX2V"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Martian-Engineering/volt"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "567-labs/instructor"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Minh-Tam-Solution/SDLC-Enterprise-Framework"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HeartWise-AI/DeepCORO_CLIP"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JeremyDev87/codingbuddy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HelpCode-ai/anythingmcp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PrestaShop/docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FerroxLabs/ijfw"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CompanyHelm/companyhelm"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BNETDocs/bnetdocs-web"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HybridWare/hybrid-browser"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JackHopkins/factorio-learning-environment"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Certora/AIComposer"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Eliezer-app/eliezer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/physicsnemo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LegnaOS/LegnaCode-cli"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftLearning/trainer-demo-deploy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HewlettPackard/llmesh"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/azure-ai-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HaiNinh1/oh-my-opencode"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlphaBitCore/nexus-gateway"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "9mtm/Agent-Player"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MCPJam/inspector"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LouisShark/chatgpt_system_prompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DevExpress/devextreme-documentation"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PrefectHQ/fastmcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ModelEngine-Group/nexent"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PlamenTSV/plamen"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GregorStocks/mage-bench"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KennispuntTwente/tidyprompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Maxsky5/openducktor"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GitGuardian/ggmcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Melvynx/aiblueprint"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "0xN0RMXL/BugBountySkills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DavidWells/stars"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JamesPaynter/mycelium"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MedAdemBHA/docflow"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Nakajima-Foundation/ownplate"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Owl-Listener/ai-design-skills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EliFuzz/awesome-system-prompts"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BoweyLou/obsidian-mcp-server-enhanced"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PulkitXChadha/awesome-databricks-mcp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CumulusNetworks/docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NickCrew/Claude-Cortex"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Nimble-Co/FoundryVTT-Nimble"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Houseofmvps/codesight"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ArdentAILabs/DE-Bench"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "PramodDutta/Advance-Playwright-Framework"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OvertliDS/overtli-studio-suite"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CavinHuang/comfyui-nodes-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GoogleCloudPlatform/kubernetes-engine-samples"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Escape/open-ice"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Alexli18/binex"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HKUDS/OpenHarness"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LazyAGI/LazyMind"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Emurasoft/emurasoft.github.io"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HillPhelmuth/AdventuresInSemanticKernel"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Dong90/oh-my-taiyiforge"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JohnSnowLabs/spark-nlp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ExpressLRS/Docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FavioVazquez/learnship"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "OfficeDev/microsoft-365-agents-toolkit-samples"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1Password/SCAM"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulJPhilp/effect-notion"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "LiteyukiStudio/agent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "IstiN/yoloit"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kong/developer.konghq.com"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Hacksore/cursed-repo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Copenhagen0x/solana-security-standard"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KubeRocketCI/kuberocketai"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ArisGuimera/MobiAI-Core"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Agoric/agoric-sdk"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains-Research/lca-baselines"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulDuvall/vibecoding"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MStanislavov/stratoseer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GraflowAI/graflow"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Factory-AI/factory"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Azure/azure-sdk-for-python"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ExDragine/frontier"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EliasOenal/multimon-ng"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "26d0/vrchat-ime-chat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI45Lab/Code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Anson-Trio/BaiShou-Next"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NikiforovAll/claude-code-rules"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KyaniteLabs/mcp-video"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulJPhilp/effect-cli-tui"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MatrixCoreX/RustClaw"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kohaku-Lab/KohakuTerrarium"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PolyArch/humanize"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains-Research/verified-cogen"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Archeb/CyberGroupmate"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MuhammadUsmanGM/claude-code-best-practices"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CrispStrobe/CrispEmbed"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Automattic/newspack-workspace"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AsiaOstrich/universal-dev-standards"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Joanium/Skills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlexChesser/ail"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ClawStackStudios/GitLobster"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Automattic/data-liberation-agent"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MemoriLabs/Memori"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Planning/l2p"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Chemaclass/agnostic-ai"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NakaokaRei/swift-mcp-gui"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "EvolvingAgentsLabs/llmos"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QingJ01/Axiom"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "MercuryTechnologies/hs-temporal-sdk"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HeavenOSK/rich-cline"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Insight-Services-APAC/ingenious"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HyunjunJeon/open-langgraph-platform"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arize-ai/client_python"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Mathews-Tom/armory"
+        }
+      ],
+      "evaluated_repositories": 330,
+      "per_class": {
+        "AI_PRODUCT": {
+          "fn": 85,
+          "fp": 15,
+          "precision": 0.5161290322580645,
+          "recall": 0.15841584158415842,
+          "tp": 16
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 12,
+          "fp": 169,
+          "precision": 0.43478260869565216,
+          "recall": 0.9154929577464789,
+          "tp": 130
+        },
+        "EXCLUDE": {
+          "fn": 87,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        }
+      }
+    },
+    "baseline_3_instruction_artifact_triggers": {
+      "accuracy": 0.4303030303030303,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 101
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 142
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 87
+        }
+      },
+      "disagreements": [
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Lakr233/FlowDown"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kevandrew/sophia"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Hive-Academy/roocode-generator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Avarok-Cybersecurity/atlas"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Frankieli123/dokploy-i18n"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Comfy-Org/docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JuliusBrussee/caveman-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DeadmanAbir/AgentGenesis"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Bugb-Technologies/guardlink"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FlagAI-Open/FlagAI"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlbertoUAH/datos-gob-es-mcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Ageniti/Ageniti"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EpicStaff/EpicStaff"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HiveTrace/HiveTraceRed"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ComeOnOliver/skillshub"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GoodStartLabs/AI_Diplomacy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HenryLach/taskplane"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgiFlow/aicode-toolkit"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenSPG/KAG"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenCSGs/csghub-server"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DevopsArtFactory/unic"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QuantumNous/new-api-docs-v1"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Autonoma-Labs/Open-CoWork"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1amageek/SwiftAgent"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arenukvern/mcp_flutter"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Naridon-Inc/aura"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA-NeMo/Gym"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BruinGrowly/Emergent-Code"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Jamkris/everything-gemini-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arindam200/awesome-ai-apps"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MatthewSuttles/rubyn-code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GuilhermeAlbert/awesome-ai-conventions"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Correia-jpv/fucking-awesome-swift"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Prismer-AI/Prismer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HomericIntelligence/ProjectOdyssey"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AISecurityConsortium/AIGoat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Cyfrin/Updraft"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DontFuckMyCode/dfmc"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QuasarBrains/Simple-Agent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Raphasha27/Raphasha27"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Oyl-Wallet/oyl-amm"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Azure-Samples/art-voice-agent-accelerator"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/fabric-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Affitor/affiliate-skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains/koog"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Gijsreyn/bicep-ext-databricks"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LastBotInc/nextjs-supabase-ai-webapp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ReflexioAI/reflexio"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Mybono/ai-orchestrator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CyberShadow/CyDo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/NeMo-Agent-Toolkit"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GreenteaOS/Caramel"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Gerstep/HumanCompiler"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LessUp/awesome-cursorrules-zh"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ROCm/hipDNN"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AIrjen/OneButtonPrompt"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Micrurus-Ai/Corvid-lang"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CreminiAI/skillpack"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agnuxo1/OpenCLAW-P2P"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Horace-Maxwell/horosa-skill"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/learn"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenCSGs/csghub-lite"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ParclLabs/parcl-ai-connect"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Li-Bailiang/prompt-refine-skill"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MieMieeeee/comfyui-agent-skill"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PurpleAILAB/Decepticon"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1jehuang/jcode"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ModelTC/LightX2V"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Martian-Engineering/volt"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "567-labs/instructor"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Minh-Tam-Solution/SDLC-Enterprise-Framework"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HeartWise-AI/DeepCORO_CLIP"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JeremyDev87/codingbuddy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HelpCode-ai/anythingmcp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PrestaShop/docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FerroxLabs/ijfw"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CompanyHelm/companyhelm"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BNETDocs/bnetdocs-web"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Alireza29675/yar-agent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HybridWare/hybrid-browser"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JackHopkins/factorio-learning-environment"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Certora/AIComposer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OpenHands/software-agent-sdk"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Eliezer-app/eliezer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/physicsnemo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LegnaOS/LegnaCode-cli"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftLearning/trainer-demo-deploy"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HewlettPackard/llmesh"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MicrosoftDocs/azure-ai-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HaiNinh1/oh-my-opencode"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlphaBitCore/nexus-gateway"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MCPJam/inspector"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LouisShark/chatgpt_system_prompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DevExpress/devextreme-documentation"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PrefectHQ/fastmcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ModelEngine-Group/nexent"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PlamenTSV/plamen"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GregorStocks/mage-bench"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KennispuntTwente/tidyprompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Maxsky5/openducktor"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GitGuardian/ggmcp"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Melvynx/aiblueprint"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "0xN0RMXL/BugBountySkills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "DavidWells/stars"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JamesPaynter/mycelium"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MedAdemBHA/docflow"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Nakajima-Foundation/ownplate"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Owl-Listener/ai-design-skills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EliFuzz/awesome-system-prompts"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "BoweyLou/obsidian-mcp-server-enhanced"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agents2AgentsAI/ata"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PulkitXChadha/awesome-databricks-mcp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CumulusNetworks/docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NickCrew/Claude-Cortex"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Nimble-Co/FoundryVTT-Nimble"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Houseofmvps/codesight"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ArdentAILabs/DE-Bench"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "OvertliDS/overtli-studio-suite"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CavinHuang/comfyui-nodes-docs"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GoogleCloudPlatform/kubernetes-engine-samples"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Escape/open-ice"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Alexli18/binex"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgentWrapper/agent-orchestrator"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HKUDS/OpenHarness"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LazyAGI/LazyMind"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Emurasoft/emurasoft.github.io"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Community-Access/accessibility-agents"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HillPhelmuth/AdventuresInSemanticKernel"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Dong90/oh-my-taiyiforge"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JohnSnowLabs/spark-nlp"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ExpressLRS/Docs"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agent-Threat-Rule/agent-threat-rules"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "FavioVazquez/learnship"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1Password/SCAM"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulJPhilp/effect-notion"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CoreAgent-Project/CoreAgent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "IstiN/yoloit"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kong/developer.konghq.com"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Hacksore/cursed-repo"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Copenhagen0x/solana-security-standard"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KubeRocketCI/kuberocketai"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ArisGuimera/MobiAI-Core"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains-Research/lca-baselines"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulDuvall/vibecoding"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgentOps-AI/agentops"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MStanislavov/stratoseer"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "GraflowAI/graflow"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Factory-AI/factory"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ExDragine/frontier"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EliasOenal/multimon-ng"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "26d0/vrchat-ime-chat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI45Lab/Code"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Anson-Trio/BaiShou-Next"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NikiforovAll/claude-code-rules"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "KyaniteLabs/mcp-video"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PaulJPhilp/effect-cli-tui"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MatrixCoreX/RustClaw"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Kohaku-Lab/KohakuTerrarium"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "PolyArch/humanize"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NVIDIA/skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "JetBrains-Research/verified-cogen"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Archeb/CyberGroupmate"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "LaLanMo/muxagent"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MuhammadUsmanGM/claude-code-best-practices"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "CrispStrobe/CrispEmbed"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Automattic/newspack-workspace"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AsiaOstrich/universal-dev-standards"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Joanium/Skills"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AlexChesser/ail"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ClawStackStudios/GitLobster"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "MemoriLabs/Memori"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Planning/l2p"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Chemaclass/agnostic-ai"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "NakaokaRei/swift-mcp-gui"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "EvolvingAgentsLabs/llmos"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "QingJ01/Axiom"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Asymptote-Labs/agent-beacon"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HeavenOSK/rich-cline"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Insight-Services-APAC/ingenious"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "HyunjunJeon/open-langgraph-platform"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Arize-ai/client_python"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Mathews-Tom/armory"
+        }
+      ],
+      "evaluated_repositories": 330,
+      "per_class": {
+        "AI_PRODUCT": {
+          "fn": 101,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 0,
+          "fp": 188,
+          "precision": 0.4303030303030303,
+          "recall": 1.0,
+          "tp": 142
+        },
+        "EXCLUDE": {
+          "fn": 87,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        }
+      }
+    }
+  },
+  "evaluated_repositories": 330,
+  "gold_categories": [
+    "AI_PRODUCT",
+    "CONVENTIONAL_SOFTWARE",
+    "EXCLUDE"
+  ],
+  "input": "data/processed/gold_sample_330_claude.csv",
+  "valuable_cases": [
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "0xN0RMXL/BugBountySkills"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "1Password/SCAM"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "1amageek/SwiftAgent"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "1jehuang/jcode"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "26d0/vrchat-ime-chat"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "567-labs/instructor"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "9mtm/Agent-Player"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AI-Escape/open-ice"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AI-Planning/l2p"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AI45Lab/Code"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AISecurityConsortium/AIGoat"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AIrjen/OneButtonPrompt"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Affitor/affiliate-skills"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Ageniti/Ageniti"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Agent-Threat-Rule/agent-threat-rules"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AgentOps-AI/agentops"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AgentWrapper/agent-orchestrator"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Agents2AgentsAI/ata"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AgiFlow/aicode-toolkit"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Agnuxo1/OpenCLAW-P2P"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "Agoric/agoric-sdk"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AlbertoUAH/datos-gob-es-mcp"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AlexChesser/ail"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Alexli18/binex"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Alireza29675/yar-agent"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AlphaBitCore/nexus-gateway"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Anson-Trio/BaiShou-Next"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Archeb/CyberGroupmate"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ArdentAILabs/DE-Bench"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Arenukvern/mcp_flutter"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Arindam200/awesome-ai-apps"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ArisGuimera/MobiAI-Core"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Arize-ai/client_python"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AsiaOstrich/universal-dev-standards"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Asymptote-Labs/agent-beacon"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "Automattic/data-liberation-agent"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Automattic/newspack-workspace"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Autonoma-Labs/Open-CoWork"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "Avantis-Labs/avantis_trader_sdk"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Avarok-Cybersecurity/atlas"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Azure-Samples/art-voice-agent-accelerator"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "Azure/azure-sdk-for-python"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "Azure/azure-sdk-tools"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "AzureAD/microsoft-authentication-library-common-for-objc"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "BNETDocs/bnetdocs-web"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "BoweyLou/obsidian-mcp-server-enhanced"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "BruinGrowly/Emergent-Code"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Bugb-Technologies/guardlink"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CavinHuang/comfyui-nodes-docs"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Certora/AIComposer"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Chemaclass/agnostic-ai"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ClawStackStudios/GitLobster"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ComeOnOliver/skillshub"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Comfy-Org/docs"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Community-Access/accessibility-agents"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CompanyHelm/companyhelm"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Copenhagen0x/solana-security-standard"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CoreAgent-Project/CoreAgent"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Correia-jpv/fucking-awesome-swift"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CreminiAI/skillpack"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CrispStrobe/CrispEmbed"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CumulusNetworks/docs"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "CyberShadow/CyDo"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Cyfrin/Updraft"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "DavidWells/stars"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "AI_PRODUCT",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "DeadmanAbir/AgentGenesis"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "DevExpress/devextreme-documentation"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "DevopsArtFactory/unic"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Dong90/oh-my-taiyiforge"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "DontFuckMyCode/dfmc"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "EliFuzz/awesome-system-prompts"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "EliasOenal/multimon-ng"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Eliezer-app/eliezer"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Emurasoft/emurasoft.github.io"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "EpicStaff/EpicStaff"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "AI_PRODUCT",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "EvolvingAgentsLabs/llmos"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ExDragine/frontier"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ExpressLRS/Docs"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Factory-AI/factory"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "FavioVazquez/learnship"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "FerroxLabs/ijfw"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "FlagAI-Open/FlagAI"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Frankieli123/dokploy-i18n"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Gerstep/HumanCompiler"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Gijsreyn/bicep-ext-databricks"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GitGuardian/ggmcp"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GoodStartLabs/AI_Diplomacy"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GoogleCloudPlatform/kubernetes-engine-samples"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GraflowAI/graflow"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GreenteaOS/Caramel"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GregorStocks/mage-bench"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "GuilhermeAlbert/awesome-ai-conventions"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HKUDS/OpenHarness"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Hacksore/cursed-repo"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HaiNinh1/oh-my-opencode"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HeartWise-AI/DeepCORO_CLIP"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HeavenOSK/rich-cline"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HelpCode-ai/anythingmcp"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HenryLach/taskplane"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HewlettPackard/llmesh"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HillPhelmuth/AdventuresInSemanticKernel"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Hive-Academy/roocode-generator"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HiveTrace/HiveTraceRed"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HomericIntelligence/ProjectOdyssey"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Horace-Maxwell/horosa-skill"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Houseofmvps/codesight"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HybridWare/hybrid-browser"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "HyunjunJeon/open-langgraph-platform"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Insight-Services-APAC/ingenious"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "IstiN/yoloit"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JackHopkins/factorio-learning-environment"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JamesPaynter/mycelium"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Jamkris/everything-gemini-code"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JeremyDev87/codingbuddy"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JetBrains-Research/lca-baselines"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JetBrains-Research/verified-cogen"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JetBrains/koog"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Joanium/Skills"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JohnSnowLabs/spark-nlp"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "JuliusBrussee/caveman-code"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "KennispuntTwente/tidyprompt"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Kevandrew/sophia"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Kohaku-Lab/KohakuTerrarium"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Kong/developer.konghq.com"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "KubeRocketCI/kuberocketai"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "KyaniteLabs/mcp-video"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "LaLanMo/muxagent"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Lakr233/FlowDown"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "LastBotInc/nextjs-supabase-ai-webapp"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "LazyAGI/LazyMind"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "LegnaOS/LegnaCode-cli"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "LessUp/awesome-cursorrules-zh"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Li-Bailiang/prompt-refine-skill"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "LiteyukiStudio/agent"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "LouisShark/chatgpt_system_prompt"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MCPJam/inspector"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MStanislavov/stratoseer"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Martian-Engineering/volt"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Mathews-Tom/armory"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MatrixCoreX/RustClaw"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MatthewSuttles/rubyn-code"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Maxsky5/openducktor"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MedAdemBHA/docflow"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Melvynx/aiblueprint"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MemoriLabs/Memori"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "MercuryTechnologies/hs-temporal-sdk"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MicrosoftDocs/azure-ai-docs"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MicrosoftDocs/fabric-docs"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MicrosoftDocs/learn"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MicrosoftLearning/trainer-demo-deploy"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Micrurus-Ai/Corvid-lang"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MieMieeeee/comfyui-agent-skill"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "AI_PRODUCT",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Minh-Tam-Solution/SDLC-Enterprise-Framework"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ModelEngine-Group/nexent"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ModelTC/LightX2V"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "MuhammadUsmanGM/claude-code-best-practices"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Mybono/ai-orchestrator"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NVIDIA-NeMo/Gym"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NVIDIA/NeMo-Agent-Toolkit"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NVIDIA/physicsnemo"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NVIDIA/skills"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Nakajima-Foundation/ownplate"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NakaokaRei/swift-mcp-gui"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Naridon-Inc/aura"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "NewLifeX/NewLife.Agent"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NickCrew/Claude-Cortex"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "NikiforovAll/claude-code-rules"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Nimble-Co/FoundryVTT-Nimble"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "OfficeDev/microsoft-365-agents-toolkit-samples"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "OpenCSGs/csghub-lite"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "OpenCSGs/csghub-server"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "OpenHands/software-agent-sdk"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "OpenSPG/KAG"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "OvertliDS/overtli-studio-suite"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Owl-Listener/ai-design-skills"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Oyl-Wallet/oyl-amm"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ParclLabs/parcl-ai-connect"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PaulDuvall/vibecoding"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PaulJPhilp/effect-cli-tui"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PaulJPhilp/effect-notion"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PlamenTSV/plamen"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PolyArch/humanize"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "PramodDutta/Advance-Playwright-Framework"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PrefectHQ/fastmcp"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PrestaShop/docs"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Prismer-AI/Prismer"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PulkitXChadha/awesome-databricks-mcp"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "PurpleAILAB/Decepticon"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "QingJ01/Axiom"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "QuantumNous/new-api-docs-v1"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "QuasarBrains/Simple-Agent"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ROCm/hipDNN"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Raphasha27/Raphasha27"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "ReflexioAI/reflexio"
+    }
+  ],
+  "warnings": []
+}

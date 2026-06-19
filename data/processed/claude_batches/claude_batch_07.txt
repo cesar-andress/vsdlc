@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 54
+Primary language: JavaScript
+Description: DevExtreme documentation
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 25702
+Primary language: Python
+Description: 🚀 The fast, Pythonic way to build MCP servers and clients.
+Topics: agents|fastmcp|llms|mcp|mcp-clients|mcp-servers|mcp-tools|model-context-protocol|python
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 12
+Primary language: C++
+Description: This is project  from ccxt(https://github.com/ccxt/ccxt) for C++ implement 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 5161
+Primary language: Python
+Description: Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.
+Topics: agent|agentic-ai|agentic-framework|agentic-rag|agentic-workflow|ai|harness|harness-engineering|llm|mcp|multi-agent|rag
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 248
+Primary language: Python
+Description: Autonomous Web3 security audit agent for Claude Code
+Topics: ai-agent|aptos|claude-code|ethereum|security-audit|smart-contract-audit|solana|solidity|sui|web3-security
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 60
+Primary language: Java
+Description: Magic: The Gathering harness for LLMs
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 31
+Primary language: R
+Description: R package to easily construct prompts and associated logic for interacting with large language models (‘LLMs’)
+Topics: llm|r-package
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 14
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 36
+Primary language: Python
+Description: MCP server for scanning and remediating hardcoded secrets using GitGuardian’s API. Detect over 500 secret types and prevent credential leaks before code goes public.
+Topics: mcp|mcp-server|secrets|security
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 202
+Primary language: TypeScript
+Description: AIBlueprint CLI for setting up Claude Code configurations
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 19
+Primary language: Markdown
+Description: An obsessive, expert-tier knowledge base + AI skill system for professional bug bounty hunting, security research, and penetration testing.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 24
+Primary language: JavaScript
+Description: Automatically indexed GitHub stars
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 13
+Primary language: TypeScript
+Description: WordPress Integration for AstroJS
+Topics: astrojs|wordpress
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 45
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 27
+Primary language: Shell
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 44
+Primary language: TypeScript
+Description: Schema driven Shadcn wrapper around Tanstack forms
+Topics: form|shadcn-ui|tanstack-form|zod
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 61
+Primary language: Vue
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 133
+Primary language: Python
+Description: The source files and tools needed to build the OWASP Cornucopia decks in various languages
+Topics: appsec|card-games|cardgame|games|gameserver|gamification|owasp|requirements-analysis|threat-modeling
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 125
+Primary language: Python
+Description: AI Design Skills Collection: agentic skills, commands, and plugins for designing AI products — from interaction patterns to alignment, evaluation, agent orchestration, and prompt architecture.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 216
+Primary language: JavaScript
+Description: A collection of system prompts and tool definitions from various AI coding agents: Augment Code, Claude Code, Cluely, Cursor, Devin AI, Kiro, Perplexity, VSCode Agent, Gemini, Codex, OpenAI
+Topics: ai|anthropic|awesome|claude-code|codex|copilot|gemini|google|leaks|openai|prompt
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 30
+Primary language: TypeScript
+Description: This is an enhanced version of the excellent cyanheads/obsidian-mcp-server with additional features specifically tailored for remote Claude.ai integration, advanced task querying, and security via Tailscale.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 1990
+Primary language: Svelte
+Description: ChatGPT web interface using the OpenAI API
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 90
+Primary language: Rust
+Description: AI agents for solving engineering and research problems end to end
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 224
+Primary language: Python
+Description: Admin Web + Bot for Remnawave Panel v.2.7.0+
+Topics: python|remnawave|remnawave-bot|telegrambot
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 19
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 70
+Primary language: HTML
+Description: NVIDIA Ethernet Software Documentation Repo
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 15
+Primary language: Python
+Description: Claude Cortex
+Topics: ai|ai-agents|ai-assisted-development|ai-development-frameworks|claude|claude-plugin|claude-skills|cli|context-management|enterprise-platforms|python|python-app|recommendation-engine|tui
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 23
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 92
+Primary language: Go
+Description: Digital Twin
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 1138
+Primary language: TypeScript
+Description: Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more.
+Topics: ai|claude|cli|code-analysis|codebase|codex|context-engineering|copilot|cursor|developer-tools|llm|mcp|repo-map|token-savings
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

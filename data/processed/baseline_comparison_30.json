@@ -1,0 +1,542 @@
+{
+  "adjudicated_label_fields": [
+    "adjudicated_label",
+    "primary_label",
+    "label"
+  ],
+  "baseline_prediction_categories": [
+    "AI_PRODUCT",
+    "CONVENTIONAL_SOFTWARE"
+  ],
+  "baselines": {
+    "baseline_1_description_topics_keywords": {
+      "accuracy": 0.6333333333333333,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 14,
+          "CONVENTIONAL_SOFTWARE": 0
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 5
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 2,
+          "CONVENTIONAL_SOFTWARE": 4
+        }
+      },
+      "disagreements": [
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "0xN0RMXL/BugBountySkills"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "0xdpfly/gin-app-start"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "26d0/vrchat-ime-chat"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "9mtm/Agent-Player"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Escape/open-ice"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "AIDotNet/OpenCowork"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "AIStoryBuilders/AIStoryBuilders"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "ARPAHLS/OPSIE"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Affitor/affiliate-skills"
+        }
+      ],
+      "evaluated_repositories": 30,
+      "per_class": {
+        "AI_PRODUCT": {
+          "fn": 0,
+          "fp": 7,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "tp": 14
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 5,
+          "fp": 4,
+          "precision": 0.5555555555555556,
+          "recall": 0.5,
+          "tp": 5
+        },
+        "EXCLUDE": {
+          "fn": 6,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        }
+      }
+    },
+    "baseline_2_name_topics_keywords": {
+      "accuracy": 0.5,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 7,
+          "CONVENTIONAL_SOFTWARE": 7
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 2,
+          "CONVENTIONAL_SOFTWARE": 8
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 1,
+          "CONVENTIONAL_SOFTWARE": 5
+        }
+      },
+      "disagreements": [
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "0xN0RMXL/BugBountySkills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "1Password/SCAM"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "26d0/vrchat-ime-chat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "567-labs/instructor"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "9mtm/Agent-Player"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Escape/open-ice"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Planning/l2p"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI45Lab/Code"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AISecurityConsortium/AIGoat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AIrjen/OneButtonPrompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "ARPAHLS/OPSIE"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "Affitor/affiliate-skills"
+        }
+      ],
+      "evaluated_repositories": 30,
+      "per_class": {
+        "AI_PRODUCT": {
+          "fn": 7,
+          "fp": 3,
+          "precision": 0.7,
+          "recall": 0.5,
+          "tp": 7
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 2,
+          "fp": 12,
+          "precision": 0.4,
+          "recall": 0.8,
+          "tp": 8
+        },
+        "EXCLUDE": {
+          "fn": 6,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        }
+      }
+    },
+    "baseline_3_instruction_artifact_triggers": {
+      "accuracy": 0.4666666666666667,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 8,
+          "CONVENTIONAL_SOFTWARE": 6
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 4,
+          "CONVENTIONAL_SOFTWARE": 6
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 4,
+          "CONVENTIONAL_SOFTWARE": 2
+        }
+      },
+      "disagreements": [
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "0-AI-UG/cate"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "0xN0RMXL/BugBountySkills"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "0xdpfly/gin-app-start"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "26d0/vrchat-ime-chat"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "567-labs/instructor"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "AI-Escape/open-ice"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AI-Planning/l2p"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AIrjen/OneButtonPrompt"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "AMAP-EAI/Nav-R2"
+        },
+        {
+          "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "ARCLab-MIT/kspdg"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "AI_PRODUCT",
+          "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+        },
+        {
+          "adjudicated_label": "EXCLUDE",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Affitor/affiliate-skills"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "Agent-Threat-Rule/agent-threat-rules"
+        },
+        {
+          "adjudicated_label": "AI_PRODUCT",
+          "baseline_prediction": "CONVENTIONAL_SOFTWARE",
+          "repo_full_name": "AgentWrapper/agent-orchestrator"
+        }
+      ],
+      "evaluated_repositories": 30,
+      "per_class": {
+        "AI_PRODUCT": {
+          "fn": 6,
+          "fp": 8,
+          "precision": 0.5,
+          "recall": 0.5714285714285714,
+          "tp": 8
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 4,
+          "fp": 8,
+          "precision": 0.42857142857142855,
+          "recall": 0.6,
+          "tp": 6
+        },
+        "EXCLUDE": {
+          "fn": 6,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tp": 0
+        }
+      }
+    }
+  },
+  "evaluated_repositories": 30,
+  "gold_categories": [
+    "AI_PRODUCT",
+    "CONVENTIONAL_SOFTWARE",
+    "EXCLUDE"
+  ],
+  "input": "data/processed/gold_sample_30_pilot.csv",
+  "valuable_cases": [
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "0-AI-UG/cate"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "0xN0RMXL/BugBountySkills"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT",
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "0xdpfly/gin-app-start"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "1Password/SCAM"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "26d0/vrchat-ime-chat"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "567-labs/instructor"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT",
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "9mtm/Agent-Player"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "AI-Escape/open-ice"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AI-Planning/l2p"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AI45Lab/Code"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "AIDotNet/OpenCowork"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AISecurityConsortium/AIGoat"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "AIStoryBuilders/AIStoryBuilders"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AIrjen/OneButtonPrompt"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "ALT-F4-LLC/dotfiles.vorpal"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "AMAP-EAI/Nav-R2"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "ARCLab-MIT/kspdg"
+    },
+    {
+      "adjudicated_label": "CONVENTIONAL_SOFTWARE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT",
+        "baseline_2_name_topics_keywords": "AI_PRODUCT"
+      },
+      "repo_full_name": "ARPAHLS/OPSIE"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_2_name_topics_keywords": "CONVENTIONAL_SOFTWARE",
+        "baseline_3_instruction_artifact_triggers": "AI_PRODUCT"
+      },
+      "repo_full_name": "ActiveInferenceInstitute/GEO-INFER"
+    },
+    {
+      "adjudicated_label": "EXCLUDE",
+      "baseline_predictions": {
+        "baseline_1_description_topics_keywords": "AI_PRODUCT",
+        "baseline_2_name_topics_keywords": "AI_PRODUCT",
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Affitor/affiliate-skills"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "Agent-Threat-Rule/agent-threat-rules"
+    },
+    {
+      "adjudicated_label": "AI_PRODUCT",
+      "baseline_predictions": {
+        "baseline_3_instruction_artifact_triggers": "CONVENTIONAL_SOFTWARE"
+      },
+      "repo_full_name": "AgentWrapper/agent-orchestrator"
+    }
+  ],
+  "warnings": []
+}

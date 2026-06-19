@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 84
+Primary language: Jupyter Notebook
+Description: Microsoft Learn: Cloud & AI Training Content. This repository is public for Instructor Led Training purposes; we do not accept pull requests in this repository.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 30
+Primary language: Go
+Description: csghub-lite is a lightweight local LLM runner for the CSGHub platform. One command downloads, loads, and chats with models. It   ships a web UI, OpenAI-compatible API, llama.cpp inference, resumable downloads, marketplace browsing, and one-click AI app and   coding-agent setup—all in a single cross-platform binary.
+Topics: ai-gateway|cc-switch|inference|ollama-api
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 208
+Primary language: TypeScript
+Description: 前端开发常用文档/网站地址、样式/js方法封装库、项目模板。提供Chrome拓展程序
+Topics: css|frontend|js|nodejs|tools
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 187
+Primary language: C#
+Description: A .NET object-graph-mapper for Apache TinkerPop™ Gremlin enabled databases.
+Topics: cosmosdb|dotnet|graph|graph-mapper|graphdatabase|graphdb|gremlin|gremlin-driver|gremlin-enabled-databases|gremlin-server|janusgraph|neptune-db|object-graph-mapper|ogm|tinkerpop
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 15
+Primary language: HTML
+Description: Parcl AI Connect
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 26
+Primary language: HCL
+Description: AZD template for deploying Azure Copilot Studio with Azure AI search
+Topics: ai-azd-templates|azd-templates|azure-ai-search|copilot-studio|power-platform|terraform
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 84
+Primary language: Python
+Description: Agent Skill that silently refines prompts for the currently running model
+Topics: agent-skill|agent-skills|ai-tools|prompt-engineering|prompt-refine
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 86
+Primary language: Python
+Description: Enable agents to run registered ComfyUI workflows through a local ComfyUI server using this repo’s CLI, returning structured JSON outputs.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 666
+Primary language: TypeScript
+Description: Local folders, automatically synced to Proton Drive. (Unofficial Sync Client)
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 4411
+Primary language: Python
+Description: Autonomous Hacking Agent for Red Team
+Topics: agent|ai|cybersecurity|generative-ai|hacking|langchain|langgraph|llm|pentest|pentesting
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 7179
+Primary language: Rust
+Description: Coding Agent Harness
+Topics: ai|claude|cli|coding-agent|llm|mcp|openai|rust|terminal|tui
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 2424
+Primary language: Python
+Description: Lightweight Image Video Action Generation Inference Framework
+Topics: auto-regressive-diffusion-model|diffusion-models|dreamzero|hunyuan-video|lingbot-world|ltx-video|qwen-image|video-generation|wan-video|world-models
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 282
+Primary language: TypeScript
+Description: Coding agent with lossless context management
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 13190
+Primary language: Python
+Description: structured outputs for llms 
+Topics: openai|openai-function-calli|openai-functions|pydantic-v2|python|validation
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 1295
+Primary language: Python
+Description: OWASP Top 10 for Large Language Model Apps (Part of the GenAI Security Project)
+Topics: ai|appsec|llm|llm-security
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 16
+Primary language: Python
+Description: A 7-Pillar AI+Human SDLC methodology — 10 stages, 5 quality gates, 18 SOUL roles. Tool-agnostic, MIT, battle-tested.
+Topics: ai-agents|ai-development|design-thinking|governance|methodology|mit-license|quality-gates|sdlc|software-engineering|tool-agnostic
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 13
+Primary language: Python
+Description: 类案办案要件指南智能辅助系统 - 基于AI的案件类型识别与要件式审判清单生成工具
+Topics: ai-assisted-law|case-analysis|case-law|chinese-law|lawyer-tools|legal-ai|legal-reasoning|legal-research|legaltech|litigation
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 12
+Primary language: Jupyter Notebook
+Description: Text & video embeddings for report generation 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 31
+Primary language: TypeScript
+Description: Codingbuddy orchestrates 29 specialized AI agents to deliver code quality comparable to a team of human experts through a PLAN → ACT → EVAL workflow.
+Topics: ai-agents|ai-coding|ai-coding-assistant|ai-rules|claude-code|code-quality|coding-assistant|cursor|developer-tools|github-copilot|mcp|mcp-server|model-context-protocol|nestjs|tdd|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 124
+Primary language: TypeScript
+Description: Build custom connectors for Claude & ChatGPT Apps from any API — no code. Self-hosted MCP gateway for REST, SOAP/WSDL, GraphQL & SQL. OAuth2, RBAC, on-prem audit log, 175+ pre-built adapters (DATEV, DHL, Personio, WooCommerce, Sorare…)
+Topics: agentic-ai|agents|ai-agents|chatgpt|chatgpt-apps|claude|claude-connectors|database-mcp-server|gemini|graphql-to-mcp|mcp|mcp-servers|mcps|model-context-protocol|no-code|rest-to-mcp|self-hosted|soap-to-mcp|sql-to-mcp|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 1893
+Primary language: Go
+Description:   A meta-language for Go that adds Result types, error propagation (?), and pattern matching while maintaining 100% Go ecosystem compatibility
+Topics: ast|compiler|developer-tools|go|golang|gopls|language-server|lsp|parser
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 134
+Primary language: Scala
+Description: PrestaShop technical documentation
+Topics: developer-documentation|documentation|hacktoberfest|service
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 1647
+Primary language: Rust
+Description: A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built with Rust and egui for a native, responsive experience.
+Topics: cross-platform|editor|egui|json|markdown|markdown-editor|mermaid|native-app|productivity|rust|text-editor|wysiwyg|yaml
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 16
+Primary language: Java
+Description: Automated test generation for spring apps
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 87
+Primary language: Python
+Description: A packet sniffer (also known as an IP sniffer/puller) specifically designed for Peer-To-Peer (P2P) video games on PC and consoles (PlayStation and Xbox).
+Topics: console-sniffer|ip-puller|ip-sniffer|ippuller|ipsniffer|ipsniffing|p2p-puller|p2p-sniffer|packet-capture|packet-sniffer|packet-sniffing|packetsniffer|packetsniffing|pc|playstation|session-sniffer|sniffer|xbox
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 19
+Primary language: C#
+Description: Autonomous personal agent designed to be cloud-native
+Topics: agent|ai
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 611
+Primary language: C#
+Description: A community project with additional components and extensions for Aspire
+Topics: aspire|cloud|dotnet|golang|javascript|python|rust
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 189
+Primary language: JavaScript
+Description: IJFW — It Just F*cking Works. Ferrox Labs' local-first infrastructure for AI coding agents: shared memory, smart routing, multi-AI cross-audits, disciplined workflow.
+Topics: ai-agents|ai-coding|claude-code|codex|cursor|developer-tools|gemini-cli|github-copilot|mcp|mcp-server|memory|nodejs|typescript|windsurf
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 19
+Primary language: C#
+Description: A dotnet SDK for OSLC
+Topics: enterprise-integration|interoperability|linked-data|oslc|rdf
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 70
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

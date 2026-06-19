@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 3327
+Primary language: Rust
+Description: Tinymist [ˈtaɪni mɪst] is an integrated language service for Typst [taɪpst].
+Topics: dap|dap-server|formatter|language-server|lsp|lsp-server|typst|vscode-extension
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 221
+Primary language: C#
+Description: 纯托管轻量级RocketMQ客户端，支持发布消息、消费消息、负载均衡等核心功能！
+Topics: csharp|dotnet|mq|rocketmq|rocketmq-client
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 155
+Primary language: 
+Description: Public repo for the fabric-docs-pr pair
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 48
+Primary language: PHP
+Description: Bridge between LLMs and various Skyrim Mods
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 44
+Primary language: C#
+Description: NewLife.Agent 是一个面向 .NET Framework 4.x 与 .NET (Core) 3.1+ 的跨平台服务与守护进程管理框架，帮助控制台 / ASP.NET Core / Worker 应用快速注册为 Windows 服务或 Linux systemd，统一提供安装卸载启动停止、交互调试、健康阈值监控（内存/线程/句柄）、资源超限与定时重启策略、看门狗守护及多实例部署。
+Topics: dotnet
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 67
+Primary language: C#
+Description: Write your next novel faster and easier
+Topics: ai|azure-open-ai|chatgpt|llm|open-ai|writing-application|writing-software|writing-tool
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 33
+Primary language: Python
+Description: AIFT is a GUI, CLI, REST API, and MCP tool that helps DFIR analysts get oriented quickly. Point it at disk images, VM images, forensic archives, or triage packages; AIFT discovers what can be opened, parses artifacts with Dissect, and uses AI to turn parsed data into concrete leads and gaps for the investigator to verify. 
+Topics: ai|aift|chatgpt|claude|dfir|dfir-automation|dfir-tools|digital-forensics|forensics|forensics-tools|incident-response|llm|local-ai|openai
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 474
+Primary language: HTML
+Description: 50 AI agent skills for affiliate marketing. Research trending content, write data-backed posts, generate infographics, build landing pages, deploy — full flywheel with social intelligence. Works with Claude Code, Pi, ChatGPT, Gemini, Cursor, Windsurf, any AI.
+Topics: affiliate-marketing|agent-skills|ai|ai-agents|chatgpt|claude|claude-code|content-marketing|cursor|gemini|influencer|llm|marketing|open-source|saas|seo|skill-md|social-media|tiktok|youtube
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 1089
+Primary language: TypeScript
+Description: 🦝 OpenAPI plugin for generating API reference docs in Docusaurus v3.
+Topics: docusaurus|docusaurus-plugin|docusaurus-theme|docusaurus2|openapi|react
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 12
+Primary language: TypeScript
+Description: CLI tool for tracking finances from Israeli banks and credit cards (כל שקל)
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 4363
+Primary language: Kotlin
+Description: Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems
+Topics: agentframework|agentic-ai|agents|ai|ai-agents-framework|aiagentframework|android-ai|anthropic|genai|generative-ai|java|jvm|kotlin|ktor|llm|mcp|multi-agent-systems|ollama|openai|spring
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 13
+Primary language: C#
+Description: Sample repository containing Azure Databricks Bicep extension
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 24
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 312
+Primary language: Python
+Description: Make your agents improve themselves. Reflexio is an AI agent self-improvement harness that enables your AI agents to continuously learn from real user interactions. 
+Topics: self-improvement|self-improving-agent|self-improving-ai|self-learning
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 97
+Primary language: HTML
+Description: Portable multi-agent AI developer setup for Claude Code + Ollama. Role-based local LLM orchestration via Bash — plan, code, review, commit. Zero Dependency. Works with any language stack.
+Topics: agentic|agentic-ai|claude-code|cli|coding-assistant|local-llm|mcp|ollama
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 33
+Primary language: TypeScript
+Description: UI and orchestration for AI coding agents
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 2422
+Primary language: Python
+Description: The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 10
+Primary language: TypeScript
+Description: Confectionery of the @GreenteaOS
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 152
+Primary language: TypeScript
+Description: Compile humans into AI agents — a Claude Code plugin that conducts deep behavioral interviews and generates installable agent plugins
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 17
+Primary language: Rust
+Description: Vorpal dotfiles for TheAltF4Stream.
+Topics: vorpal
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 202
+Primary language: JavaScript
+Description: Cursor AI 编程规则精选集 | 132+ 规则，覆盖前端/后端/AI/DevOps 等 32 个领域
+Topics: ai|ai-assistant|ai-coding|awesome-list|bilingual|chinese|code-generation|cursor|cursor-ai|cursorrules|developer-tools|documentation|openspec|prompt-engineering|rules|vitepress
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 16
+Primary language: TypeScript
+Description: Simple, feature rich project management software.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 57
+Primary language: C++
+Description: [DEPRECATED] Moved to ROCm/rocm-libraries repo
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 1065
+Primary language: Python
+Description: One Button Prompt
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 258
+Primary language: Rust
+Description: The programming language that checks your AI before it runs.
+Topics: ai|llm|programming-language
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 703
+Primary language: TypeScript
+Description: Pack and deploy local AI agents for your team in minutes
+Topics: agent|agent-skills|agentic|agentic-ai|agentic-workflow|ai-skills
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 12
+Primary language: TypeScript
+Description: The CLI for Paperspace 
+Topics: ai|cli|cloud|gpu|llm|paperspace
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 44
+Primary language: TypeScript
+Description: Decentralized Autonomous Research Collective. Lean 4-verified, IPFS-backed, agent-native. Production paper: arXiv:2604.19792. Live at p2pclaw.com.
+Topics: ai-agents|autonomous-agents|decentralized|decentralized-science|formal-verification|ipfs|lean4|multi-agent|p2p|peer-review
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 285
+Primary language: Python
+Description: Alfanous is an Arabic search engine API provides the simple and advanced search in Quran , more features and many interfaces...
+Topics: api|arabic|indexing|mcp|mcp-server|python|quran|search-engine
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 196
+Primary language: Python
+Description: Offline-capable AI skill for Astrology, Bazi, Ziwei, etc. 让你的AI本地挂载一个玄学家
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

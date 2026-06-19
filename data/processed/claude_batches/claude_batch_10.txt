@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 5557
+Primary language: Python
+Description: This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. 
+Topics: azure|azure-sdk|hacktoberfest|python
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 10
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 1113
+Primary language: C
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 19
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 242
+Primary language: Rust
+Description: A thread-per-core Linux io_uring async runtime for Rust optimized for latency.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 137
+Primary language: Rust
+Description: Agentic Agent Framework
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 1370
+Primary language: C#
+Description: 一款Visual Novel管理软件
+Topics: galgame|visual-novel|winui3
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 27
+Primary language: TypeScript
+Description: 用纯白誓约，守护彼此一生
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 10
+Primary language: Solidity
+Description: Enterprise smart contract security framework that eliminates single‑point failures using EngineBlox multi‑phase workflows, mandatory multi‑sig, time‑locks, meta‑transactions, and dynamic RBAC. 
+Topics: account-abstraction|blockchain|cryptocurrency|cryptography|developer-experience|enterprise-solutions|ethereum|evm|infrastructure|meta-transactions|role-based-access-control|security|smart-contracts|solidity|state-abstraction|state-machine|timelock|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 131
+Primary language: HTML
+Description: Learn practical techniques to enhance your AI-assisted development workflow with Claude Code.
+Topics: claude|claude-code|claude-code-marketplace|claude-code-plugin|claude-code-plugins|claude-code-plugins-marketplace|handbook|plugin
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 47
+Primary language: Python
+Description: Guardrailed video editing MCP server for AI agents. FFmpeg, Hyperframes, repurposing tools, Python client, and CLI. Local, fast, free.
+Topics: agent-tools|ai-agents|ai-video|claude|claude-code|cli|cursor|ffmpeg|hyperframes|mcp|mcp-server|mcp-tools|media-automation|model-context-protocol|python|python-library|subtitles|video|video-automation|video-editing
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 876
+Primary language: C#
+Description: High performance redis client, support NETCore/. NET4. 0/. NET4. 5. It is specially optimized for big data and message queue. The average daily consumption of online single application is 10 billion. 高性能Redis客户端，支持.NETCore/.NET4.0/.NET4.5，为大数据与消息队列而特别优化，线上单应用日均100亿调用量
+Topics: csharp|dotnet|memorycache|newlife|redis
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 29
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 19
+Primary language: Rust
+Description: RustClaw. The most suitable Claw products  Raspberry Pi / Macos / Ubuntu
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 308
+Primary language: Python
+Description: Stubs of most MicroPython ports, boards and versions to make writing code that much simpler.
+Topics: awesome-micropython|micropython|mypy|mypy-stubs|pycharm-ide|pylance|pylint|pyright|pyscript|static-typing|type-checking|type-stubs|vscode
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 418
+Primary language: Python
+Description: KohakuTerrarium is a general-purpose AI agent framework and batteries-included app for building, running, and composing self-contained agents and multi-agent teams, with built-in tools, sub-agents, persistent sessions, TUI, and web UI.
+Topics: agent|agentic-framework|llm
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 1146
+Primary language: Shell
+Description: From Automated Idea Factory to Realization
+Topics: agentic-workflow|ai|llm|spec-coding
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 17
+Primary language: Python
+Description: Home Assistant integration to the Portugal E-Redes Smart Metering Plus Energy Meters
+Topics: hassio|home-assistant|home-assistant-component
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 29
+Primary language: TypeScript
+Description: Quote.Vote is an open-source, text-only social platform for thoughtful dialogue. Every post creates its own chatroom where people can quote, vote, and respond in real time. Built with Next.js, GraphQL, and Tailwind, it fosters deliberative, ad-free conversations for communities and civic collaboration.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 484
+Primary language: C
+Description: The developer toy that brings developers joy.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 1318
+Primary language: Python
+Description: AI agent skills published by NVIDIA
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 13
+Primary language: Rust
+Description: Repo for PLAN's verified code generation project 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 1130
+Primary language: Jupyter Notebook
+Description: GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Gemini, Veo, Gemini Image 🍌, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud.
+Topics: chirp|gemini|gemini-tts|google-cloud|imagen|lyria|nano-banana|veo|vertex-ai
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 184
+Primary language: TypeScript
+Description: Code-Driven Social Agent
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 40
+Primary language: Go
+Description: Run coding tasks through graph-based workflows with Codex and Claude Code.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 1624
+Primary language: C++
+Description: Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, segmentation, and registration of scientific images in two, three, or more dimensions.
+Topics: cpp|hacktoberfest|image-analysis|insight-toolkit|itk|medical-imaging|numfocus|open-science|open-source|python|reproducible-research|scientific-computing
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 48
+Primary language: Shell
+Description: A comprehensive best-practices wiki for Claude Code - setup, CLAUDE.md templates, workflows, multi-agent patterns, and cost optimization.
+Topics: agentic-ai|ai|anthropic|best-practices|claude|claude-code|cli|developer-tools|llm|mcp|templates
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 23
+Primary language: C++
+Description: Lightweight text embedding inference via ggml in pure C++: XLM-R/Qwen3/Gemma/MPNet/etc
+Topics: bert|embeddings|ggml|mpnet|xlm-roberta
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 16
+Primary language: PHP
+Description: All the code that's fit to ship
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 246
+Primary language: Dart
+Description: A mobile application for the MIREA - Russian Technological University, which includes a schedule, news and many other functions
+Topics: android|bloc|clean-architecture|dart|flutter|ios
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

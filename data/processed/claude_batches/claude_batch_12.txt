@@ -1,0 +1,230 @@
+
+Repository 1: 
+URL: 
+Stars: 546
+Primary language: Python
+Description: A comprehensive collection of AI development patterns for building software with AI assistance, organized by implementation maturity and development lifecycle phases. Includes Foundation, Development, and Operations patterns with practical examples and anti-patterns.
+Topics: ai-assisted-coding|ai-development|ai-tools|artificial-intelligence|automation|best-practices|ci-cd|coding-standards|developer-productivity|development-patterns|devops|documentation|security|software-architecture|software-engineering
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 1605
+Primary language: Go
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 51
+Primary language: C#
+Description: NCF（NeuCharFramework）底层支持库官方 Nuget 包源码
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 48
+Primary language: Java
+Description: Delivery Management Tools
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 744
+Primary language: TypeScript
+Description: Developer tools for building Teams apps
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 339
+Primary language: Rust
+Description: The rusty shell toolkit for hackers
+Topics: contributions-welcome|posix|posix-shell|rust|shell|shrs|unix
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 6049
+Primary language: Java
+Description: Automatically block unwanted, leeches and abnormal BT peers with support for customized and cloud rules.| BT 反吸血工具 - 自动封禁不受欢迎、吸血和异常的 BT 客户端，并支持自定义规则。支持 qB/qBEE/Deluge/BiglyBT/BitComet
+Topics: biglybt|bitcomet|bittorrent|deluge|dt-torrrent|dt0001|gt0002|gt0003|hp-torrent|hp0001|peerbanhelper|qbittorrent|transmission|xl0012|xl0018|xl0019|xm0001|xunlei
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 13
+Primary language: JavaScript
+Description: GRC Engineer Directory
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 1144
+Primary language: Python
+Description: A pure Python HTML5 parser that just works. No C extensions to compile. No system dependencies to install. No complex API to learn.
+Topics: html5|parser|python
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 11
+Primary language: Python
+Description: AI dev framework: 22 agents, 100 core skills + 142 addon skill packs, 149 commands. Runs on 21 AI tools: Cursor, Claude Code, Copilot, Windsurf, Cline, Aider, Roo, Kiro, OpenHands, Gemini, Codex, Goose, Warp & more. File-based memory persists across sessions.
+Topics: agent-framework|ai|ai-agents|ai-memory|aider|claude-code|cline|cursor-ide|deepseek|gemini-cli|github-copilot|goose|knowledge-graph|mistral|opencode|qwen|roo-code|spec-driven-development|task-management|windsurf
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 35295
+Primary language: TypeScript
+Description: The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol
+Topics: agent|agent-native|agentic-ai|agents|ai|ai-agent|ai-assistant|assistant|assistant-chat-bots|copilot|copilot-chat|generative-ui|js|llm|nextjs|open-source|react|reactjs|ts|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 2285
+Primary language: Python
+Description: Checkmk - Best-in-class infrastructure & application monitoring
+Topics: monitoring
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 1463
+Primary language: TypeScript
+Description: Prismer Cloud
+Topics: agent-communication|agent-memory|ai-agents|claude|cursor|docker|knowledge-base|llm-tools|mcp|mcp-server|nextjs|rag|self-hosted|typescript|windsurf
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 83
+Primary language: Go
+Description: An envoy-based MCP Gateway that integrates with Istio and policy attachment mechanisms for authN, authZ, rate limiting and more.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 110
+Primary language: JavaScript
+Description: 🚀 One-command requirement development flow for Claude Code - Complete workflow system with sub-agents, quality gates, and intelligent automation
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 197
+Primary language: Rust
+Description: Agent harness for codebases. Gives Claude Code, Codex, and CI a shared task system, verdict ledger, and state store so agent work is traceable and auditable.
+Topics: agent-harness|agent-skills|ai-agents|ai-coding-agents|claude-code|cli|codex|conductor|harness-engineering|harness-os|hermes|hermes-agent|local-first|mcp|orchestration|plugin|typescript|workflow
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 20
+Primary language: Python
+Description: Official Implementation of paper: [Nav-R2:Dual‑Relation Reasoning for Generalizable Open‑Vocabulary Object‑Goal Navigation]
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 13
+Primary language: Hurl
+Description: Web services at Inist-CNRS
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 31
+Primary language: Shell
+Description: A one-file Ollama CLI client written in bash
+Topics: agent|ai|bash|llm|ollama|ollama-api|ollama-client
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 297
+Primary language: Ruby
+Description: Ruby AI Framework
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 16
+Primary language: Swift
+Description: Production-ready iOS SwiftUI guidance for AI coding agents.
+Topics: agent-skill|claude-code|codex|cursor|github-copilot|ios|swift|swiftui|xcode
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 10
+Primary language: Rust
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 156
+Primary language: Rust
+Description: An intelligent coding assistant focused on optimizing code for raw performance and system efficiency at scale.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

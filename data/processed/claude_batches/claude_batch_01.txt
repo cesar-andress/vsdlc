@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 1113
+Primary language: Swift
+Description: https://flowdown.ai/
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 47
+Primary language: Nix
+Description: Open-Source Infrastructure as Code Management Solution for Multiple Systems designed to be reliable in mission-critical tasks on paranoid and high-security environment.
+Topics: disko|flake-parts|home-manager|kreyren|nix|nixium
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 20
+Primary language: Go
+Description: Your AI builds the code. Sophia makes sure it's right.
+Topics: ai-agents|git|version-control
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 22
+Primary language: C#
+Description: A C# .netstandard client library for the Mexc REST and Websocket Spot API focusing on clear usage and models
+Topics: crypto|cryptocurrencies|cryptocurrency|cryptocurrency-ex|cryptocurrency-prices|cryptoexchange-net|market-data|mexc|mexc-api|mexc-net|mexc-sdk
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 23
+Primary language: Python
+Description: Avantis Trader SDK
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 13
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 485
+Primary language: TypeScript
+Description: Open Cowork - Opensource Claude Cowork for Windows & macOS & Linux. 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 511
+Primary language: Rust
+Description: Pure Rust Inference Engine
+Topics: cuda|dgx|dgx-spark|gb10|llm-inference|mamba|nvfp4|openai-api|rust|speculative-decoding|ssm|transformers
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 720
+Primary language: C++
+Description: Falcon Player
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 48
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 265
+Primary language: MDX
+Description: Documentation for ComfyUI
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 50
+Primary language: TypeScript
+Description: Platformă de explorare a datelor financiare publice pentru cetățeni, jurnaliști, persoane publice și alte persoane interesate.
+Topics: buget|money|romania
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 19
+Primary language: Rust
+Description: Rust Perl Language Server (LSP) + parser toolkit (tree-sitter + pure Rust).
+Topics: code-completion|dap|debug-adapter-protocol|diagnostics|incremental-parsing|language-server-protocol|lsp|parser|perl|refactoring|rust|semantic-analysis|static-analysis|tree-sitter|vscode
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 537
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 119
+Primary language: TypeScript
+Description: Welcome to AgentGenesis, your source for customizable Gen AI code snippets that you can easily copy and paste into your applications.
+Topics: ai|contentlayer|generative-ai|hacktoberfest|hacktoberfest-accepted|langchain-js|nextjs
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 42
+Primary language: TypeScript
+Description: online video editor built with nextjs, remotion and ffmpeg (web assembly port) for render.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 16
+Primary language: TypeScript
+Description: AI-maintained security annotations for code. Continuous threat modeling, enforced in CI.
+Topics: annotations|devsecops|mcp|security|threat-modeling
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 35
+Primary language: JavaScript
+Description: AI-powered job search pipeline built on GitHub Copilot CLI
+Topics: ai|ats|automation|career|cli|contributions-welcome|copilot|github-copilot|golang|good-first-issue|hacktoberfest|help-wanted|job-application|job-hunting|job-search|nodejs|open-source|resume|terminal
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 67
+Primary language: C#
+Description: Interactive command-line toolkit for .Net core with powerful controls and commands to create professional console applications.
+Topics: autocomplete-suggestions|chart|cli|command-line|console|console-table|csharp|datagridview|dotnet|grid-layout|maskedit|prompt|readline|table|terminal
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 18820
+Primary language: TypeScript
+Description: An all-in-one enhancement suite for Google Gemini & AI Studio - timeline navigation, folder management, prompt library, and chat export in one powerful extension. / Google Gemini & AI Studio 全能增强插件：集成时间轴导航、文件夹管理、提示词库及聊天导出等众多功能。
+Topics: ai-studio|bun|chat-management|chrome-extension|edge-addon|firefox-addons|gemini|safari-extension|vibe-coding
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 3869
+Primary language: Python
+Description: FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 209
+Primary language: TypeScript
+Description: A modern DrawIO editor application.  AI-Powered, Human-AI Collaboration | AI 加持，人机共绘drawio
+Topics: ai|ai-agents|drawio|mcp|mcp-server
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 52
+Primary language: TypeScript
+Description: Your Interface to Intelligence
+Topics: ai|ai-companion|assistant|llm-based-browser|local-first|open-source|openclaw|personal
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 17
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 78
+Primary language: Python
+Description: AI影视创作策划评估工作流|剧本创作 Agent 平台是一个基于 AI 的专业影视创作辅助系统，整合了 20+ 个专业 Agents，覆盖从策划、创作到评估的全流程。短剧创作|策划|评估Agent,故事大纲生成｜详细情节点｜剧本｜故事质量ip评估｜已播剧情分析｜故事五元素分析｜情节点工作流｜人物小传｜人物关系｜思维导图｜
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 360
+Primary language: TypeScript
+Description: The first browser AI Agent extension to support Agent Skills, enabling AI to perform complex tasks through an expandable skill system. 🌟 Star if you like it! | 首个支持 Agent Skills 的浏览器 AI Agent 扩展，让 AI 通过可扩展技能系统执行复杂任务 🌟 如果喜欢请点个 Star！
+Topics: ai|ai-agent|browser-extension|chat|chatbot|llm|skills
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 240
+Primary language: Python
+Description: A differentiable cosmology library in JAX
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 247
+Primary language: JavaScript
+Description: 一个专为算法刷题、深度学习和 AI 学习场景打造的浏览器扩展。拒绝机械的复制粘贴，帮你自动化生成高质量复盘笔记、内置遗忘曲线驱动的间隔复习、轻松驾驭超长对话，让刷过的每一道题都成为真正的技术资产！
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 30
+Primary language: JavaScript
+Description: A standard SDK for building agent-facing apps across MCP, CLI, React, and AI tool stacks.
+Topics: agent|agents|app|cli|cli-app|developer-tools|mcp|mcp-server|sdk|sdk-js|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 168
+Primary language: TypeScript
+Description: Real-time web dashboard for pi coding-agent sessions. Multi-session view, live chat mirroring, integrated terminal, diff viewer, pi-flows execution, and mobile-first remote control via mDNS or zrok tunnel. Coexists with pi's TUI — doesn't replace it.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

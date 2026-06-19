@@ -1,0 +1,331 @@
+repo_full_name,primary_label,confidence,evidence_notes,annotator_id,annotation_round
+Lakr233/FlowDown,EXCLUDE,low,"Only a URL (flowdown.ai) as description, no topics; purpose not confidently determinable from metadata.",claude_r2,1
+Arcanyx-org/NiXium,CONVENTIONAL_SOFTWARE,high,Open-source Infrastructure-as-Code management solution for general systems; non-AI developer tool.,claude_r2,1
+Kevandrew/sophia,AI_PRODUCT,medium,"AI-code verification tool (""makes sure it's right""); consumers are developers operating/validating AI-generated code.",claude_r2,1
+JKorf/Mexc.Net,CONVENTIONAL_SOFTWARE,high,C# client library for the MEXC crypto exchange REST/WebSocket API; ordinary developer SDK.,claude_r2,1
+Avantis-Labs/avantis_trader_sdk,CONVENTIONAL_SOFTWARE,medium,Trading SDK (Avantis); finance developer library with no AI-tooling indication.,claude_r2,1
+Hive-Academy/roocode-generator,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+AIDotNet/OpenCowork,CONVENTIONAL_SOFTWARE,medium,End-user desktop productivity app (Claude Cowork clone) for Win/macOS/Linux; AI-central but consumers are end users.,claude_r2,1
+Avarok-Cybersecurity/atlas,AI_PRODUCT,high,Pure Rust LLM inference engine; infrastructure for operating AI models.,claude_r2,1
+FalconChristmas/fpp,CONVENTIONAL_SOFTWARE,medium,"""Falcon Player"" (FPP) light-show/sequencing player; domain end-user software, no AI tooling.",claude_r2,1
+Frankieli123/dokploy-i18n,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Comfy-Org/docs,EXCLUDE,high,"Documentation for ComfyUI; docs-only, not a software product.",claude_r2,1
+ClaudiuBogdan/hack-for-facts-eb-client,CONVENTIONAL_SOFTWARE,high,Public-finance data exploration platform for citizens/journalists; end-user web application.,claude_r2,1
+EffortlessMetrics/perl-lsp,CONVENTIONAL_SOFTWARE,high,Perl language server and parser toolkit; non-AI developer tooling.,claude_r2,1
+JuliusBrussee/caveman-code,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+DeadmanAbir/AgentGenesis,EXCLUDE,medium,"Copy-paste Gen-AI code snippet collection; not shipped as executable/reusable software, content-style repo.",claude_r2,1
+Godzilla675/clip-js-copilot,CONVENTIONAL_SOFTWARE,high,Online video editor built with Next.js/Remotion/ffmpeg; end-user application.,claude_r2,1
+Bugb-Technologies/guardlink,AI_PRODUCT,medium,AI-maintained security annotations / continuous threat modeling enforced in CI (mcp/devsecops); AI-operations tooling for security.,claude_r2,1
+RajjjAryan/career-copilot,CONVENTIONAL_SOFTWARE,medium,"AI-powered job-search automation pipeline for end users; AI-central but end-user-facing, not AI-builder tooling.",claude_r2,1
+FRACerqueira/PromptPlus,CONVENTIONAL_SOFTWARE,high,Interactive CLI toolkit for .NET console applications; non-AI developer tool.,claude_r2,1
+Nagi-ovo/gemini-voyager,CONVENTIONAL_SOFTWARE,medium,"Browser extension enhancing Gemini/AI Studio (timeline, folders, export); end-user productivity add-on, not AI-builder infra.",claude_r2,1
+FlagAI-Open/FlagAI,AI_PRODUCT,high,FlagAI toolkit for large-scale AI models; infrastructure for building/training models.,claude_r2,1
+Menghuan1918/drawio2go,CONVENTIONAL_SOFTWARE,medium,"DrawIO diagram editor application with AI assistance; end-user product, AI is a feature not the product.",claude_r2,1
+NiaExperience/PearlOS,CONVENTIONAL_SOFTWARE,low,"AI companion/assistant browser (""Interface to Intelligence""); AI-central end-user app, borderline vs AI_PRODUCT.",claude_r2,1
+AlbertoUAH/datos-gob-es-mcp,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+GongLingRui/juben,CONVENTIONAL_SOFTWARE,medium,AI screenwriting/film-creation assistant platform for end-user creators; AI-central but end-user-facing application.,claude_r2,1
+Castor6/tactus,CONVENTIONAL_SOFTWARE,low,"Browser AI-agent extension with skill system for end users; AI-central end-user app, borderline vs AI_PRODUCT.",claude_r2,1
+DifferentiableUniverseInitiative/jax_cosmo,CONVENTIONAL_SOFTWARE,high,"Differentiable cosmology library in JAX; scientific-computing library, not AI tooling.",claude_r2,1
+Philip-Cao-9527/code-note-helper,CONVENTIONAL_SOFTWARE,medium,Browser extension for algorithm-practice review notes with spaced repetition; end-user study tool using AI internally.,claude_r2,1
+Ageniti/Ageniti,AI_PRODUCT,high,SDK for building agent-facing apps across MCP/CLI/AI tool stacks; tooling for AI builders.,claude_r2,1
+BlackBeltTechnology/pi-agent-dashboard,AI_PRODUCT,medium,Web dashboard for monitoring/controlling pi coding-agent sessions; tooling for operators of AI coding agents.,claude_r2,1
+EpicStaff/EpicStaff,AI_PRODUCT,high,Self-hosted platform for building AI agent flows (visual editor/orchestration); consumers are AI builders.,claude_r2,1
+3MFConsortium/gladius,CONVENTIONAL_SOFTWARE,high,Viewer/editor for 3mf files (volumetric extension); ordinary domain software.,claude_r2,1
+Puzzaks/PAIOS,CONVENTIONAL_SOFTWARE,medium,Offline Gemini Nano AI interface for end users; AI-central but an end-user app.,claude_r2,1
+Fannon/search-bookmarks-history-and-tabs,CONVENTIONAL_SOFTWARE,high,Browser extension for searching bookmarks/history/tabs; ordinary end-user utility.,claude_r2,1
+DCS-BR-Tools/briefing-room-for-dcs,CONVENTIONAL_SOFTWARE,high,Mission generator for DCS World flight sim; end-user game tooling.,claude_r2,1
+AngelMunoz/Kipo,CONVENTIONAL_SOFTWARE,high,RPG-like game prototype in F#/MonoGame; ordinary game software.,claude_r2,1
+ARPAHLS/OPSIE,CONVENTIONAL_SOFTWARE,low,"AI-human interaction ""SCI"" prototype; agentic/RAG/MCP topics pull toward AI_PRODUCT but framed as a standalone end-user assistant — borderline.",claude_r2,1
+HiveTrace/HiveTraceRed,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+ComeOnOliver/skillshub,AI_PRODUCT,high,AI agent skills registry with skill-resolution API; tooling for AI-agent builders.,claude_r2,1
+GoodStartLabs/AI_Diplomacy,AI_PRODUCT,high,"LLM benchmark (frontier models playing Diplomacy); AI evaluation, consumers are AI researchers.",claude_r2,1
+HenryLach/taskplane,AI_PRODUCT,high,Multi-agent AI coding orchestration system; tooling for operating AI coding agents.,claude_r2,1
+AgiFlow/aicode-toolkit,AI_PRODUCT,high,Toolkit/MCP server for coding agents to work across large repos; AI-builder tooling.,claude_r2,1
+OpenSPG/KAG,AI_PRODUCT,high,Logical-reasoning RAG framework on OpenSPG+LLMs for building Q&A solutions; AI builder framework.,claude_r2,1
+OpenCSGs/csghub-server,AI_PRODUCT,high,Backend for managing datasets/models and running inference/finetune (CSGHub); ML platform infrastructure.,claude_r2,1
+DevopsArtFactory/unic,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+QuantumNous/new-api-docs-v1,EXCLUDE,high,"Official website documentation for New API; docs-only, not a software product.",claude_r2,1
+Autonoma-Labs/Open-CoWork,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+1amageek/SwiftAgent,AI_PRODUCT,high,Type-safe declarative AI agent framework for Swift with MCP support; AI-builder framework.,claude_r2,1
+Arenukvern/mcp_flutter,AI_PRODUCT,high,MCP toolkit/agentic harness for Flutter AI-agent-driven development; tooling for AI builders.,claude_r2,1
+LiPu-jpg/Openwrite,CONVENTIONAL_SOFTWARE,medium,AI novel-writing engine for end-user authors; AI-central but end-user creative app.,claude_r2,1
+Naridon-Inc/aura,AI_PRODUCT,medium,"""Orchestrator for AI-Generated Code"" (semantic time machine); developer tooling for operating AI-generated code.",claude_r2,1
+NVIDIA-NeMo/Gym,AI_PRODUCT,high,Framework to evaluate/improve models and agents using environments; AI evaluation infrastructure.,claude_r2,1
+MaoXiaoYuZ/Long-Novel-GPT,CONVENTIONAL_SOFTWARE,low,GPT-based long-novel generator plus prompts/tutorials; borderline — generator is an end-user creative tool but repo mixes prompt-collection content.,claude_r2,1
+BruinGrowly/Emergent-Code,AI_PRODUCT,medium,Code-generation system growing software from semantic specifications; AI code-generation tooling for developers.,claude_r2,1
+PrefectHQ/prefect,CONVENTIONAL_SOFTWARE,high,"Prefect workflow-orchestration framework for data pipelines; general data-engineering tool, not AI-specific tooling.",claude_r2,1
+Jamkris/everything-gemini-code,AI_PRODUCT,high,Harness-engineering toolkit for Gemini CLI/Antigravity; tooling for operating AI coding agents.,claude_r2,1
+0xdpfly/gin-app-start,CONVENTIONAL_SOFTWARE,high,Gin-based general web backend framework; non-AI developer framework.,claude_r2,1
+DataDog/stratus-red-team,CONVENTIONAL_SOFTWARE,high,Cloud adversary-emulation/security tool (Stratus-style); non-AI security software for general operators.,claude_r2,1
+Brawl345/Image-Reverse-Search-WebExtension,CONVENTIONAL_SOFTWARE,high,WebExtension adding reverse-image-search context menu; ordinary end-user browser utility.,claude_r2,1
+Peuqui/AIfred-Intelligence,CONVENTIONAL_SOFTWARE,low,"Self-hosted multi-agent personal assistant (voice/RAG/tool-calling); AI-central end-user assistant, borderline vs AI_PRODUCT.",claude_r2,1
+Azure/azure-sdk-tools,CONVENTIONAL_SOFTWARE,medium,"Internal tools repo used by the Azure SDK team; developer tooling, no AI-product indication.",claude_r2,1
+Arindam200/awesome-ai-apps,EXCLUDE,medium,"Collection of RAG/agent/AI use-case sample projects; showcase/content collection, not a single shipped product.",claude_r2,1
+MatthewSuttles/rubyn-code,AI_PRODUCT,high,Ruby/Rails agentic coding assistant powered by Claude; coding-agent tooling.,claude_r2,1
+BrowserOperator/browser-operator-core,CONVENTIONAL_SOFTWARE,low,"AI browser with multi-agent platform for end users (ChatGPT Atlas/Comet alternative); AI-central end-user app, borderline vs AI_PRODUCT.",claude_r2,1
+Bitterbot-AI/bitterbot-desktop,CONVENTIONAL_SOFTWARE,low,"Local-first AI agent desktop app with memory/skills for end users; AI-central end-user assistant, borderline.",claude_r2,1
+NickPittas/DirectorsConsole,CONVENTIONAL_SOFTWARE,medium,Web app for prompt generation and ComfyUI image/video generation; end-user creative generation tool.,claude_r2,1
+NVIDIA/VisRTX,CONVENTIONAL_SOFTWARE,high,"NVIDIA OptiX-based ANARI rendering implementation; graphics/domain software, no AI tooling.",claude_r2,1
+JMBeresford/retrom,CONVENTIONAL_SOFTWARE,high,Game library/collection management service focused on emulation; end-user application.,claude_r2,1
+GuilhermeAlbert/awesome-ai-conventions,EXCLUDE,high,"Awesome/curated list of AI-agent conventions; awesome-list, not a software product.",claude_r2,1
+Prof-Harita/terminaI,CONVENTIONAL_SOFTWARE,low,"Local-first computer assistant (Cowork alternative) with terminal ops for end users; AI-central end-user app, borderline vs AI_PRODUCT.",claude_r2,1
+JunDamin/hwpapi,CONVENTIONAL_SOFTWARE,high,Python wrapper for HWP (Hangul) HwpObject via win32com; ordinary developer library.,claude_r2,1
+Correia-jpv/fucking-awesome-swift,EXCLUDE,high,"Awesome list of Swift libraries/resources; awesome-list, not a software product.",claude_r2,1
+JetBrains/intellij-community,CONVENTIONAL_SOFTWARE,high,IntelliJ IDEA / IntelliJ Platform IDE; non-AI developer tool.,claude_r2,1
+Prismer-AI/Prismer,EXCLUDE,low,"""Open Source Research Claw"" with no topics or detail; purpose not confidently determinable.",claude_r2,1
+HomericIntelligence/ProjectOdyssey,AI_PRODUCT,medium,Model training framework written in Mojo; infrastructure for building AI models.,claude_r2,1
+CallMarcus/dji-drone-metadata-embedder,CONVENTIONAL_SOFTWARE,high,Python CLI embedding DJI drone telemetry into MP4 videos; ordinary end-user/developer utility.,claude_r2,1
+PureCutCNC/purecutcnc,CONVENTIONAL_SOFTWARE,high,2.5D CAD/CAM workspace for CNC toolpaths; end-user domain software.,claude_r2,1
+AISecurityConsortium/AIGoat,AI_PRODUCT,high,AI security playground for LLM red teaming (OWASP LLM Top 10 labs); AI security/testing tooling.,claude_r2,1
+AzureAD/microsoft-authentication-library-common-for-objc,CONVENTIONAL_SOFTWARE,high,Shared code for Microsoft ADAL/MSAL authentication libraries; non-AI developer library.,claude_r2,1
+HorusGoul/eslint-plugin-react-render-types,CONVENTIONAL_SOFTWARE,high,ESLint plugin bringing Flow render types to TypeScript; non-AI developer tooling.,claude_r2,1
+2030ai/2030ai-claudecode-allecosystem-sync,AI_PRODUCT,high,Cross-platform skill & MCP sync for Claude Code/Codex/Cursor; tooling for AI builders.,claude_r2,1
+Cyfrin/Updraft,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+DontFuckMyCode/dfmc,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+QuickerHub/quicker-rpc,CONVENTIONAL_SOFTWARE,low,"AI desktop assistant for Quicker automation (MCP/CLI plugin); end-user automation app, borderline vs AI_PRODUCT.",claude_r2,1
+PallasBot/Pallas-Bot,CONVENTIONAL_SOFTWARE,medium,Arknights (明日方舟) Pallas bot; end-user game/community bot application.,claude_r2,1
+QuasarBrains/Simple-Agent,AI_PRODUCT,medium,Simple LLM-powered agent that performs tasks; general agent tooling for AI builders/developers.,claude_r2,1
+Protelis/Protelis,CONVENTIONAL_SOFTWARE,medium,"Java-hosted execution of Protelis programs; aggregate-programming language runtime, non-AI developer tool.",claude_r2,1
+Raphasha27/Raphasha27,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Oyl-Wallet/oyl-amm,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Azure-Samples/art-voice-agent-accelerator,AI_PRODUCT,medium,Framework to build/test/ship omnichannel voice agents on Azure (STT→LLM→TTS); tooling for building AI voice agents.,claude_r2,1
+Myriad-Dreamin/tinymist,CONVENTIONAL_SOFTWARE,high,Tinymist language service (LSP) for Typst; non-AI developer tooling.,claude_r2,1
+NewLifeX/NewLife.RocketMQ,CONVENTIONAL_SOFTWARE,high,Lightweight managed RocketMQ client for .NET; ordinary developer library.,claude_r2,1
+MicrosoftDocs/fabric-docs,EXCLUDE,high,"Public docs repo (fabric-docs-pr pair); docs-only, not a software product.",claude_r2,1
+MinLL/MinAI,CONVENTIONAL_SOFTWARE,medium,"Bridge connecting LLMs to Skyrim mods; end-user game integration/mod, AI used as a feature.",claude_r2,1
+NewLifeX/NewLife.Agent,CONVENTIONAL_SOFTWARE,high,Cross-platform .NET service/daemon management framework; non-AI developer tool.,claude_r2,1
+AIStoryBuilders/AIStoryBuilders,CONVENTIONAL_SOFTWARE,high,End-user novel-writing application; AI-central but ordinary-user writing app.,claude_r2,1
+FlipForensics/AIFT,CONVENTIONAL_SOFTWARE,medium,"DFIR forensic-analysis tool using AI to generate leads for investigators; domain end-user tool, AI is a feature.",claude_r2,1
+Affitor/affiliate-skills,EXCLUDE,medium,"50 AI-agent skills for affiliate marketing (skill-md collection); skill collection, not shipped as a software product.",claude_r2,1
+PaloAltoNetworks/docusaurus-openapi-docs,CONVENTIONAL_SOFTWARE,high,OpenAPI plugin generating API docs in Docusaurus; non-AI developer tooling.,claude_r2,1
+DaveDushi/kolshek,CONVENTIONAL_SOFTWARE,high,CLI for tracking finances from Israeli banks/cards; ordinary end-user utility.,claude_r2,1
+JetBrains/koog,AI_PRODUCT,high,Koog JVM framework for building AI agents; AI-builder framework.,claude_r2,1
+Gijsreyn/bicep-ext-databricks,EXCLUDE,medium,"Sample repo for Azure Databricks Bicep extension; sample/demo content, thin product evidence.",claude_r2,1
+LastBotInc/nextjs-supabase-ai-webapp,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+ReflexioAI/reflexio,AI_PRODUCT,high,AI agent self-improvement harness; tooling for building/operating AI agents.,claude_r2,1
+Mybono/ai-orchestrator,AI_PRODUCT,high,Multi-agent AI developer setup / local LLM orchestration for Claude Code; AI-builder tooling.,claude_r2,1
+CyberShadow/CyDo,AI_PRODUCT,high,UI and orchestration for AI coding agents; tooling for operating AI agents.,claude_r2,1
+NVIDIA/NeMo-Agent-Toolkit,AI_PRODUCT,high,NVIDIA NeMo Agent toolkit for connecting/optimizing AI agents; AI-builder library.,claude_r2,1
+GreenteaOS/Caramel,EXCLUDE,low,"""Confectionery of @GreenteaOS"" with no topics; purpose not confidently determinable.",claude_r2,1
+Gerstep/HumanCompiler,AI_PRODUCT,high,Claude Code plugin that generates installable agent plugins from interviews; tooling for building AI agents.,claude_r2,1
+ALT-F4-LLC/dotfiles.vorpal,EXCLUDE,high,Dotfiles repository; not a software product.,claude_r2,1
+LessUp/awesome-cursorrules-zh,EXCLUDE,high,"Curated collection of Cursor AI coding rules (awesome-list); rule/prompt collection, not a software product.",claude_r2,1
+BuildWithHussain/hive,CONVENTIONAL_SOFTWARE,medium,"Project-management software; ordinary end-user application, thin but clear.",claude_r2,1
+ROCm/hipDNN,EXCLUDE,high,Deprecated repo moved to ROCm/rocm-libraries; not an active product.,claude_r2,1
+AIrjen/OneButtonPrompt,AI_PRODUCT,low,"One Button Prompt (image-gen prompt utility); runnable prompt tool vs collection is borderline, modality also borderline.",claude_r2,1
+Micrurus-Ai/Corvid-lang,AI_PRODUCT,medium,"""Programming language that checks your AI before it runs""; developer tooling for validating AI systems.",claude_r2,1
+CreminiAI/skillpack,AI_PRODUCT,high,Pack and deploy local AI agents for teams; tooling for building/operating AI agents.,claude_r2,1
+Paperspace/cli,CONVENTIONAL_SOFTWARE,medium,"CLI for Paperspace (GPU cloud); general cloud-infrastructure developer tool, not AI-specific tooling.",claude_r2,1
+Agnuxo1/OpenCLAW-P2P,AI_PRODUCT,low,"Agent-native decentralized research collective (Lean4-verified, agent-native); research platform, borderline AI_PRODUCT vs research artifact.",claude_r2,1
+Alfanous-team/alfanous,CONVENTIONAL_SOFTWARE,high,"Alfanous Arabic Quran search-engine API; domain search software, MCP is an interface not the product.",claude_r2,1
+Horace-Maxwell/horosa-skill,EXCLUDE,medium,Offline AI skill for astrology/Bazi to mount on an AI; skill module/content rather than a standalone software product.,claude_r2,1
+MicrosoftDocs/learn,EXCLUDE,high,"Microsoft Learn cloud/AI training content (no PRs accepted); course/content repo, not a software product.",claude_r2,1
+OpenCSGs/csghub-lite,AI_PRODUCT,high,"Local LLM runner for CSGHub (inference, OpenAI-compatible API, model marketplace); AI infrastructure for operators.",claude_r2,1
+MichealWayne/fe-tools,CONVENTIONAL_SOFTWARE,medium,Frontend dev resource library/templates plus a Chrome extension; non-AI developer tooling.,claude_r2,1
+Gremlinq/ExRam.Gremlinq,CONVENTIONAL_SOFTWARE,high,.NET object-graph-mapper for Gremlin graph databases; ordinary developer library.,claude_r2,1
+ParclLabs/parcl-ai-connect,EXCLUDE,low,"Only ""Parcl AI Connect"" name, no description/topics; purpose not confidently determinable.",claude_r2,1
+Azure-Samples/Copilot-Studio-with-Azure-AI-Search,CONVENTIONAL_SOFTWARE,low,"AZD/Terraform template deploying Azure Copilot Studio + AI Search; infra deployment template, borderline (deploys AI services but is IaC config).",claude_r2,1
+Li-Bailiang/prompt-refine-skill,EXCLUDE,medium,"Agent skill that refines prompts for the running model; single agent-skill module, not shipped as standalone software.",claude_r2,1
+MieMieeeee/comfyui-agent-skill,AI_PRODUCT,medium,CLI letting agents run registered ComfyUI workflows returning JSON; tooling for AI agents/builders.,claude_r2,1
+DamianB-BitFlipper/proton-drive-sync,CONVENTIONAL_SOFTWARE,high,Unofficial Proton Drive sync client (local folder syncing); ordinary end-user utility.,claude_r2,1
+PurpleAILAB/Decepticon,AI_PRODUCT,high,Autonomous LLM red-team/hacking agent; AI security tooling for operators.,claude_r2,1
+1jehuang/jcode,AI_PRODUCT,high,Coding agent harness; tooling for operating AI coding agents.,claude_r2,1
+ModelTC/LightX2V,AI_PRODUCT,high,Image/video generation inference framework (diffusion/world models); AI infrastructure for builders.,claude_r2,1
+Martian-Engineering/volt,AI_PRODUCT,high,Coding agent with lossless context management; AI coding-agent tooling.,claude_r2,1
+567-labs/instructor,AI_PRODUCT,high,"""structured outputs for llms""; reusable LLM library for AI builders.",claude_r2,1
+OWASP/www-project-top-10-for-large-language-model-applications,EXCLUDE,medium,"OWASP Top 10 for LLM Apps (GenAI Security Project); standards/content/documentation, not a software product.",claude_r2,1
+Minh-Tam-Solution/SDLC-Enterprise-Framework,EXCLUDE,medium,"7-Pillar AI+Human SDLC methodology (stages/gates/roles); methodology/content, tool-agnostic, not shipped software.",claude_r2,1
+CSlawyer1985/case-type-guide,CONVENTIONAL_SOFTWARE,medium,"AI-assisted legal case-analysis/triage system for lawyers; vertical end-user professional tool, AI is a feature.",claude_r2,1
+HeartWise-AI/DeepCORO_CLIP,EXCLUDE,low,"Text/video embeddings for report generation, no topics; thin/notebook, purpose not confidently determinable.",claude_r2,1
+JeremyDev87/codingbuddy,AI_PRODUCT,high,Orchestrates 29 specialized AI coding agents (PLAN→ACT→EVAL); AI coding-agent tooling.,claude_r2,1
+HelpCode-ai/anythingmcp,AI_PRODUCT,high,No-code MCP gateway to build connectors for Claude/ChatGPT apps; tooling for AI builders/operators.,claude_r2,1
+MadAppGang/dingo,CONVENTIONAL_SOFTWARE,high,Meta-language for Go adding Result types/pattern matching (compiler/LSP); non-AI developer tooling.,claude_r2,1
+PrestaShop/docs,EXCLUDE,high,"PrestaShop technical documentation; docs-only, not a software product.",claude_r2,1
+OlaProeis/Ferrite,CONVENTIONAL_SOFTWARE,high,Fast Rust text editor for Markdown/JSON/YAML/TOML; ordinary end-user application.,claude_r2,1
+Cloud-Solutions-International/antikythera,CONVENTIONAL_SOFTWARE,medium,Automated test generation for Spring apps; developer tooling (no explicit AI-product framing).,claude_r2,1
+BUZZARDGTA/Session-Sniffer,CONVENTIONAL_SOFTWARE,high,Packet sniffer/IP-puller for P2P console games; ordinary end-user utility.,claude_r2,1
+MarimerLLC/rockbot,CONVENTIONAL_SOFTWARE,low,"Cloud-native autonomous personal agent; thin description, AI-central end-user agent — borderline vs AI_PRODUCT.",claude_r2,1
+CommunityToolkit/Aspire,CONVENTIONAL_SOFTWARE,high,Community components/extensions for .NET Aspire; non-AI developer tooling.,claude_r2,1
+FerroxLabs/ijfw,AI_PRODUCT,high,Local-first infrastructure for AI coding agents (shared memory/routing); AI-builder tooling.,claude_r2,1
+OSLC/oslc4net,CONVENTIONAL_SOFTWARE,high,.NET SDK for OSLC linked-data interoperability; ordinary developer library.,claude_r2,1
+CompanyHelm/companyhelm,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Provenance-Emu/Provenance,CONVENTIONAL_SOFTWARE,high,iOS/tvOS multi-emulator frontend (Provenance); end-user gaming application.,claude_r2,1
+BNETDocs/bnetdocs-web,EXCLUDE,high,"BNETDocs documentation/discussion website for Blizzard protocols; docs/content site, not a software product.",claude_r2,1
+ActiveInferenceInstitute/GEO-INFER,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Alireza29675/yar-agent,AI_PRODUCT,medium,"Codebase-understanding agent (claude-agent-sdk, code-analysis); developer AI tooling, borderline vs end-user dev utility.",claude_r2,1
+FixMyBerlin/tilda-geo,CONVENTIONAL_SOFTWARE,high,TILDA provides OSM bicycle/parking infrastructure data for administrative staff; end-user domain application.,claude_r2,1
+Disentinel/grafema,CONVENTIONAL_SOFTWARE,medium,"Graph-based static analysis tool (CLI/VSCode); non-AI developer tooling, MCP is an interface.",claude_r2,1
+B-M-Capital-Research/honeclaw,CONVENTIONAL_SOFTWARE,low,"AI investment-assistant (HoneClaw); AI-central end-user finance assistant, thin topics — borderline vs AI_PRODUCT.",claude_r2,1
+NewLifeX/X,CONVENTIONAL_SOFTWARE,high,Core .NET infrastructure components (logging/config/cache/RPC); non-AI developer library.,claude_r2,1
+HybridWare/hybrid-browser,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+EUCPilots/evergreen-module,CONVENTIONAL_SOFTWARE,high,Evergreen Windows image-build pipelines for app versions/URLs; non-AI IT-automation tooling.,claude_r2,1
+FlareCoding/StelluxOS,CONVENTIONAL_SOFTWARE,high,"Stellux research operating system; systems software, not AI tooling.",claude_r2,1
+JackHopkins/factorio-learning-environment,AI_PRODUCT,high,Open-ended environment for evaluating LLMs in Factorio; AI evaluation/benchmark.,claude_r2,1
+Certora/AIComposer,AI_PRODUCT,low,"""AI Composer from Certora Labs"", no topics; likely AI tooling but thin evidence.",claude_r2,1
+OpenHands/software-agent-sdk,AI_PRODUCT,high,Modular SDK for building AI agents with OpenHands V1; AI-builder SDK.,claude_r2,1
+Eliezer-app/eliezer,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+OpenNMS/opennms,CONVENTIONAL_SOFTWARE,high,OpenNMS enterprise network-management/monitoring platform; non-AI operations software.,claude_r2,1
+HBAI-Ltd/Toonflow-app,CONVENTIONAL_SOFTWARE,medium,Toonflow AI short-drama creation desktop tool for creators; AI-central but end-user content-creation app.,claude_r2,1
+NVIDIA/physicsnemo,AI_PRODUCT,high,Deep-learning framework for building/training Physics-ML models; AI/ML infrastructure for builders.,claude_r2,1
+LegnaOS/LegnaCode-cli,AI_PRODUCT,low,"Repaired build of ClaudeCode-CLI source; coding-agent CLI, thin description — borderline.",claude_r2,1
+MicrosoftLearning/trainer-demo-deploy,EXCLUDE,medium,"MOC demo deployment scenarios using AZD; demo/sample deployment content, thin product evidence.",claude_r2,1
+HewlettPackard/llmesh,AI_PRODUCT,high,Agentic tool-mesh platform orchestrating intelligent plugins; AI orchestration infrastructure for builders.,claude_r2,1
+MicrosoftDocs/azure-ai-docs,EXCLUDE,high,"Azure AI documentation collection; docs-only, not a software product.",claude_r2,1
+HaiNinh1/oh-my-opencode,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+AlphaBitCore/nexus-gateway,AI_PRODUCT,high,Enterprise AI traffic gateway routing across LLM providers (compliance/cache/audit); AI infrastructure for operators.,claude_r2,1
+9mtm/Agent-Player,CONVENTIONAL_SOFTWARE,medium,Offline-capable AI desktop assistant for end users; AI-central but end-user app.,claude_r2,1
+MCPJam/inspector,AI_PRODUCT,high,Testing/evaluation platform for MCP servers and apps (inspector/evals); AI-builder/operator tooling.,claude_r2,1
+NewLifeX/NewLife.Remoting,CONVENTIONAL_SOFTWARE,high,Unified .NET remote communication framework (RPC/HTTP/WebSocket); non-AI developer library.,claude_r2,1
+DataDog/dd-trace-js,CONVENTIONAL_SOFTWARE,high,Datadog APM client for Node.js; non-AI developer/observability library.,claude_r2,1
+LouisShark/chatgpt_system_prompt,EXCLUDE,high,"Collection of GPT system prompts and prompt-injection knowledge; prompt collection, not a software product.",claude_r2,1
+PrestaShop/hummingbird,CONVENTIONAL_SOFTWARE,high,Default theme for PrestaShop 9.1+; ordinary e-commerce front-end theme.,claude_r2,1
+DevExpress/devextreme-documentation,EXCLUDE,high,"DevExtreme documentation; docs-only, not a software product.",claude_r2,1
+PrefectHQ/fastmcp,AI_PRODUCT,high,FastMCP — framework for building MCP servers/clients; tooling for AI builders.,claude_r2,1
+Quant-Club/ccxt-cpp,CONVENTIONAL_SOFTWARE,medium,C++ port of the ccxt crypto-exchange trading library; ordinary developer library.,claude_r2,1
+ModelEngine-Group/nexent,AI_PRODUCT,high,Zero-code platform for auto-generating production AI agents; consumers are AI builders.,claude_r2,1
+PlamenTSV/plamen,AI_PRODUCT,high,Autonomous Web3 security-audit agent for Claude Code; AI security/agent tooling.,claude_r2,1
+GregorStocks/mage-bench,AI_PRODUCT,medium,Magic: The Gathering harness for LLMs; AI evaluation/harness for testing models.,claude_r2,1
+KennispuntTwente/tidyprompt,AI_PRODUCT,high,R package for constructing LLM prompts and interaction logic; reusable LLM library.,claude_r2,1
+Maxsky5/openducktor,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+GitGuardian/ggmcp,AI_PRODUCT,medium,MCP server for scanning/remediating hardcoded secrets via GitGuardian; security MCP tooling for AI operators.,claude_r2,1
+Melvynx/aiblueprint,AI_PRODUCT,medium,AIBlueprint CLI for setting up Claude Code configurations; tooling for AI-coding-agent setup.,claude_r2,1
+0xN0RMXL/BugBountySkills,EXCLUDE,high,"Markdown knowledge base + AI skill system for bug bounty; content/skill collection, not a software product.",claude_r2,1
+DavidWells/stars,EXCLUDE,medium,"Automatically indexed GitHub stars; personal index/content repo, not a product.",claude_r2,1
+JUVOJustin/astrojs-wp-integration,CONVENTIONAL_SOFTWARE,high,WordPress integration for AstroJS; non-AI developer integration library.,claude_r2,1
+JamesPaynter/mycelium,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+MedAdemBHA/docflow,EXCLUDE,high,Shell repo with no description or topics; insufficient evidence.,claude_r2,1
+DimitriGilbert/Formedible,CONVENTIONAL_SOFTWARE,high,Schema-driven Shadcn wrapper around TanStack forms; non-AI developer UI library.,claude_r2,1
+Nakajima-Foundation/ownplate,EXCLUDE,high,Vue repo with no description or topics; insufficient evidence.,claude_r2,1
+OWASP/cornucopia,CONVENTIONAL_SOFTWARE,medium,"Build tools/sources for OWASP Cornucopia threat-modeling card decks; non-AI security/game artifact (borderline content, but ships build tooling).",claude_r2,1
+Owl-Listener/ai-design-skills,EXCLUDE,high,"AI Design Skills Collection (agentic skills/commands/plugins); skill/prompt collection, not a software product.",claude_r2,1
+EliFuzz/awesome-system-prompts,EXCLUDE,high,"Collection of system prompts/tool definitions leaked from AI coding agents; prompt collection, not a software product.",claude_r2,1
+BoweyLou/obsidian-mcp-server-enhanced,AI_PRODUCT,medium,Enhanced Obsidian MCP server for Claude.ai integration; MCP tooling for AI operators.,claude_r2,1
+Niek/chatgpt-web,CONVENTIONAL_SOFTWARE,medium,ChatGPT web interface using the OpenAI API; end-user chat front-end application.,claude_r2,1
+Agents2AgentsAI/ata,AI_PRODUCT,medium,AI agents for solving engineering/research problems end to end; agent product (terse description caps confidence).,claude_r2,1
+Case211/remnawave-admin,CONVENTIONAL_SOFTWARE,high,Admin web + Telegram bot for Remnawave panel; ordinary end-user/admin application.,claude_r2,1
+PulkitXChadha/awesome-databricks-mcp,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+CumulusNetworks/docs,EXCLUDE,high,"NVIDIA Ethernet software documentation repo; docs-only, not a software product.",claude_r2,1
+NickCrew/Claude-Cortex,AI_PRODUCT,medium,"Claude Cortex — Claude plugin/skills, context management, CLI/TUI; AI-coding tooling for developers.",claude_r2,1
+Nimble-Co/FoundryVTT-Nimble,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+EternisAI/enchanted-twin,CONVENTIONAL_SOFTWARE,low,"""Digital Twin"" with no topics; ambiguous, likely domain software but purpose not confidently determinable.",claude_r2,1
+Houseofmvps/codesight,AI_PRODUCT,high,Universal AI context generator saving tokens in Claude Code/Cursor/Copilot; tooling for AI coding workflows.,claude_r2,1
+Mudlet/Mudlet,CONVENTIONAL_SOFTWARE,high,Cross-platform MUD client with Lua scripting (Mudlet-style); end-user game client.,claude_r2,1
+ArdentAILabs/DE-Bench,AI_PRODUCT,high,DE Bench — benchmark testing an AI data engineer agent; AI evaluation.,claude_r2,1
+PramodDutta/Advance-Playwright-Framework,CONVENTIONAL_SOFTWARE,medium,Advanced Playwright test framework; non-AI developer testing tooling.,claude_r2,1
+Azure/oav,CONVENTIONAL_SOFTWARE,high,Tools for validating OpenAPI/Swagger files; non-AI developer tooling.,claude_r2,1
+OvertliDS/overtli-studio-suite,AI_PRODUCT,medium,"ComfyUI node suite for multi-engine generation (image/video/speech); AI-generation tooling, borderline content vs tool.",claude_r2,1
+CavinHuang/comfyui-nodes-docs,EXCLUDE,medium,"ComfyUI node documentation plugin; docs/content plugin, thin product evidence.",claude_r2,1
+HyperbolicLabs/Hyper-dOS,CONVENTIONAL_SOFTWARE,low,"""Hyperbolic Distributed Operating System"", no topics; likely systems software but purpose not confidently determinable.",claude_r2,1
+BintzGavin/helios,CONVENTIONAL_SOFTWARE,high,Programmatic video creation with web tech (Remotion-style); developer/end-user media library.,claude_r2,1
+GoogleCloudPlatform/kubernetes-engine-samples,EXCLUDE,medium,"Sample applications for GKE; samples collection, not a single shipped product.",claude_r2,1
+AI-Escape/open-ice,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Alexli18/binex,AI_PRODUCT,high,Debuggable runtime for AI agent workflows (DAG/lineage/replay); AI-builder tooling.,claude_r2,1
+AgentWrapper/agent-orchestrator,AI_PRODUCT,high,Agentic orchestrator for parallel coding agents; tooling for operating AI agents.,claude_r2,1
+HKUDS/OpenHarness,AI_PRODUCT,medium,"OpenHarness — open agent harness with built-in personal agent; agent framework/harness, terse caps confidence.",claude_r2,1
+Feolius/hell2shape,CONVENTIONAL_SOFTWARE,high,PHP type annotations from var_dump output (phpstan/psalm); non-AI developer tool.,claude_r2,1
+GalacticDynamics/coordinax,CONVENTIONAL_SOFTWARE,high,"Coordinate systems/transformations in JAX; scientific-computing library, not AI tooling.",claude_r2,1
+LazyAGI/LazyMind,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Emurasoft/emurasoft.github.io,EXCLUDE,high,"Sphinx documentation project for EmEditor help; docs-only, not a software product.",claude_r2,1
+MODSetter/SurfSense,CONVENTIONAL_SOFTWARE,low,"Privacy-focused NotebookLM alternative for teams; AI-central end-user app (RAG/agents), borderline vs AI_PRODUCT.",claude_r2,1
+Auriti-Labs/geo-optimizer-skill,CONVENTIONAL_SOFTWARE,medium,"AEO/GEO toolkit to audit/track AI-search citations of your site; end-user marketing/SEO tool, AI is the subject not the product-as-AI-tooling.",claude_r2,1
+Community-Access/accessibility-agents,AI_PRODUCT,high,Accessibility review agents for Claude Code/Copilot enforcing WCAG; tooling that governs AI coding agents.,claude_r2,1
+NiuTrans/ToFu,CONVENTIONAL_SOFTWARE,low,"Self-hosted AI assistant with multi-agent orchestration and coding copilot; AI-central end-user assistant, borderline vs AI_PRODUCT.",claude_r2,1
+HillPhelmuth/AdventuresInSemanticKernel,AI_PRODUCT,medium,Semantic Kernel learning/build samples for Microsoft's AI orchestration library; AI-builder tooling/educational (leans AI_PRODUCT).,claude_r2,1
+JetBrains/youtrackdb,CONVENTIONAL_SOFTWARE,high,YouTrackDB object-oriented graph database; non-AI developer database software.,claude_r2,1
+Dong90/oh-my-taiyiforge,AI_PRODUCT,medium,AI workflow automation plugin for code generation with Claude/Codex; AI-coding tooling for developers.,claude_r2,1
+Antvirf/stui,CONVENTIONAL_SOFTWARE,high,Terminal UI for Slurm HPC clusters; non-AI systems/ops developer tool.,claude_r2,1
+ChenZiHong-Gavin/weekly-vibe-coding,EXCLUDE,medium,"""100 ideas via prompts"" (skills/vibe-coding); prompt/idea collection, not a shipped software product.",claude_r2,1
+NaverPayDev/pie,CONVENTIONAL_SOFTWARE,medium,"Frontend team's package-management project (naverpay); non-AI developer tooling, thin but clear.",claude_r2,1
+JohnSnowLabs/spark-nlp,AI_PRODUCT,high,Spark NLP — state-of-the-art NLP library (NER/translation/transformers); AI/ML library for builders.,claude_r2,1
+ExpressLRS/Docs,EXCLUDE,high,"ExpressLRS.org documentation website source; docs-only, not a software product.",claude_r2,1
+Agent-Threat-Rule/agent-threat-rules,AI_PRODUCT,medium,"Open detection standard/ruleset for AI agents (Sigma-like); AI-security tooling, borderline vs rule content.",claude_r2,1
+RYOITABASHI/Shelly,CONVENTIONAL_SOFTWARE,low,"AI chat-first terminal IDE for Android; AI-central end-user dev app, borderline vs AI_PRODUCT.",claude_r2,1
+FavioVazquez/learnship,EXCLUDE,medium,"""Agentic engineering done right"" learn-as-you-build (Shell); methodology/workflow content, not a shipped product.",claude_r2,1
+OfficeDev/microsoft-365-agents-toolkit-samples,CONVENTIONAL_SOFTWARE,medium,Sample apps for building Microsoft Teams apps; developer samples for ordinary app development.,claude_r2,1
+1Password/SCAM,AI_PRODUCT,high,Benchmark testing AI agents' security awareness; AI evaluation.,claude_r2,1
+0-AI-UG/cate,CONVENTIONAL_SOFTWARE,medium,"Infinite zoomable canvas coding workspace (editor/terminal/browser); end-user developer app, AI internal.",claude_r2,1
+PaulJPhilp/effect-notion,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+OsmosysSoftware/osmo-x,CONVENTIONAL_SOFTWARE,high,Multi-channel notification management component (email/SMS/WhatsApp/push); ordinary developer component.,claude_r2,1
+PlanExeOrg/PlanExe,CONVENTIONAL_SOFTWARE,low,"AI planning tool that creates a plan from a description; AI-central end-user planning app, borderline vs AI_PRODUCT.",claude_r2,1
+CoreAgent-Project/CoreAgent,AI_PRODUCT,medium,LLM agent framework with stateful tools; AI-builder framework (terse caps confidence).,claude_r2,1
+LiteyukiStudio/agent,CONVENTIONAL_SOFTWARE,low,"Personal-use general agent (""can do many things""); AI-central end-user agent, thin description — borderline.",claude_r2,1
+IstiN/yoloit,EXCLUDE,high,Dart repo with no description or topics; insufficient evidence.,claude_r2,1
+OtterMind/youclaw,CONVENTIONAL_SOFTWARE,medium,AI personal assistant with memory/skills/scheduled tasks for end users; AI-central end-user app.,claude_r2,1
+Laer-Smart/2anki.net,CONVENTIONAL_SOFTWARE,high,Server to create Anki flashcards (Notion-to-Anki); end-user productivity application.,claude_r2,1
+Kong/developer.konghq.com,EXCLUDE,high,"Source for the Kong developer-docs website; docs/website source, not a software product.",claude_r2,1
+Cppys/OpenNovel,CONVENTIONAL_SOFTWARE,medium,Claude-SDK-based automated novel-writing agent for authors; AI-central end-user creative app.,claude_r2,1
+Hacksore/cursed-repo,EXCLUDE,low,"""Average JavaScript repo"" placeholder description, no topics; purpose not determinable.",claude_r2,1
+Copenhagen0x/solana-security-standard,AI_PRODUCT,medium,"Solana security standard/bug-class rules firing in AI tools/editors/CI; AI-security tooling, borderline vs rule content.",claude_r2,1
+KubeRocketCI/kuberocketai,AI_PRODUCT,high,Declarative agentic framework for AI-driven software development (agents as code); AI-builder framework.,claude_r2,1
+Azure-Samples/multimodal-rag-code-execution,CONVENTIONAL_SOFTWARE,low,"Multimodal RAG with code execution for document insight; AI-central, notebook-based — borderline vs AI_PRODUCT/research artifact.",claude_r2,1
+ArisGuimera/MobiAI-Core,EXCLUDE,high,Go repo with no description or topics; insufficient evidence.,claude_r2,1
+Agoric/agoric-sdk,CONVENTIONAL_SOFTWARE,high,Monorepo for the Agoric JavaScript smart-contract platform; non-AI developer platform.,claude_r2,1
+JetBrains-Research/lca-baselines,AI_PRODUCT,high,Baselines for Long Code Arena benchmarks; AI evaluation/benchmark artifacts for researchers.,claude_r2,1
+PaulDuvall/vibecoding,EXCLUDE,medium,"Windsurf ""vibe coding"" workflow automation with memories/rules; workflow rules/config content, thin product evidence.",claude_r2,1
+AgentOps-AI/agentops,AI_PRODUCT,high,Python SDK for AI agent monitoring/cost tracking/benchmarking; AI-operator/evaluation tooling.,claude_r2,1
+NewKrok/three-particles-editor,CONVENTIONAL_SOFTWARE,high,Particle system editor for three-particles; end-user/developer graphics tool.,claude_r2,1
+MStanislavov/stratoseer,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+MushroomFleet/DJZ-Nodes,CONVENTIONAL_SOFTWARE,medium,Custom ComfyUI nodes for video effects/batch/image utilities; end-user creative tooling (borderline vs AI tool).,claude_r2,1
+GraflowAI/graflow,AI_PRODUCT,high,Composable Python framework for LLM agent workflows; AI-builder framework.,claude_r2,1
+OpenStudy-dev/OpenStudy,CONVENTIONAL_SOFTWARE,medium,"Self-hostable student study dashboard with built-in MCP server; end-user productivity app, MCP is a feature.",claude_r2,1
+Factory-AI/factory,AI_PRODUCT,medium,"""Factory — Agent-Native Software Development""; agent-native dev platform, terse caps confidence.",claude_r2,1
+Azure/azure-sdk-for-python,CONVENTIONAL_SOFTWARE,high,Azure SDK for Python (active development); non-AI developer SDK.,claude_r2,1
+ExDragine/frontier,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+EliasOenal/multimon-ng,EXCLUDE,high,C repo with no description or topics; insufficient evidence.,claude_r2,1
+26d0/vrchat-ime-chat,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Azure/kimojio-rs,CONVENTIONAL_SOFTWARE,high,Thread-per-core io_uring async runtime for Rust; non-AI systems/developer library.,claude_r2,1
+AI45Lab/Code,AI_PRODUCT,medium,"""Agentic Agent Framework"" (Rust); agent framework, terse description caps confidence.",claude_r2,1
+GoldenPotato137/PotatoVN,CONVENTIONAL_SOFTWARE,high,Visual-novel management software (WinUI3); end-user application.,claude_r2,1
+Anson-Trio/BaiShou-Next,EXCLUDE,low,"Poetic Chinese description only (""guard each other for life""), no topics; purpose not determinable.",claude_r2,1
+PracticalParticle/Bloxchain-Protocol,CONVENTIONAL_SOFTWARE,high,Enterprise smart-contract security framework (multi-sig/time-locks/RBAC); non-AI blockchain developer framework.,claude_r2,1
+NikiforovAll/claude-code-rules,EXCLUDE,high,"Handbook of techniques for Claude Code AI-assisted development; handbook/content, not a software product.",claude_r2,1
+KyaniteLabs/mcp-video,AI_PRODUCT,high,Guardrailed video-editing MCP server for AI agents; tooling for AI agents.,claude_r2,1
+NewLifeX/NewLife.Redis,CONVENTIONAL_SOFTWARE,high,High-performance Redis client for .NET; non-AI developer library.,claude_r2,1
+PaulJPhilp/effect-cli-tui,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+MatrixCoreX/RustClaw,EXCLUDE,low,"""RustClaw … Raspberry Pi/macOS/Ubuntu"", no topics; purpose not confidently determinable.",claude_r2,1
+Josverl/micropython-stubs,CONVENTIONAL_SOFTWARE,high,Type stubs for MicroPython ports/boards; non-AI developer tooling.,claude_r2,1
+Kohaku-Lab/KohakuTerrarium,AI_PRODUCT,high,General-purpose AI agent framework and app for building/composing agents; AI-builder framework.,claude_r2,1
+PolyArch/humanize,AI_PRODUCT,low,"""Automated Idea Factory to Realization"" (agentic-workflow/spec-coding, Shell); agentic dev tooling, borderline vs methodology content.",claude_r2,1
+MiguelTVMS/e-redes-smart-metering-plus-hass,CONVENTIONAL_SOFTWARE,high,Home Assistant integration for Portugal E-Redes smart meters; end-user home-automation integration.,claude_r2,1
+QuoteVote/quotevote-next,CONVENTIONAL_SOFTWARE,high,Quote.Vote open-source text-only social platform; end-user web application.,claude_r2,1
+PostHog/DeskHog,CONVENTIONAL_SOFTWARE,low,"""The developer toy that brings developers joy"" (C), no topics; ambiguous, likely a dev utility but purpose unclear.",claude_r2,1
+NVIDIA/skills,EXCLUDE,high,"AI agent skills published by NVIDIA; agent-skill collection, not a shipped software product.",claude_r2,1
+JetBrains-Research/verified-cogen,AI_PRODUCT,medium,PLAN verified code-generation project; AI code-generation research tooling (terse caps confidence).,claude_r2,1
+GoogleCloudPlatform/vertex-ai-creative-studio,CONVENTIONAL_SOFTWARE,medium,GenMedia Creative Studio — Vertex AI generative-media UX showcase; end-user generative-media app (borderline demo/sample).,claude_r2,1
+Archeb/CyberGroupmate,AI_PRODUCT,low,"""Code-Driven Social Agent"", no topics; likely agent tooling but thin evidence.",claude_r2,1
+LaLanMo/muxagent,AI_PRODUCT,medium,Run coding tasks via graph-based workflows with Codex/Claude Code; AI coding-agent orchestration tooling.,claude_r2,1
+InsightSoftwareConsortium/ITK,CONVENTIONAL_SOFTWARE,high,Insight Toolkit (ITK) for scientific/medical image processing; non-AI scientific-computing library.,claude_r2,1
+MuhammadUsmanGM/claude-code-best-practices,EXCLUDE,high,"Best-practices wiki/templates for Claude Code; content/wiki collection, not a software product.",claude_r2,1
+CrispStrobe/CrispEmbed,AI_PRODUCT,high,Lightweight text-embedding inference in C++ (XLM-R/Qwen3/Gemma); AI/ML inference library.,claude_r2,1
+Automattic/newspack-workspace,EXCLUDE,low,"""All the code that's fit to ship"" (PHP), no topics; purpose not determinable.",claude_r2,1
+0niel/university-app,CONVENTIONAL_SOFTWARE,high,Mobile app for MIREA university (schedule/news); end-user application.,claude_r2,1
+AsiaOstrich/universal-dev-standards,EXCLUDE,medium,"Universal development-standards collection (coding/git/testing/AI-collaboration rules); standards/content, not a shipped software product.",claude_r2,1
+CERTCC/Vultron,CONVENTIONAL_SOFTWARE,medium,Vultron protocol/prototype for Coordinated Vulnerability Disclosure; non-AI security protocol software.,claude_r2,1
+Joanium/Skills,EXCLUDE,high,"""Joanium Skills"" agent-skill collection; skill collection, not a software product.",claude_r2,1
+AlexChesser/ail,EXCLUDE,low,"""Alexander's Impressive Loops"" (Rust), no topics; purpose not determinable.",claude_r2,1
+NASA-AMMOS/MGViz,CONVENTIONAL_SOFTWARE,high,MMGIS GNSS visualizer; domain geospatial end-user software.,claude_r2,1
+ClawStackStudios/GitLobster,AI_PRODUCT,medium,Decentralized registry of verified skills for autonomous agents; agent infrastructure for AI builders.,claude_r2,1
+Automattic/data-liberation-agent,CONVENTIONAL_SOFTWARE,high,Extracts content from closed web platforms into WordPress WXR files; ordinary developer/end-user utility.,claude_r2,1
+NFDI4Chem/nmrxiv,CONVENTIONAL_SOFTWARE,high,nmrXiv FAIR NMR data repository/computational platform; scientific domain software.,claude_r2,1
+MemoriLabs/Memori,AI_PRODUCT,high,Agent-native memory infrastructure (LLM-agnostic persistent state); AI infrastructure for builders.,claude_r2,1
+AI-Planning/l2p,AI_PRODUCT,medium,Library for LLM-driven action model acquisition; AI library consumed by AI/planning builders.,claude_r2,1
+Chemaclass/agnostic-ai,AI_PRODUCT,medium,"Single source of truth for AI agents/skills/rules, transpiles to AI CLIs; tooling for AI builders (borderline vs config aggregator).",claude_r2,1
+NakaokaRei/swift-mcp-gui,AI_PRODUCT,high,MCP server executing keyboard/mouse commands on macOS; MCP tooling for AI agents.,claude_r2,1
+GthiN89/FuckingCheapFlipperZero-DIY-Flipper-zero-The-real-on,CONVENTIONAL_SOFTWARE,medium,DIY open-source hardware firmware (Flipper Zero + Momentum); end-user hardware/firmware project.,claude_r2,1
+Rainexn0b/keyRGB,CONVENTIONAL_SOFTWARE,high,Linux tray app + per-key RGB editor for laptop keyboards; end-user utility.,claude_r2,1
+EvolvingAgentsLabs/llmos,EXCLUDE,low,"""The flagship example—the OS simulation"", no topics; example/demo, purpose not confidently determinable.",claude_r2,1
+OxidizeLabs/ferrite,CONVENTIONAL_SOFTWARE,high,Small documented OLTP engine demonstrating Rust concurrency/recovery; non-AI developer database software.,claude_r2,1
+QingJ01/Axiom,AI_PRODUCT,low,"""Give AI coding assistants an engineering brain"" (Chinese); AI-coding tooling, thin description — borderline.",claude_r2,1
+MercuryTechnologies/hs-temporal-sdk,CONVENTIONAL_SOFTWARE,high,Unofficial Temporal Haskell SDK; non-AI developer SDK.,claude_r2,1
+Automattic/wp-calypso,CONVENTIONAL_SOFTWARE,high,Calypso — JavaScript/API-powered WordPress.com front end; end-user web application.,claude_r2,1
+Asymptote-Labs/agent-beacon,AI_PRODUCT,high,Open-source telemetry layer for AI agents (local/CI/cloud); AI-operations/observability tooling.,claude_r2,1
+HeavenOSK/rich-cline,EXCLUDE,high,No description or topics; insufficient evidence.,claude_r2,1
+Insight-Services-APAC/ingenious,AI_PRODUCT,medium,General-purpose Gen-AI accelerator (agent/autogen/azure); AI-builder tooling for projects (borderline internal accelerator).,claude_r2,1
+RedHatInsights/patchman-engine,CONVENTIONAL_SOFTWARE,high,System Patch Manager application source (RHEL/insights); non-AI systems/ops software.,claude_r2,1
+HyunjunJeon/open-langgraph-platform,AI_PRODUCT,high,Self-hosted LangGraph platform / Agent Protocol server; AI-agent infrastructure for builders.,claude_r2,1
+HHS/OPRE-OPS,CONVENTIONAL_SOFTWARE,medium,"ACF OPRE OPS product (""Unicorn""); government operations end-user application, thin but a real product.",claude_r2,1
+AyayaXiaowang/Ayaya_Miliastra_Editor,CONVENTIONAL_SOFTWARE,medium,"Python-described node-graph engine with auto-layout driving a real editor; developer automation tooling, non-AI.",claude_r2,1
+Arize-ai/client_python,AI_PRODUCT,high,Python client for Arize ML/AI observability API; AI monitoring/observability tooling.,claude_r2,1
+Mathews-Tom/armory,EXCLUDE,high,"Curated production-grade skills for AI coding agents; skill collection, not a shipped software product.",claude_r2,1
+MikaAK/deploy_ex,CONVENTIONAL_SOFTWARE,medium,Elixir deployment generation via Terraform/Ansible; non-AI DevOps developer tooling.,claude_r2,1
+ARCLab-MIT/kspdg,CONVENTIONAL_SOFTWARE,low,"KSPDG challenge participation (Kerbal differential games); research/simulation code, thin description — borderline.",claude_r2,1

@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 886
+Primary language: C++
+Description: ⚔️ A cross-platform, open source, and super fast MUD client with scripting in Lua
+Topics: c-plus-plus-17|cpp|cross-platform|game|hacktoberfest|linux|lua|lua-script|macos|modern-cpp|mud|mudlet|multi-user-dungeon|online|qt|rpg|text-adventure|text-based|triggers|windows
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 34
+Primary language: Python
+Description: DE Bench: Can Agents Solve Real-World Data Engineering Problems? Built to test Ardent's AI Data Engineer
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 23
+Primary language: HTML
+Description: Advance Playwright Framework
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 105
+Primary language: TypeScript
+Description: Tools for validating OpenAPI (Swagger) files.
+Topics: azure|live-validation|model-validation|openapi|openapi-validation|request-validation|response-validation|semantic-validation|spec-resolver|swagger|traffic-validation
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 14
+Primary language: Python
+Description: A ComfyUI suite of nodes for Pollinations, LM Studio, Copilot CLI, and OpenAI-compatible generation with prompt enhancing, image gen, video gen, speech/audio gen, for local/cloud multi-engine workflows.
+Topics: ai|comfyui|comfyui-api|comfyui-custom-node|comfyui-nodes|copilot-cli|github-copilot|github-copilot-cli|image-generation|llm|lm-studio|openai-compatible|overtlids|pollinations-ai|prompt-enhancement|speech-to-text|text-to-audio|text-to-music|text-to-speech|video-generation
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 279
+Primary language: JavaScript
+Description: comfyui节点文档插件,enjoy~~
+Topics: comfyui|comfyui-nodes|comfyui-nodes-docs
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 30
+Primary language: Go
+Description: Hyperbolic Distributed Operating System
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 86
+Primary language: TypeScript
+Description: Programmatic video creation with web technologies you already know. CSS animations just work.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 1355
+Primary language: HCL
+Description: Sample applications for Google Kubernetes Engine (GKE)
+Topics: samples
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 25
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 62
+Primary language: Python
+Description: Debuggable runtime for AI agent workflows. DAG pipelines, artifact lineage, and replayable runs.
+Topics: agent-framework|ai|ai-agents|automation|dag|litellm|llm|orchestration|workflow
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 7599
+Primary language: TypeScript
+Description:  Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.
+Topics: agent-fleet|agent-swarm|claude-code|codex-cli|git-worktrees|multi-agent|orchestration|orchestrator|parallel-agents|parallel-coding|skills|tmux
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 13995
+Primary language: Python
+Description: "OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!"
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 47
+Primary language: PHP
+Description: PHP type annotations from var_dump output
+Topics: php-typehinting|phpstan|psalm
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 35
+Primary language: Python
+Description: Coordinates in JAX
+Topics: coordinate-systems|coordinate-transformation|coordinates|jax|multiple-dispatch|quax|reference-frames|vectors
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 50
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 28
+Primary language: HTML
+Description: Sphinx project for https://help.emeditor.com/
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 14962
+Primary language: Python
+Description: An open source, privacy focused alternative to NotebookLM for teams with no data limits. Join our Discord: https://discord.gg/ejRNvftDp9
+Topics: agent|agents|ai|chrome-extension|extension|fastapi|langchain|langgraph|nextjs|notebooklm|ollama|perplexity|python|rag|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 479
+Primary language: Python
+Description: Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro.
+Topics: aeo|ai-search-optimization|ai-seo|ai-visibility|answer-engine-optimization|astro|chatgpt|citation-tracking|claude|cli|gemini|generative-engine-optimization|geo|llm-seo|llms-txt|mcp|perplexity|python|schema-markup|seo
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 312
+Primary language: JavaScript
+Description: Accessibility review agents for Claude Code, GitHub Copilot, and Claude Desktop. Eleven specialists that enforce WCAG 2.2 AA compliance so AI coding tools stop generating inaccessible code.
+Topics: a11y|accessibility|ai-agents|aria|assistive-technology|claude|claude-code|copilot|github-copilot|screen-reader|wcag|web-accessibility
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 121
+Primary language: Python
+Description: Self-hosted AI assistant with tool use, multi-agent orchestration, coding copilot and a lightweight Flask + vanilla JS stack.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 30
+Primary language: C#
+Description: Learn about Semantic Kernel, Microsoft's AI orchestration library. Build and interact with agents, plugins, and plans using various providers.
+Topics: llms|semantickernel
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 144
+Primary language: Java
+Description: YouTrackDB is a general-use object-oriented graph database with storage format native to handle graph relations. YouTrackDB supports Gremlin queries and ACID transactions.
+Topics: acid|dbms|dbms-project|graph-database|graph-databases|graphdatabase|gremlin|gremlin-api|gremlin-server|nosql|nosql-data-storage|nosql-database|nosql-databases|object-database|object-oriented-database|youtrackdb
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 316
+Primary language: TypeScript
+Description: AI workflow automation plugin for intelligent code generation with Claude/Codex
+Topics: ai|automation|code-generation|developer-tools|llm|plugin|typescript|workflow
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 22
+Primary language: Go
+Description: Terminal user interface for Slurm HPC clusters
+Topics: go|gui|hpc|slurm|tui|tview
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 22
+Primary language: TypeScript
+Description: 用提示词实现一百个idea
+Topics: frontend|hci|skills|vibe-coding
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 115
+Primary language: HTML
+Description: Project for managing packages produced by the naverpay frontend team
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 4135
+Primary language: Scala
+Description: State of the Art Natural Language Processing
+Topics: bert|entity-extraction|language-detection|lemmatizer|llamacpp|llm|machine-translation|named-entity-recognition|natural-language-processing|nlp|onnx|part-of-speech-tagger|pyspark|question-answering|sentiment-analysis|spark|spell-checker|tensorflow|text-classification|transformers
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 52
+Primary language: HTML
+Description: ExpressLRS.org documentation website source
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 258
+Primary language: TypeScript
+Description: Open detection standard -- like Sigma, but for AI agents. 425 rules, shipped in Microsoft AGT, Cisco AI Defense, MISP, OWASP A-S-R-H. 97.1% recall on NVIDIA garak. NIST OSCAL Path 1.
+Topics: agent-security|agent-threat-rules|ai-security|garak|llm-security|mcp-security|owasp|owasp-agentic|prompt-injection|sigma-rules|threat-detection
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+
+# Logs
+*.log
+logs/
+
+# Local resume cache (regenerated on rerun; can be large)
+data/interim/seed_search_checkpoint.json
+data/interim/pilot_*_checkpoint.json
+
+# Cloned repositories and scratch workspaces
+data/clones/
+data/tmp/
+repos/
+scratch/
+
+# Editor and OS noise
+.DS_Store
+*~
+legacy/

@@ -1,0 +1,52 @@
+repo_full_name,primary_label,confidence,evidence_notes
+DataDog/stratus-red-team,CONVENTIONAL_SOFTWARE,high,Cloud adversary-emulation/security tool for ordinary security engineers, not AI-system tooling.
+Asymptote-Labs/agent-beacon,AI_PRODUCT,high,Telemetry layer specifically for AI agents and coding-agent environments.
+OpenStudy-dev/OpenStudy,CONVENTIONAL_SOFTWARE,medium,Self-hosted study dashboard for students; MCP is an embedded feature rather than the primary AI-builder product.
+HBAI-Ltd/Toonflow-app,CONVENTIONAL_SOFTWARE,high,End-user desktop content-creation app, AI-central but aimed at creators.
+AgiFlow/aicode-toolkit,AI_PRODUCT,high,Toolkit for coding agents and MCP workflows; consumers are AI/coding-agent builders.
+OvertliDS/overtli-studio-suite,AI_PRODUCT,high,ComfyUI custom node suite and generation workflow tooling for AI users/builders.
+LastBotInc/nextjs-supabase-ai-webapp,EXCLUDE,medium,No description or topics; name is too generic to classify reliably.
+Lakr233/FlowDown,EXCLUDE,medium,Only URL-like description with no topics; insufficient evidence from metadata.
+ModelEngine-Group/nexent,AI_PRODUCT,high,Zero-code platform for generating production AI agents with orchestration and RAG.
+ArisGuimera/MobiAI-Core,EXCLUDE,medium,No description or topics; insufficient evidence.
+Alireza29675/yar-agent,AI_PRODUCT,high,Agent/code-understanding tool built around Claude agent SDK.
+GuilhermeAlbert/awesome-ai-conventions,EXCLUDE,high,Awesome-list/curated conventions repository, not a software product.
+FlipForensics/AIFT,CONVENTIONAL_SOFTWARE,medium,DFIR analysis tool for investigators; AI is embedded assistance rather than AI-builder tooling.
+NiuTrans/ToFu,CONVENTIONAL_SOFTWARE,medium,Self-hosted AI assistant product for end users, although multi-agent features make it borderline.
+Gerstep/HumanCompiler,AI_PRODUCT,high,Claude Code plugin that generates installable agent plugins; consumers are agent/plugin builders.
+MODSetter/SurfSense,CONVENTIONAL_SOFTWARE,high,NotebookLM-like end-user/team knowledge product, AI-central but not primarily AI-builder tooling.
+NewLifeX/X,CONVENTIONAL_SOFTWARE,high,General-purpose C# infrastructure/RPC/component library for ordinary developers.
+Jamkris/everything-gemini-code,AI_PRODUCT,high,Harness engineering toolkit for Gemini CLI and AI-agent runtime workflows.
+Copenhagen0x/solana-security-standard,AI_PRODUCT,medium,Security rules designed to fire in AI tools/editors/CI; likely AI-assisted security tooling.
+IstiN/yoloit,EXCLUDE,medium,No description or topics; insufficient evidence.
+Provenance-Emu/Provenance,CONVENTIONAL_SOFTWARE,high,iOS/tvOS emulator frontend for end users.
+CreminiAI/skillpack,AI_PRODUCT,high,Tooling to pack and deploy local AI agents and skills.
+JuliusBrussee/caveman-code,EXCLUDE,medium,No description or topics; insufficient evidence.
+Automattic/data-liberation-agent,CONVENTIONAL_SOFTWARE,medium,Content migration tool to WordPress WXR; agent wording but product is a migration utility.
+Oyl-Wallet/oyl-amm,EXCLUDE,medium,No description or topics; insufficient evidence.
+ROCm/hipDNN,EXCLUDE,high,Deprecated/moved repository; not suitable for target population.
+2030ai/2030ai-claudecode-allecosystem-sync,AI_PRODUCT,high,Skill and MCP sync tooling for Claude Code/Codex/Cursor.
+Cloud-Solutions-International/antikythera,CONVENTIONAL_SOFTWARE,medium,Automated test generation for Spring apps; developer tool not clearly AI-system tooling.
+BUZZARDGTA/Session-Sniffer,CONVENTIONAL_SOFTWARE,high,Packet sniffer for P2P games; ordinary security/networking utility.
+FerroxLabs/ijfw,AI_PRODUCT,high,Infrastructure for AI coding agents with memory, routing, and MCP server.
+ModelTC/LightX2V,AI_PRODUCT,medium,Image/video generation inference framework; tooling for AI model/generation workflows.
+KyaniteLabs/mcp-video,AI_PRODUCT,high,MCP server and tooling for AI agents to perform video editing.
+MarimerLLC/rockbot,CONVENTIONAL_SOFTWARE,medium,Autonomous personal agent; appears to be end-user/personal agent app rather than AI-builder infrastructure.
+BintzGavin/helios,CONVENTIONAL_SOFTWARE,high,Programmatic video creation library/tool using web technologies, not AI-specific.
+NFDI4Chem/nmrxiv,CONVENTIONAL_SOFTWARE,high,Scientific data repository/platform for NMR data.
+PrestaShop/hummingbird,CONVENTIONAL_SOFTWARE,high,PrestaShop ecommerce theme.
+EvolvingAgentsLabs/llmos,AI_PRODUCT,medium,OS simulation example under EvolvingAgents; likely AI-agent/LLM operating-system artifact.
+Kevandrew/sophia,AI_PRODUCT,high,Validation/version-control tool for AI-generated code; consumers are AI-code workflow users.
+Autonoma-Labs/Open-CoWork,EXCLUDE,low,No description or topics; name suggests AI cowork app but metadata is insufficient.
+Automattic/newspack-workspace,CONVENTIONAL_SOFTWARE,high,Automattic/Newspack production workspace, ordinary software repository.
+Alexli18/binex,AI_PRODUCT,high,Runtime for AI agent workflows with DAG pipelines and replayable runs.
+AlexChesser/ail,EXCLUDE,medium,Description is non-diagnostic; insufficient evidence.
+NiaExperience/PearlOS,CONVENTIONAL_SOFTWARE,medium,AI companion/interface product for users; AI-central end-user app.
+Alfanous-team/alfanous,CONVENTIONAL_SOFTWARE,medium,Arabic Quran search engine API; MCP topic is secondary/ambiguous.
+PostHog/DeskHog,CONVENTIONAL_SOFTWARE,high,Developer toy/hardware/software product, not AI tooling.
+PulkitXChadha/awesome-databricks-mcp,EXCLUDE,high,Awesome-list style repository; not a software product.
+Puzzaks/PAIOS,CONVENTIONAL_SOFTWARE,medium,Offline Gemini Nano AI interface for users; AI-central end-user app.
+Hacksore/cursed-repo,EXCLUDE,medium,Description is joke/non-diagnostic; insufficient evidence.
+PaulJPhilp/effect-cli-tui,EXCLUDE,medium,No description or topics; insufficient evidence.
+Fannon/search-bookmarks-history-and-tabs,CONVENTIONAL_SOFTWARE,high,Browser extension for searching bookmarks/history/tabs; ordinary end-user software.
+

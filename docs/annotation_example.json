@@ -1,0 +1,25 @@
+{
+  "_notice": "SYNTHETIC EXAMPLE ONLY — not a real repository; do not cite as empirical data.",
+  "schema_version": "0.2",
+  "repo_full_name": "synthetic-lab/example-service",
+  "repo_url": "https://github.com/synthetic-lab/example-service",
+  "stars": 142,
+  "primary_language": "TypeScript",
+  "github_description": "REST API and dashboard for inventory management (illustrative synthetic text).",
+  "github_topics": ["typescript", "api", "inventory"],
+  "detected_instruction_artifacts": {
+    "queries": ["AGENTS.md"],
+    "matched_paths": ["apps/api/AGENTS.md"]
+  },
+  "ci_evidence": ".github/workflows",
+  "release_evidence": "tags=1; releases=0",
+  "primary_label": "CONVENTIONAL_SOFTWARE",
+  "secondary_tags": [],
+  "confidence": "high",
+  "evidence_notes": "Consumer test: intended user is an inventory operator, not an AI-system builder. README describes deployable API product; AGENTS.md is contributor guidance under apps/api.",
+  "annotator_id": "SYNTHETIC",
+  "annotation_round": 0,
+  "adjudication_status": "not_applicable",
+  "adjudicated_label": "",
+  "adjudication_notes": ""
+}

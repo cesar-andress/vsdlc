@@ -1,0 +1,12 @@
+{
+  "api_fetches": 254,
+  "eligible_input": "data/interim/eligible_repos.jsonl",
+  "eligible_output": "data/interim/eligible_repos_enriched.jsonl",
+  "enriched_count": 188,
+  "failed_fetches": [],
+  "gold_input": "data/processed/gold_sample_repos.csv",
+  "gold_output": "data/processed/gold_sample_repos_enriched.csv",
+  "in_place": false,
+  "skipped_complete": 99,
+  "total_repos": 353
+}

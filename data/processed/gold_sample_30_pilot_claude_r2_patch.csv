@@ -1,0 +1,31 @@
+repo_full_name,primary_label,confidence,evidence_notes,annotator_id,annotation_round
+0-AI-UG/cate,CONVENTIONAL_SOFTWARE,medium,Spatial coding workspace for ordinary developers; embedded subagent dirs are internal plumbing.,claude_r2,1
+0niel/university-app,CONVENTIONAL_SOFTWARE,high,End-user Flutter university app for schedule and news.,claude_r2,1
+0xN0RMXL/BugBountySkills,EXCLUDE,high,Markdown knowledge base and AI skill prompts; not a software product.,claude_r2,1
+0xdpfly/gin-app-start,CONVENTIONAL_SOFTWARE,high,Gin web backend framework for general developers.,claude_r2,1
+1Password/SCAM,AI_PRODUCT,high,Open benchmark testing AI agents' security awareness during workplace tasks.,claude_r2,1
+1amageek/SwiftAgent,AI_PRODUCT,high,Type-safe declarative AI agent framework for Swift with MCP support.,claude_r2,1
+1jehuang/jcode,AI_PRODUCT,high,Rust coding-agent harness (topics: coding-agent, llm, mcp).,claude_r2,1
+2030ai/2030ai-claudecode-allecosystem-sync,AI_PRODUCT,high,Skill and MCP sync infrastructure for Claude Code, Codex, and Cursor.,claude_r2,1
+26d0/vrchat-ime-chat,EXCLUDE,medium,No description or topics; name alone insufficient to classify.,claude_r2,1
+3MFConsortium/gladius,CONVENTIONAL_SOFTWARE,high,Viewer and editor for 3MF files.,claude_r2,1
+567-labs/instructor,AI_PRODUCT,high,Python library for structured LLM outputs.,claude_r2,1
+9mtm/Agent-Player,CONVENTIONAL_SOFTWARE,medium,Privacy-first desktop AI assistant for end users.,claude_r2,1
+AI-Escape/open-ice,EXCLUDE,high,No description, topics, or diagnostic name.,claude_r2,1
+AI-Planning/l2p,AI_PRODUCT,medium,Library for LLM-driven action model acquisition.,claude_r2,1
+AI45Lab/Code,AI_PRODUCT,medium,Rust agentic agent framework with buildable Cargo project.,claude_r2,1
+AIDotNet/OpenCowork,CONVENTIONAL_SOFTWARE,medium,End-user desktop Cowork clone for Windows, macOS, and Linux.,claude_r2,1
+AISecurityConsortium/AIGoat,AI_PRODUCT,high,Open LLM red-teaming security playground covering OWASP LLM Top 10.,claude_r2,1
+AIStoryBuilders/AIStoryBuilders,CONVENTIONAL_SOFTWARE,high,End-user novel-writing application.,claude_r2,1
+AIrjen/OneButtonPrompt,AI_PRODUCT,low,Runnable Python utility generating image-generation prompts.,claude_r2,1
+ALT-F4-LLC/dotfiles.vorpal,EXCLUDE,high,Personal dotfiles repository; not a software product.,claude_r2,1
+AMAP-EAI/Nav-R2,CONVENTIONAL_SOFTWARE,low,Research navigation implementation; vendored agents doc is incidental.,claude_r2,1
+ARCLab-MIT/kspdg,CONVENTIONAL_SOFTWARE,low,KSPDG challenge simulation code with internal LLM prompts.,claude_r2,1
+ARPAHLS/OPSIE,CONVENTIONAL_SOFTWARE,low,End-user SCI prototype despite agentic-RAG/MCP topics.,claude_r2,1
+ActiveInferenceInstitute/GEO-INFER,EXCLUDE,low,No description or topics; multi-module HTML repo with unclear purpose.,claude_r2,1
+Affitor/affiliate-skills,EXCLUDE,medium,Pack of affiliate-marketing agent skills; not buildable software.,claude_r2,1
+Ageniti/Ageniti,AI_PRODUCT,high,SDK for building agent-facing apps across MCP, CLI, and React.,claude_r2,1
+Agent-Threat-Rule/agent-threat-rules,AI_PRODUCT,medium,Detection standard with 425 rules for AI-agent security threats.,claude_r2,1
+AgentOps-AI/agentops,AI_PRODUCT,high,Python SDK for AI agent monitoring, cost tracking, and benchmarking.,claude_r2,1
+AgentWrapper/agent-orchestrator,AI_PRODUCT,high,Orchestrator for parallel coding agents with CI and review automation.,claude_r2,1
+Agents2AgentsAI/ata,AI_PRODUCT,medium,Rust AI agents for end-to-end engineering and research problems.,claude_r2,1

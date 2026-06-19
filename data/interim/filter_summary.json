@@ -1,0 +1,20 @@
+{
+  "agent_product_flagged": 2752,
+  "eligible_count": 353,
+  "excluded_count": 2560,
+  "exclusion_reason_counts": {
+    "keyword:awesome": 1,
+    "keyword:boilerplate": 1,
+    "keyword:demo": 1,
+    "keyword:dotfiles": 3,
+    "keyword:learning": 3,
+    "keyword:playground": 1,
+    "metadata_fetch_failed": 1,
+    "missing_ci_or_test_evidence": 178,
+    "pushed_before_2024-06-01": 32,
+    "stars_below_10": 2360,
+    "template": 40
+  },
+  "generated_at": "2026-06-18 23:55:35.368206+00:00",
+  "input_candidates": 2913
+}

@@ -1,0 +1,23 @@
+{
+  "adjudicated_label_fields": [
+    "adjudicated_label",
+    "primary_label",
+    "label"
+  ],
+  "baseline_prediction_categories": [
+    "AI_PRODUCT",
+    "CONVENTIONAL_SOFTWARE"
+  ],
+  "baselines": {},
+  "evaluated_repositories": 0,
+  "gold_categories": [
+    "AI_PRODUCT",
+    "CONVENTIONAL_SOFTWARE",
+    "EXCLUDE"
+  ],
+  "input": "data/processed/gold_sample_repos_enriched.csv",
+  "valuable_cases": [],
+  "warnings": [
+    "No adjudicated labels found in input."
+  ]
+}

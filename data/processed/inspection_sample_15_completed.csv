@@ -1,0 +1,16 @@
+repo_full_name,primary_label,confidence,evidence_notes,annotator_id,annotation_round
+AIDotNet/OpenCowork,AI_PRODUCT,high,Explicitly for AI coding agent developers as open Claude Cowork alternative,claude_r2,1
+Arindam200/awesome-ai-apps,EXCLUDE,high,Collection of projects/showcases not shipped product software,claude_r2,1
+Azure-Samples/art-voice-agent-accelerator,CONVENTIONAL_SOFTWARE,high,End-user voice agent deployment on Azure not AI builder tooling,claude_r2,1
+ChenZiHong-Gavin/weekly-vibe-coding,CONVENTIONAL_SOFTWARE,medium,Prompt-based frontend project is end-user creative content,claude_r2,1
+FavioVazquez/learnship,CONVENTIONAL_SOFTWARE,medium,Agentic engineering learning content for end users,claude_r2,1
+GreenteaOS/Caramel,EXCLUDE,low,Confectionery of GreenteaOS with insufficient evidence,claude_r2,1
+Hacksore/cursed-repo,EXCLUDE,low,Average JavaScript repo with insufficient evidence,claude_r2,1
+Lakr233/FlowDown,CONVENTIONAL_SOFTWARE,low,Flowdown.ai URL indicates end-user AI product with minimal evidence,claude_r2,1
+Menghuan1918/drawio2go,AI_PRODUCT,high,AI-powered DrawIO editor with MCP server for AI builders,claude_r2,1
+Nimble-Co/FoundryVTT-Nimble,CONVENTIONAL_SOFTWARE,low,FoundryVTT game module for end users,claude_r2,1
+OfficeDev/microsoft-365-agents-toolkit-samples,EXCLUDE,high,Teams sample applications are educational content,claude_r2,1
+OpenCSGs/csghub-server,CONVENTIONAL_SOFTWARE,high,Backend server for dataset/model management not primarily AI tooling,claude_r2,1
+OvertliDS/overtli-studio-suite,CONVENTIONAL_SOFTWARE,high,ComfyUI nodes suite for generative AI end users,claude_r2,1
+Oyl-Wallet/oyl-amm,CONVENTIONAL_SOFTWARE,medium,AMM smart contract for blockchain not AI-specific,claude_r2,1
+Paperspace/cli,AI_PRODUCT,medium,CLI for Paperspace is tool for AI cloud infrastructure users,claude_r2,1

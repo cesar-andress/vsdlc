@@ -1,0 +1,1674 @@
+{
+  "1": [
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "Only a URL (flowdown.ai) as description, no topics; purpose not confidently determinable from metadata."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Open-source Infrastructure-as-Code management solution for general systems; non-AI developer tool."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "AI-code verification tool (\"makes sure it's right\"); consumers are developers operating/validating AI-generated code."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "C# client library for the MEXC crypto exchange REST/WebSocket API; ordinary developer SDK."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Trading SDK (Avantis); finance developer library with no AI-tooling indication."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "End-user desktop productivity app (Claude Cowork clone) for Win/macOS/Linux; AI-central but consumers are end users."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Pure Rust LLM inference engine; infrastructure for operating AI models."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "\"Falcon Player\" (FPP) light-show/sequencing player; domain end-user software, no AI tooling."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Documentation for ComfyUI; docs-only, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Public-finance data exploration platform for citizens/journalists; end-user web application."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Perl language server and parser toolkit; non-AI developer tooling."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Copy-paste Gen-AI code snippet collection; not shipped as executable/reusable software, content-style repo."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Online video editor built with Next.js/Remotion/ffmpeg; end-user application."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "AI-maintained security annotations / continuous threat modeling enforced in CI (mcp/devsecops); AI-operations tooling for security."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "AI-powered job-search automation pipeline for end users; AI-central but end-user-facing, not AI-builder tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Interactive CLI toolkit for .NET console applications; non-AI developer tool."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Browser extension enhancing Gemini/AI Studio (timeline, folders, export); end-user productivity add-on, not AI-builder infra."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "FlagAI toolkit for large-scale AI models; infrastructure for building/training models."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "DrawIO diagram editor application with AI assistance; end-user product, AI is a feature not the product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI companion/assistant browser (\"Interface to Intelligence\"); AI-central end-user app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "AI screenwriting/film-creation assistant platform for end-user creators; AI-central but end-user-facing application."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Browser AI-agent extension with skill system for end users; AI-central end-user app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Differentiable cosmology library in JAX; scientific-computing library, not AI tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Browser extension for algorithm-practice review notes with spaced repetition; end-user study tool using AI internally."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "SDK for building agent-facing apps across MCP/CLI/AI tool stacks; tooling for AI builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Web dashboard for monitoring/controlling pi coding-agent sessions; tooling for operators of AI coding agents."
+    }
+  ],
+  "2": [
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Self-hosted platform for building AI agent flows (visual editor/orchestration); consumers are AI builders."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Viewer/editor for 3mf files (volumetric extension); ordinary domain software."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Offline Gemini Nano AI interface for end users; AI-central but an end-user app."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Browser extension for searching bookmarks/history/tabs; ordinary end-user utility."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Mission generator for DCS World flight sim; end-user game tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "RPG-like game prototype in F#/MonoGame; ordinary game software."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI-human interaction \"SCI\" prototype; agentic/RAG/MCP topics pull toward AI_PRODUCT but framed as a standalone end-user assistant — borderline."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "AI agent skills registry with skill-resolution API; tooling for AI-agent builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "LLM benchmark (frontier models playing Diplomacy); AI evaluation, consumers are AI researchers."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Multi-agent AI coding orchestration system; tooling for operating AI coding agents."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Toolkit/MCP server for coding agents to work across large repos; AI-builder tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Logical-reasoning RAG framework on OpenSPG+LLMs for building Q&A solutions; AI builder framework."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Backend for managing datasets/models and running inference/finetune (CSGHub); ML platform infrastructure."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Official website documentation for New API; docs-only, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Type-safe declarative AI agent framework for Swift with MCP support; AI-builder framework."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "MCP toolkit/agentic harness for Flutter AI-agent-driven development; tooling for AI builders."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "AI novel-writing engine for end-user authors; AI-central but end-user creative app."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "\"Orchestrator for AI-Generated Code\" (semantic time machine); developer tooling for operating AI-generated code."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Framework to evaluate/improve models and agents using environments; AI evaluation infrastructure."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "GPT-based long-novel generator plus prompts/tutorials; borderline — generator is an end-user creative tool but repo mixes prompt-collection content."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Code-generation system growing software from semantic specifications; AI code-generation tooling for developers."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Prefect workflow-orchestration framework for data pipelines; general data-engineering tool, not AI-specific tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Harness-engineering toolkit for Gemini CLI/Antigravity; tooling for operating AI coding agents."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Gin-based general web backend framework; non-AI developer framework."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Cloud adversary-emulation/security tool (Stratus-style); non-AI security software for general operators."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "WebExtension adding reverse-image-search context menu; ordinary end-user browser utility."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Self-hosted multi-agent personal assistant (voice/RAG/tool-calling); AI-central end-user assistant, borderline vs AI_PRODUCT."
+    }
+  ],
+  "3": [
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Internal tools repo used by the Azure SDK team; developer tooling, no AI-product indication."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Collection of RAG/agent/AI use-case sample projects; showcase/content collection, not a single shipped product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Ruby/Rails agentic coding assistant powered by Claude; coding-agent tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI browser with multi-agent platform for end users (ChatGPT Atlas/Comet alternative); AI-central end-user app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Local-first AI agent desktop app with memory/skills for end users; AI-central end-user assistant, borderline."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Web app for prompt generation and ComfyUI image/video generation; end-user creative generation tool."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "NVIDIA OptiX-based ANARI rendering implementation; graphics/domain software, no AI tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Game library/collection management service focused on emulation; end-user application."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Awesome/curated list of AI-agent conventions; awesome-list, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Local-first computer assistant (Cowork alternative) with terminal ops for end users; AI-central end-user app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Python wrapper for HWP (Hangul) HwpObject via win32com; ordinary developer library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Awesome list of Swift libraries/resources; awesome-list, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "IntelliJ IDEA / IntelliJ Platform IDE; non-AI developer tool."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"Open Source Research Claw\" with no topics or detail; purpose not confidently determinable."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Model training framework written in Mojo; infrastructure for building AI models."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Python CLI embedding DJI drone telemetry into MP4 videos; ordinary end-user/developer utility."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "2.5D CAD/CAM workspace for CNC toolpaths; end-user domain software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "AI security playground for LLM red teaming (OWASP LLM Top 10 labs); AI security/testing tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Shared code for Microsoft ADAL/MSAL authentication libraries; non-AI developer library."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "ESLint plugin bringing Flow render types to TypeScript; non-AI developer tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Cross-platform skill & MCP sync for Claude Code/Codex/Cursor; tooling for AI builders."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI desktop assistant for Quicker automation (MCP/CLI plugin); end-user automation app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Arknights (明日方舟) Pallas bot; end-user game/community bot application."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Simple LLM-powered agent that performs tasks; general agent tooling for AI builders/developers."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Java-hosted execution of Protelis programs; aggregate-programming language runtime, non-AI developer tool."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Framework to build/test/ship omnichannel voice agents on Azure (STT→LLM→TTS); tooling for building AI voice agents."
+    }
+  ],
+  "4": [
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Tinymist language service (LSP) for Typst; non-AI developer tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Lightweight managed RocketMQ client for .NET; ordinary developer library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Public docs repo (fabric-docs-pr pair); docs-only, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Bridge connecting LLMs to Skyrim mods; end-user game integration/mod, AI used as a feature."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Cross-platform .NET service/daemon management framework; non-AI developer tool."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "End-user novel-writing application; AI-central but ordinary-user writing app."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "DFIR forensic-analysis tool using AI to generate leads for investigators; domain end-user tool, AI is a feature."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "50 AI-agent skills for affiliate marketing (skill-md collection); skill collection, not shipped as a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "OpenAPI plugin generating API docs in Docusaurus; non-AI developer tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "CLI for tracking finances from Israeli banks/cards; ordinary end-user utility."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Koog JVM framework for building AI agents; AI-builder framework."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Sample repo for Azure Databricks Bicep extension; sample/demo content, thin product evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "AI agent self-improvement harness; tooling for building/operating AI agents."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Multi-agent AI developer setup / local LLM orchestration for Claude Code; AI-builder tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "UI and orchestration for AI coding agents; tooling for operating AI agents."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "NVIDIA NeMo Agent toolkit for connecting/optimizing AI agents; AI-builder library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"Confectionery of @GreenteaOS\" with no topics; purpose not confidently determinable."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Claude Code plugin that generates installable agent plugins from interviews; tooling for building AI agents."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Dotfiles repository; not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Curated collection of Cursor AI coding rules (awesome-list); rule/prompt collection, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Project-management software; ordinary end-user application, thin but clear."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Deprecated repo moved to ROCm/rocm-libraries; not an active product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "One Button Prompt (image-gen prompt utility); runnable prompt tool vs collection is borderline, modality also borderline."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "\"Programming language that checks your AI before it runs\"; developer tooling for validating AI systems."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Pack and deploy local AI agents for teams; tooling for building/operating AI agents."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "CLI for Paperspace (GPU cloud); general cloud-infrastructure developer tool, not AI-specific tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "Agent-native decentralized research collective (Lean4-verified, agent-native); research platform, borderline AI_PRODUCT vs research artifact."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Alfanous Arabic Quran search-engine API; domain search software, MCP is an interface not the product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Offline AI skill for astrology/Bazi to mount on an AI; skill module/content rather than a standalone software product."
+    }
+  ],
+  "5": [
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Microsoft Learn cloud/AI training content (no PRs accepted); course/content repo, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Local LLM runner for CSGHub (inference, OpenAI-compatible API, model marketplace); AI infrastructure for operators."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Frontend dev resource library/templates plus a Chrome extension; non-AI developer tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": ".NET object-graph-mapper for Gremlin graph databases; ordinary developer library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "Only \"Parcl AI Connect\" name, no description/topics; purpose not confidently determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AZD/Terraform template deploying Azure Copilot Studio + AI Search; infra deployment template, borderline (deploys AI services but is IaC config)."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Agent skill that refines prompts for the running model; single agent-skill module, not shipped as standalone software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "CLI letting agents run registered ComfyUI workflows returning JSON; tooling for AI agents/builders."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Unofficial Proton Drive sync client (local folder syncing); ordinary end-user utility."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Autonomous LLM red-team/hacking agent; AI security tooling for operators."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Coding agent harness; tooling for operating AI coding agents."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Image/video generation inference framework (diffusion/world models); AI infrastructure for builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Coding agent with lossless context management; AI coding-agent tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "\"structured outputs for llms\"; reusable LLM library for AI builders."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "OWASP Top 10 for LLM Apps (GenAI Security Project); standards/content/documentation, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "7-Pillar AI+Human SDLC methodology (stages/gates/roles); methodology/content, tool-agnostic, not shipped software."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "AI-assisted legal case-analysis/triage system for lawyers; vertical end-user professional tool, AI is a feature."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "Text/video embeddings for report generation, no topics; thin/notebook, purpose not confidently determinable."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Orchestrates 29 specialized AI coding agents (PLAN→ACT→EVAL); AI coding-agent tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "No-code MCP gateway to build connectors for Claude/ChatGPT apps; tooling for AI builders/operators."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Meta-language for Go adding Result types/pattern matching (compiler/LSP); non-AI developer tooling."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "PrestaShop technical documentation; docs-only, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Fast Rust text editor for Markdown/JSON/YAML/TOML; ordinary end-user application."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Automated test generation for Spring apps; developer tooling (no explicit AI-product framing)."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Packet sniffer/IP-puller for P2P console games; ordinary end-user utility."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Cloud-native autonomous personal agent; thin description, AI-central end-user agent — borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Community components/extensions for .NET Aspire; non-AI developer tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Local-first infrastructure for AI coding agents (shared memory/routing); AI-builder tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": ".NET SDK for OSLC linked-data interoperability; ordinary developer library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    }
+  ],
+  "6": [
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "iOS/tvOS multi-emulator frontend (Provenance); end-user gaming application."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "BNETDocs documentation/discussion website for Blizzard protocols; docs/content site, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Codebase-understanding agent (claude-agent-sdk, code-analysis); developer AI tooling, borderline vs end-user dev utility."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "TILDA provides OSM bicycle/parking infrastructure data for administrative staff; end-user domain application."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Graph-based static analysis tool (CLI/VSCode); non-AI developer tooling, MCP is an interface."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI investment-assistant (HoneClaw); AI-central end-user finance assistant, thin topics — borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Core .NET infrastructure components (logging/config/cache/RPC); non-AI developer library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Evergreen Windows image-build pipelines for app versions/URLs; non-AI IT-automation tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Stellux research operating system; systems software, not AI tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Open-ended environment for evaluating LLMs in Factorio; AI evaluation/benchmark."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "\"AI Composer from Certora Labs\", no topics; likely AI tooling but thin evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Modular SDK for building AI agents with OpenHands V1; AI-builder SDK."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "OpenNMS enterprise network-management/monitoring platform; non-AI operations software."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Toonflow AI short-drama creation desktop tool for creators; AI-central but end-user content-creation app."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Deep-learning framework for building/training Physics-ML models; AI/ML infrastructure for builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "Repaired build of ClaudeCode-CLI source; coding-agent CLI, thin description — borderline."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "MOC demo deployment scenarios using AZD; demo/sample deployment content, thin product evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Agentic tool-mesh platform orchestrating intelligent plugins; AI orchestration infrastructure for builders."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Azure AI documentation collection; docs-only, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Enterprise AI traffic gateway routing across LLM providers (compliance/cache/audit); AI infrastructure for operators."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Offline-capable AI desktop assistant for end users; AI-central but end-user app."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Testing/evaluation platform for MCP servers and apps (inspector/evals); AI-builder/operator tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Unified .NET remote communication framework (RPC/HTTP/WebSocket); non-AI developer library."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Datadog APM client for Node.js; non-AI developer/observability library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Collection of GPT system prompts and prompt-injection knowledge; prompt collection, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Default theme for PrestaShop 9.1+; ordinary e-commerce front-end theme."
+    }
+  ],
+  "7": [
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "DevExtreme documentation; docs-only, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "FastMCP — framework for building MCP servers/clients; tooling for AI builders."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "C++ port of the ccxt crypto-exchange trading library; ordinary developer library."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Zero-code platform for auto-generating production AI agents; consumers are AI builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Autonomous Web3 security-audit agent for Claude Code; AI security/agent tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Magic: The Gathering harness for LLMs; AI evaluation/harness for testing models."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "R package for constructing LLM prompts and interaction logic; reusable LLM library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "MCP server for scanning/remediating hardcoded secrets via GitGuardian; security MCP tooling for AI operators."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "AIBlueprint CLI for setting up Claude Code configurations; tooling for AI-coding-agent setup."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Markdown knowledge base + AI skill system for bug bounty; content/skill collection, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Automatically indexed GitHub stars; personal index/content repo, not a product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "WordPress integration for AstroJS; non-AI developer integration library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Shell repo with no description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Schema-driven Shadcn wrapper around TanStack forms; non-AI developer UI library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Vue repo with no description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Build tools/sources for OWASP Cornucopia threat-modeling card decks; non-AI security/game artifact (borderline content, but ships build tooling)."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "AI Design Skills Collection (agentic skills/commands/plugins); skill/prompt collection, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Collection of system prompts/tool definitions leaked from AI coding agents; prompt collection, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Enhanced Obsidian MCP server for Claude.ai integration; MCP tooling for AI operators."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "ChatGPT web interface using the OpenAI API; end-user chat front-end application."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "AI agents for solving engineering/research problems end to end; agent product (terse description caps confidence)."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Admin web + Telegram bot for Remnawave panel; ordinary end-user/admin application."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "NVIDIA Ethernet software documentation repo; docs-only, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Claude Cortex — Claude plugin/skills, context management, CLI/TUI; AI-coding tooling for developers."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "\"Digital Twin\" with no topics; ambiguous, likely domain software but purpose not confidently determinable."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Universal AI context generator saving tokens in Claude Code/Cursor/Copilot; tooling for AI coding workflows."
+    }
+  ],
+  "8": [
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Cross-platform MUD client with Lua scripting (Mudlet-style); end-user game client."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "DE Bench — benchmark testing an AI data engineer agent; AI evaluation."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Advanced Playwright test framework; non-AI developer testing tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Tools for validating OpenAPI/Swagger files; non-AI developer tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "ComfyUI node suite for multi-engine generation (image/video/speech); AI-generation tooling, borderline content vs tool."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "ComfyUI node documentation plugin; docs/content plugin, thin product evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "\"Hyperbolic Distributed Operating System\", no topics; likely systems software but purpose not confidently determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Programmatic video creation with web tech (Remotion-style); developer/end-user media library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Sample applications for GKE; samples collection, not a single shipped product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Debuggable runtime for AI agent workflows (DAG/lineage/replay); AI-builder tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Agentic orchestrator for parallel coding agents; tooling for operating AI agents."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "OpenHarness — open agent harness with built-in personal agent; agent framework/harness, terse caps confidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "PHP type annotations from var_dump output (phpstan/psalm); non-AI developer tool."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Coordinate systems/transformations in JAX; scientific-computing library, not AI tooling."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Sphinx documentation project for EmEditor help; docs-only, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Privacy-focused NotebookLM alternative for teams; AI-central end-user app (RAG/agents), borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "AEO/GEO toolkit to audit/track AI-search citations of your site; end-user marketing/SEO tool, AI is the subject not the product-as-AI-tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Accessibility review agents for Claude Code/Copilot enforcing WCAG; tooling that governs AI coding agents."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Self-hosted AI assistant with multi-agent orchestration and coding copilot; AI-central end-user assistant, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Semantic Kernel learning/build samples for Microsoft's AI orchestration library; AI-builder tooling/educational (leans AI_PRODUCT)."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "YouTrackDB object-oriented graph database; non-AI developer database software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "AI workflow automation plugin for code generation with Claude/Codex; AI-coding tooling for developers."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Terminal UI for Slurm HPC clusters; non-AI systems/ops developer tool."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "\"100 ideas via prompts\" (skills/vibe-coding); prompt/idea collection, not a shipped software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Frontend team's package-management project (naverpay); non-AI developer tooling, thin but clear."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Spark NLP — state-of-the-art NLP library (NER/translation/transformers); AI/ML library for builders."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "ExpressLRS.org documentation website source; docs-only, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Open detection standard/ruleset for AI agents (Sigma-like); AI-security tooling, borderline vs rule content."
+    }
+  ],
+  "9": [
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI chat-first terminal IDE for Android; AI-central end-user dev app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "\"Agentic engineering done right\" learn-as-you-build (Shell); methodology/workflow content, not a shipped product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Sample apps for building Microsoft Teams apps; developer samples for ordinary app development."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Benchmark testing AI agents' security awareness; AI evaluation."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Infinite zoomable canvas coding workspace (editor/terminal/browser); end-user developer app, AI internal."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Multi-channel notification management component (email/SMS/WhatsApp/push); ordinary developer component."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "AI planning tool that creates a plan from a description; AI-central end-user planning app, borderline vs AI_PRODUCT."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "LLM agent framework with stateful tools; AI-builder framework (terse caps confidence)."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Personal-use general agent (\"can do many things\"); AI-central end-user agent, thin description — borderline."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Dart repo with no description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "AI personal assistant with memory/skills/scheduled tasks for end users; AI-central end-user app."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Server to create Anki flashcards (Notion-to-Anki); end-user productivity application."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Source for the Kong developer-docs website; docs/website source, not a software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Claude-SDK-based automated novel-writing agent for authors; AI-central end-user creative app."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"Average JavaScript repo\" placeholder description, no topics; purpose not determinable."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Solana security standard/bug-class rules firing in AI tools/editors/CI; AI-security tooling, borderline vs rule content."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Declarative agentic framework for AI-driven software development (agents as code); AI-builder framework."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "Multimodal RAG with code execution for document insight; AI-central, notebook-based — borderline vs AI_PRODUCT/research artifact."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Go repo with no description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Monorepo for the Agoric JavaScript smart-contract platform; non-AI developer platform."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Baselines for Long Code Arena benchmarks; AI evaluation/benchmark artifacts for researchers."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Windsurf \"vibe coding\" workflow automation with memories/rules; workflow rules/config content, thin product evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Python SDK for AI agent monitoring/cost tracking/benchmarking; AI-operator/evaluation tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Particle system editor for three-particles; end-user/developer graphics tool."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Custom ComfyUI nodes for video effects/batch/image utilities; end-user creative tooling (borderline vs AI tool)."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Composable Python framework for LLM agent workflows; AI-builder framework."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Self-hostable student study dashboard with built-in MCP server; end-user productivity app, MCP is a feature."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "\"Factory — Agent-Native Software Development\"; agent-native dev platform, terse caps confidence."
+    }
+  ],
+  "10": [
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Azure SDK for Python (active development); non-AI developer SDK."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "C repo with no description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Thread-per-core io_uring async runtime for Rust; non-AI systems/developer library."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "\"Agentic Agent Framework\" (Rust); agent framework, terse description caps confidence."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Visual-novel management software (WinUI3); end-user application."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "Poetic Chinese description only (\"guard each other for life\"), no topics; purpose not determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Enterprise smart-contract security framework (multi-sig/time-locks/RBAC); non-AI blockchain developer framework."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Handbook of techniques for Claude Code AI-assisted development; handbook/content, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Guardrailed video-editing MCP server for AI agents; tooling for AI agents."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "High-performance Redis client for .NET; non-AI developer library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"RustClaw … Raspberry Pi/macOS/Ubuntu\", no topics; purpose not confidently determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Type stubs for MicroPython ports/boards; non-AI developer tooling."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "General-purpose AI agent framework and app for building/composing agents; AI-builder framework."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "\"Automated Idea Factory to Realization\" (agentic-workflow/spec-coding, Shell); agentic dev tooling, borderline vs methodology content."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Home Assistant integration for Portugal E-Redes smart meters; end-user home-automation integration."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Quote.Vote open-source text-only social platform; end-user web application."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "\"The developer toy that brings developers joy\" (C), no topics; ambiguous, likely a dev utility but purpose unclear."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "AI agent skills published by NVIDIA; agent-skill collection, not a shipped software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "PLAN verified code-generation project; AI code-generation research tooling (terse caps confidence)."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "GenMedia Creative Studio — Vertex AI generative-media UX showcase; end-user generative-media app (borderline demo/sample)."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "\"Code-Driven Social Agent\", no topics; likely agent tooling but thin evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Run coding tasks via graph-based workflows with Codex/Claude Code; AI coding-agent orchestration tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Insight Toolkit (ITK) for scientific/medical image processing; non-AI scientific-computing library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Best-practices wiki/templates for Claude Code; content/wiki collection, not a software product."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Lightweight text-embedding inference in C++ (XLM-R/Qwen3/Gemma); AI/ML inference library."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"All the code that's fit to ship\" (PHP), no topics; purpose not determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Mobile app for MIREA university (schedule/news); end-user application."
+    }
+  ],
+  "11": [
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "medium",
+      "evidence_notes": "Universal development-standards collection (coding/git/testing/AI-collaboration rules); standards/content, not a shipped software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Vultron protocol/prototype for Coordinated Vulnerability Disclosure; non-AI security protocol software."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "\"Joanium Skills\" agent-skill collection; skill collection, not a software product."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"Alexander's Impressive Loops\" (Rust), no topics; purpose not determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "MMGIS GNSS visualizer; domain geospatial end-user software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Decentralized registry of verified skills for autonomous agents; agent infrastructure for AI builders."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Extracts content from closed web platforms into WordPress WXR files; ordinary developer/end-user utility."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "nmrXiv FAIR NMR data repository/computational platform; scientific domain software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Agent-native memory infrastructure (LLM-agnostic persistent state); AI infrastructure for builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Library for LLM-driven action model acquisition; AI library consumed by AI/planning builders."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "Single source of truth for AI agents/skills/rules, transpiles to AI CLIs; tooling for AI builders (borderline vs config aggregator)."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "MCP server executing keyboard/mouse commands on macOS; MCP tooling for AI agents."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "DIY open-source hardware firmware (Flipper Zero + Momentum); end-user hardware/firmware project."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Linux tray app + per-key RGB editor for laptop keyboards; end-user utility."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "low",
+      "evidence_notes": "\"The flagship example—the OS simulation\", no topics; example/demo, purpose not confidently determinable."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Small documented OLTP engine demonstrating Rust concurrency/recovery; non-AI developer database software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "low",
+      "evidence_notes": "\"Give AI coding assistants an engineering brain\" (Chinese); AI-coding tooling, thin description — borderline."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Unofficial Temporal Haskell SDK; non-AI developer SDK."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "Calypso — JavaScript/API-powered WordPress.com front end; end-user web application."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Open-source telemetry layer for AI agents (local/CI/cloud); AI-operations/observability tooling."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "No description or topics; insufficient evidence."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "medium",
+      "evidence_notes": "General-purpose Gen-AI accelerator (agent/autogen/azure); AI-builder tooling for projects (borderline internal accelerator)."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "high",
+      "evidence_notes": "System Patch Manager application source (RHEL/insights); non-AI systems/ops software."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Self-hosted LangGraph platform / Agent Protocol server; AI-agent infrastructure for builders."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "ACF OPRE OPS product (\"Unicorn\"); government operations end-user application, thin but a real product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Python-described node-graph engine with auto-layout driving a real editor; developer automation tooling, non-AI."
+    },
+    {
+      "primary_label": "AI_PRODUCT",
+      "confidence": "high",
+      "evidence_notes": "Python client for Arize ML/AI observability API; AI monitoring/observability tooling."
+    },
+    {
+      "primary_label": "EXCLUDE",
+      "confidence": "high",
+      "evidence_notes": "Curated production-grade skills for AI coding agents; skill collection, not a shipped software product."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "medium",
+      "evidence_notes": "Elixir deployment generation via Terraform/Ansible; non-AI DevOps developer tooling."
+    },
+    {
+      "primary_label": "CONVENTIONAL_SOFTWARE",
+      "confidence": "low",
+      "evidence_notes": "KSPDG challenge participation (Kerbal differential games); research/simulation code, thin description — borderline."
+    }
+  ]
+}

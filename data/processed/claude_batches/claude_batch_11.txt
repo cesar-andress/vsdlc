@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 69
+Primary language: JavaScript
+Description: Universal, language-agnostic development standards for software projects. Includes coding standards, git workflows, testing guidelines, documentation structure, and AI collaboration rules.
+Topics: ai-collaboration|best-practices|claude-code|code-review|coding-standards|commit-conventions|conventional-commits|developer-tools|development-standards|devops|documentation|git-workflow|quality-assurance|semantic-versioning|skills|software-engineering|spec-driven-development|testing-standards
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 20
+Primary language: Python
+Description: Vultron is a protocol for Coordinated Vulnerability Disclosure
+Topics: activitypub|activitystreams-vocabulary|cvd|protocol|prototype|vulnerability|vulnerability-disclosure|vulnerability-disclosure-policies|vulnerability-disclosure-program|vulnerability-reports|vulnerability-response
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 13
+Primary language: 
+Description: Joanium Skills
+Topics: agent|agentic-ai|agentic-workflow|ai|ai-skills|automation|joanium|open-source|personal-assistant|skill|skills
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 38
+Primary language: Rust
+Description: Alexander's Impressive Loops
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 12
+Primary language: JavaScript
+Description: Multi-Mission Geographic Information System (MMGIS) Global Navigation Satellite System (GNSS) Visualizer
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 19
+Primary language: JavaScript
+Description: 🦞 The Capability Layer for Autonomous Agents. A decentralized registry for cryptographically-verified skills, enabling seamless peer-to-peer power sharing between agents.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 30
+Primary language: TypeScript
+Description: Extract content from closed web platforms into WordPress-compatible WXR files.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 22
+Primary language: Vue
+Description: nmrXiv is currently developed as the FAIR, consensus-driven NMR data repository and computational platform. The ultimate goal is to accelerate broader coordination and data sharing among researchers by enabling storage, management, sharing and analysis of NMR data.
+Topics: nfdi4chem|nmr|nmr-data
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 15323
+Primary language: Python
+Description: Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.
+Topics: agent|agent-memory|ai|ai-memory|aiagent|awesome|chatgpt|llm|long-short-term-memory|memori-ai|memory|memory-management|memory-mcp|openclaw-memory|python|rag|state-management|stateful|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 58
+Primary language: Python
+Description: Library for LLM-driven action model acquisition via natural language
+Topics: llm|nlp|pddl
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 10
+Primary language: Go
+Description: One source of truth for AI agents, skills, rules, and hooks. Transpile to every AI CLI you use.
+Topics: agentic-ai|agnostic-ai|claude|codex|gemini
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 59
+Primary language: Swift
+Description: MCP server that can execute commands such as keyboard input and mouse movement on macOS
+Topics: automation|mcp|mcp-server|swift
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 289
+Primary language: C
+Description: DIY suitable forced open source hw Flipper zero + Momentum optimized to run on it. Off the shelf modules, arduino skill level needed only, price from 10 (minimal)  to 30 (complete) euros per build 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 18
+Primary language: Python
+Description: Linux tray app + per-key RGB editor for mostly tongfang/ITE-based laptop keyboards/chassis lighting
+Topics: bmx|ite8291|ite8291r3|ite8297|ite8910|kde-plasma|keyboard|laptop|linux|linux-desktop|python|rgb|tkinter|tongfang|tray|tuxedo|tuxedo-laptop|udev|wootbook|xmg
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 78
+Primary language: TypeScript
+Description: The flagship example—the OS simulation
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 10
+Primary language: Rust
+Description: The smallest, clearest, well-documented OLTP engine to demonstrate modern Rust concurrency and recovery design.
+Topics: acid|db|dbms|oltp|oss|rust
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 23
+Primary language: Python
+Description: 给 AI 编程助手装上工程化大脑
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 66
+Primary language: Haskell
+Description: Unofficial Temporal Haskell SDK
+Topics: haskell|haskell-library|temporal
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 12635
+Primary language: TypeScript
+Description: The JavaScript and API powered WordPress.com
+Topics: es2015|es6|es6-javascript|javascript|nodejs|react|redux|wordpress
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 244
+Primary language: Go
+Description: Agent Beacon is the world's first open-source telemetry layer for AI agents wherever they run: locally, in CI, or in the cloud.
+Topics: agent-ai-cli|agent-security|ci|claude-code|cloud|codex|cursor|detection-engineering|endpoint-security|mobile-device-management|security|security-information-and-event-management|security-tools
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 12
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 25
+Primary language: Python
+Description: General-purpose Gen AI Accelerator developed for Insight APAC projects
+Topics: agent|autogen|azure|fastapi
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 16
+Primary language: Go
+Description: The purpose of this repository is to store source code for System Patch Manager application
+Topics: hacktoberfest|insights|rhel
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 19
+Primary language: Python
+Description: Self-hosted LangGraph Platform - `Agent Protocol` server built on LangGraph
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 13
+Primary language: HTML
+Description: ACF's OPRE OPS product.  Code name Unicorn.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 297
+Primary language: Python
+Description: 支持用 Python 代码描述节点图，由内置引擎负责解析、验证、自动排版，再配合自动化脚本把步骤精准落到真实编辑器。
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 58
+Primary language: Python
+Description: A Python client to interact with Arize API
+Topics: ai-monitoring|ai-observability|ai-roi|data-quality-monitoring|drift-monitoring|ml-monitoring|ml-observability|model-explainability|model-monitoring|model-performance-management|performance-monitoring
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 254
+Primary language: Python
+Description: Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously.
+Topics: ai-agents|claude-code|coding-agents|open-source|skills
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 16
+Primary language: Elixir
+Description: Deployments in elixir generated into your application with terraform and ansible
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 27
+Primary language: Python
+Description: ARCLab-MIT participation in the KSPDG challenge
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

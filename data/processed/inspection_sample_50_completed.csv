@@ -1,0 +1,51 @@
+repo_full_name,primary_label,confidence,evidence_notes,annotator_id,annotation_round
+0-AI-UG/cate,CONVENTIONAL_SOFTWARE,high,Infinite zoomable canvas for coding is end-user IDE not AI builder tooling,claude_r2,1
+AIDotNet/OpenCowork,AI_PRODUCT,high,Explicitly for AI coding agent developers as open Claude Cowork alternative,claude_r2,1
+ARPAHLS/OPSIE,AI_PRODUCT,high,Self-Centered Intelligence prototype with MCP for AI researchers,claude_r2,1
+Arcanyx-org/NiXium,CONVENTIONAL_SOFTWARE,high,Infrastructure-as-code management tool for system administrators,claude_r2,1
+Arindam200/awesome-ai-apps,EXCLUDE,high,Collection of projects/showcases not shipped product software,claude_r2,1
+ArisGuimera/MobiAI-Core,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+Azure-Samples/art-voice-agent-accelerator,CONVENTIONAL_SOFTWARE,high,End-user voice agent deployment on Azure not AI builder tooling,claude_r2,1
+Azure/kimojio-rs,CONVENTIONAL_SOFTWARE,high,io_uring async runtime for Rust developers,claude_r2,1
+B-M-Capital-Research/honeclaw,CONVENTIONAL_SOFTWARE,high,Investment assistant for end users,claude_r2,1
+BNETDocs/bnetdocs-web,EXCLUDE,high,Documentation and discussion website for Blizzard protocols,claude_r2,1
+Bitterbot-AI/bitterbot-desktop,AI_PRODUCT,high,Local-first AI agent framework with skills economy for AI developers,claude_r2,1
+BlackBeltTechnology/pi-agent-dashboard,AI_PRODUCT,medium,Web dashboard for pi coding-agent sessions for AI developers,claude_r2,1
+CavinHuang/comfyui-nodes-docs,EXCLUDE,high,ComfyUI node documentation plugin,claude_r2,1
+ChenZiHong-Gavin/weekly-vibe-coding,CONVENTIONAL_SOFTWARE,medium,Prompt-based frontend project is end-user creative content,claude_r2,1
+CompanyHelm/companyhelm,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+Cppys/OpenNovel,CONVENTIONAL_SOFTWARE,high,Claude SDK novel writing agent for end users,claude_r2,1
+CrispStrobe/CrispEmbed,AI_PRODUCT,high,Lightweight text embedding inference via ggml for AI developers,claude_r2,1
+DataDog/stratus-red-team,CONVENTIONAL_SOFTWARE,high,Cloud adversary emulation for security professionals,claude_r2,1
+Disentinel/grafema,CONVENTIONAL_SOFTWARE,high,Graph-based static analysis tool for developers,claude_r2,1
+DontFuckMyCode/dfmc,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+ExDragine/frontier,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+FavioVazquez/learnship,CONVENTIONAL_SOFTWARE,medium,Agentic engineering learning content for end users,claude_r2,1
+GreenteaOS/Caramel,EXCLUDE,low,Confectionery of GreenteaOS with insufficient evidence,claude_r2,1
+GregorStocks/mage-bench,AI_PRODUCT,medium,Magic Gathering harness for LLMs for AI researchers,claude_r2,1
+Hacksore/cursed-repo,EXCLUDE,low,Average JavaScript repo with insufficient evidence,claude_r2,1
+HaiNinh1/oh-my-opencode,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+HiveTrace/HiveTraceRed,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+JamesPaynter/mycelium,EXCLUDE,low,Insufficient evidence to classify,claude_r2,1
+Lakr233/FlowDown,CONVENTIONAL_SOFTWARE,low,Flowdown.ai URL indicates end-user AI product with minimal evidence,claude_r2,1
+LessUp/awesome-cursorrules-zh,EXCLUDE,high,Cursor AI rules collection is documentation not product software,claude_r2,1
+Li-Bailiang/prompt-refine-skill,AI_PRODUCT,high,Agent Skill for prompt refinement for AI developers,claude_r2,1
+LiPu-jpg/Openwrite,CONVENTIONAL_SOFTWARE,high,AI novel writing engine for creative writers not AI builders,claude_r2,1
+MaoXiaoYuZ/Long-Novel-GPT,CONVENTIONAL_SOFTWARE,high,AI novel generator for creative writers not AI builders,claude_r2,1
+Menghuan1918/drawio2go,AI_PRODUCT,high,AI-powered DrawIO editor with MCP server for AI builders,claude_r2,1
+MinLL/MinAI,CONVENTIONAL_SOFTWARE,high,LLM bridge for Skyrim Mods for end-user gamers,claude_r2,1
+NVIDIA/skills,AI_PRODUCT,high,NVIDIA AI agent skills for AI developers,claude_r2,1
+Nimble-Co/FoundryVTT-Nimble,CONVENTIONAL_SOFTWARE,low,FoundryVTT game module for end users,claude_r2,1
+OWASP/www-project-top-10-for-large-language-model-applications,AI_PRODUCT,high,OWASP Top 10 for LLM Apps for AI security practitioners,claude_r2,1
+OfficeDev/microsoft-365-agents-toolkit-samples,EXCLUDE,high,Teams sample applications are educational content,claude_r2,1
+OpenCSGs/csghub-server,CONVENTIONAL_SOFTWARE,high,Backend server for dataset/model management not primarily AI tooling,claude_r2,1
+OtterMind/youclaw,CONVENTIONAL_SOFTWARE,high,Openclaw AI personal assistant for end users,claude_r2,1
+OvertliDS/overtli-studio-suite,CONVENTIONAL_SOFTWARE,high,ComfyUI nodes suite for generative AI end users,claude_r2,1
+Owl-Listener/ai-design-skills,AI_PRODUCT,medium,AI Design Skills Collection for AI product designers,claude_r2,1
+Oyl-Wallet/oyl-amm,CONVENTIONAL_SOFTWARE,medium,AMM smart contract for blockchain not AI-specific,claude_r2,1
+Paperspace/cli,AI_PRODUCT,medium,CLI for Paperspace is tool for AI cloud infrastructure users,claude_r2,1
+Peuqui/AIfred-Intelligence,CONVENTIONAL_SOFTWARE,high,Self-hosted multi-agent assistant for end users,claude_r2,1
+PlanExeOrg/PlanExe,AI_PRODUCT,high,AI planning from description with MCP for AI builders,claude_r2,1
+Prismer-AI/Prismer,AI_PRODUCT,medium,Open Source Research Claw for AI developers,claude_r2,1
+ROCm/hipDNN,CONVENTIONAL_SOFTWARE,medium,DEPRECATED ROCm libraries not AI product,claude_r2,1
+RYOITABASHI/Shelly,CONVENTIONAL_SOFTWARE,high,AI-powered terminal IDE for Android for end users,claude_r2,1

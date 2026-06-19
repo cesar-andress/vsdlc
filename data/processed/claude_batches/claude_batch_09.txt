@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 33
+Primary language: TypeScript
+Description: AI-powered chat-first terminal IDE for Android. Built entirely on a phone, by someone who can't write code.
+Topics: ai|android|chat-ui|claude|claude-code|expo|gemini-cli|ide|kotlin|llm|mobile-development|open-source|react-native|terminal|termux|typescript|vibe-coding
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 53
+Primary language: Shell
+Description: Learn as you build. Build with intent. Ship real products. Agentic engineering done right. 
+Topics: agentic-ai|ai-agent|ai-workflow|claude-code|codex-cli|cursor|gemini-cli|windsurf
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 489
+Primary language: TypeScript
+Description: Scenario-focused sample applications that help you get started with building Microsoft Teams App.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 130
+Primary language: Python
+Description: SCAM - Security Comprehension Awareness Measure | Open-source benchmark that tests AI agents' security awareness during realistic, multi-turn workplace tasks.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 1662
+Primary language: TypeScript
+Description: An infinite zoomable canvas for coding. Editor, terminal, and browser panels in a spatial workspace.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 15
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 13
+Primary language: TypeScript
+Description: Centralized multi-channel notification management component for streamlined communication across email, SMS, WhatsApp, and push notifications.
+Topics: notification-component|notifications|open-source-notification-component|osmosys|osmosys-notification
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 384
+Primary language: Python
+Description: Create a plan from a description in minutes
+Topics: agi|ai|ai-planning|llamaindex|mcp|ollama|openrouter|pddl|planner|planning|planning-algorithms|pmbok
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 28
+Primary language: Python
+Description: LLM Agent framework with Stateful Tools. 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 10
+Primary language: Python
+Description: 轻雪自用综合agent，可以干很多事情
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 21
+Primary language: Dart
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 718
+Primary language: TypeScript
+Description: 🦞 Your AI Personal Assistant.  An intelligent assistant with memory, skills, and scheduled tasks that truly understands you . Helping you tackle everything in work and life.
+Topics: ai|ai-agent|claude|claude-code|openclaw
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 319
+Primary language: TypeScript
+Description: Server to create Anki flashcards faster, easier and better today ⭐️
+Topics: 2anki|anki|anki-cards|cloze-deletions|convert|flashcards|genanki|notion|notion2anki|notiontoanki|toggle-lists|togglelists|toggles
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 23
+Primary language: Ruby
+Description: 🦍 Source code for developer.konghq.com website.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 22
+Primary language: Python
+Description: 基于claude sdk的自动化小说撰写Agent，支持对话，高质量的小说写作与发表
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 91
+Primary language: JavaScript
+Description: Average JavaScript repo 🫪
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 31
+Primary language: JavaScript
+Description: Solana's SOL-0XX security standard — bug-class rules distilled from $514M of real exploits, firing as you code in every AI tool, editor & CI.
+Topics: anchor|anthropic|audit|bug-bounty|claude-code|rust|security|solana|static-analysis
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 31
+Primary language: Go
+Description: Declarative agentic framework for AI-driven software development. Define, validate, and orchestrate AI agents as code—transparent, auditable, and CI/CD-ready. Run your SDLC as Code today
+Topics: agentic-ai|agentic-framework|agents|ai|ai-as-code|claude-code|cursor|kuberocketai|kuberocketci|sdlc-as-code|software-development|vscode|windsurf
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 79
+Primary language: Jupyter Notebook
+Description: A multimodal Retrieval Augmented Generation with code execution capabilities. Process multiple complex documents with images, table, charts to distill insights or generate new documents.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 392
+Primary language: Go
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 354
+Primary language: TypeScript
+Description: monorepo for the Agoric Javascript smart contract platform
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 38
+Primary language: Python
+Description: Baselines for all tasks from Long Code Arena benchmarks 🏟️
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 12
+Primary language: Python
+Description: Windsurf Vibe Coding: AI-powered development workflow automation with persistent memories and rule-based standards
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 5643
+Primary language: Python
+Description: Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI
+Topics: agent|agentops|agents-sdk|ai|anthropic|autogen|cost-estimation|crewai|evals|evaluation-metrics|groq|langchain|llm|mistral|ollama|openai|openai-agents
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 21
+Primary language: TypeScript
+Description: A particle system editor for three-particles
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 13
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 76
+Primary language: Python
+Description: Custom nodes for ComfyUI — video effects, batch processing, prompt tools, image manipulation & automation utilities
+Topics: ai-tools|automation|batch-processing|comfyui|comfyui-custom-nodes|custom-nodes|generative-ai|image-processing|nodes|prompt-engineering|python|stable-diffusion|video-effects
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 41
+Primary language: Python
+Description: Composable Python framework for LLM agent workflows focused on simplicity and developer experience. We ❤️ OSS.
+Topics: adk|agentic-framework|agentic-workflow|agents|ai-agents|bedrock|chatgpt|claude|gemma|genai|generative-ai|llm|local-llm|ollama|openai|pydantic-ai|python|workflow|workflow-engine|workflow-orchestrator
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 69
+Primary language: Python
+Description: Self-hostable study dashboard with a built-in MCP server, so that your Claude/ChatGPT subscription becomes x10 more effective for your semester
+Topics: anthropic|claude|claude-code|education|fastapi|mcp|model-context-protocol|open-source|productivity|react|self-hosted|students|study-dashboard|supabase|tailwindcss|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 971
+Primary language: 
+Description: Factory - Agent-Native Software Development
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

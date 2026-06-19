@@ -1,0 +1,331 @@
+repo_full_name,primary_label,confidence,evidence_notes,annotator_id,annotation_round
+Lakr233/FlowDown,EXCLUDE,low,Missing repository URL or name leaves insufficient evidence to determine the product category.,claude_r2,1
+Arcanyx-org/NiXium,EXCLUDE,low,Missing repository URL or name leaves insufficient evidence to determine the product category.,claude_r2,1
+Kevandrew/sophia,AI_PRODUCT,medium,The description frames it as AI-assisted code verification tooling for software development workflows.,claude_r2,1
+JKorf/Mexc.Net,CONVENTIONAL_SOFTWARE,medium,It is a .NET client SDK for the MEXC exchange API rather than tooling for building or operating AI systems.,claude_r2,1
+Avantis-Labs/avantis_trader_sdk,CONVENTIONAL_SOFTWARE,medium,It is a trader SDK for a specific platform and not primarily for AI builders or operators.,claude_r2,1
+Hive-Academy/roocode-generator,EXCLUDE,low,"There is no description, URL, or other evidence sufficient to classify the repository.",claude_r2,1
+AIDotNet/OpenCowork,CONVENTIONAL_SOFTWARE,high,An open-source Claude cowork app is an end-user AI application rather than tooling for AI-system builders.,claude_r2,1
+Avarok-Cybersecurity/atlas,AI_PRODUCT,high,A pure Rust inference engine is core AI infrastructure for running model inference.,claude_r2,1
+FalconChristmas/fpp,CONVENTIONAL_SOFTWARE,high,Falcon Player is end-user software and not primarily tooling for building or operating AI systems.,claude_r2,1
+Frankieli123/dokploy-i18n,EXCLUDE,low,"There is no description, URL, or other evidence sufficient to classify the repository.",claude_r2,1
+Comfy-Org/docs,EXCLUDE,high,"This is documentation for ComfyUI, so it is a docs-only repository rather than a product repository.",claude_r2,1
+ClaudiuBogdan/hack-for-facts-eb-client,CONVENTIONAL_SOFTWARE,medium,A public financial data exploration platform serves end users rather than AI builders or operators.,claude_r2,1
+EffortlessMetrics/perl-lsp,AI_PRODUCT,high,"A Rust Perl language server and parser toolkit is developer tooling, not AI tooling, but the parser/LSP focus is conventional language tooling rather than AI-system tooling.",claude_r2,1
+JuliusBrussee/caveman-code,EXCLUDE,low,"There is no description, URL, or other evidence sufficient to classify the repository.",claude_r2,1
+DeadmanAbir/AgentGenesis,AI_PRODUCT,medium,"It provides customizable Gen AI code snippets for application builders, indicating tooling aimed at developers integrating AI.",claude_r2,1
+Godzilla675/clip-js-copilot,CONVENTIONAL_SOFTWARE,medium,An online video editor is end-user creative software rather than tooling for AI-system development or operations.,claude_r2,1
+Bugb-Technologies/guardlink,AI_PRODUCT,high,AI-maintained security annotations with continuous threat modeling enforced in CI are AI security and AI-assisted developer tooling.,claude_r2,1
+RajjjAryan/career-copilot,CONVENTIONAL_SOFTWARE,medium,An AI-powered job search pipeline is an end-user automation product rather than tooling for AI builders.,claude_r2,1
+FRACerqueira/PromptPlus,CONVENTIONAL_SOFTWARE,high,An interactive .NET command-line toolkit is general developer software and not primarily for AI systems.,claude_r2,1
+Nagi-ovo/gemini-voyager,CONVENTIONAL_SOFTWARE,high,A Gemini enhancement browser extension is an end-user productivity product despite its AI-centric target.,claude_r2,1
+FlagAI-Open/FlagAI,AI_PRODUCT,high,"FlagAI is a toolkit for large-scale models, which is AI infrastructure for building and operating AI systems.",claude_r2,1
+Menghuan1918/drawio2go,CONVENTIONAL_SOFTWARE,medium,An AI-powered DrawIO editor is a user-facing application for diagramming rather than tooling for AI-system builders.,claude_r2,1
+NiaExperience/PearlOS,CONVENTIONAL_SOFTWARE,medium,An LLM-based personal assistant/browser interface is an end-user AI application rather than AI-builder tooling.,claude_r2,1
+AlbertoUAH/datos-gob-es-mcp,EXCLUDE,low,"There is no description, URL, or other evidence sufficient to classify the repository.",claude_r2,1
+GongLingRui/juben,CONVENTIONAL_SOFTWARE,medium,An AI film creation and scriptwriting agent platform appears to be an end-user creative application rather than tooling for AI builders.,claude_r2,1
+Castor6/tactus,CONVENTIONAL_SOFTWARE,medium,A browser AI agent extension is an end-user agent application even though it exposes an expandable skill system.,claude_r2,1
+DifferentiableUniverseInitiative/jax_cosmo,CONVENTIONAL_SOFTWARE,medium,A differentiable cosmology library is scientific software rather than tooling for AI builders or operators.,claude_r2,1
+Philip-Cao-9527/code-note-helper,CONVENTIONAL_SOFTWARE,medium,A browser extension for study and review automation is an end-user learning product rather than AI-builder tooling.,claude_r2,1
+Ageniti/Ageniti,AI_PRODUCT,high,"A standard SDK for building agent-facing apps across MCP, CLI, React, and AI tool stacks is directly aimed at AI application developers.",claude_r2,1
+BlackBeltTechnology/pi-agent-dashboard,CONVENTIONAL_SOFTWARE,medium,A real-time dashboard for pi coding-agent sessions is an operational UI for users of a coding agent rather than general AI-builder infrastructure.,claude_r2,1
+EpicStaff/EpicStaff,AI_PRODUCT,high,Source-available platform for building AI agent flows.,claude_r2,1
+3MFConsortium/gladius,CONVENTIONAL_SOFTWARE,medium,Viewer and editor for 3mf volumetric files.,claude_r2,1
+Puzzaks/PAIOS,CONVENTIONAL_SOFTWARE,high,Offline Gemini Nano AI interface for end users.,claude_r2,1
+Fannon/search-bookmarks-history-and-tabs,CONVENTIONAL_SOFTWARE,high,Browser extension for searching bookmarks with tagging.,claude_r2,1
+DCS-BR-Tools/briefing-room-for-dcs,CONVENTIONAL_SOFTWARE,high,Advanced mission generator for DCS World.,claude_r2,1
+AngelMunoz/Kipo,CONVENTIONAL_SOFTWARE,medium,RPG-like game prototype in F# and Monogame.,claude_r2,1
+ARPAHLS/OPSIE,AI_PRODUCT,medium,Self-centered intelligence prototype for AI-human interaction.,claude_r2,1
+HiveTrace/HiveTraceRed,CONVENTIONAL_SOFTWARE,low,Python project with insufficient description.,claude_r2,1
+ComeOnOliver/skillshub,AI_PRODUCT,high,AI agent skills registry with token-efficient skill resolution.,claude_r2,1
+GoodStartLabs/AI_Diplomacy,AI_PRODUCT,high,Frontier models playing Diplomacy benchmark.,claude_r2,1
+HenryLach/taskplane,AI_PRODUCT,high,Multi-agent AI coding orchestration system.,claude_r2,1
+AgiFlow/aicode-toolkit,AI_PRODUCT,high,Toolkit for coding agents to work with large repos.,claude_r2,1
+OpenSPG/KAG,AI_PRODUCT,high,Logical form-guided reasoning and retrieval framework for knowledge graphs.,claude_r2,1
+OpenCSGs/csghub-server,AI_PRODUCT,high,Backend server for CSGHub managing datasets and model inference.,claude_r2,1
+DevopsArtFactory/unic,CONVENTIONAL_SOFTWARE,low,Go project with insufficient description.,claude_r2,1
+QuantumNous/new-api-docs-v1,AI_PRODUCT,medium,New API v1 documentation for AI gateway.,claude_r2,1
+Autonoma-Labs/Open-CoWork,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+1amageek/SwiftAgent,AI_PRODUCT,high,Type-safe declarative AI agent framework for Swift.,claude_r2,1
+Arenukvern/mcp_flutter,AI_PRODUCT,high,MCP toolkit for Flutter AI agent driven development.,claude_r2,1
+LiPu-jpg/Openwrite,AI_PRODUCT,medium,AI novel creation engine with multi-layer style synthesis.,claude_r2,1
+Naridon-Inc/aura,AI_PRODUCT,medium,Semantic time machine for AI-generated code orchestration.,claude_r2,1
+NVIDIA-NeMo/Gym,AI_PRODUCT,high,Environments for evaluating and improving AI models and agents.,claude_r2,1
+MaoXiaoYuZ/Long-Novel-GPT,AI_PRODUCT,medium,GPT-based long novel generator.,claude_r2,1
+BruinGrowly/Emergent-Code,AI_PRODUCT,medium,Code generation system using LJPW framework.,claude_r2,1
+PrefectHQ/prefect,CONVENTIONAL_SOFTWARE,high,Workflow orchestration framework for data pipelines.,claude_r2,1
+Jamkris/everything-gemini-code,AI_PRODUCT,high,Harness engineering toolkit for Gemini CLI extensions.,claude_r2,1
+0xdpfly/gin-app-start,CONVENTIONAL_SOFTWARE,medium,Gin-based development framework for Go.,claude_r2,1
+DataDog/stratus-red-team,AI_PRODUCT,medium,Adversary emulation for cloud security testing.,claude_r2,1
+Brawl345/Image-Reverse-Search-WebExtension,CONVENTIONAL_SOFTWARE,high,Browser extension for reverse image search.,claude_r2,1
+Peuqui/AIfred-Intelligence,AI_PRODUCT,high,Self-hosted multi-agent assistant with voice and RAG.,claude_r2,1
+Azure/azure-sdk-tools,CONVENTIONAL_SOFTWARE,high,Azure SDK tools repository for SDK development.,claude_r2,1
+Arindam200/awesome-ai-apps,AI_PRODUCT,high,RAG agents workflows and AI use cases collection.,claude_r2,1
+MatthewSuttles/rubyn-code,AI_PRODUCT,high,Ruby/Rails agentic coding assistant with 28 tools.,claude_r2,1
+BrowserOperator/browser-operator-core,AI_PRODUCT,high,AI browser with multi-agent platform and MCP client.,claude_r2,1
+Bitterbot-AI/bitterbot-desktop,AI_PRODUCT,high,Local-first AI agent with persistent memory and skills economy.,claude_r2,1
+NickPittas/DirectorsConsole,CONVENTIONAL_SOFTWARE,high,Web application for prompt generation and ComfyUI connections.,claude_r2,1
+NVIDIA/VisRTX,CONVENTIONAL_SOFTWARE,high,NVIDIA OptiX based ANARI implementation.,claude_r2,1
+JMBeresford/retrom,CONVENTIONAL_SOFTWARE,high,Centralized game library management with emulation focus.,claude_r2,1
+GuilhermeAlbert/awesome-ai-conventions,EXCLUDE,high,Curated list of AI agent conventions without executable software.,claude_r2,1
+Prof-Harita/terminaI,AI_PRODUCT,high,Open-source local-first alternative to computer assistants.,claude_r2,1
+JunDamin/hwpapi,CONVENTIONAL_SOFTWARE,medium,Python wrapper for HWP using win32com.,claude_r2,1
+Correia-jpv/fucking-awesome-swift,EXCLUDE,high,Awesome list for Swift libraries.,claude_r2,1
+JetBrains/intellij-community,CONVENTIONAL_SOFTWARE,high,IntelliJ IDEA IDE for general developers.,claude_r2,1
+Prismer-AI/Prismer,AI_PRODUCT,high,Open source research claw for AI applications.,claude_r2,1
+HomericIntelligence/ProjectOdyssey,AI_PRODUCT,medium,Training framework written in Mojo for AI.,claude_r2,1
+CallMarcus/dji-drone-metadata-embedder,CONVENTIONAL_SOFTWARE,high,Python CLI for embedding DJI drone telemetry.,claude_r2,1
+PureCutCNC/purecutcnc,CONVENTIONAL_SOFTWARE,high,2.5D CAD/CAM workspace for CNC machining.,claude_r2,1
+AISecurityConsortium/AIGoat,AI_PRODUCT,high,Open-source AI security playground for LLM red teaming.,claude_r2,1
+AzureAD/microsoft-authentication-library-common-for-objc,CONVENTIONAL_SOFTWARE,high,Common code for ADAL and MSAL authentication libraries.,claude_r2,1
+HorusGoul/eslint-plugin-react-render-types,CONVENTIONAL_SOFTWARE,high,ESLint plugin for Flow render types in TypeScript.,claude_r2,1
+2030ai/2030ai-claudecode-allecosystem-sync,AI_PRODUCT,medium,Cross-platform skill and MCP sync for coding agents.,claude_r2,1
+Cyfrin/Updraft,CONVENTIONAL_SOFTWARE,low,Python project with insufficient description.,claude_r2,1
+DontFuckMyCode/dfmc,CONVENTIONAL_SOFTWARE,low,Go project with insufficient description.,claude_r2,1
+QuickerHub/quicker-rpc,AI_PRODUCT,high,AI desktop assistant with MCP server for Quicker automation.,claude_r2,1
+PallasBot/Pallas-Bot,CONVENTIONAL_SOFTWARE,high,Arknights Pallas bot application.,claude_r2,1
+QuasarBrains/Simple-Agent,AI_PRODUCT,high,Simple LLM-powered agent for task execution.,claude_r2,1
+Protelis/Protelis,CONVENTIONAL_SOFTWARE,high,Java-hosted Protelis program execution.,claude_r2,1
+Raphasha27/Raphasha27,CONVENTIONAL_SOFTWARE,low,Python project with insufficient description.,claude_r2,1
+Oyl-Wallet/oyl-amm,CONVENTIONAL_SOFTWARE,low,Rust project with insufficient description.,claude_r2,1
+Azure-Samples/art-voice-agent-accelerator,AI_PRODUCT,high,Build voice agents on Azure with ACS telephony and LLM pipeline.,claude_r2,1
+Myriad-Dreamin/tinymist,CONVENTIONAL_SOFTWARE,high,Integrated language service for Typst.,claude_r2,1
+NewLifeX/NewLife.RocketMQ,CONVENTIONAL_SOFTWARE,high,Lightweight RocketMQ client for .NET.,claude_r2,1
+MicrosoftDocs/fabric-docs,EXCLUDE,high,Microsoft Fabric documentation without executable software.,claude_r2,1
+MinLL/MinAI,AI_PRODUCT,medium,Bridge between LLMs and Skyrim mods.,claude_r2,1
+NewLifeX/NewLife.Agent,CONVENTIONAL_SOFTWARE,high,Cross-platform service and daemon management framework for .NET.,claude_r2,1
+AIStoryBuilders/AIStoryBuilders,CONVENTIONAL_SOFTWARE,medium,AI-assisted novel writing application.,claude_r2,1
+FlipForensics/AIFT,AI_PRODUCT,high,AI forensic triage tool using LLMs for DFIR analysts.,claude_r2,1
+Affitor/affiliate-skills,EXCLUDE,high,AI agent skills collection without clear executable software.,claude_r2,1
+PaloAltoNetworks/docusaurus-openapi-docs,CONVENTIONAL_SOFTWARE,high,OpenAPI plugin for Docusaurus documentation.,claude_r2,1
+DaveDushi/kolshek,CONVENTIONAL_SOFTWARE,high,CLI tool for tracking Israeli finances.,claude_r2,1
+JetBrains/koog,AI_PRODUCT,high,JVM framework for building AI agents across platforms.,claude_r2,1
+Gijsreyn/bicep-ext-databricks,EXCLUDE,medium,Sample repository for Azure Databricks Bicep extension.,claude_r2,1
+LastBotInc/nextjs-supabase-ai-webapp,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+ReflexioAI/reflexio,AI_PRODUCT,high,AI agent self-improvement harness for continuous learning.,claude_r2,1
+Mybono/ai-orchestrator,AI_PRODUCT,high,Multi-agent AI developer setup for Claude Code with local LLM.,claude_r2,1
+CyberShadow/CyDo,AI_PRODUCT,medium,UI and orchestration for AI coding agents.,claude_r2,1
+NVIDIA/NeMo-Agent-Toolkit,AI_PRODUCT,high,NVIDIA toolkit for connecting and optimizing AI agent teams.,claude_r2,1
+GreenteaOS/Caramel,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+Gerstep/HumanCompiler,AI_PRODUCT,high,Claude Code plugin for deep behavioral interviews generating agent plugins.,claude_r2,1
+ALT-F4-LLC/dotfiles.vorpal,EXCLUDE,high,Vorpal dotfiles without product software.,claude_r2,1
+LessUp/awesome-cursorrules-zh,EXCLUDE,high,Cursor AI coding rules collection without executable software.,claude_r2,1
+BuildWithHussain/hive,CONVENTIONAL_SOFTWARE,medium,Simple project management software.,claude_r2,1
+ROCm/hipDNN,CONVENTIONAL_SOFTWARE,medium,Deprecated ROCm library moved to rocm-libraries.,claude_r2,1
+AIrjen/OneButtonPrompt,CONVENTIONAL_SOFTWARE,high,One-button prompt generation for image creation.,claude_r2,1
+Micrurus-Ai/Corvid-lang,AI_PRODUCT,high,Programming language that checks AI before it runs.,claude_r2,1
+CreminiAI/skillpack,AI_PRODUCT,high,Pack and deploy local AI agents with skills.,claude_r2,1
+Paperspace/cli,CONVENTIONAL_SOFTWARE,high,CLI for Paperspace GPU cloud.,claude_r2,1
+Agnuxo1/OpenCLAW-P2P,AI_PRODUCT,medium,Decentralized autonomous research collective with AI agents.,claude_r2,1
+Alfanous-team/alfanous,AI_PRODUCT,medium,Arabic Quran search engine API with MCP server.,claude_r2,1
+Horace-Maxwell/horosa-skill,AI_PRODUCT,medium,Offline AI skill for astrology applications.,claude_r2,1
+MicrosoftDocs/learn,EXCLUDE,high,Microsoft Learn training content repository.,claude_r2,1
+OpenCSGs/csghub-lite,AI_PRODUCT,high,Lightweight local LLM runner with AI gateway features.,claude_r2,1
+MichealWayne/fe-tools,CONVENTIONAL_SOFTWARE,high,Frontend development guide with Chrome extension.,claude_r2,1
+Gremlinq/ExRam.Gremlinq,CONVENTIONAL_SOFTWARE,high,.NET object-graph-mapper for Gremlin databases.,claude_r2,1
+ParclLabs/parcl-ai-connect,CONVENTIONAL_SOFTWARE,low,HTML project with insufficient description.,claude_r2,1
+Azure-Samples/Copilot-Studio-with-Azure-AI-Search,AI_PRODUCT,medium,AZD template for Azure Copilot Studio deployment.,claude_r2,1
+Li-Bailiang/prompt-refine-skill,AI_PRODUCT,high,Agent skill for silently refining prompts for LLMs.,claude_r2,1
+MieMieeeee/comfyui-agent-skill,AI_PRODUCT,high,CLI for agents to run ComfyUI workflows through MCP.,claude_r2,1
+DamianB-BitFlipper/proton-drive-sync,CONVENTIONAL_SOFTWARE,high,Unofficial Proton Drive sync client.,claude_r2,1
+PurpleAILAB/Decepticon,AI_PRODUCT,high,Autonomous hacking agent for red team operations.,claude_r2,1
+1jehuang/jcode,AI_PRODUCT,high,Coding agent harness for AI-powered development.,claude_r2,1
+ModelTC/LightX2V,AI_PRODUCT,high,Lightweight image/video action generation inference framework.,claude_r2,1
+Martian-Engineering/volt,AI_PRODUCT,medium,Coding agent with lossless context management.,claude_r2,1
+567-labs/instructor,AI_PRODUCT,high,Structured outputs library for LLMs.,claude_r2,1
+OWASP/www-project-top-10-for-large-language-model-applications,AI_PRODUCT,high,OWASP Top 10 for LLM applications security.,claude_r2,1
+Minh-Tam-Solution/SDLC-Enterprise-Framework,EXCLUDE,high,AI+Human SDLC methodology documentation.,claude_r2,1
+CSlawyer1985/case-type-guide,CONVENTIONAL_SOFTWARE,medium,Chinese legal AI tool for case analysis.,claude_r2,1
+HeartWise-AI/DeepCORO_CLIP,CONVENTIONAL_SOFTWARE,low,Jupyter Notebook for video embeddings.,claude_r2,1
+JeremyDev87/codingbuddy,AI_PRODUCT,high,AI coding assistant with 29 specialized agents and MCP server.,claude_r2,1
+HelpCode-ai/anythingmcp,AI_PRODUCT,high,Self-hosted MCP gateway for REST/SOAP/GraphQL to AI connectors.,claude_r2,1
+MadAppGang/dingo,AI_PRODUCT,high,Meta-language for Go with Result types and pattern matching.,claude_r2,1
+PrestaShop/docs,CONVENTIONAL_SOFTWARE,high,PrestaShop technical documentation.,claude_r2,1
+OlaProeis/Ferrite,CONVENTIONAL_SOFTWARE,high,Fast lightweight text editor for Markdown/JSON/YAML files.,claude_r2,1
+Cloud-Solutions-International/antikythera,CONVENTIONAL_SOFTWARE,medium,Automated test generation for Spring apps.,claude_r2,1
+BUZZARDGTA/Session-Sniffer,CONVENTIONAL_SOFTWARE,high,P2P video game packet sniffer for consoles and PC.,claude_r2,1
+MarimerLLC/rockbot,AI_PRODUCT,medium,Autonomous personal agent designed for cloud-native deployment.,claude_r2,1
+CommunityToolkit/Aspire,CONVENTIONAL_SOFTWARE,high,Community components and extensions for Aspire.,claude_r2,1
+FerroxLabs/ijfw,AI_PRODUCT,high,Local-first infrastructure for AI coding agents with shared memory.,claude_r2,1
+OSLC/oslc4net,CONVENTIONAL_SOFTWARE,high,.NET SDK for OSLC enterprise integration.,claude_r2,1
+CompanyHelm/companyhelm,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+Provenance-Emu/Provenance,CONVENTIONAL_SOFTWARE,high,iOS/tvOS multi-emulator frontend for retrogaming.,claude_r2,1
+BNETDocs/bnetdocs-web,CONVENTIONAL_SOFTWARE,high,Documentation website for Blizzard protocols.,claude_r2,1
+ActiveInferenceInstitute/GEO-INFER,EXCLUDE,low,HTML repository with insufficient description.,claude_r2,1
+Alireza29675/yar-agent,AI_PRODUCT,high,Agent for understanding complex codebases with Claude.,claude_r2,1
+FixMyBerlin/tilda-geo,CONVENTIONAL_SOFTWARE,high,Bicycle infrastructure data access from OpenStreetMap.,claude_r2,1
+Disentinel/grafema,AI_PRODUCT,medium,Graph-based static analysis tool with MCP support.,claude_r2,1
+B-M-Capital-Research/honeclaw,AI_PRODUCT,medium,Investment assistant with AI understanding capabilities.,claude_r2,1
+NewLifeX/X,CONVENTIONAL_SOFTWARE,high,Core .NET components for networking and RPC.,claude_r2,1
+HybridWare/hybrid-browser,EXCLUDE,low,HTML templates without product software.,claude_r2,1
+EUCPilots/evergreen-module,CONVENTIONAL_SOFTWARE,high,PowerShell automation for evergreen Windows image builds.,claude_r2,1
+FlareCoding/StelluxOS,CONVENTIONAL_SOFTWARE,medium,Research operating system project.,claude_r2,1
+JackHopkins/factorio-learning-environment,AI_PRODUCT,high,Non-saturating environment for evaluating LLMs in Factorio.,claude_r2,1
+Certora/AIComposer,AI_PRODUCT,high,AI composer from Certora Labs for smart contract verification.,claude_r2,1
+OpenHands/software-agent-sdk,AI_PRODUCT,high,SDK for building AI agents with OpenHands V1.,claude_r2,1
+Eliezer-app/eliezer,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+OpenNMS/opennms,CONVENTIONAL_SOFTWARE,high,Enterprise-grade open-source network management platform.,claude_r2,1
+HBAI-Ltd/Toonflow-app,CONVENTIONAL_SOFTWARE,high,Open-source AI tool for creating animated short dramas.,claude_r2,1
+NVIDIA/physicsnemo,AI_PRODUCT,high,Deep-learning framework for physics-ML models on NVIDIA.,claude_r2,1
+LegnaOS/LegnaCode-cli,AI_PRODUCT,medium,Fixed version of ClaudeCode CLI source code.,claude_r2,1
+MicrosoftLearning/trainer-demo-deploy,EXCLUDE,medium,MOC demo deployment scenarios without clear product.,claude_r2,1
+HewlettPackard/llmesh,AI_PRODUCT,high,LLM agentic tool mesh platform for AI interactions.,claude_r2,1
+MicrosoftDocs/azure-ai-docs,EXCLUDE,high,Azure AI documentation without executable software.,claude_r2,1
+HaiNinh1/oh-my-opencode,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+AlphaBitCore/nexus-gateway,AI_PRODUCT,high,Enterprise AI traffic gateway for LLM providers.,claude_r2,1
+9mtm/Agent-Player,AI_PRODUCT,medium,Open-source AI desktop assistant with local/remote LLM support.,claude_r2,1
+MCPJam/inspector,AI_PRODUCT,high,Testing and evaluation platform for MCP servers and apps.,claude_r2,1
+NewLifeX/NewLife.Remoting,CONVENTIONAL_SOFTWARE,high,Unified high-performance remote communication framework for .NET.,claude_r2,1
+DataDog/dd-trace-js,CONVENTIONAL_SOFTWARE,high,Datadog APM client for Node.js.,claude_r2,1
+LouisShark/chatgpt_system_prompt,EXCLUDE,high,GPT system prompts collection without executable software.,claude_r2,1
+PrestaShop/hummingbird,CONVENTIONAL_SOFTWARE,high,Default theme for PrestaShop 9.1+.,claude_r2,1
+DevExpress/devextreme-documentation,EXCLUDE,high,DevExtreme documentation without executable software.,claude_r2,1
+PrefectHQ/fastmcp,AI_PRODUCT,high,Fast Pythonic MCP server/client builder for AI agents.,claude_r2,1
+Quant-Club/ccxt-cpp,CONVENTIONAL_SOFTWARE,medium,C++ implementation of CCXT exchange library.,claude_r2,1
+ModelEngine-Group/nexent,AI_PRODUCT,high,Zero-code platform for auto-generating production-grade AI agents.,claude_r2,1
+PlamenTSV/plamen,AI_PRODUCT,high,Autonomous Web3 security audit agent for Claude Code.,claude_r2,1
+GregorStocks/mage-bench,CONVENTIONAL_SOFTWARE,high,Magic: The Gathering game harness.,claude_r2,1
+KennispuntTwente/tidyprompt,AI_PRODUCT,medium,R package for constructing LLM prompts.,claude_r2,1
+Maxsky5/openducktor,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+GitGuardian/ggmcp,AI_PRODUCT,high,MCP server for scanning hardcoded secrets using GitGuardian API.,claude_r2,1
+Melvynx/aiblueprint,AI_PRODUCT,high,CLI for setting up Claude Code configurations.,claude_r2,1
+0xN0RMXL/BugBountySkills,EXCLUDE,high,Knowledge base for bug bounty hunting without executable software.,claude_r2,1
+DavidWells/stars,EXCLUDE,high,Automatically indexed GitHub stars list.,claude_r2,1
+JUVOJustin/astrojs-wp-integration,CONVENTIONAL_SOFTWARE,high,WordPress integration for AstroJS.,claude_r2,1
+JamesPaynter/mycelium,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+MedAdemBHA/docflow,EXCLUDE,high,Shell setup scripts without product software.,claude_r2,1
+DimitriGilbert/Formedible,CONVENTIONAL_SOFTWARE,high,Shadcn wrapper around Tanstack forms for React developers.,claude_r2,1
+Nakajima-Foundation/ownplate,CONVENTIONAL_SOFTWARE,low,Vue project with insufficient description.,claude_r2,1
+OWASP/cornucopia,CONVENTIONAL_SOFTWARE,high,OWASP card game for security requirements analysis.,claude_r2,1
+Owl-Listener/ai-design-skills,AI_PRODUCT,high,AI design skills collection for agent orchestration and prompt architecture.,claude_r2,1
+EliFuzz/awesome-system-prompts,EXCLUDE,high,Collection of system prompts without executable software product.,claude_r2,1
+BoweyLou/obsidian-mcp-server-enhanced,AI_PRODUCT,high,Enhanced Obsidian MCP server for Claude.ai integration.,claude_r2,1
+Niek/chatgpt-web,CONVENTIONAL_SOFTWARE,high,ChatGPT web interface using OpenAI API for end users.,claude_r2,1
+Agents2AgentsAI/ata,AI_PRODUCT,high,AI agents for solving engineering and research problems.,claude_r2,1
+Case211/remnawave-admin,CONVENTIONAL_SOFTWARE,high,Admin web and bot for Remnawave panel.,claude_r2,1
+PulkitXChadha/awesome-databricks-mcp,EXCLUDE,medium,Python examples without clear product software.,claude_r2,1
+CumulusNetworks/docs,EXCLUDE,high,NVIDIA Ethernet documentation without executable software.,claude_r2,1
+NickCrew/Claude-Cortex,AI_PRODUCT,high,Claude plugin with AI agent skills and context management.,claude_r2,1
+Nimble-Co/FoundryVTT-Nimble,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+EternisAI/enchanted-twin,CONVENTIONAL_SOFTWARE,medium,Digital twin software platform.,claude_r2,1
+Houseofmvps/codesight,AI_PRODUCT,high,Universal AI context generator saving tokens for AI coding tools.,claude_r2,1
+Mudlet/Mudlet,CONVENTIONAL_SOFTWARE,high,Cross-platform MUD client with Lua scripting for gamers.,claude_r2,1
+ArdentAILabs/DE-Bench,AI_PRODUCT,high,Benchmark for testing AI data engineering agents.,claude_r2,1
+PramodDutta/Advance-Playwright-Framework,CONVENTIONAL_SOFTWARE,high,Advance Playwright testing framework for developers.,claude_r2,1
+Azure/oav,AI_PRODUCT,medium,OpenAPI validation tools for Azure API development.,claude_r2,1
+OvertliDS/overtli-studio-suite,AI_PRODUCT,medium,ComfyUI nodes for LM Studio and OpenAI-compatible AI generation.,claude_r2,1
+CavinHuang/comfyui-nodes-docs,CONVENTIONAL_SOFTWARE,high,ComfyUI nodes documentation plugin.,claude_r2,1
+HyperbolicLabs/Hyper-dOS,CONVENTIONAL_SOFTWARE,medium,Hyperbolic distributed operating system.,claude_r2,1
+BintzGavin/helios,CONVENTIONAL_SOFTWARE,high,Programmatic video creation with web technologies.,claude_r2,1
+GoogleCloudPlatform/kubernetes-engine-samples,CONVENTIONAL_SOFTWARE,high,Sample applications for Google Kubernetes Engine.,claude_r2,1
+AI-Escape/open-ice,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+Alexli18/binex,AI_PRODUCT,high,Debuggable runtime for AI agent workflows with DAG pipelines.,claude_r2,1
+AgentWrapper/agent-orchestrator,AI_PRODUCT,high,Agentic orchestrator for parallel coding agents.,claude_r2,1
+HKUDS/OpenHarness,AI_PRODUCT,high,Open agent harness with built-in personal agent.,claude_r2,1
+Feolius/hell2shape,CONVENTIONAL_SOFTWARE,high,PHP type annotations from var_dump output.,claude_r2,1
+GalacticDynamics/coordinax,CONVENTIONAL_SOFTWARE,high,JAX coordinate systems library for scientific computing.,claude_r2,1
+LazyAGI/LazyMind,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+Emurasoft/emurasoft.github.io,EXCLUDE,high,Sphinx documentation project without executable software.,claude_r2,1
+MODSetter/SurfSense,AI_PRODUCT,high,NotebookLM alternative with RAG and agent capabilities.,claude_r2,1
+Auriti-Labs/geo-optimizer-skill,AI_PRODUCT,high,Answer Engine Optimization toolkit for AI search visibility.,claude_r2,1
+Community-Access/accessibility-agents,AI_PRODUCT,high,Accessibility review agents for Claude Code and GitHub Copilot.,claude_r2,1
+NiuTrans/ToFu,AI_PRODUCT,high,Self-hosted AI assistant with tool use and multi-agent orchestration.,claude_r2,1
+HillPhelmuth/AdventuresInSemanticKernel,AI_PRODUCT,high,Semantic Kernel training for building AI agents and plugins.,claude_r2,1
+JetBrains/youtrackdb,CONVENTIONAL_SOFTWARE,high,Object-oriented graph database with Gremlin support.,claude_r2,1
+Dong90/oh-my-taiyiforge,AI_PRODUCT,high,AI workflow automation plugin for code generation with Claude/Codex.,claude_r2,1
+Antvirf/stui,CONVENTIONAL_SOFTWARE,high,Terminal UI for Slurm HPC clusters.,claude_r2,1
+ChenZiHong-Gavin/weekly-vibe-coding,EXCLUDE,high,Prompt collection for frontend development without executable software.,claude_r2,1
+NaverPayDev/pie,CONVENTIONAL_SOFTWARE,high,Frontend packages for Naverpay team.,claude_r2,1
+JohnSnowLabs/spark-nlp,AI_PRODUCT,high,State of the art NLP library for Spark and Python.,claude_r2,1
+ExpressLRS/Docs,EXCLUDE,high,ExpressLRS documentation website without executable software.,claude_r2,1
+Agent-Threat-Rule/agent-threat-rules,AI_PRODUCT,high,Open detection standard for AI agent security threats.,claude_r2,1
+RYOITABASHI/Shelly,AI_PRODUCT,medium,AI-powered chat-first terminal IDE for Android.,claude_r2,1
+FavioVazquez/learnship,EXCLUDE,high,Agentic engineering documentation/learning resource.,claude_r2,1
+OfficeDev/microsoft-365-agents-toolkit-samples,CONVENTIONAL_SOFTWARE,high,Microsoft Teams app samples for developers.,claude_r2,1
+1Password/SCAM,AI_PRODUCT,high,Benchmark testing AI agent security awareness.,claude_r2,1
+0-AI-UG/cate,AI_PRODUCT,high,Infinite zoomable canvas for coding with spatial workspace.,claude_r2,1
+PaulJPhilp/effect-notion,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+OsmosysSoftware/osmo-x,CONVENTIONAL_SOFTWARE,high,Multi-channel notification management component.,claude_r2,1
+PlanExeOrg/PlanExe,AI_PRODUCT,high,AI planning tool with MCP integration for plan creation.,claude_r2,1
+CoreAgent-Project/CoreAgent,AI_PRODUCT,high,LLM agent framework with stateful tools.,claude_r2,1
+LiteyukiStudio/agent,CONVENTIONAL_SOFTWARE,medium,Chinese comprehensive agent for various tasks.,claude_r2,1
+IstiN/yoloit,CONVENTIONAL_SOFTWARE,low,Dart project with insufficient description.,claude_r2,1
+OtterMind/youclaw,AI_PRODUCT,high,AI personal assistant with memory skills and scheduled tasks.,claude_r2,1
+Laer-Smart/2anki.net,CONVENTIONAL_SOFTWARE,high,Server for creating Anki flashcards from Notion.,claude_r2,1
+Kong/developer.konghq.com,CONVENTIONAL_SOFTWARE,high,Kong developer documentation website.,claude_r2,1
+Cppys/OpenNovel,AI_PRODUCT,medium,Claude SDK-based automated novel writing agent.,claude_r2,1
+Hacksore/cursed-repo,CONVENTIONAL_SOFTWARE,medium,Average JavaScript repository for general developers.,claude_r2,1
+Copenhagen0x/solana-security-standard,AI_PRODUCT,high,Solana security standard for AI coding tools and CI.,claude_r2,1
+KubeRocketCI/kuberocketai,AI_PRODUCT,high,Declarative agentic framework for AI-driven software development.,claude_r2,1
+Azure-Samples/multimodal-rag-code-execution,AI_PRODUCT,high,Multimodal RAG with code execution for AI applications.,claude_r2,1
+ArisGuimera/MobiAI-Core,CONVENTIONAL_SOFTWARE,high,Go interpreter and compiler for general developers.,claude_r2,1
+Agoric/agoric-sdk,CONVENTIONAL_SOFTWARE,high,Agoric JavaScript smart contract platform monorepo.,claude_r2,1
+JetBrains-Research/lca-baselines,AI_PRODUCT,high,Baselines for Long Code Arena LLM benchmarks.,claude_r2,1
+PaulDuvall/vibecoding,EXCLUDE,high,Windsurf vibe coding rules without clear executable software.,claude_r2,1
+AgentOps-AI/agentops,AI_PRODUCT,high,Python SDK for AI agent monitoring and cost tracking.,claude_r2,1
+NewKrok/three-particles-editor,CONVENTIONAL_SOFTWARE,high,Particle system editor for three.js graphics.,claude_r2,1
+MStanislavov/stratoseer,CONVENTIONAL_SOFTWARE,low,Python project with insufficient description.,claude_r2,1
+MushroomFleet/DJZ-Nodes,CONVENTIONAL_SOFTWARE,high,Custom nodes for ComfyUI targeting image/video creators.,claude_r2,1
+GraflowAI/graflow,AI_PRODUCT,high,Composable Python framework for LLM agent workflows.,claude_r2,1
+OpenStudy-dev/OpenStudy,AI_PRODUCT,high,Study dashboard with MCP server for Claude/ChatGPT integration.,claude_r2,1
+Factory-AI/factory,AI_PRODUCT,high,Factory agent-native software development platform.,claude_r2,1
+Azure/azure-sdk-for-python,CONVENTIONAL_SOFTWARE,high,Azure SDK for Python targeting general cloud developers.,claude_r2,1
+ExDragine/frontier,CONVENTIONAL_SOFTWARE,low,Insufficient description to determine product nature.,claude_r2,1
+EliasOenal/multimon-ng,CONVENTIONAL_SOFTWARE,low,Insufficient evidence but appears to be news-related product.,claude_r2,1
+26d0/vrchat-ime-chat,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+Azure/kimojio-rs,AI_PRODUCT,medium,Rust io_uring async runtime potentially for AI infrastructure.,claude_r2,1
+AI45Lab/Code,AI_PRODUCT,high,Agentic agent framework for building AI systems.,claude_r2,1
+GoldenPotato137/PotatoVN,CONVENTIONAL_SOFTWARE,high,Visual novel management software for end users.,claude_r2,1
+Anson-Trio/BaiShou-Next,CONVENTIONAL_SOFTWARE,low,Insufficient description to determine product nature.,claude_r2,1
+PracticalParticle/Bloxchain-Protocol,CONVENTIONAL_SOFTWARE,medium,Enterprise smart contract security framework for blockchain developers.,claude_r2,1
+NikiforovAll/claude-code-rules,EXCLUDE,high,Handbook/documentation for Claude Code without executable software.,claude_r2,1
+KyaniteLabs/mcp-video,AI_PRODUCT,high,MCP server for video editing designed for AI agent integration.,claude_r2,1
+NewLifeX/NewLife.Redis,CONVENTIONAL_SOFTWARE,high,High-performance Redis client for .NET developers.,claude_r2,1
+PaulJPhilp/effect-cli-tui,CONVENTIONAL_SOFTWARE,low,TypeScript project with insufficient description.,claude_r2,1
+MatrixCoreX/RustClaw,CONVENTIONAL_SOFTWARE,medium,Rust client for Raspberry Pi/macOS/Ubuntu targeting general developers.,claude_r2,1
+Josverl/micropython-stubs,CONVENTIONAL_SOFTWARE,high,MicroPython type stubs for Python developers.,claude_r2,1
+Kohaku-Lab/KohakuTerrarium,AI_PRODUCT,high,AI agent framework for building and running agents and multi-agent teams.,claude_r2,1
+PolyArch/humanize,AI_PRODUCT,high,Agentic workflow framework for spec-driven AI development.,claude_r2,1
+MiguelTVMS/e-redes-smart-metering-plus-hass,CONVENTIONAL_SOFTWARE,high,Home Assistant integration for energy meters.,claude_r2,1
+QuoteVote/quotevote-next,CONVENTIONAL_SOFTWARE,high,Open-source text-only social platform for deliberative conversations.,claude_r2,1
+PostHog/DeskHog,CONVENTIONAL_SOFTWARE,medium,Developer toy project targeting general developers.,claude_r2,1
+NVIDIA/skills,AI_PRODUCT,high,NVIDIA AI agent skills for building AI applications.,claude_r2,1
+JetBrains-Research/verified-cogen,AI_PRODUCT,medium,Verified code generation project for AI systems.,claude_r2,1
+GoogleCloudPlatform/vertex-ai-creative-studio,AI_PRODUCT,high,GenMedia Creative Studio showcasing Vertex AI generative media APIs.,claude_r2,1
+Archeb/CyberGroupmate,AI_PRODUCT,medium,Code-driven social agent for AI development.,claude_r2,1
+LaLanMo/muxagent,AI_PRODUCT,medium,Workflow runner for coding tasks with Codex and Claude Code.,claude_r2,1
+InsightSoftwareConsortium/ITK,CONVENTIONAL_SOFTWARE,high,Insight Toolkit for scientific image processing targeting researchers.,claude_r2,1
+MuhammadUsmanGM/claude-code-best-practices,EXCLUDE,high,Best-practices wiki for Claude Code without executable software.,claude_r2,1
+CrispStrobe/CrispEmbed,CONVENTIONAL_SOFTWARE,high,Lightweight text embedding inference library for general developers.,claude_r2,1
+Automattic/newspack-workspace,CONVENTIONAL_SOFTWARE,low,PHP project with minimal description.,claude_r2,1
+0niel/university-app,CONVENTIONAL_SOFTWARE,high,Mobile app for Russian university students.,claude_r2,1
+AsiaOstrich/universal-dev-standards,EXCLUDE,high,Pure documentation/standards collection without executable software product.,claude_r2,1
+CERTCC/Vultron,AI_PRODUCT,medium,Protocol library for coordinated vulnerability disclosure with potential AI integration tooling.,claude_r2,1
+Joanium/Skills,EXCLUDE,high,Skills collection without clear executable software shipping the artifacts.,claude_r2,1
+AlexChesser/ail,CONVENTIONAL_SOFTWARE,medium,Rust loop optimization library for general developers not specific to AI systems.,claude_r2,1
+NASA-AMMOS/MGViz,CONVENTIONAL_SOFTWARE,high,Geographic visualization tool for NASA missions targeting end users.,claude_r2,1
+ClawStackStudios/GitLobster,AI_PRODUCT,high,Decentralized registry for cryptographically-verified skills enabling agent peer-to-peer sharing.,claude_r2,1
+Automattic/data-liberation-agent,CONVENTIONAL_SOFTWARE,medium,Content extraction tool for WordPress targeting end users and content creators.,claude_r2,1
+NFDI4Chem/nmrxiv,CONVENTIONAL_SOFTWARE,high,NMR data repository and computational platform for researchers not AI builders.,claude_r2,1
+MemoriLabs/Memori,AI_PRODUCT,high,Agent-native memory infrastructure for LLM agent production systems.,claude_r2,1
+AI-Planning/l2p,AI_PRODUCT,high,LLM-driven action model acquisition library for AI planning systems.,claude_r2,1
+Chemaclass/agnostic-ai,AI_PRODUCT,high,Transpiler for AI agent skills/rules targeting multiple AI CLI tools.,claude_r2,1
+NakaokaRei/swift-mcp-gui,AI_PRODUCT,high,MCP server for macOS automation designed for AI agent integration.,claude_r2,1
+GthiN89/FuckingCheapFlipperZero-DIY-Flipper-zero-The-real-on,CONVENTIONAL_SOFTWARE,medium,DIY Flipper Zero hardware project for general hobbyists.,claude_r2,1
+Rainexn0b/keyRGB,CONVENTIONAL_SOFTWARE,high,Linux tray app for laptop keyboard RGB control targeting end users.,claude_r2,1
+EvolvingAgentsLabs/llmos,EXCLUDE,medium,OS simulation example without clear product shipping.,claude_r2,1
+OxidizeLabs/ferrite,CONVENTIONAL_SOFTWARE,medium,OLTP engine demonstrating Rust concurrency for general developers.,claude_r2,1
+QingJ01/Axiom,EXCLUDE,high,Chinese documentation for AI programming assistants without executable software.,claude_r2,1
+MercuryTechnologies/hs-temporal-sdk,CONVENTIONAL_SOFTWARE,high,Temporal Haskell SDK for general developers building workflow applications.,claude_r2,1
+Automattic/wp-calypso,CONVENTIONAL_SOFTWARE,high,JavaScript WordPress.com frontend for end users and web developers.,claude_r2,1
+Asymptote-Labs/agent-beacon,AI_PRODUCT,high,Open-source telemetry layer for AI agents wherever they run.,claude_r2,1
+HeavenOSK/rich-cline,AI_PRODUCT,medium,Agent for SWE-bench targeting AI evaluation and benchmarking.,claude_r2,1
+Insight-Services-APAC/ingenious,AI_PRODUCT,high,Gen AI accelerator with agent/autogen for building AI applications.,claude_r2,1
+RedHatInsights/patchman-engine,CONVENTIONAL_SOFTWARE,high,System patch manager for RHEL targeting sysadmins.,claude_r2,1
+HyunjunJeon/open-langgraph-platform,AI_PRODUCT,high,Self-hosted LangGraph Platform server for building AI agent workflows.,claude_r2,1
+HHS/OPRE-OPS,CONVENTIONAL_SOFTWARE,high,Government product management system for ACF operations.,claude_r2,1
+AyayaXiaowang/Ayaya_Miliastra_Editor,CONVENTIONAL_SOFTWARE,medium,Python node graph library for general developers.,claude_r2,1
+Arize-ai/client_python,AI_PRODUCT,high,Python client for AI monitoring and observability platform.,claude_r2,1
+Mathews-Tom/armory,EXCLUDE,high,Curated skills collection without clear executable software product.,claude_r2,1
+MikaAK/deploy_ex,CONVENTIONAL_SOFTWARE,medium,Elixir deployment framework with terraform/ansible for general developers.,claude_r2,1
+ARCLab-MIT/kspdg,CONVENTIONAL_SOFTWARE,medium,Space domain game AI challenge participation code.,claude_r2,1

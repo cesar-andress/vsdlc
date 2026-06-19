@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 262
+Primary language: Python
+Description: Source-available, self-hosted platform for building AI agent flows - visual editor over a Django backend.
+Topics: ade|ai|aiagents|aiagentsframework|gui|low-code|multi-agent-systems|no-code|nodebasedprogramming|orchestration|python
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 52
+Primary language: C++
+Description: Gladius is a viewer and editor for 3mf files using the volumetric extension.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 153
+Primary language: Dart
+Description: Run Gemini Nano 100% offline. A powerful, private, & open-source AI interface.
+Topics: ai|edge-computing|gemini|gemini-nano|google|google-ai|local|offline
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 329
+Primary language: JavaScript
+Description: Browser extension to search bookmarks, history and tabs. Supports tagging and fuzzy search.
+Topics: bookmark|bookmarks|browser-extension|browserhistory|chrome-extension|chromium-extension|edge-extension|firefox-extension|manifest-v3|search|tab-groups|tabs-management|tagging
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 296
+Primary language: Lua
+Description: An advanced mission generator for Eagle Dynamic's DCS World.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 21
+Primary language: F#
+Description: An RPG-like Game prototype written in F# and Monogame
+Topics: 2d|3d|dotnet|ecs|fsharp|gamedev|isometric|monogame|prototype
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 27
+Primary language: Python
+Description: An advanced Self-Centered Intelligence (SCI) prototype that represents a new paradigm in AI-human interaction.
+Topics: agentic-rag|agents|ai|api|arpa|autonomous-agents|llm|local-ai|mcp|ml|multimodal|ollama|opsie|rag|self-hosted|sql
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 27
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 52
+Primary language: Python
+Description: 🧠 The right skill, one API call. AI agent skills registry with token-efficient skill resolution. 5,000+ skills from 500+ top repos.
+Topics: agent-skills|ai|ai-agents|developer-tools|drizzle|llm|nextjs|open-source|skill-registry|skill-resolver|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 672
+Primary language: Python
+Description: Frontier Models playing the board game Diplomacy.
+Topics: ai|ai-benchmark|benchmark|llm
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 200
+Primary language: TypeScript
+Description: Multi-agent AI coding orchestration system designed to drive successful coding outcomes with a high level of transparency (think more light-factory than dark-factory).
+Topics: agent|coding|orchestration|pi
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 159
+Primary language: TypeScript
+Description: Toolkit for Coding Agents to work reliably with repo of any size.
+Topics: full-stack|mcp-server|programming|vibecoding
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 8833
+Primary language: Python
+Description: KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.
+Topics: knowledge-graph|large-language-model|logical-reasoning|multi-hop-question-answering|trustfulness
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 1070
+Primary language: Go
+Description: csghub-server is the backend server for CSGHub which helps user to manage datasets, modes, and also run Model Inference, Finetune and Application Spaces.
+Topics: ai|datasets|golang|huggingface|llm|models|platform
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 13
+Primary language: Go
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 73
+Primary language: MDX
+Description: New API v1 official website documentation
+Topics: ai-gateway|documentation|llms-txt|newapi
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 34
+Primary language: TypeScript
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 89
+Primary language: Swift
+Description:   A type-safe, declarative AI agent framework for Swift. Build composable AI pipelines with Steps, Agents, structured           outputs, and tool integration. Features FIFO session management, MCP support, and distributed actor communication. 
+Topics: agent|ai|swift
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 327
+Primary language: Dart
+Description: MCP Toolkit for Flutter AI Agent Driven Development (MCP/CLI + custom client side tools) - via closed feedback loop (visual & semantic snapshot) and high client side customization adaptable for any Flutter app. Nowadays it is often called as agentic harness.
+Topics: ai|dart|dynamic-tools|flutter|harness-engineering|harness-execution-layer|harness-framework|mcp|mcp-client|mcp-server|mcp-toolkit|mcp-tools
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 150
+Primary language: Python
+Description: AI小说创作引擎 - 对话式引导创建项目、动态+静态文件防遗忘、多维风格提取与合成、通用技法质量审核、热门题材查看分析、多层渐进式压缩长文本 支持：四级大纲(总纲→篇→节→章)、三层风格合成、伏笔DAG管理、情节弧线-节拍模板驱动写作、去AI味技法
+Topics: ai-novel|story-writing|writing-assistant
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 22
+Primary language: Rust
+Description: The Semantic Time Machine & Orchestrator for AI-Generated Code.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 989
+Primary language: Python
+Description: Evaluate and improve models and agents using environments
+Topics: agents|benchmarks|environments|evaluation|gym|llm|reinforcement-learning|reinforcement-learning-environments|rl-environment|rl-training
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 1155
+Primary language: Python
+Description: 该项目包括一个基于 GPT 等大语言模型的长篇小说生成器，同时还有各类小说生成 Prompt 以及教程。我们欢迎社区贡献，持续更新以提供最佳的小说创作体验。
+Topics: ai|chatgpt|gpt|llm|novel
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 12
+Primary language: Python
+Description: A revolutionary code generation system that grows software from semantic autopoietic specifications using the LJPW Framework.
+Topics: code-generation|code-synthesis|emergent-systems|fractal-composition|ljpw-framework|python|semantic-analysis
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 22646
+Primary language: Python
+Description: Prefect is a workflow orchestration framework for building resilient data pipelines in Python.
+Topics: automation|data|data-engineering|data-ops|data-science|infrastructure|ml-ops|observability|orchestration|pipeline|prefect|python|workflow|workflow-engine
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 83
+Primary language: JavaScript
+Description: [Everything Gemini Code] A harness engineering toolkit for Gemini CLI & Antigravity. Tune the runtime around the model, not the model itself
+Topics: ai-agents|antigravity|developer-tools|gemini-cli|gemini-cli-extension|gemini-cli-skills|hooks|llm-tools|mcp|productivity|slash-commands
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 37
+Primary language: Go
+Description: A development framework based on Gin, which provides a clear directory structure and powerful features. It includes commonly used middleware such as parameter validation and exception handling, as well as utility methods like HTTP request encapsulation and email services. It also supports databases like MySQL, MongoDB, and Redis.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 2342
+Primary language: Go
+Description: :cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud
+Topics: adversary-emulation|aws|aws-security|azure-security|cloud-native-security|cloud-security|detection-engineering|gcp-security|kubernetes-security|mitre-attack|purple-team|security|threat-detection
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 157
+Primary language: TypeScript
+Description: WebExtension: Adds an option to the context menu to search with an image on various services. Made with Svelte.
+Topics: firefox|image-reverse|opera|reverse-search|svelte|webextensions
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 32
+Primary language: Python
+Description: 🤵 AIfred-Intelligence — self-hosted Multi-Agent Assistant with Debate Modes (Symposion/Tribunal), Voice (STT + Streaming-TTS), RAG with Long-Term Memory, Web Research and Tool-Calling. Reachable via Web-UI or Telegram/Discord/Email/EPIM. Multi-Backend: llama-swap, Ollama, vLLM, TabbyAPI.
+Topics: ai|ai-assistant|chain-of-thought|chatbot|chromadb|llm|local-llm|multi-agent|ocr|ollama|python|rag|reflex|self-hosted|text-to-speech|tts|voice-assistant|voice-cloning|web-scraping|whisper
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 

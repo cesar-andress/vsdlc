@@ -1,0 +1,300 @@
+
+Repository 1: 
+URL: 
+Stars: 132
+Primary language: C#
+Description: Tools repository leveraged by the Azure SDK team.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 2: 
+URL: 
+Stars: 12860
+Primary language: Python
+Description: A collection of projects showcasing RAG, agents, workflows, and other AI use cases
+Topics: agents|ai|hacktoberfest|llm|mcp
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 3: 
+URL: 
+Stars: 59
+Primary language: Ruby
+Description: Ruby & Rails agentic coding assistant powered by Claude. 28 tools, 112 skills, 16-layer architecture.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 4: 
+URL: 
+Stars: 488
+Primary language: TypeScript
+Description: Browser Operator - The AI browser with built in Multi-Agent platform! Open source alternative to ChatGPT Atlas, Perplexity Comet, Dia and Microsoft CoPilot Edge Browser
+Topics: agent-browser|agent-workflow|agentic-ai|agentic-browser|agentic-framework|agentic-workflow|agents|ai-browser|browser-operator|computer-use|langgraph|llamacpp|llm|mcp|mcp-client|ollama|open-operator|openai|operator
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 5: 
+URL: 
+Stars: 2392
+Primary language: TypeScript
+Description: A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.
+Topics: a2a-protocol|agent-economy|agent-memory|ai-agent|chatbot|cognitive-architecture|decentralized-ai|desktop-app|dream-engine|local-first|multi-channel|open-source|p2p|personal-ai|skills-marketplace|typescript|x402
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 6: 
+URL: 
+Stars: 297
+Primary language: Python
+Description: A web application for prompt generation and multiple ComfyUI remote and local connections for image and video generation in parallel in an infinite canvas
+Topics: cinematography|comfyui|image-generation-and-inpainting|prompt-engineering|prompt-toolkit|video-generation
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 7: 
+URL: 
+Stars: 278
+Primary language: C++
+Description: NVIDIA OptiX based implementation of ANARI
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 8: 
+URL: 
+Stars: 1984
+Primary language: TypeScript
+Description: A centralized game library/collection management service with a focus on emulation
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 9: 
+URL: 
+Stars: 38
+Primary language: 
+Description: A curated list of emerging conventions to build AI agents.
+Topics: awesome|awesome-list|awesome-lists
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 10: 
+URL: 
+Stars: 415
+Primary language: TypeScript
+Description: Open-source, local-first alternative to Cowork-style computer assistants: real PTY terminal ops, explicit approvals, JSONL audit logs. Windows + Linux + macOS. Model agnostic.
+Topics: ai-agent|claude-cowork|cowork|cowork-alternative|cursor-for-pc|desktop-agent|devops|goose-alternative|linux|local-first|macos|node-pty|operator|privacy|pty|self-hosted|system-administration|terminal|windows
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 11: 
+URL: 
+Stars: 34
+Primary language: Jupyter Notebook
+Description: python wrapper for HWPFrame.HwpObject using win32com
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 12: 
+URL: 
+Stars: 15
+Primary language: Ruby
+Description: A collaborative list of awesome Swift libraries and resources. Feel free to contribute! With repository stars⭐ and forks🍴
+Topics: awesome|awesome-list|awesome-lists|awesome-swift|ios|linux|list|lists|swift|swift-extensions|swift-framework|swift-language|swift-library
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 13: 
+URL: 
+Stars: 20242
+Primary language: Java
+Description: IntelliJ IDEA & IntelliJ Platform
+Topics: code-editor|ide|intellij|intellij-community|intellij-platform
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 14: 
+URL: 
+Stars: 781
+Primary language: TypeScript
+Description: Open Source Research Claw
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 15: 
+URL: 
+Stars: 17
+Primary language: Mojo
+Description: Training framework written in Mojo
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 16: 
+URL: 
+Stars: 10
+Primary language: Python
+Description: Python CLI for embedding DJI drone telemetry from SRT logs into MP4 videos. Batch processes folders, preserves subtitles, and exports flight data to JSON, GPX, or CSV.
+Topics: dji|dji-drones|drone|exif-metadata|metadata|mp4|python|srt-files
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 17: 
+URL: 
+Stars: 20
+Primary language: TypeScript
+Description: PureCutCNC is a 2.5D CAD / CAM workspace for designing parts, defining machining operations, previewing toolpaths, and checking the result in 3D and simulation before export.
+Topics: cad|cam|cnc|hobbycnc
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 18: 
+URL: 
+Stars: 63
+Primary language: JavaScript
+Description: AIGoat - Open-source AI security playground for LLM red teaming. AI Goat provides hands-on labs covering the full OWASP LLM Top 10 with progressive defenses.
+Topics: ai-goat|ai-playground|ai-security|ai-security-lab|ai-vulnerabilities|aigoat|ctf-challenges|llm-attacks|llm-red-teaming|llm-security|owasp-llm|prompt-injection|prompt-injection-testing|red-teaming
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 19: 
+URL: 
+Stars: 53
+Primary language: Objective-C
+Description: Common code used by both the Active Directory Authentication Library (ADAL) and the Microsoft Authentication Library (MSAL)
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 20: 
+URL: 
+Stars: 109
+Primary language: TypeScript
+Description: ESLint plugin that brings Flow's Render Types to TypeScript via JSDoc. Enforce component composition constraints like `@renders {MenuItem}` at lint time.
+Topics: component-validation|design-system|eslint|eslint-plugin|flow|jsdoc|linting|react|render-types|typescript
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 21: 
+URL: 
+Stars: 10
+Primary language: Python
+Description: Cross-platform skill & MCP sync for Claude Code CLI, Codex CLI, and Cursor
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 22: 
+URL: 
+Stars: 119
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 23: 
+URL: 
+Stars: 18
+Primary language: Go
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 24: 
+URL: 
+Stars: 11
+Primary language: TypeScript
+Description: QuickerAgent: AI desktop assistant for Quicker. Monorepo with QuickerRpc plugin + qkrpc CLI — headless action create/edit/run via MCP, HTTP, or JSON CLI (StreamJsonRpc named pipe).
+Topics: ai-agent|automation|cli|csharp|electron|mcp|model-context-protocol|quicker|streamjsonrpc|typescript|windows
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 25: 
+URL: 
+Stars: 472
+Primary language: Python
+Description: 《明日方舟》帕拉斯 Bot
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 26: 
+URL: 
+Stars: 15
+Primary language: Python
+Description: A simple agent powered by LLMs that performs tasks.
+Topics: agents|ai|anthropic|autonomous-agents|llms|openai|python
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 27: 
+URL: 
+Stars: 22
+Primary language: Java
+Description: Java-hosted execution of Protelis programs
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 28: 
+URL: 
+Stars: 26
+Primary language: Python
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 29: 
+URL: 
+Stars: 11
+Primary language: Rust
+Description: 
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
+
+Repository 30: 
+URL: 
+Stars: 73
+Primary language: Python
+Description: Build, test, and ship omnichannel voice agents on Azure—ACS telephony, custom STT→LLM→TTS pipeline, Voice Live API (voice-to-voice), and Foundry Agents.
+Topics: 
+Instruction artifacts: 
+CI evidence: 
+Release evidence: 
