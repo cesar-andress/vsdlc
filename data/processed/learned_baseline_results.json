@@ -1,0 +1,620 @@
+{
+  "binary_contamination": {
+    "categories": [
+      "target_population",
+      "non_target"
+    ],
+    "failure_analysis": {
+      "all_models_wrong_count": 30,
+      "all_models_wrong_examples": [
+        {
+          "github_description": "Open-Source Infrastructure as Code Management Solution for Multiple Systems designed to be reliable in mission-critical tasks on paranoid and high-security envi",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "Arcanyx-org/NiXium",
+          "true_label": "target_population"
+        },
+        {
+          "github_description": "AI\u5f71\u89c6\u521b\u4f5c\u7b56\u5212\u8bc4\u4f30\u5de5\u4f5c\u6d41|\u5267\u672c\u521b\u4f5c Agent \u5e73\u53f0\u662f\u4e00\u4e2a\u57fa\u4e8e AI \u7684\u4e13\u4e1a\u5f71\u89c6\u521b\u4f5c\u8f85\u52a9\u7cfb\u7edf\uff0c\u6574\u5408\u4e86 20+ \u4e2a\u4e13\u4e1a Agents\uff0c\u8986\u76d6\u4ece\u7b56\u5212\u3001\u521b\u4f5c\u5230\u8bc4\u4f30\u7684\u5168\u6d41\u7a0b\u3002\u77ed\u5267\u521b\u4f5c|\u7b56\u5212|\u8bc4\u4f30Agent,\u6545\u4e8b\u5927\u7eb2\u751f\u6210\uff5c\u8be6\u7ec6\u60c5\u8282\u70b9\uff5c\u5267\u672c\uff5c\u6545\u4e8b\u8d28\u91cfip\u8bc4\u4f30\uff5c\u5df2\u64ad\u5267\u60c5\u5206\u6790\uff5c\u6545\u4e8b\u4e94\u5143\u7d20\u5206\u6790\uff5c\u60c5\u8282\u70b9\u5de5\u4f5c\u6d41\uff5c\u4eba\u7269\u5c0f\u4f20\uff5c\u4eba\u7269\u5173\u7cfb\uff5c\u601d\u7ef4\u5bfc\u56fe",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "GongLingRui/juben",
+          "true_label": "target_population"
+        },
+        {
+          "github_description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "PrefectHQ/prefect",
+          "true_label": "target_population"
+        },
+        {
+          "github_description": "\ud83e\udd35 AIfred-Intelligence \u2014 self-hosted Multi-Agent Assistant with Debate Modes (Symposion/Tribunal), Voice (STT + Streaming-TTS), RAG with Long-Term Memory, Web Re",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "Peuqui/AIfred-Intelligence",
+          "true_label": "target_population"
+        },
+        {
+          "github_description": "A web application for prompt generation and multiple ComfyUI remote and local connections for image and video generation in parallel in an infinite canvas",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "NickPittas/DirectorsConsole",
+          "true_label": "target_population"
+        },
+        {
+          "github_description": "Open-source, local-first alternative to Cowork-style computer assistants: real PTY terminal ops, explicit approvals, JSONL audit logs. Windows + Linux + macOS. ",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "target_population",
+            "tfidf_logistic_regression": "target_population",
+            "tfidf_random_forest": "target_population"
+          },
+          "repo_full_name": "Prof-Harita/terminaI",
+          "true_label": "non_target"
+        },
+        {
+          "github_description": "IntelliJ IDEA & IntelliJ Platform",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "JetBrains/intellij-community",
+          "true_label": "target_population"
+        },
+        {
+          "github_description": "Open Source Research Claw",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "target_population",
+            "tfidf_logistic_regression": "target_population",
+            "tfidf_random_forest": "target_population"
+          },
+          "repo_full_name": "Prismer-AI/Prismer",
+          "true_label": "non_target"
+        },
+        {
+          "github_description": "Training framework written in Mojo",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "target_population",
+            "tfidf_logistic_regression": "target_population",
+            "tfidf_random_forest": "target_population"
+          },
+          "repo_full_name": "HomericIntelligence/ProjectOdyssey",
+          "true_label": "non_target"
+        },
+        {
+          "github_description": "Build, test, and ship omnichannel voice agents on Azure\u2014ACS telephony, custom STT\u2192LLM\u2192TTS pipeline, Voice Live API (voice-to-voice), and Foundry Agents.",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "target_population",
+            "tfidf_logistic_regression": "target_population",
+            "tfidf_random_forest": "target_population"
+          },
+          "repo_full_name": "Azure-Samples/art-voice-agent-accelerator",
+          "true_label": "non_target"
+        },
+        {
+          "github_description": "Sample repository containing Azure Databricks Bicep extension",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "target_population",
+            "tfidf_logistic_regression": "target_population",
+            "tfidf_random_forest": "target_population"
+          },
+          "repo_full_name": "Gijsreyn/bicep-ext-databricks",
+          "true_label": "non_target"
+        },
+        {
+          "github_description": "One Button Prompt",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "non_target",
+            "tfidf_logistic_regression": "non_target",
+            "tfidf_random_forest": "non_target"
+          },
+          "repo_full_name": "AIrjen/OneButtonPrompt",
+          "true_label": "target_population"
+        }
+      ],
+      "exclude_involving_errors": {}
+    },
+    "label_field": "majority_label",
+    "metadata_text_fields": [
+      "repo_full_name",
+      "github_description",
+      "github_topics",
+      "primary_language",
+      "ci_evidence",
+      "release_evidence",
+      "sample_stratum",
+      "detected_instruction_artifacts"
+    ],
+    "models": {
+      "sentence_embedding_logistic_regression": {
+        "accuracy": 0.7837837837837838,
+        "classification_report": {
+          "accuracy": 0.7837837837837838,
+          "macro avg": {
+            "f1-score": 0.7818315828266077,
+            "precision": 0.7821877140899749,
+            "recall": 0.7903566896940646,
+            "support": 296.0
+          },
+          "non_target": {
+            "f1-score": 0.8024691358024691,
+            "precision": 0.8609271523178808,
+            "recall": 0.7514450867052023,
+            "support": 173.0
+          },
+          "target_population": {
+            "f1-score": 0.7611940298507462,
+            "precision": 0.7034482758620689,
+            "recall": 0.8292682926829268,
+            "support": 123.0
+          },
+          "weighted avg": {
+            "f1-score": 0.7853176559644222,
+            "precision": 0.7954882948717157,
+            "recall": 0.7837837837837838,
+            "support": 296.0
+          }
+        },
+        "f1_macro": 0.7818315828266077,
+        "f1_weighted": 0.7853176559644222,
+        "label_distribution_pred": {
+          "non_target": 151,
+          "target_population": 145
+        },
+        "label_distribution_true": {
+          "non_target": 173,
+          "target_population": 123
+        },
+        "precision_macro": 0.7821877140899749,
+        "precision_weighted": 0.7954882948717157,
+        "recall_macro": 0.7903566896940646,
+        "recall_weighted": 0.7837837837837838
+      },
+      "tfidf_logistic_regression": {
+        "accuracy": 0.7027027027027027,
+        "classification_report": {
+          "accuracy": 0.7027027027027027,
+          "macro avg": {
+            "f1-score": 0.7000184263865856,
+            "precision": 0.7010733044073989,
+            "recall": 0.706894120964331,
+            "support": 296.0
+          },
+          "non_target": {
+            "f1-score": 0.7283950617283951,
+            "precision": 0.7814569536423841,
+            "recall": 0.6820809248554913,
+            "support": 173.0
+          },
+          "target_population": {
+            "f1-score": 0.6716417910447762,
+            "precision": 0.6206896551724138,
+            "recall": 0.7317073170731707,
+            "support": 123.0
+          },
+          "weighted avg": {
+            "f1-score": 0.7048117769510804,
+            "precision": 0.7146516235349302,
+            "recall": 0.7027027027027027,
+            "support": 296.0
+          }
+        },
+        "f1_macro": 0.7000184263865856,
+        "f1_weighted": 0.7048117769510804,
+        "label_distribution_pred": {
+          "non_target": 151,
+          "target_population": 145
+        },
+        "label_distribution_true": {
+          "non_target": 173,
+          "target_population": 123
+        },
+        "precision_macro": 0.7010733044073989,
+        "precision_weighted": 0.7146516235349302,
+        "recall_macro": 0.706894120964331,
+        "recall_weighted": 0.7027027027027027
+      },
+      "tfidf_random_forest": {
+        "accuracy": 0.7094594594594594,
+        "classification_report": {
+          "accuracy": 0.7094594594594594,
+          "macro avg": {
+            "f1-score": 0.6826726502119173,
+            "precision": 0.7103888247263928,
+            "recall": 0.6797781850650877,
+            "support": 296.0
+          },
+          "non_target": {
+            "f1-score": 0.774869109947644,
+            "precision": 0.7081339712918661,
+            "recall": 0.8554913294797688,
+            "support": 173.0
+          },
+          "target_population": {
+            "f1-score": 0.5904761904761905,
+            "precision": 0.7126436781609196,
+            "recall": 0.5040650406504065,
+            "support": 123.0
+          },
+          "weighted avg": {
+            "f1-score": 0.6982463765186279,
+            "precision": 0.7100079373219119,
+            "recall": 0.7094594594594594,
+            "support": 296.0
+          }
+        },
+        "f1_macro": 0.6826726502119173,
+        "f1_weighted": 0.6982463765186279,
+        "label_distribution_pred": {
+          "non_target": 209,
+          "target_population": 87
+        },
+        "label_distribution_true": {
+          "non_target": 173,
+          "target_population": 123
+        },
+        "precision_macro": 0.7103888247263928,
+        "precision_weighted": 0.7100079373219119,
+        "recall_macro": 0.6797781850650877,
+        "recall_weighted": 0.7094594594594594
+      }
+    },
+    "n_repositories": 296,
+    "numeric_feature_names": [
+      "log1p_stars",
+      "agent_product_flag",
+      "has_ci_evidence",
+      "has_release_evidence",
+      "n_queries",
+      "n_matched_paths",
+      "n_topics",
+      "has_description"
+    ]
+  },
+  "evaluation": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "features": "metadata-visible fields only (no labels, no functional inspection)",
+    "method": "stratified_k_fold_cross_validation",
+    "n_splits": 5,
+    "random_state": 42
+  },
+  "label_field": "majority_label",
+  "labels_file": "data/processed/gold_sample_330_three_annotator_comparison.csv",
+  "metadata_file": "data/processed/gold_sample_360b_pilot.csv",
+  "schema_version": "0.2",
+  "three_class": {
+    "categories": [
+      "AI_PRODUCT",
+      "CONVENTIONAL_SOFTWARE",
+      "EXCLUDE"
+    ],
+    "failure_analysis": {
+      "all_models_wrong_count": 34,
+      "all_models_wrong_examples": [
+        {
+          "github_description": "https://flowdown.ai/",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_random_forest": "CONVENTIONAL_SOFTWARE"
+          },
+          "repo_full_name": "Lakr233/FlowDown",
+          "true_label": "EXCLUDE"
+        },
+        {
+          "github_description": "A modern DrawIO editor application.  AI-Powered, Human-AI Collaboration | AI \u52a0\u6301\uff0c\u4eba\u673a\u5171\u7ed8drawio",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "AI_PRODUCT",
+            "tfidf_logistic_regression": "AI_PRODUCT",
+            "tfidf_random_forest": "AI_PRODUCT"
+          },
+          "repo_full_name": "Menghuan1918/drawio2go",
+          "true_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "github_description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "AI_PRODUCT",
+            "tfidf_logistic_regression": "AI_PRODUCT",
+            "tfidf_random_forest": "AI_PRODUCT"
+          },
+          "repo_full_name": "PrefectHQ/prefect",
+          "true_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "github_description": "\ud83e\udd35 AIfred-Intelligence \u2014 self-hosted Multi-Agent Assistant with Debate Modes (Symposion/Tribunal), Voice (STT + Streaming-TTS), RAG with Long-Term Memory, Web Re",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "AI_PRODUCT",
+            "tfidf_logistic_regression": "AI_PRODUCT",
+            "tfidf_random_forest": "AI_PRODUCT"
+          },
+          "repo_full_name": "Peuqui/AIfred-Intelligence",
+          "true_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "github_description": "IntelliJ IDEA & IntelliJ Platform",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "AI_PRODUCT",
+            "tfidf_logistic_regression": "AI_PRODUCT",
+            "tfidf_random_forest": "AI_PRODUCT"
+          },
+          "repo_full_name": "JetBrains/intellij-community",
+          "true_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "github_description": "Open Source Research Claw",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_random_forest": "CONVENTIONAL_SOFTWARE"
+          },
+          "repo_full_name": "Prismer-AI/Prismer",
+          "true_label": "AI_PRODUCT"
+        },
+        {
+          "github_description": "Cross-platform skill & MCP sync for Claude Code CLI, Codex CLI, and Cursor",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "EXCLUDE",
+            "tfidf_logistic_regression": "EXCLUDE",
+            "tfidf_random_forest": "CONVENTIONAL_SOFTWARE"
+          },
+          "repo_full_name": "2030ai/2030ai-claudecode-allecosystem-sync",
+          "true_label": "AI_PRODUCT"
+        },
+        {
+          "github_description": "Build, test, and ship omnichannel voice agents on Azure\u2014ACS telephony, custom STT\u2192LLM\u2192TTS pipeline, Voice Live API (voice-to-voice), and Foundry Agents.",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_random_forest": "CONVENTIONAL_SOFTWARE"
+          },
+          "repo_full_name": "Azure-Samples/art-voice-agent-accelerator",
+          "true_label": "AI_PRODUCT"
+        },
+        {
+          "github_description": "Write your next novel faster and easier",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "AI_PRODUCT",
+            "tfidf_logistic_regression": "AI_PRODUCT",
+            "tfidf_random_forest": "AI_PRODUCT"
+          },
+          "repo_full_name": "AIStoryBuilders/AIStoryBuilders",
+          "true_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "github_description": "50 AI agent skills for affiliate marketing. Research trending content, write data-backed posts, generate infographics, build landing pages, deploy \u2014 full flywhe",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "AI_PRODUCT",
+            "tfidf_logistic_regression": "AI_PRODUCT",
+            "tfidf_random_forest": "AI_PRODUCT"
+          },
+          "repo_full_name": "Affitor/affiliate-skills",
+          "true_label": "EXCLUDE"
+        },
+        {
+          "github_description": "Simple, feature rich project management software.",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "EXCLUDE",
+            "tfidf_logistic_regression": "EXCLUDE",
+            "tfidf_random_forest": "EXCLUDE"
+          },
+          "repo_full_name": "BuildWithHussain/hive",
+          "true_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "github_description": "Alfanous is an Arabic search engine API provides the simple and advanced search in Quran , more features and many interfaces...",
+          "predictions": {
+            "sentence_embedding_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_logistic_regression": "CONVENTIONAL_SOFTWARE",
+            "tfidf_random_forest": "CONVENTIONAL_SOFTWARE"
+          },
+          "repo_full_name": "Alfanous-team/alfanous",
+          "true_label": "AI_PRODUCT"
+        }
+      ],
+      "exclude_involving_errors": {
+        "AI_PRODUCT->EXCLUDE": 27,
+        "CONVENTIONAL_SOFTWARE->EXCLUDE": 29,
+        "EXCLUDE->AI_PRODUCT": 26,
+        "EXCLUDE->CONVENTIONAL_SOFTWARE": 29,
+        "EXCLUDE->EXCLUDE": 140
+      }
+    },
+    "label_field": "majority_label",
+    "metadata_text_fields": [
+      "repo_full_name",
+      "github_description",
+      "github_topics",
+      "primary_language",
+      "ci_evidence",
+      "release_evidence",
+      "sample_stratum",
+      "detected_instruction_artifacts"
+    ],
+    "models": {
+      "sentence_embedding_logistic_regression": {
+        "accuracy": 0.7702702702702703,
+        "classification_report": {
+          "AI_PRODUCT": {
+            "f1-score": 0.7601809954751131,
+            "precision": 0.7433628318584071,
+            "recall": 0.7777777777777778,
+            "support": 108.0
+          },
+          "CONVENTIONAL_SOFTWARE": {
+            "f1-score": 0.7866108786610879,
+            "precision": 0.8103448275862069,
+            "recall": 0.7642276422764228,
+            "support": 123.0
+          },
+          "EXCLUDE": {
+            "f1-score": 0.7575757575757576,
+            "precision": 0.746268656716418,
+            "recall": 0.7692307692307693,
+            "support": 65.0
+          },
+          "accuracy": 0.7702702702702703,
+          "macro avg": {
+            "f1-score": 0.7681225439039862,
+            "precision": 0.7666587720536774,
+            "recall": 0.77041206309499,
+            "support": 296.0
+          },
+          "weighted avg": {
+            "f1-score": 0.770591587260305,
+            "precision": 0.771834670001279,
+            "recall": 0.7702702702702703,
+            "support": 296.0
+          }
+        },
+        "f1_macro": 0.7681225439039862,
+        "f1_weighted": 0.770591587260305,
+        "label_distribution_pred": {
+          "AI_PRODUCT": 113,
+          "CONVENTIONAL_SOFTWARE": 116,
+          "EXCLUDE": 67
+        },
+        "label_distribution_true": {
+          "AI_PRODUCT": 108,
+          "CONVENTIONAL_SOFTWARE": 123,
+          "EXCLUDE": 65
+        },
+        "precision_macro": 0.7666587720536774,
+        "precision_weighted": 0.771834670001279,
+        "recall_macro": 0.77041206309499,
+        "recall_weighted": 0.7702702702702703
+      },
+      "tfidf_logistic_regression": {
+        "accuracy": 0.7162162162162162,
+        "classification_report": {
+          "AI_PRODUCT": {
+            "f1-score": 0.6982758620689655,
+            "precision": 0.6532258064516129,
+            "recall": 0.75,
+            "support": 108.0
+          },
+          "CONVENTIONAL_SOFTWARE": {
+            "f1-score": 0.7168141592920354,
+            "precision": 0.7864077669902912,
+            "recall": 0.6585365853658537,
+            "support": 123.0
+          },
+          "EXCLUDE": {
+            "f1-score": 0.746268656716418,
+            "precision": 0.7246376811594203,
+            "recall": 0.7692307692307693,
+            "support": 65.0
+          },
+          "accuracy": 0.7162162162162162,
+          "macro avg": {
+            "f1-score": 0.720452892692473,
+            "precision": 0.7214237515337748,
+            "recall": 0.7259224515322077,
+            "support": 296.0
+          },
+          "weighted avg": {
+            "f1-score": 0.7165182344018101,
+            "precision": 0.7242499719998052,
+            "recall": 0.7162162162162162,
+            "support": 296.0
+          }
+        },
+        "f1_macro": 0.720452892692473,
+        "f1_weighted": 0.7165182344018101,
+        "label_distribution_pred": {
+          "AI_PRODUCT": 124,
+          "CONVENTIONAL_SOFTWARE": 103,
+          "EXCLUDE": 69
+        },
+        "label_distribution_true": {
+          "AI_PRODUCT": 108,
+          "CONVENTIONAL_SOFTWARE": 123,
+          "EXCLUDE": 65
+        },
+        "precision_macro": 0.7214237515337748,
+        "precision_weighted": 0.7242499719998052,
+        "recall_macro": 0.7259224515322077,
+        "recall_weighted": 0.7162162162162162
+      },
+      "tfidf_random_forest": {
+        "accuracy": 0.6418918918918919,
+        "classification_report": {
+          "AI_PRODUCT": {
+            "f1-score": 0.6350710900473934,
+            "precision": 0.6504854368932039,
+            "recall": 0.6203703703703703,
+            "support": 108.0
+          },
+          "CONVENTIONAL_SOFTWARE": {
+            "f1-score": 0.6484375,
+            "precision": 0.6240601503759399,
+            "recall": 0.6747967479674797,
+            "support": 123.0
+          },
+          "EXCLUDE": {
+            "f1-score": 0.64,
+            "precision": 0.6666666666666666,
+            "recall": 0.6153846153846154,
+            "support": 65.0
+          },
+          "accuracy": 0.6418918918918919,
+          "macro avg": {
+            "f1-score": 0.6411695300157979,
+            "precision": 0.6470707513119368,
+            "recall": 0.6368505779074884,
+            "support": 296.0
+          },
+          "weighted avg": {
+            "f1-score": 0.6417077372470219,
+            "precision": 0.6430579696420269,
+            "recall": 0.6418918918918919,
+            "support": 296.0
+          }
+        },
+        "f1_macro": 0.6411695300157979,
+        "f1_weighted": 0.6417077372470219,
+        "label_distribution_pred": {
+          "AI_PRODUCT": 103,
+          "CONVENTIONAL_SOFTWARE": 133,
+          "EXCLUDE": 60
+        },
+        "label_distribution_true": {
+          "AI_PRODUCT": 108,
+          "CONVENTIONAL_SOFTWARE": 123,
+          "EXCLUDE": 65
+        },
+        "precision_macro": 0.6470707513119368,
+        "precision_weighted": 0.6430579696420269,
+        "recall_macro": 0.6368505779074884,
+        "recall_weighted": 0.6418918918918919
+      }
+    },
+    "n_repositories": 296,
+    "numeric_feature_names": [
+      "log1p_stars",
+      "agent_product_flag",
+      "has_ci_evidence",
+      "has_release_evidence",
+      "n_queries",
+      "n_matched_paths",
+      "n_topics",
+      "has_description"
+    ]
+  }
+}

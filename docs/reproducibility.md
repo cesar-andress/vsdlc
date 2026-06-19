@@ -136,6 +136,39 @@ The script computes point estimates and **95% percentile bootstrap confidence in
 
 Unit tests: `pytest tests/test_kappa_bootstrap.py`
 
+Disagreement attribution for the EXCLUDE finding (Table~\ref{tab:exclude-disagreement}, Figure~\ref{fig:exclude-disagreement}):
+
+```bash
+python3 scripts/compute_exclude_disagreement_stats.py
+```
+
+Output: `data/processed/exclude_disagreement_stats.json`
+
+## Learned metadata baselines
+
+Frozen pilot outputs include `data/processed/learned_baseline_results.json`, produced by:
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+python3 -m pip install -e ".[ml,dev]"
+python3 scripts/evaluate_learned_baselines.py \
+  --metadata data/processed/gold_sample_360b_pilot.csv \
+  --labels data/processed/gold_sample_330_three_annotator_comparison.csv \
+  --output data/processed/learned_baseline_results.json
+```
+
+Defaults:
+- Reference labels: `majority_label` on the human--human intersection ($n{=}296$ after excluding four tied rows)
+- Features: annotation-visible metadata only (no labels, no functional-evidence fields)
+- Evaluation: stratified 5-fold cross-validation (seed 42)
+- Models: TF-IDF + logistic regression, TF-IDF + random forest, sentence embeddings (`all-MiniLM-L6-v2`) + logistic regression
+
+Use `--skip-embeddings` to omit the sentence-transformer model when the optional dependency is unavailable.
+
+Unit tests: `pytest tests/test_learned_baselines.py`
+
+Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_heuristics.py` → `data/processed/baseline_comparison_330.json`
+
 ## Citation after Zenodo DOI assignment
 
 1. Mint or reserve a DOI on Zenodo.
