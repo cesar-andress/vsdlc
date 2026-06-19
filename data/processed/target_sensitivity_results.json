@@ -1,0 +1,109 @@
+{
+  "source": "gold_sample_330_three_annotator_comparison.csv",
+  "consensus_n": 300,
+  "label_counts": {
+    "AI_PRODUCT": 108,
+    "CONVENTIONAL_SOFTWARE": 123,
+    "EXCLUDE": 65,
+    "TIE": 4
+  },
+  "scenarios": [
+    {
+      "key": "conventional_application_software",
+      "target_reading": "Conventional application software",
+      "on_target_definition": "CONVENTIONAL_SOFTWARE",
+      "target_labels": [
+        "CONVENTIONAL_SOFTWARE"
+      ],
+      "non_target_labels": [
+        "AI_PRODUCT",
+        "EXCLUDE"
+      ],
+      "n": 300,
+      "target_count": 123,
+      "target_pct": 41.0,
+      "non_target_count": 173,
+      "non_target_pct": 57.7,
+      "wilson_ci_pct": [
+        52.0,
+        63.1
+      ],
+      "tie_count": 4
+    },
+    {
+      "key": "any_software_product",
+      "target_reading": "Any software product",
+      "on_target_definition": "CONVENTIONAL_SOFTWARE + AI_PRODUCT",
+      "target_labels": [
+        "AI_PRODUCT",
+        "CONVENTIONAL_SOFTWARE"
+      ],
+      "non_target_labels": [
+        "EXCLUDE"
+      ],
+      "n": 300,
+      "target_count": 231,
+      "target_pct": 77.0,
+      "non_target_count": 65,
+      "non_target_pct": 21.7,
+      "wilson_ci_pct": [
+        17.4,
+        26.7
+      ],
+      "tie_count": 4
+    },
+    {
+      "key": "ai_builder_tooling",
+      "target_reading": "AI-builder tooling",
+      "on_target_definition": "AI_PRODUCT",
+      "target_labels": [
+        "AI_PRODUCT"
+      ],
+      "non_target_labels": [
+        "CONVENTIONAL_SOFTWARE",
+        "EXCLUDE"
+      ],
+      "n": 300,
+      "target_count": 108,
+      "target_pct": 36.0,
+      "non_target_count": 188,
+      "non_target_pct": 62.7,
+      "wilson_ci_pct": [
+        57.1,
+        67.9
+      ],
+      "tie_count": 4
+    },
+    {
+      "key": "product_role_contrast",
+      "target_reading": "Product-role contrast, excluding EXCLUDE",
+      "on_target_definition": "CONVENTIONAL_SOFTWARE vs. AI_PRODUCT (EXCLUDE omitted)",
+      "n_total_consensus": 300,
+      "n": 235,
+      "exclude_omitted_count": 65,
+      "conventional_count": 123,
+      "conventional_pct": 52.3,
+      "conventional_wilson_ci_pct": [
+        46.0,
+        58.6
+      ],
+      "ai_product_count": 108,
+      "ai_product_pct": 46.0,
+      "ai_product_wilson_ci_pct": [
+        39.7,
+        52.3
+      ],
+      "tie_count": 4,
+      "off_target_pct": 46.0,
+      "wilson_ci_pct": [
+        39.7,
+        52.3
+      ]
+    }
+  ],
+  "notes": [
+    "Uses frozen annotation consensus (majority_label) only; no relabeling.",
+    "Binary scenarios keep n=300 and leave TIE rows in the denominator but unassigned.",
+    "Product-role contrast excludes EXCLUDE rows before comparing CONVENTIONAL_SOFTWARE vs AI_PRODUCT."
+  ]
+}

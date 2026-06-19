@@ -1,0 +1,1866 @@
+{
+  "sources": {
+    "pilot_csv": "data/processed/gold_sample_360b_pilot.csv",
+    "comparison_csv": "data/processed/gold_sample_330_three_annotator_comparison.csv"
+  },
+  "assignment_schemes": {
+    "first_match": "First query in provenance order (current RQ2 rule)",
+    "last_match": "Last query in provenance order",
+    "multi_match_excluded": "Exclude repositories matching more than one predicate family",
+    "all_matches_weighted": "Repository counted in every matched predicate family"
+  },
+  "multi_match_prevalence": {
+    "pilot_n": 300,
+    "multi_match_query_count": 26,
+    "multi_match_query_pct": 8.7,
+    "multi_match_family_count": 14,
+    "multi_match_family_pct": 4.7,
+    "unique_query_count_distribution": {
+      "1": 274,
+      "2": 23,
+      "3": 2,
+      "4": 1
+    },
+    "multi_match_repositories": [
+      {
+        "repo_full_name": "FalconChristmas/fpp",
+        "queries": [
+          ".github/copilot-instructions.md",
+          "copilot-instructions.md"
+        ],
+        "families": [
+          "Copilot instructions"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "DCS-BR-Tools/briefing-room-for-dcs",
+        "queries": [
+          ".cursorrules",
+          ".windsurfrules"
+        ],
+        "families": [
+          "Cursor rules",
+          "Editor rule files"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "MaoXiaoYuZ/Long-Novel-GPT",
+        "queries": [
+          "prompts/",
+          "system_prompt.*"
+        ],
+        "families": [
+          "Prompt paths",
+          "System prompts"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "GuilhermeAlbert/awesome-ai-conventions",
+        "queries": [
+          ".clinerules",
+          "system_prompt.*"
+        ],
+        "families": [
+          "Editor rule files",
+          "System prompts"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "PureCutCNC/purecutcnc",
+        "queries": [
+          ".clinerules",
+          ".windsurfrules",
+          "GEMINI.md"
+        ],
+        "families": [
+          "Editor rule files",
+          "CLAUDE/GEMINI"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "AISecurityConsortium/AIGoat",
+        "queries": [
+          "*.prompt.md",
+          "prompts/"
+        ],
+        "families": [
+          "Prompt paths"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Myriad-Dreamin/tinymist",
+        "queries": [
+          ".github/copilot-instructions.md",
+          "copilot-instructions.md"
+        ],
+        "families": [
+          "Copilot instructions"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Alfanous-team/alfanous",
+        "queries": [
+          ".github/copilot-instructions.md",
+          "copilot-instructions.md"
+        ],
+        "families": [
+          "Copilot instructions"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "567-labs/instructor",
+        "queries": [
+          ".cursor/rules",
+          "GEMINI.md"
+        ],
+        "families": [
+          "Cursor rules",
+          "CLAUDE/GEMINI"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "ActiveInferenceInstitute/GEO-INFER",
+        "queries": [
+          ".cursorrules",
+          "AGENTS.md"
+        ],
+        "families": [
+          "Cursor rules",
+          "AGENTS.md"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "LouisShark/chatgpt_system_prompt",
+        "queries": [
+          "*.prompt.md",
+          "prompts/",
+          "system_prompt.*"
+        ],
+        "families": [
+          "Prompt paths",
+          "System prompts"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "PlamenTSV/plamen",
+        "queries": [
+          "*.prompt.md",
+          "prompts/"
+        ],
+        "families": [
+          "Prompt paths"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Nimble-Co/FoundryVTT-Nimble",
+        "queries": [
+          ".clinerules",
+          ".windsurfrules"
+        ],
+        "families": [
+          "Editor rule files"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "MODSetter/SurfSense",
+        "queries": [
+          "*.prompt.md",
+          "system_prompt.*"
+        ],
+        "families": [
+          "Prompt paths",
+          "System prompts"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Dong90/oh-my-taiyiforge",
+        "queries": [
+          "*.prompt.md",
+          "prompts/"
+        ],
+        "families": [
+          "Prompt paths"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding",
+        "queries": [
+          "*.prompt.md",
+          "prompts/"
+        ],
+        "families": [
+          "Prompt paths"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Agent-Threat-Rule/agent-threat-rules",
+        "queries": [
+          "copilot-instructions.md",
+          "system-prompt.*"
+        ],
+        "families": [
+          "Copilot instructions",
+          "System prompts"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Laer-Smart/2anki.net",
+        "queries": [
+          ".aider.conf.yml",
+          ".aiderignore"
+        ],
+        "families": [
+          "Aider config"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Kong/developer.konghq.com",
+        "queries": [
+          "*.prompt.md",
+          "GEMINI.md"
+        ],
+        "families": [
+          "Prompt paths",
+          "CLAUDE/GEMINI"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Hacksore/cursed-repo",
+        "queries": [
+          ".aider.conf.yml",
+          ".aiderignore",
+          ".clinerules",
+          ".windsurfrules"
+        ],
+        "families": [
+          "Aider config",
+          "Editor rule files"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Copenhagen0x/solana-security-standard",
+        "queries": [
+          ".aider.conf.yml",
+          ".clinerules"
+        ],
+        "families": [
+          "Aider config",
+          "Editor rule files"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "KubeRocketCI/kuberocketai",
+        "queries": [
+          ".cursor/rules",
+          ".github/chatmodes"
+        ],
+        "families": [
+          "Cursor rules",
+          "Chat modes"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "MStanislavov/stratoseer",
+        "queries": [
+          "*.prompt.md",
+          "prompts/"
+        ],
+        "families": [
+          "Prompt paths"
+        ],
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "MushroomFleet/DJZ-Nodes",
+        "queries": [
+          "*.prompt.md",
+          "prompts/"
+        ],
+        "families": [
+          "Prompt paths"
+        ],
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "OpenStudy-dev/OpenStudy",
+        "queries": [
+          "*.prompt.md",
+          "system-prompt.*"
+        ],
+        "families": [
+          "Prompt paths",
+          "System prompts"
+        ],
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "EliasOenal/multimon-ng",
+        "queries": [
+          ".github/copilot-instructions.md",
+          "copilot-instructions.md"
+        ],
+        "families": [
+          "Copilot instructions"
+        ],
+        "majority_label": "EXCLUDE"
+      }
+    ]
+  },
+  "family_tables_by_scheme": {
+    "first_match": [
+      {
+        "family": "Prompt paths",
+        "n": 80,
+        "tie_count": 2,
+        "conventional_count": 30,
+        "ai_product_count": 35,
+        "exclude_count": 13,
+        "non_target_count": 48,
+        "pct_conventional": 38.5,
+        "pct_ai_product": 44.9,
+        "pct_exclude": 16.7,
+        "pct_non_target": 61.5,
+        "non_target_ci_95": [
+          50.4,
+          71.6
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 30,
+          "AI_PRODUCT": 35,
+          "EXCLUDE": 13,
+          "TIE": 2
+        }
+      },
+      {
+        "family": "System prompts",
+        "n": 58,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 32,
+        "exclude_count": 14,
+        "non_target_count": 46,
+        "pct_conventional": 20.7,
+        "pct_ai_product": 55.2,
+        "pct_exclude": 24.1,
+        "pct_non_target": 79.3,
+        "non_target_ci_95": [
+          67.2,
+          87.7
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 32,
+          "EXCLUDE": 14,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "CLAUDE/GEMINI",
+        "n": 37,
+        "tie_count": 1,
+        "conventional_count": 13,
+        "ai_product_count": 13,
+        "exclude_count": 10,
+        "non_target_count": 23,
+        "pct_conventional": 36.1,
+        "pct_ai_product": 36.1,
+        "pct_exclude": 27.8,
+        "pct_non_target": 63.9,
+        "non_target_ci_95": [
+          47.6,
+          77.5
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 13,
+          "AI_PRODUCT": 13,
+          "EXCLUDE": 10,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Copilot instructions",
+        "n": 30,
+        "tie_count": 0,
+        "conventional_count": 20,
+        "ai_product_count": 5,
+        "exclude_count": 5,
+        "non_target_count": 10,
+        "pct_conventional": 66.7,
+        "pct_ai_product": 16.7,
+        "pct_exclude": 16.7,
+        "pct_non_target": 33.3,
+        "non_target_ci_95": [
+          19.2,
+          51.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 20,
+          "AI_PRODUCT": 5,
+          "EXCLUDE": 5,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Editor rule files",
+        "n": 28,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 9,
+        "exclude_count": 7,
+        "non_target_count": 16,
+        "pct_conventional": 42.9,
+        "pct_ai_product": 32.1,
+        "pct_exclude": 25.0,
+        "pct_non_target": 57.1,
+        "non_target_ci_95": [
+          39.1,
+          73.5
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 9,
+          "EXCLUDE": 7,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "AGENTS.md",
+        "n": 25,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 6,
+        "exclude_count": 7,
+        "non_target_count": 13,
+        "pct_conventional": 48.0,
+        "pct_ai_product": 24.0,
+        "pct_exclude": 28.0,
+        "pct_non_target": 52.0,
+        "non_target_ci_95": [
+          33.5,
+          70.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 6,
+          "EXCLUDE": 7,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Cursor rules",
+        "n": 24,
+        "tie_count": 1,
+        "conventional_count": 11,
+        "ai_product_count": 6,
+        "exclude_count": 6,
+        "non_target_count": 12,
+        "pct_conventional": 47.8,
+        "pct_ai_product": 26.1,
+        "pct_exclude": 26.1,
+        "pct_non_target": 52.2,
+        "non_target_ci_95": [
+          33.0,
+          70.8
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 11,
+          "AI_PRODUCT": 6,
+          "EXCLUDE": 6,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Aider config",
+        "n": 12,
+        "tie_count": 0,
+        "conventional_count": 9,
+        "ai_product_count": 2,
+        "exclude_count": 1,
+        "non_target_count": 3,
+        "pct_conventional": 75.0,
+        "pct_ai_product": 16.7,
+        "pct_exclude": 8.3,
+        "pct_non_target": 25.0,
+        "non_target_ci_95": [
+          8.9,
+          53.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 9,
+          "AI_PRODUCT": 2,
+          "EXCLUDE": 1,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Chat modes",
+        "n": 6,
+        "tie_count": 0,
+        "conventional_count": 4,
+        "ai_product_count": 0,
+        "exclude_count": 2,
+        "non_target_count": 2,
+        "pct_conventional": 66.7,
+        "pct_ai_product": 0.0,
+        "pct_exclude": 33.3,
+        "pct_non_target": 33.3,
+        "non_target_ci_95": [
+          9.7,
+          70.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 4,
+          "AI_PRODUCT": 0,
+          "EXCLUDE": 2,
+          "TIE": 0
+        }
+      }
+    ],
+    "last_match": [
+      {
+        "family": "Prompt paths",
+        "n": 75,
+        "tie_count": 2,
+        "conventional_count": 28,
+        "ai_product_count": 34,
+        "exclude_count": 11,
+        "non_target_count": 45,
+        "pct_conventional": 38.4,
+        "pct_ai_product": 46.6,
+        "pct_exclude": 15.1,
+        "pct_non_target": 61.6,
+        "non_target_ci_95": [
+          50.2,
+          71.9
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 28,
+          "AI_PRODUCT": 34,
+          "EXCLUDE": 11,
+          "TIE": 2
+        }
+      },
+      {
+        "family": "System prompts",
+        "n": 64,
+        "tie_count": 0,
+        "conventional_count": 14,
+        "ai_product_count": 34,
+        "exclude_count": 16,
+        "non_target_count": 50,
+        "pct_conventional": 21.9,
+        "pct_ai_product": 53.1,
+        "pct_exclude": 25.0,
+        "pct_non_target": 78.1,
+        "non_target_ci_95": [
+          66.6,
+          86.5
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 14,
+          "AI_PRODUCT": 34,
+          "EXCLUDE": 16,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "CLAUDE/GEMINI",
+        "n": 40,
+        "tie_count": 1,
+        "conventional_count": 14,
+        "ai_product_count": 14,
+        "exclude_count": 11,
+        "non_target_count": 25,
+        "pct_conventional": 35.9,
+        "pct_ai_product": 35.9,
+        "pct_exclude": 28.2,
+        "pct_non_target": 64.1,
+        "non_target_ci_95": [
+          48.4,
+          77.3
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 14,
+          "AI_PRODUCT": 14,
+          "EXCLUDE": 11,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Copilot instructions",
+        "n": 29,
+        "tie_count": 0,
+        "conventional_count": 20,
+        "ai_product_count": 4,
+        "exclude_count": 5,
+        "non_target_count": 9,
+        "pct_conventional": 69.0,
+        "pct_ai_product": 13.8,
+        "pct_exclude": 17.2,
+        "pct_non_target": 31.0,
+        "non_target_ci_95": [
+          17.3,
+          49.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 20,
+          "AI_PRODUCT": 4,
+          "EXCLUDE": 5,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Editor rule files",
+        "n": 29,
+        "tie_count": 0,
+        "conventional_count": 13,
+        "ai_product_count": 10,
+        "exclude_count": 6,
+        "non_target_count": 16,
+        "pct_conventional": 44.8,
+        "pct_ai_product": 34.5,
+        "pct_exclude": 20.7,
+        "pct_non_target": 55.2,
+        "non_target_ci_95": [
+          37.5,
+          71.6
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 13,
+          "AI_PRODUCT": 10,
+          "EXCLUDE": 6,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "AGENTS.md",
+        "n": 26,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 6,
+        "exclude_count": 8,
+        "non_target_count": 14,
+        "pct_conventional": 46.2,
+        "pct_ai_product": 23.1,
+        "pct_exclude": 30.8,
+        "pct_non_target": 53.8,
+        "non_target_ci_95": [
+          35.5,
+          71.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 6,
+          "EXCLUDE": 8,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Cursor rules",
+        "n": 20,
+        "tie_count": 1,
+        "conventional_count": 10,
+        "ai_product_count": 4,
+        "exclude_count": 5,
+        "non_target_count": 9,
+        "pct_conventional": 52.6,
+        "pct_ai_product": 21.1,
+        "pct_exclude": 26.3,
+        "pct_non_target": 47.4,
+        "non_target_ci_95": [
+          27.3,
+          68.3
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 10,
+          "AI_PRODUCT": 4,
+          "EXCLUDE": 5,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Aider config",
+        "n": 10,
+        "tie_count": 0,
+        "conventional_count": 8,
+        "ai_product_count": 1,
+        "exclude_count": 1,
+        "non_target_count": 2,
+        "pct_conventional": 80.0,
+        "pct_ai_product": 10.0,
+        "pct_exclude": 10.0,
+        "pct_non_target": 20.0,
+        "non_target_ci_95": [
+          5.7,
+          51.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 8,
+          "AI_PRODUCT": 1,
+          "EXCLUDE": 1,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Chat modes",
+        "n": 7,
+        "tie_count": 0,
+        "conventional_count": 4,
+        "ai_product_count": 1,
+        "exclude_count": 2,
+        "non_target_count": 3,
+        "pct_conventional": 57.1,
+        "pct_ai_product": 14.3,
+        "pct_exclude": 28.6,
+        "pct_non_target": 42.9,
+        "non_target_ci_95": [
+          15.8,
+          75.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 4,
+          "AI_PRODUCT": 1,
+          "EXCLUDE": 2,
+          "TIE": 0
+        }
+      }
+    ],
+    "multi_match_excluded": [
+      {
+        "family": "Prompt paths",
+        "n": 69,
+        "tie_count": 2,
+        "conventional_count": 27,
+        "ai_product_count": 31,
+        "exclude_count": 9,
+        "non_target_count": 40,
+        "pct_conventional": 40.3,
+        "pct_ai_product": 46.3,
+        "pct_exclude": 13.4,
+        "pct_non_target": 59.7,
+        "non_target_ci_95": [
+          47.7,
+          70.6
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 27,
+          "AI_PRODUCT": 31,
+          "EXCLUDE": 9,
+          "TIE": 2
+        }
+      },
+      {
+        "family": "System prompts",
+        "n": 58,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 32,
+        "exclude_count": 14,
+        "non_target_count": 46,
+        "pct_conventional": 20.7,
+        "pct_ai_product": 55.2,
+        "pct_exclude": 24.1,
+        "pct_non_target": 79.3,
+        "non_target_ci_95": [
+          67.2,
+          87.7
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 32,
+          "EXCLUDE": 14,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "CLAUDE/GEMINI",
+        "n": 37,
+        "tie_count": 1,
+        "conventional_count": 13,
+        "ai_product_count": 13,
+        "exclude_count": 10,
+        "non_target_count": 23,
+        "pct_conventional": 36.1,
+        "pct_ai_product": 36.1,
+        "pct_exclude": 27.8,
+        "pct_non_target": 63.9,
+        "non_target_ci_95": [
+          47.6,
+          77.5
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 13,
+          "AI_PRODUCT": 13,
+          "EXCLUDE": 10,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "AGENTS.md",
+        "n": 25,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 6,
+        "exclude_count": 7,
+        "non_target_count": 13,
+        "pct_conventional": 48.0,
+        "pct_ai_product": 24.0,
+        "pct_exclude": 28.0,
+        "pct_non_target": 52.0,
+        "non_target_ci_95": [
+          33.5,
+          70.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 6,
+          "EXCLUDE": 7,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Copilot instructions",
+        "n": 25,
+        "tie_count": 0,
+        "conventional_count": 18,
+        "ai_product_count": 3,
+        "exclude_count": 4,
+        "non_target_count": 7,
+        "pct_conventional": 72.0,
+        "pct_ai_product": 12.0,
+        "pct_exclude": 16.0,
+        "pct_non_target": 28.0,
+        "non_target_ci_95": [
+          14.3,
+          47.6
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 18,
+          "AI_PRODUCT": 3,
+          "EXCLUDE": 4,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Editor rule files",
+        "n": 25,
+        "tie_count": 0,
+        "conventional_count": 11,
+        "ai_product_count": 9,
+        "exclude_count": 5,
+        "non_target_count": 14,
+        "pct_conventional": 44.0,
+        "pct_ai_product": 36.0,
+        "pct_exclude": 20.0,
+        "pct_non_target": 56.0,
+        "non_target_ci_95": [
+          37.1,
+          73.3
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 11,
+          "AI_PRODUCT": 9,
+          "EXCLUDE": 5,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Cursor rules",
+        "n": 20,
+        "tie_count": 1,
+        "conventional_count": 10,
+        "ai_product_count": 4,
+        "exclude_count": 5,
+        "non_target_count": 9,
+        "pct_conventional": 52.6,
+        "pct_ai_product": 21.1,
+        "pct_exclude": 26.3,
+        "pct_non_target": 47.4,
+        "non_target_ci_95": [
+          27.3,
+          68.3
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 10,
+          "AI_PRODUCT": 4,
+          "EXCLUDE": 5,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Aider config",
+        "n": 9,
+        "tie_count": 0,
+        "conventional_count": 7,
+        "ai_product_count": 1,
+        "exclude_count": 1,
+        "non_target_count": 2,
+        "pct_conventional": 77.8,
+        "pct_ai_product": 11.1,
+        "pct_exclude": 11.1,
+        "pct_non_target": 22.2,
+        "non_target_ci_95": [
+          6.3,
+          54.7
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 7,
+          "AI_PRODUCT": 1,
+          "EXCLUDE": 1,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Chat modes",
+        "n": 6,
+        "tie_count": 0,
+        "conventional_count": 4,
+        "ai_product_count": 0,
+        "exclude_count": 2,
+        "non_target_count": 2,
+        "pct_conventional": 66.7,
+        "pct_ai_product": 0.0,
+        "pct_exclude": 33.3,
+        "pct_non_target": 33.3,
+        "non_target_ci_95": [
+          9.7,
+          70.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 4,
+          "AI_PRODUCT": 0,
+          "EXCLUDE": 2,
+          "TIE": 0
+        }
+      }
+    ],
+    "all_matches_weighted": [
+      {
+        "family": "Prompt paths",
+        "n": 80,
+        "tie_count": 2,
+        "conventional_count": 30,
+        "ai_product_count": 35,
+        "exclude_count": 13,
+        "non_target_count": 48,
+        "pct_conventional": 38.5,
+        "pct_ai_product": 44.9,
+        "pct_exclude": 16.7,
+        "pct_non_target": 61.5,
+        "non_target_ci_95": [
+          50.4,
+          71.6
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 30,
+          "AI_PRODUCT": 35,
+          "EXCLUDE": 13,
+          "TIE": 2
+        }
+      },
+      {
+        "family": "System prompts",
+        "n": 64,
+        "tie_count": 0,
+        "conventional_count": 14,
+        "ai_product_count": 34,
+        "exclude_count": 16,
+        "non_target_count": 50,
+        "pct_conventional": 21.9,
+        "pct_ai_product": 53.1,
+        "pct_exclude": 25.0,
+        "pct_non_target": 78.1,
+        "non_target_ci_95": [
+          66.6,
+          86.5
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 14,
+          "AI_PRODUCT": 34,
+          "EXCLUDE": 16,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "CLAUDE/GEMINI",
+        "n": 40,
+        "tie_count": 1,
+        "conventional_count": 14,
+        "ai_product_count": 14,
+        "exclude_count": 11,
+        "non_target_count": 25,
+        "pct_conventional": 35.9,
+        "pct_ai_product": 35.9,
+        "pct_exclude": 28.2,
+        "pct_non_target": 64.1,
+        "non_target_ci_95": [
+          48.4,
+          77.3
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 14,
+          "AI_PRODUCT": 14,
+          "EXCLUDE": 11,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Editor rule files",
+        "n": 31,
+        "tie_count": 0,
+        "conventional_count": 14,
+        "ai_product_count": 10,
+        "exclude_count": 7,
+        "non_target_count": 17,
+        "pct_conventional": 45.2,
+        "pct_ai_product": 32.3,
+        "pct_exclude": 22.6,
+        "pct_non_target": 54.8,
+        "non_target_ci_95": [
+          37.8,
+          70.8
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 14,
+          "AI_PRODUCT": 10,
+          "EXCLUDE": 7,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Copilot instructions",
+        "n": 30,
+        "tie_count": 0,
+        "conventional_count": 20,
+        "ai_product_count": 5,
+        "exclude_count": 5,
+        "non_target_count": 10,
+        "pct_conventional": 66.7,
+        "pct_ai_product": 16.7,
+        "pct_exclude": 16.7,
+        "pct_non_target": 33.3,
+        "non_target_ci_95": [
+          19.2,
+          51.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 20,
+          "AI_PRODUCT": 5,
+          "EXCLUDE": 5,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "AGENTS.md",
+        "n": 26,
+        "tie_count": 0,
+        "conventional_count": 12,
+        "ai_product_count": 6,
+        "exclude_count": 8,
+        "non_target_count": 14,
+        "pct_conventional": 46.2,
+        "pct_ai_product": 23.1,
+        "pct_exclude": 30.8,
+        "pct_non_target": 53.8,
+        "non_target_ci_95": [
+          35.5,
+          71.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 12,
+          "AI_PRODUCT": 6,
+          "EXCLUDE": 8,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Cursor rules",
+        "n": 24,
+        "tie_count": 1,
+        "conventional_count": 11,
+        "ai_product_count": 6,
+        "exclude_count": 6,
+        "non_target_count": 12,
+        "pct_conventional": 47.8,
+        "pct_ai_product": 26.1,
+        "pct_exclude": 26.1,
+        "pct_non_target": 52.2,
+        "non_target_ci_95": [
+          33.0,
+          70.8
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 11,
+          "AI_PRODUCT": 6,
+          "EXCLUDE": 6,
+          "TIE": 1
+        }
+      },
+      {
+        "family": "Aider config",
+        "n": 12,
+        "tie_count": 0,
+        "conventional_count": 9,
+        "ai_product_count": 2,
+        "exclude_count": 1,
+        "non_target_count": 3,
+        "pct_conventional": 75.0,
+        "pct_ai_product": 16.7,
+        "pct_exclude": 8.3,
+        "pct_non_target": 25.0,
+        "non_target_ci_95": [
+          8.9,
+          53.2
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 9,
+          "AI_PRODUCT": 2,
+          "EXCLUDE": 1,
+          "TIE": 0
+        }
+      },
+      {
+        "family": "Chat modes",
+        "n": 7,
+        "tie_count": 0,
+        "conventional_count": 4,
+        "ai_product_count": 1,
+        "exclude_count": 2,
+        "non_target_count": 3,
+        "pct_conventional": 57.1,
+        "pct_ai_product": 14.3,
+        "pct_exclude": 28.6,
+        "pct_non_target": 42.9,
+        "non_target_ci_95": [
+          15.8,
+          75.0
+        ],
+        "counts": {
+          "CONVENTIONAL_SOFTWARE": 4,
+          "AI_PRODUCT": 1,
+          "EXCLUDE": 2,
+          "TIE": 0
+        }
+      }
+    ]
+  },
+  "family_rankings_by_scheme": [
+    {
+      "scheme": "first_match",
+      "family": "Prompt paths",
+      "n": 80,
+      "pct_non_target": 61.5,
+      "non_target_ci_95": [
+        50.4,
+        71.6
+      ],
+      "rank_n_ge_min": 3,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "System prompts",
+      "n": 58,
+      "pct_non_target": 79.3,
+      "non_target_ci_95": [
+        67.2,
+        87.7
+      ],
+      "rank_n_ge_min": 1,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "CLAUDE/GEMINI",
+      "n": 37,
+      "pct_non_target": 63.9,
+      "non_target_ci_95": [
+        47.6,
+        77.5
+      ],
+      "rank_n_ge_min": 2,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "Copilot instructions",
+      "n": 30,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        19.2,
+        51.2
+      ],
+      "rank_n_ge_min": 7,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "Editor rule files",
+      "n": 28,
+      "pct_non_target": 57.1,
+      "non_target_ci_95": [
+        39.1,
+        73.5
+      ],
+      "rank_n_ge_min": 4,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "AGENTS.md",
+      "n": 25,
+      "pct_non_target": 52.0,
+      "non_target_ci_95": [
+        33.5,
+        70.0
+      ],
+      "rank_n_ge_min": 6,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "Cursor rules",
+      "n": 24,
+      "pct_non_target": 52.2,
+      "non_target_ci_95": [
+        33.0,
+        70.8
+      ],
+      "rank_n_ge_min": 5,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "Aider config",
+      "n": 12,
+      "pct_non_target": 25.0,
+      "non_target_ci_95": [
+        8.9,
+        53.2
+      ],
+      "rank_n_ge_min": 9,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "first_match",
+      "family": "Chat modes",
+      "n": 6,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "rank_n_ge_min": 8,
+      "rate_shift_vs_first_match_pp": null
+    },
+    {
+      "scheme": "last_match",
+      "family": "Prompt paths",
+      "n": 75,
+      "pct_non_target": 61.6,
+      "non_target_ci_95": [
+        50.2,
+        71.9
+      ],
+      "rank_n_ge_min": 3,
+      "rate_shift_vs_first_match_pp": 0.1
+    },
+    {
+      "scheme": "last_match",
+      "family": "System prompts",
+      "n": 64,
+      "pct_non_target": 78.1,
+      "non_target_ci_95": [
+        66.6,
+        86.5
+      ],
+      "rank_n_ge_min": 1,
+      "rate_shift_vs_first_match_pp": 1.2
+    },
+    {
+      "scheme": "last_match",
+      "family": "CLAUDE/GEMINI",
+      "n": 40,
+      "pct_non_target": 64.1,
+      "non_target_ci_95": [
+        48.4,
+        77.3
+      ],
+      "rank_n_ge_min": 2,
+      "rate_shift_vs_first_match_pp": 0.2
+    },
+    {
+      "scheme": "last_match",
+      "family": "Copilot instructions",
+      "n": 29,
+      "pct_non_target": 31.0,
+      "non_target_ci_95": [
+        17.3,
+        49.2
+      ],
+      "rank_n_ge_min": 8,
+      "rate_shift_vs_first_match_pp": 2.3
+    },
+    {
+      "scheme": "last_match",
+      "family": "Editor rule files",
+      "n": 29,
+      "pct_non_target": 55.2,
+      "non_target_ci_95": [
+        37.5,
+        71.6
+      ],
+      "rank_n_ge_min": 4,
+      "rate_shift_vs_first_match_pp": 1.9
+    },
+    {
+      "scheme": "last_match",
+      "family": "AGENTS.md",
+      "n": 26,
+      "pct_non_target": 53.8,
+      "non_target_ci_95": [
+        35.5,
+        71.2
+      ],
+      "rank_n_ge_min": 5,
+      "rate_shift_vs_first_match_pp": 1.8
+    },
+    {
+      "scheme": "last_match",
+      "family": "Cursor rules",
+      "n": 20,
+      "pct_non_target": 47.4,
+      "non_target_ci_95": [
+        27.3,
+        68.3
+      ],
+      "rank_n_ge_min": 6,
+      "rate_shift_vs_first_match_pp": 4.8
+    },
+    {
+      "scheme": "last_match",
+      "family": "Aider config",
+      "n": 10,
+      "pct_non_target": 20.0,
+      "non_target_ci_95": [
+        5.7,
+        51.0
+      ],
+      "rank_n_ge_min": 9,
+      "rate_shift_vs_first_match_pp": 5.0
+    },
+    {
+      "scheme": "last_match",
+      "family": "Chat modes",
+      "n": 7,
+      "pct_non_target": 42.9,
+      "non_target_ci_95": [
+        15.8,
+        75.0
+      ],
+      "rank_n_ge_min": 7,
+      "rate_shift_vs_first_match_pp": 9.6
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "Prompt paths",
+      "n": 69,
+      "pct_non_target": 59.7,
+      "non_target_ci_95": [
+        47.7,
+        70.6
+      ],
+      "rank_n_ge_min": 3,
+      "rate_shift_vs_first_match_pp": 1.8
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "System prompts",
+      "n": 58,
+      "pct_non_target": 79.3,
+      "non_target_ci_95": [
+        67.2,
+        87.7
+      ],
+      "rank_n_ge_min": 1,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "CLAUDE/GEMINI",
+      "n": 37,
+      "pct_non_target": 63.9,
+      "non_target_ci_95": [
+        47.6,
+        77.5
+      ],
+      "rank_n_ge_min": 2,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "AGENTS.md",
+      "n": 25,
+      "pct_non_target": 52.0,
+      "non_target_ci_95": [
+        33.5,
+        70.0
+      ],
+      "rank_n_ge_min": 5,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "Copilot instructions",
+      "n": 25,
+      "pct_non_target": 28.0,
+      "non_target_ci_95": [
+        14.3,
+        47.6
+      ],
+      "rank_n_ge_min": 8,
+      "rate_shift_vs_first_match_pp": 5.3
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "Editor rule files",
+      "n": 25,
+      "pct_non_target": 56.0,
+      "non_target_ci_95": [
+        37.1,
+        73.3
+      ],
+      "rank_n_ge_min": 4,
+      "rate_shift_vs_first_match_pp": 1.1
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "Cursor rules",
+      "n": 20,
+      "pct_non_target": 47.4,
+      "non_target_ci_95": [
+        27.3,
+        68.3
+      ],
+      "rank_n_ge_min": 6,
+      "rate_shift_vs_first_match_pp": 4.8
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "Aider config",
+      "n": 9,
+      "pct_non_target": 22.2,
+      "non_target_ci_95": [
+        6.3,
+        54.7
+      ],
+      "rank_n_ge_min": 9,
+      "rate_shift_vs_first_match_pp": 2.8
+    },
+    {
+      "scheme": "multi_match_excluded",
+      "family": "Chat modes",
+      "n": 6,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "rank_n_ge_min": 7,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "Prompt paths",
+      "n": 80,
+      "pct_non_target": 61.5,
+      "non_target_ci_95": [
+        50.4,
+        71.6
+      ],
+      "rank_n_ge_min": 3,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "System prompts",
+      "n": 64,
+      "pct_non_target": 78.1,
+      "non_target_ci_95": [
+        66.6,
+        86.5
+      ],
+      "rank_n_ge_min": 1,
+      "rate_shift_vs_first_match_pp": 1.2
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "CLAUDE/GEMINI",
+      "n": 40,
+      "pct_non_target": 64.1,
+      "non_target_ci_95": [
+        48.4,
+        77.3
+      ],
+      "rank_n_ge_min": 2,
+      "rate_shift_vs_first_match_pp": 0.2
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "Editor rule files",
+      "n": 31,
+      "pct_non_target": 54.8,
+      "non_target_ci_95": [
+        37.8,
+        70.8
+      ],
+      "rank_n_ge_min": 4,
+      "rate_shift_vs_first_match_pp": 2.3
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "Copilot instructions",
+      "n": 30,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        19.2,
+        51.2
+      ],
+      "rank_n_ge_min": 8,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "AGENTS.md",
+      "n": 26,
+      "pct_non_target": 53.8,
+      "non_target_ci_95": [
+        35.5,
+        71.2
+      ],
+      "rank_n_ge_min": 5,
+      "rate_shift_vs_first_match_pp": 1.8
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "Cursor rules",
+      "n": 24,
+      "pct_non_target": 52.2,
+      "non_target_ci_95": [
+        33.0,
+        70.8
+      ],
+      "rank_n_ge_min": 6,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "Aider config",
+      "n": 12,
+      "pct_non_target": 25.0,
+      "non_target_ci_95": [
+        8.9,
+        53.2
+      ],
+      "rank_n_ge_min": 9,
+      "rate_shift_vs_first_match_pp": 0.0
+    },
+    {
+      "scheme": "all_matches_weighted",
+      "family": "Chat modes",
+      "n": 7,
+      "pct_non_target": 42.9,
+      "non_target_ci_95": [
+        15.8,
+        75.0
+      ],
+      "rank_n_ge_min": 7,
+      "rate_shift_vs_first_match_pp": 9.6
+    }
+  ],
+  "ranking_comparison": {
+    "min_n_for_ranking": 5,
+    "ranks_by_scheme": {
+      "first_match": {
+        "System prompts": 1,
+        "CLAUDE/GEMINI": 2,
+        "Prompt paths": 3,
+        "Editor rule files": 4,
+        "Cursor rules": 5,
+        "AGENTS.md": 6,
+        "Copilot instructions": 7,
+        "Chat modes": 8,
+        "Aider config": 9
+      },
+      "last_match": {
+        "System prompts": 1,
+        "CLAUDE/GEMINI": 2,
+        "Prompt paths": 3,
+        "Editor rule files": 4,
+        "AGENTS.md": 5,
+        "Cursor rules": 6,
+        "Chat modes": 7,
+        "Copilot instructions": 8,
+        "Aider config": 9
+      },
+      "multi_match_excluded": {
+        "System prompts": 1,
+        "CLAUDE/GEMINI": 2,
+        "Prompt paths": 3,
+        "Editor rule files": 4,
+        "AGENTS.md": 5,
+        "Cursor rules": 6,
+        "Chat modes": 7,
+        "Copilot instructions": 8,
+        "Aider config": 9
+      },
+      "all_matches_weighted": {
+        "System prompts": 1,
+        "CLAUDE/GEMINI": 2,
+        "Prompt paths": 3,
+        "Editor rule files": 4,
+        "AGENTS.md": 5,
+        "Cursor rules": 6,
+        "Chat modes": 7,
+        "Copilot instructions": 8,
+        "Aider config": 9
+      }
+    },
+    "pairwise_vs_first_match": {
+      "last_match": {
+        "spearman_vs_first_match": 0.967,
+        "families_compared": 9,
+        "max_rank_shift": 1,
+        "rank_shifts": {
+          "AGENTS.md": 1,
+          "Aider config": 0,
+          "CLAUDE/GEMINI": 0,
+          "Chat modes": 1,
+          "Copilot instructions": 1,
+          "Cursor rules": 1,
+          "Editor rule files": 0,
+          "Prompt paths": 0,
+          "System prompts": 0
+        }
+      },
+      "multi_match_excluded": {
+        "spearman_vs_first_match": 0.967,
+        "families_compared": 9,
+        "max_rank_shift": 1,
+        "rank_shifts": {
+          "AGENTS.md": 1,
+          "Aider config": 0,
+          "CLAUDE/GEMINI": 0,
+          "Chat modes": 1,
+          "Copilot instructions": 1,
+          "Cursor rules": 1,
+          "Editor rule files": 0,
+          "Prompt paths": 0,
+          "System prompts": 0
+        }
+      },
+      "all_matches_weighted": {
+        "spearman_vs_first_match": 0.967,
+        "families_compared": 9,
+        "max_rank_shift": 1,
+        "rank_shifts": {
+          "AGENTS.md": 1,
+          "Aider config": 0,
+          "CLAUDE/GEMINI": 0,
+          "Chat modes": 1,
+          "Copilot instructions": 1,
+          "Cursor rules": 1,
+          "Editor rule files": 0,
+          "Prompt paths": 0,
+          "System prompts": 0
+        }
+      }
+    },
+    "rate_shift_vs_first_match_pct_points": {
+      "last_match": {
+        "Prompt paths": 0.1,
+        "System prompts": 1.2,
+        "CLAUDE/GEMINI": 0.2,
+        "Copilot instructions": 2.3,
+        "Editor rule files": 1.9,
+        "AGENTS.md": 1.8,
+        "Cursor rules": 4.8,
+        "Aider config": 5.0,
+        "Chat modes": 9.6
+      },
+      "multi_match_excluded": {
+        "Prompt paths": 1.8,
+        "System prompts": 0.0,
+        "CLAUDE/GEMINI": 0.0,
+        "Copilot instructions": 5.3,
+        "Editor rule files": 1.1,
+        "AGENTS.md": 0.0,
+        "Cursor rules": 4.8,
+        "Aider config": 2.8,
+        "Chat modes": 0.0
+      },
+      "all_matches_weighted": {
+        "Prompt paths": 0.0,
+        "System prompts": 1.2,
+        "CLAUDE/GEMINI": 0.2,
+        "Copilot instructions": 0.0,
+        "Editor rule files": 2.3,
+        "AGENTS.md": 1.8,
+        "Cursor rules": 0.0,
+        "Aider config": 0.0,
+        "Chat modes": 9.6
+      }
+    },
+    "max_rate_shift_pct_points": 9.6,
+    "max_rate_shift_family": "Chat modes",
+    "max_rate_shift_scheme": "last_match"
+  },
+  "headline_rq2_assessment": {
+    "baseline_extremes": {
+      "high": {
+        "family": "System prompts",
+        "pct_non_target": 79.3,
+        "n": 58
+      },
+      "low": {
+        "family": "Aider config",
+        "pct_non_target": 25.0,
+        "n": 12
+      },
+      "spread_pct_points": 54.3
+    },
+    "extremes_by_scheme": {
+      "first_match": {
+        "high": {
+          "family": "System prompts",
+          "pct_non_target": 79.3,
+          "n": 58
+        },
+        "low": {
+          "family": "Aider config",
+          "pct_non_target": 25.0,
+          "n": 12
+        },
+        "spread_pct_points": 54.3
+      },
+      "last_match": {
+        "high": {
+          "family": "System prompts",
+          "pct_non_target": 78.1,
+          "n": 64
+        },
+        "low": {
+          "family": "Aider config",
+          "pct_non_target": 20.0,
+          "n": 10
+        },
+        "spread_pct_points": 58.1
+      },
+      "multi_match_excluded": {
+        "high": {
+          "family": "System prompts",
+          "pct_non_target": 79.3,
+          "n": 58
+        },
+        "low": {
+          "family": "Aider config",
+          "pct_non_target": 22.2,
+          "n": 9
+        },
+        "spread_pct_points": 57.1
+      },
+      "all_matches_weighted": {
+        "high": {
+          "family": "System prompts",
+          "pct_non_target": 78.1,
+          "n": 64
+        },
+        "low": {
+          "family": "Aider config",
+          "pct_non_target": 25.0,
+          "n": 12
+        },
+        "spread_pct_points": 53.1
+      }
+    },
+    "high_risk_preservation": {
+      "first_match": {
+        "high_non_target_families_n_ge_5": [
+          "Prompt paths",
+          "System prompts",
+          "CLAUDE/GEMINI"
+        ],
+        "lower_conventional_families_n_ge_5": [
+          "Copilot instructions",
+          "Aider config",
+          "Chat modes"
+        ]
+      },
+      "last_match": {
+        "high_non_target_families_n_ge_5": [
+          "Prompt paths",
+          "System prompts",
+          "CLAUDE/GEMINI"
+        ],
+        "lower_conventional_families_n_ge_5": [
+          "Copilot instructions",
+          "Cursor rules",
+          "Aider config",
+          "Chat modes"
+        ]
+      },
+      "multi_match_excluded": {
+        "high_non_target_families_n_ge_5": [
+          "System prompts",
+          "CLAUDE/GEMINI"
+        ],
+        "lower_conventional_families_n_ge_5": [
+          "Copilot instructions",
+          "Cursor rules",
+          "Aider config",
+          "Chat modes"
+        ]
+      },
+      "all_matches_weighted": {
+        "high_non_target_families_n_ge_5": [
+          "Prompt paths",
+          "System prompts",
+          "CLAUDE/GEMINI"
+        ],
+        "lower_conventional_families_n_ge_5": [
+          "Copilot instructions",
+          "Aider config",
+          "Chat modes"
+        ]
+      }
+    },
+    "headline_rq2_survives": true,
+    "assessment_notes": [
+      "high- and low-contamination families remain separated under all assignment rules",
+      "System prompts and prompt-path families stay in the high-risk band; Copilot-instruction and Aider-config families stay lower"
+    ]
+  },
+  "summary_text": "RQ2 first-match assignment sensitivity\n- Pilot intersection n=300\n- Multi-predicate repositories: 26 (8.7%); multi-family: 14 (4.7%)\n- Max rank shift vs first-match (n>=5 families): 1\n- Max contamination-rate shift: 9.6 pp (Chat modes, scheme=last_match)\n- Spearman vs first-match (last_match): 0.967\n- Spearman vs first-match (multi_match_excluded): 0.967\n- Spearman vs first-match (all_matches_weighted): 0.967\n- Headline RQ2 structured-contamination conclusion survives alternative rules: True\n  * high- and low-contamination families remain separated under all assignment rules\n  * System prompts and prompt-path families stay in the high-risk band; Copilot-instruction and Aider-config families stay lower\n"
+}

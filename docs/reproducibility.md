@@ -144,6 +144,24 @@ python3 scripts/compute_exclude_disagreement_stats.py
 
 Output: `data/processed/exclude_disagreement_stats.json`
 
+## Target-sensitivity analysis (RQ1 supplement)
+
+Uses frozen consensus labels only (`data/processed/gold_sample_330_three_annotator_comparison.csv`); no relabeling.
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+PYTHONPATH=src python3 scripts/analyze_target_sensitivity.py
+```
+
+Outputs:
+
+| Artifact | Path |
+|----------|------|
+| Sensitivity JSON | `data/processed/target_sensitivity_results.json` |
+| Manuscript table | `data/processed/manuscript_table_target_sensitivity.tex` |
+
+Unit tests: `pytest tests/test_target_sensitivity.py`
+
 ## Second functional-evidence inspector (RQ4 extension)
 
 The frozen RQ4 sample (`n{=}50`) can be reassessed by a second independent inspector using the same codebook and blind protocol. The second inspector must not see metadata consensus labels, Round~1 coder labels, inspector~1 labels, or any prior worksheet labels.
