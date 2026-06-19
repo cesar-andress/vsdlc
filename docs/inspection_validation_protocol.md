@@ -83,6 +83,47 @@ Save the completed file as `data/processed/inspection_sample_50_completed.csv` w
 
 ---
 
+## Second independent inspector (same $n{=}50$ sample)
+
+A second functional-evidence inspector can reassess the **same 50 repositories** under the same codebook without seeing prior labels.
+
+**Blank worksheet:** `data/processed/inspection_sample_50_second_inspector_blank.csv`  
+**Completed worksheet:** `data/processed/inspection_sample_50_second_inspector_completed.csv`
+
+Generate the blank worksheet:
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+PYTHONPATH=src python3 scripts/create_second_inspector_blank.py
+```
+
+The second inspector must **not** consult:
+- `majority_label`, `claude_label`, `human1_label`, `human2_label`
+- inspector~1 fields (`inspection_label`, `functional_evidence`, etc.)
+
+Allowed worksheet context matches inspector~1: repository URL, description/topics/language, matched-path provenance, CI/release evidence.
+
+For each repository row:
+
+1. Open `repo_url` and inspect at least two evidence sources when available (same source list as above).
+2. Record:
+   - `inspector2_label`: one of `AI_PRODUCT`, `CONVENTIONAL_SOFTWARE`, `EXCLUDE`
+   - `inspector2_functional_note`: one sentence of functional repository evidence (required)
+   - `inspector2_evidence_sources`: comma- or pipe-separated tokens from `readme`, `file_tree`, `dependencies`, `entrypoints`, `instruction_consumption`
+   - `inspector2_confidence`: optional `high`, `medium`, or `low`
+   - `inspector2_free_notes`: optional audit notes
+
+Validate and evaluate after completion:
+
+```bash
+PYTHONPATH=src python3 scripts/validate_second_inspection.py
+PYTHONPATH=src python3 scripts/evaluate_second_inspection.py
+```
+
+See `docs/reproducibility.md` for output artifacts and metric definitions.
+
+---
+
 ## Evaluation
 
 After inspection is complete, run:

@@ -24,6 +24,40 @@ PILOT_AGENTS_ELIGIBLE_PATH = INTERIM_DIR / "pilot_agents_eligible.jsonl"
 PILOT_AGENTS_EXCLUDED_PATH = INTERIM_DIR / "pilot_agents_excluded.jsonl"
 PILOT_AGENTS_SUMMARY_PATH = INTERIM_DIR / "pilot_agents_summary.json"
 
+# Second discovery frame: AI-topic / metadata repository search (robustness extension).
+SECOND_FRAME_TOPIC_QUERIES: list[tuple[str, str]] = [
+    ("topic:llm", "topic:llm"),
+    ("topic:ai-agent", "topic:ai-agent"),
+    ("topic:mcp", "topic:mcp"),
+    ("topic:generative-ai", "topic:generative-ai"),
+    ("topic:copilot", "topic:copilot"),
+    ("topic:ai-application", "topic:ai-application"),
+    ("topic:agentic-ai", "topic:agentic-ai"),
+]
+SECOND_FRAME_CANDIDATES_PATH = RAW_DIR / "second_frame_candidates.jsonl"
+SECOND_FRAME_CHECKPOINT_PATH = INTERIM_DIR / "second_frame_search_checkpoint.json"
+SECOND_FRAME_ELIGIBLE_PATH = INTERIM_DIR / "second_frame_eligible_repos.jsonl"
+SECOND_FRAME_EXCLUDED_PATH = INTERIM_DIR / "second_frame_excluded_repos.jsonl"
+SECOND_FRAME_FILTER_SUMMARY_PATH = INTERIM_DIR / "second_frame_filter_summary.json"
+SECOND_FRAME_SAMPLE_PATH = PROCESSED_DIR / "second_frame_sample_100.csv"
+SECOND_FRAME_ANNOTATION_BLANK_PATH = PROCESSED_DIR / "second_frame_annotation_blank.csv"
+SECOND_FRAME_ANNOTATION_COMPLETED_PATH = PROCESSED_DIR / "second_frame_annotation_completed.csv"
+SECOND_FRAME_RESULTS_PATH = PROCESSED_DIR / "second_frame_contamination_results.json"
+SECOND_FRAME_TABLE_PATH = PROCESSED_DIR / "manuscript_table_second_frame.md"
+SECOND_FRAME_PARAGRAPH_PATH = PROCESSED_DIR / "manuscript_paragraph_second_frame.md"
+SECOND_FRAME_SAMPLE_SIZE = 100
+SECOND_FRAME_SAMPLE_SEED = 42
+
+# Frozen instruction-artifact pilot consensus reference for cross-frame comparison.
+ORIGINAL_FRAME_NON_TARGET_REFERENCE = {
+    "source": "instruction_artifact_pilot_consensus_n300",
+    "non_target_count": 173,
+    "consensus_n": 300,
+    "non_target_rate": 173 / 300,
+    "non_target_rate_pct": 57.7,
+    "wilson_ci_pct": [52.0, 63.1],
+}
+
 GITHUB_API_BASE = "https://api.github.com"
 GITHUB_SEARCH_CODE_URL = f"{GITHUB_API_BASE}/search/code"
 
@@ -136,6 +170,7 @@ TEST_DIR_HINTS: list[str] = [
 DEFAULT_PER_PAGE = 100
 MAX_SEARCH_RESULTS = 1000
 MAX_CODE_SEARCH_PAGES = 10  # GitHub hard cap for code search pagination.
+MAX_REPO_SEARCH_PAGES = 10  # GitHub hard cap for repository search pagination.
 MAX_RETRIES = 5
 INITIAL_BACKOFF_SECONDS = 2.0
 

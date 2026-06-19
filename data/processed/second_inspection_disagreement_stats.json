@@ -1,0 +1,237 @@
+{
+  "comparisons": {
+    "inspector1_vs_inspector2": {
+      "comparison": "inspector1_vs_inspector2",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 13,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 8,
+          "EXCLUDE": 3
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 5,
+          "EXCLUDE": 4
+        }
+      },
+      "disagreement_rate": 0.5,
+      "exclude_involving": {
+        "count": 14,
+        "percent_of_disagreements": 56.0
+      },
+      "off_diagonal_cells": [
+        {
+          "col_label": "EXCLUDE",
+          "count": 1,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 11,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 3,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 5,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "EXCLUDE"
+        },
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 5,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "EXCLUDE"
+        }
+      ],
+      "paired_repositories": 50,
+      "patterns": {
+        "ai_product_vs_conventional": {
+          "count": 11,
+          "percent_of_disagreements": 44.0
+        },
+        "exclude_vs_ai_product": {
+          "count": 6,
+          "percent_of_disagreements": 24.0
+        },
+        "exclude_vs_conventional": {
+          "count": 8,
+          "percent_of_disagreements": 32.0
+        },
+        "other": {
+          "count": 0,
+          "percent_of_disagreements": 0.0
+        }
+      },
+      "total_disagreements": 25
+    },
+    "metadata_consensus_vs_inspector1": {
+      "comparison": "metadata_consensus_vs_inspector1",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 14,
+          "EXCLUDE": 3
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 5,
+          "EXCLUDE": 10
+        }
+      },
+      "disagreement_rate": 0.3,
+      "exclude_involving": {
+        "count": 9,
+        "percent_of_disagreements": 60.0
+      },
+      "off_diagonal_cells": [
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 3,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 1,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 3,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 3,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 5,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "EXCLUDE"
+        }
+      ],
+      "paired_repositories": 50,
+      "patterns": {
+        "ai_product_vs_conventional": {
+          "count": 6,
+          "percent_of_disagreements": 40.0
+        },
+        "exclude_vs_ai_product": {
+          "count": 1,
+          "percent_of_disagreements": 6.7
+        },
+        "exclude_vs_conventional": {
+          "count": 8,
+          "percent_of_disagreements": 53.3
+        },
+        "other": {
+          "count": 0,
+          "percent_of_disagreements": 0.0
+        }
+      },
+      "total_disagreements": 15
+    },
+    "metadata_consensus_vs_inspector2": {
+      "comparison": "metadata_consensus_vs_inspector2",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 3
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 7,
+          "EXCLUDE": 1
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 6,
+          "EXCLUDE": 4
+        }
+      },
+      "disagreement_rate": 0.54,
+      "exclude_involving": {
+        "count": 15,
+        "percent_of_disagreements": 55.6
+      },
+      "off_diagonal_cells": [
+        {
+          "col_label": "EXCLUDE",
+          "count": 3,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 12,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 1,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 5,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "EXCLUDE"
+        },
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 6,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "EXCLUDE"
+        }
+      ],
+      "paired_repositories": 50,
+      "patterns": {
+        "ai_product_vs_conventional": {
+          "count": 12,
+          "percent_of_disagreements": 44.4
+        },
+        "exclude_vs_ai_product": {
+          "count": 8,
+          "percent_of_disagreements": 29.6
+        },
+        "exclude_vs_conventional": {
+          "count": 7,
+          "percent_of_disagreements": 25.9
+        },
+        "other": {
+          "count": 0,
+          "percent_of_disagreements": 0.0
+        }
+      },
+      "total_disagreements": 27
+    }
+  },
+  "paired_repositories": 50,
+  "schema_version": "0.2"
+}

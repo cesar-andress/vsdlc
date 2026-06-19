@@ -293,6 +293,7 @@ def filter_repositories(
     excluded_output_path: Path | None = None,
     summary_output_path: Path | None = None,
     resume: bool = False,
+    require_instruction_artifact: bool = True,
 ) -> tuple[list[EligibleRepo], list[ExcludedRepo], FilterSummary]:
     """Apply inclusion and exclusion rules to seed-search candidates."""
     worklist = candidates[:limit_repos] if limit_repos is not None else candidates
@@ -385,7 +386,7 @@ def filter_repositories(
                 )
             )
 
-            if not candidate.matched_paths:
+            if require_instruction_artifact and not candidate.matched_paths:
                 exclusion_reasons.append("missing_instruction_artifact")
 
             if exclusion_reasons:

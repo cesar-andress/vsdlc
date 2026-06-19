@@ -1,0 +1,1868 @@
+{
+  "blank_file": "data/processed/inspection_sample_50_second_inspector_blank.csv",
+  "comparisons": {
+    "inspector1_vs_inspector2": {
+      "agreement_count": 25,
+      "agreement_rate": 0.5,
+      "ai_product_vs_conventional_excluding_exclude": {
+        "agreement": 0.65625,
+        "agreement_ci_lower": 0.5,
+        "agreement_ci_upper": 0.8125,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.37142857142857144,
+        "kappa_ci_lower": 0.15789473684210525,
+        "kappa_ci_upper": 0.632183908045977,
+        "n": 32
+      },
+      "cohens_kappa": 0.26297169811320753,
+      "comparison": "inspector1_vs_inspector2",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 13,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 8,
+          "EXCLUDE": 3
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 5,
+          "EXCLUDE": 4
+        }
+      },
+      "disagreement_decomposition": {
+        "comparison": "inspector1_vs_inspector2",
+        "confusion_matrix": {
+          "AI_PRODUCT": {
+            "AI_PRODUCT": 13,
+            "CONVENTIONAL_SOFTWARE": 0,
+            "EXCLUDE": 1
+          },
+          "CONVENTIONAL_SOFTWARE": {
+            "AI_PRODUCT": 11,
+            "CONVENTIONAL_SOFTWARE": 8,
+            "EXCLUDE": 3
+          },
+          "EXCLUDE": {
+            "AI_PRODUCT": 5,
+            "CONVENTIONAL_SOFTWARE": 5,
+            "EXCLUDE": 4
+          }
+        },
+        "disagreement_rate": 0.5,
+        "exclude_involving": {
+          "count": 14,
+          "percent_of_disagreements": 56.0
+        },
+        "off_diagonal_cells": [
+          {
+            "col_label": "EXCLUDE",
+            "count": 1,
+            "pattern": "exclude_vs_ai_product",
+            "row_label": "AI_PRODUCT"
+          },
+          {
+            "col_label": "AI_PRODUCT",
+            "count": 11,
+            "pattern": "ai_product_vs_conventional",
+            "row_label": "CONVENTIONAL_SOFTWARE"
+          },
+          {
+            "col_label": "EXCLUDE",
+            "count": 3,
+            "pattern": "exclude_vs_conventional",
+            "row_label": "CONVENTIONAL_SOFTWARE"
+          },
+          {
+            "col_label": "AI_PRODUCT",
+            "count": 5,
+            "pattern": "exclude_vs_ai_product",
+            "row_label": "EXCLUDE"
+          },
+          {
+            "col_label": "CONVENTIONAL_SOFTWARE",
+            "count": 5,
+            "pattern": "exclude_vs_conventional",
+            "row_label": "EXCLUDE"
+          }
+        ],
+        "paired_repositories": 50,
+        "patterns": {
+          "ai_product_vs_conventional": {
+            "count": 11,
+            "percent_of_disagreements": 44.0
+          },
+          "exclude_vs_ai_product": {
+            "count": 6,
+            "percent_of_disagreements": 24.0
+          },
+          "exclude_vs_conventional": {
+            "count": 8,
+            "percent_of_disagreements": 32.0
+          },
+          "other": {
+            "count": 0,
+            "percent_of_disagreements": 0.0
+          }
+        },
+        "total_disagreements": 25
+      },
+      "exclude_vs_non_exclude": {
+        "agreement": 0.72,
+        "agreement_ci_lower": 0.6,
+        "agreement_ci_upper": 0.84,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.20091324200913244,
+        "kappa_ci_lower": -0.09819121447028419,
+        "kappa_ci_upper": 0.492099322799097,
+        "n": 50
+      },
+      "paired_repositories": 50,
+      "per_class_metrics": {
+        "AI_PRODUCT": {
+          "fn": 1,
+          "fp": 16,
+          "precision": 0.4482758620689655,
+          "recall": 0.9285714285714286,
+          "tp": 13
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 14,
+          "fp": 5,
+          "precision": 0.6153846153846154,
+          "recall": 0.36363636363636365,
+          "tp": 8
+        },
+        "EXCLUDE": {
+          "fn": 10,
+          "fp": 4,
+          "precision": 0.5,
+          "recall": 0.2857142857142857,
+          "tp": 4
+        }
+      },
+      "target_vs_non_target": {
+        "agreement": 0.62,
+        "agreement_ci_lower": 0.48,
+        "agreement_ci_upper": 0.76,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.1935483870967741,
+        "kappa_ci_lower": -0.06557377049180334,
+        "kappa_ci_upper": 0.44794952681388006,
+        "n": 50
+      },
+      "target_vs_non_target_confusion_matrix": {
+        "non_target": {
+          "non_target": 23,
+          "target_population": 5
+        },
+        "target_population": {
+          "non_target": 14,
+          "target_population": 8
+        }
+      },
+      "three_class": {
+        "agreement": 0.5,
+        "agreement_ci_lower": 0.36,
+        "agreement_ci_upper": 0.64,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.26297169811320753,
+        "kappa_ci_lower": 0.08716136631330973,
+        "kappa_ci_upper": 0.4451294697903822,
+        "n": 50
+      }
+    },
+    "metadata_consensus_vs_inspector1": {
+      "agreement_count": 35,
+      "agreement_rate": 0.7,
+      "ai_product_vs_conventional_excluding_exclude": {
+        "agreement": 0.8064516129032258,
+        "agreement_ci_lower": 0.6451612903225806,
+        "agreement_ci_upper": 0.9354838709677419,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.6092436974789915,
+        "kappa_ci_lower": 0.29690721649484536,
+        "kappa_ci_upper": 0.8697478991596638,
+        "n": 31
+      },
+      "cohens_kappa": 0.5426829268292682,
+      "comparison": "metadata_consensus_vs_inspector1",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 14,
+          "EXCLUDE": 3
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 5,
+          "EXCLUDE": 10
+        }
+      },
+      "disagreement_decomposition": {
+        "comparison": "metadata_consensus_vs_inspector1",
+        "confusion_matrix": {
+          "AI_PRODUCT": {
+            "AI_PRODUCT": 11,
+            "CONVENTIONAL_SOFTWARE": 3,
+            "EXCLUDE": 1
+          },
+          "CONVENTIONAL_SOFTWARE": {
+            "AI_PRODUCT": 3,
+            "CONVENTIONAL_SOFTWARE": 14,
+            "EXCLUDE": 3
+          },
+          "EXCLUDE": {
+            "AI_PRODUCT": 0,
+            "CONVENTIONAL_SOFTWARE": 5,
+            "EXCLUDE": 10
+          }
+        },
+        "disagreement_rate": 0.3,
+        "exclude_involving": {
+          "count": 9,
+          "percent_of_disagreements": 60.0
+        },
+        "off_diagonal_cells": [
+          {
+            "col_label": "CONVENTIONAL_SOFTWARE",
+            "count": 3,
+            "pattern": "ai_product_vs_conventional",
+            "row_label": "AI_PRODUCT"
+          },
+          {
+            "col_label": "EXCLUDE",
+            "count": 1,
+            "pattern": "exclude_vs_ai_product",
+            "row_label": "AI_PRODUCT"
+          },
+          {
+            "col_label": "AI_PRODUCT",
+            "count": 3,
+            "pattern": "ai_product_vs_conventional",
+            "row_label": "CONVENTIONAL_SOFTWARE"
+          },
+          {
+            "col_label": "EXCLUDE",
+            "count": 3,
+            "pattern": "exclude_vs_conventional",
+            "row_label": "CONVENTIONAL_SOFTWARE"
+          },
+          {
+            "col_label": "CONVENTIONAL_SOFTWARE",
+            "count": 5,
+            "pattern": "exclude_vs_conventional",
+            "row_label": "EXCLUDE"
+          }
+        ],
+        "paired_repositories": 50,
+        "patterns": {
+          "ai_product_vs_conventional": {
+            "count": 6,
+            "percent_of_disagreements": 40.0
+          },
+          "exclude_vs_ai_product": {
+            "count": 1,
+            "percent_of_disagreements": 6.7
+          },
+          "exclude_vs_conventional": {
+            "count": 8,
+            "percent_of_disagreements": 53.3
+          },
+          "other": {
+            "count": 0,
+            "percent_of_disagreements": 0.0
+          }
+        },
+        "total_disagreements": 15
+      },
+      "exclude_vs_non_exclude": {
+        "agreement": 0.82,
+        "agreement_ci_lower": 0.7,
+        "agreement_ci_upper": 0.92,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.5631067961165047,
+        "kappa_ci_lower": 0.28571428571428564,
+        "kappa_ci_upper": 0.8019801980198021,
+        "n": 50
+      },
+      "paired_repositories": 50,
+      "per_class_metrics": {
+        "AI_PRODUCT": {
+          "fn": 4,
+          "fp": 3,
+          "precision": 0.7857142857142857,
+          "recall": 0.7333333333333333,
+          "tp": 11
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 6,
+          "fp": 8,
+          "precision": 0.6363636363636364,
+          "recall": 0.7,
+          "tp": 14
+        },
+        "EXCLUDE": {
+          "fn": 5,
+          "fp": 4,
+          "precision": 0.7142857142857143,
+          "recall": 0.6666666666666666,
+          "tp": 10
+        }
+      },
+      "target_vs_non_target": {
+        "agreement": 0.72,
+        "agreement_ci_lower": 0.6,
+        "agreement_ci_upper": 0.84,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.42622950819672123,
+        "kappa_ci_lower": 0.16286149162861502,
+        "kappa_ci_upper": 0.6715927750410509,
+        "n": 50
+      },
+      "target_vs_non_target_confusion_matrix": {
+        "non_target": {
+          "non_target": 22,
+          "target_population": 8
+        },
+        "target_population": {
+          "non_target": 6,
+          "target_population": 14
+        }
+      },
+      "three_class": {
+        "agreement": 0.7,
+        "agreement_ci_lower": 0.56,
+        "agreement_ci_upper": 0.82,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.5426829268292682,
+        "kappa_ci_lower": 0.3317132442284326,
+        "kappa_ci_upper": 0.7264437689969605,
+        "n": 50
+      }
+    },
+    "metadata_consensus_vs_inspector2": {
+      "agreement_count": 23,
+      "agreement_rate": 0.46,
+      "ai_product_vs_conventional_excluding_exclude": {
+        "agreement": 0.6129032258064516,
+        "agreement_ci_lower": 0.45161290322580644,
+        "agreement_ci_upper": 0.7741935483870968,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.3111111111111111,
+        "kappa_ci_lower": 0.11428571428571424,
+        "kappa_ci_upper": 0.5633802816901409,
+        "n": 31
+      },
+      "cohens_kappa": 0.198813056379822,
+      "comparison": "metadata_consensus_vs_inspector2",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 3
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 7,
+          "EXCLUDE": 1
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 6,
+          "EXCLUDE": 4
+        }
+      },
+      "disagreement_decomposition": {
+        "comparison": "metadata_consensus_vs_inspector2",
+        "confusion_matrix": {
+          "AI_PRODUCT": {
+            "AI_PRODUCT": 12,
+            "CONVENTIONAL_SOFTWARE": 0,
+            "EXCLUDE": 3
+          },
+          "CONVENTIONAL_SOFTWARE": {
+            "AI_PRODUCT": 12,
+            "CONVENTIONAL_SOFTWARE": 7,
+            "EXCLUDE": 1
+          },
+          "EXCLUDE": {
+            "AI_PRODUCT": 5,
+            "CONVENTIONAL_SOFTWARE": 6,
+            "EXCLUDE": 4
+          }
+        },
+        "disagreement_rate": 0.54,
+        "exclude_involving": {
+          "count": 15,
+          "percent_of_disagreements": 55.6
+        },
+        "off_diagonal_cells": [
+          {
+            "col_label": "EXCLUDE",
+            "count": 3,
+            "pattern": "exclude_vs_ai_product",
+            "row_label": "AI_PRODUCT"
+          },
+          {
+            "col_label": "AI_PRODUCT",
+            "count": 12,
+            "pattern": "ai_product_vs_conventional",
+            "row_label": "CONVENTIONAL_SOFTWARE"
+          },
+          {
+            "col_label": "EXCLUDE",
+            "count": 1,
+            "pattern": "exclude_vs_conventional",
+            "row_label": "CONVENTIONAL_SOFTWARE"
+          },
+          {
+            "col_label": "AI_PRODUCT",
+            "count": 5,
+            "pattern": "exclude_vs_ai_product",
+            "row_label": "EXCLUDE"
+          },
+          {
+            "col_label": "CONVENTIONAL_SOFTWARE",
+            "count": 6,
+            "pattern": "exclude_vs_conventional",
+            "row_label": "EXCLUDE"
+          }
+        ],
+        "paired_repositories": 50,
+        "patterns": {
+          "ai_product_vs_conventional": {
+            "count": 12,
+            "percent_of_disagreements": 44.4
+          },
+          "exclude_vs_ai_product": {
+            "count": 8,
+            "percent_of_disagreements": 29.6
+          },
+          "exclude_vs_conventional": {
+            "count": 7,
+            "percent_of_disagreements": 25.9
+          },
+          "other": {
+            "count": 0,
+            "percent_of_disagreements": 0.0
+          }
+        },
+        "total_disagreements": 27
+      },
+      "exclude_vs_non_exclude": {
+        "agreement": 0.7,
+        "agreement_ci_lower": 0.58,
+        "agreement_ci_upper": 0.82,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.17582417582417567,
+        "kappa_ci_lower": -0.10526315789473661,
+        "kappa_ci_upper": 0.4578313253012044,
+        "n": 50
+      },
+      "paired_repositories": 50,
+      "per_class_metrics": {
+        "AI_PRODUCT": {
+          "fn": 3,
+          "fp": 17,
+          "precision": 0.41379310344827586,
+          "recall": 0.8,
+          "tp": 12
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "fn": 13,
+          "fp": 6,
+          "precision": 0.5384615384615384,
+          "recall": 0.35,
+          "tp": 7
+        },
+        "EXCLUDE": {
+          "fn": 11,
+          "fp": 4,
+          "precision": 0.5,
+          "recall": 0.26666666666666666,
+          "tp": 4
+        }
+      },
+      "target_vs_non_target": {
+        "agreement": 0.62,
+        "agreement_ci_lower": 0.48,
+        "agreement_ci_upper": 0.76,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.15929203539823,
+        "kappa_ci_lower": -0.10619469026548684,
+        "kappa_ci_upper": 0.42263279445727503,
+        "n": 50
+      },
+      "target_vs_non_target_confusion_matrix": {
+        "non_target": {
+          "non_target": 24,
+          "target_population": 6
+        },
+        "target_population": {
+          "non_target": 13,
+          "target_population": 7
+        }
+      },
+      "three_class": {
+        "agreement": 0.46,
+        "agreement_ci_lower": 0.32,
+        "agreement_ci_upper": 0.6,
+        "bootstrap_replicates": 10000,
+        "bootstrap_valid_replicates": 10000,
+        "kappa": 0.198813056379822,
+        "kappa_ci_lower": 0.0168539325842696,
+        "kappa_ci_upper": 0.3895348837209302,
+        "n": 50
+      }
+    }
+  },
+  "confusion_matrices": [
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 11,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 3,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 1,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 3,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 14,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 3,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 0,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 5,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "metadata_consensus_vs_inspector1",
+      "count": 10,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "target_population",
+      "comparison": "metadata_consensus_vs_inspector1_target_vs_non_target",
+      "count": 14,
+      "row_label": "target_population"
+    },
+    {
+      "col_label": "non_target",
+      "comparison": "metadata_consensus_vs_inspector1_target_vs_non_target",
+      "count": 6,
+      "row_label": "target_population"
+    },
+    {
+      "col_label": "target_population",
+      "comparison": "metadata_consensus_vs_inspector1_target_vs_non_target",
+      "count": 8,
+      "row_label": "non_target"
+    },
+    {
+      "col_label": "non_target",
+      "comparison": "metadata_consensus_vs_inspector1_target_vs_non_target",
+      "count": 22,
+      "row_label": "non_target"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 12,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 0,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 3,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 12,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 7,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 1,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 5,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 6,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "metadata_consensus_vs_inspector2",
+      "count": 4,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "target_population",
+      "comparison": "metadata_consensus_vs_inspector2_target_vs_non_target",
+      "count": 7,
+      "row_label": "target_population"
+    },
+    {
+      "col_label": "non_target",
+      "comparison": "metadata_consensus_vs_inspector2_target_vs_non_target",
+      "count": 13,
+      "row_label": "target_population"
+    },
+    {
+      "col_label": "target_population",
+      "comparison": "metadata_consensus_vs_inspector2_target_vs_non_target",
+      "count": 6,
+      "row_label": "non_target"
+    },
+    {
+      "col_label": "non_target",
+      "comparison": "metadata_consensus_vs_inspector2_target_vs_non_target",
+      "count": 24,
+      "row_label": "non_target"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 13,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 0,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 1,
+      "row_label": "AI_PRODUCT"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 11,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 8,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 3,
+      "row_label": "CONVENTIONAL_SOFTWARE"
+    },
+    {
+      "col_label": "AI_PRODUCT",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 5,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "CONVENTIONAL_SOFTWARE",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 5,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "EXCLUDE",
+      "comparison": "inspector1_vs_inspector2",
+      "count": 4,
+      "row_label": "EXCLUDE"
+    },
+    {
+      "col_label": "target_population",
+      "comparison": "inspector1_vs_inspector2_target_vs_non_target",
+      "count": 8,
+      "row_label": "target_population"
+    },
+    {
+      "col_label": "non_target",
+      "comparison": "inspector1_vs_inspector2_target_vs_non_target",
+      "count": 14,
+      "row_label": "target_population"
+    },
+    {
+      "col_label": "target_population",
+      "comparison": "inspector1_vs_inspector2_target_vs_non_target",
+      "count": 5,
+      "row_label": "non_target"
+    },
+    {
+      "col_label": "non_target",
+      "comparison": "inspector1_vs_inspector2_target_vs_non_target",
+      "count": 23,
+      "row_label": "non_target"
+    }
+  ],
+  "disagreement_stats": {
+    "inspector1_vs_inspector2": {
+      "comparison": "inspector1_vs_inspector2",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 13,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 8,
+          "EXCLUDE": 3
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 5,
+          "EXCLUDE": 4
+        }
+      },
+      "disagreement_rate": 0.5,
+      "exclude_involving": {
+        "count": 14,
+        "percent_of_disagreements": 56.0
+      },
+      "off_diagonal_cells": [
+        {
+          "col_label": "EXCLUDE",
+          "count": 1,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 11,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 3,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 5,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "EXCLUDE"
+        },
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 5,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "EXCLUDE"
+        }
+      ],
+      "paired_repositories": 50,
+      "patterns": {
+        "ai_product_vs_conventional": {
+          "count": 11,
+          "percent_of_disagreements": 44.0
+        },
+        "exclude_vs_ai_product": {
+          "count": 6,
+          "percent_of_disagreements": 24.0
+        },
+        "exclude_vs_conventional": {
+          "count": 8,
+          "percent_of_disagreements": 32.0
+        },
+        "other": {
+          "count": 0,
+          "percent_of_disagreements": 0.0
+        }
+      },
+      "total_disagreements": 25
+    },
+    "metadata_consensus_vs_inspector1": {
+      "comparison": "metadata_consensus_vs_inspector1",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 14,
+          "EXCLUDE": 3
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 5,
+          "EXCLUDE": 10
+        }
+      },
+      "disagreement_rate": 0.3,
+      "exclude_involving": {
+        "count": 9,
+        "percent_of_disagreements": 60.0
+      },
+      "off_diagonal_cells": [
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 3,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 1,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 3,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 3,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 5,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "EXCLUDE"
+        }
+      ],
+      "paired_repositories": 50,
+      "patterns": {
+        "ai_product_vs_conventional": {
+          "count": 6,
+          "percent_of_disagreements": 40.0
+        },
+        "exclude_vs_ai_product": {
+          "count": 1,
+          "percent_of_disagreements": 6.7
+        },
+        "exclude_vs_conventional": {
+          "count": 8,
+          "percent_of_disagreements": 53.3
+        },
+        "other": {
+          "count": 0,
+          "percent_of_disagreements": 0.0
+        }
+      },
+      "total_disagreements": 15
+    },
+    "metadata_consensus_vs_inspector2": {
+      "comparison": "metadata_consensus_vs_inspector2",
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 3
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 12,
+          "CONVENTIONAL_SOFTWARE": 7,
+          "EXCLUDE": 1
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 5,
+          "CONVENTIONAL_SOFTWARE": 6,
+          "EXCLUDE": 4
+        }
+      },
+      "disagreement_rate": 0.54,
+      "exclude_involving": {
+        "count": 15,
+        "percent_of_disagreements": 55.6
+      },
+      "off_diagonal_cells": [
+        {
+          "col_label": "EXCLUDE",
+          "count": 3,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "AI_PRODUCT"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 12,
+          "pattern": "ai_product_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "EXCLUDE",
+          "count": 1,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "CONVENTIONAL_SOFTWARE"
+        },
+        {
+          "col_label": "AI_PRODUCT",
+          "count": 5,
+          "pattern": "exclude_vs_ai_product",
+          "row_label": "EXCLUDE"
+        },
+        {
+          "col_label": "CONVENTIONAL_SOFTWARE",
+          "count": 6,
+          "pattern": "exclude_vs_conventional",
+          "row_label": "EXCLUDE"
+        }
+      ],
+      "paired_repositories": 50,
+      "patterns": {
+        "ai_product_vs_conventional": {
+          "count": 12,
+          "percent_of_disagreements": 44.4
+        },
+        "exclude_vs_ai_product": {
+          "count": 8,
+          "percent_of_disagreements": 29.6
+        },
+        "exclude_vs_conventional": {
+          "count": 7,
+          "percent_of_disagreements": 25.9
+        },
+        "other": {
+          "count": 0,
+          "percent_of_disagreements": 0.0
+        }
+      },
+      "total_disagreements": 27
+    }
+  },
+  "inspector1_completed_file": "data/processed/inspection_sample_50_completed_fixed.csv",
+  "inspector2_completed_file": "data/processed/inspection_sample_50_second_inspector_completed.csv",
+  "metadata_consensus_vs_inspector1_legacy": {
+    "agreement_by_class": {
+      "AI_PRODUCT": {
+        "agreement_count": 11,
+        "agreement_rate": 0.7333333333333333,
+        "n_reference": 15
+      },
+      "CONVENTIONAL_SOFTWARE": {
+        "agreement_count": 14,
+        "agreement_rate": 0.7,
+        "n_reference": 20
+      },
+      "EXCLUDE": {
+        "agreement_count": 10,
+        "agreement_rate": 0.6666666666666666,
+        "n_reference": 15
+      }
+    },
+    "agreement_count": 35,
+    "agreement_rate": 0.7,
+    "ai_product_vs_conventional_excluding_exclude": {
+      "agreement_rate": 0.8064516129032258,
+      "cohens_kappa": 0.6092436974789915,
+      "confusion_matrix": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 3
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 14
+        }
+      },
+      "labels": [
+        "AI_PRODUCT",
+        "CONVENTIONAL_SOFTWARE"
+      ],
+      "paired_repositories": 31
+    },
+    "cohens_kappa": 0.5426829268292682,
+    "completed_file": "data/processed/inspection_sample_50_completed_fixed.csv",
+    "confusion_matrix": {
+      "AI_PRODUCT": {
+        "AI_PRODUCT": 11,
+        "CONVENTIONAL_SOFTWARE": 3,
+        "EXCLUDE": 1
+      },
+      "CONVENTIONAL_SOFTWARE": {
+        "AI_PRODUCT": 3,
+        "CONVENTIONAL_SOFTWARE": 14,
+        "EXCLUDE": 3
+      },
+      "EXCLUDE": {
+        "AI_PRODUCT": 0,
+        "CONVENTIONAL_SOFTWARE": 5,
+        "EXCLUDE": 10
+      }
+    },
+    "disagreements": [
+      {
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "Open-source Claude Cowork alternative for AI coding agent developers",
+        "inspection_label": "AI_PRODUCT",
+        "majority_label": "CONVENTIONAL_SOFTWARE",
+        "repo_full_name": "AIDotNet/OpenCowork"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "AI_PRODUCT",
+        "inspection_evidence": "Collection of projects/showcases not product software",
+        "inspection_label": "EXCLUDE",
+        "majority_label": "AI_PRODUCT",
+        "repo_full_name": "Arindam200/awesome-ai-apps"
+      },
+      {
+        "claude_label": "AI_PRODUCT",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "inspection_evidence": "Omnichannel voice agents on Azure for end-user deployment",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "AI_PRODUCT",
+        "repo_full_name": "Azure-Samples/art-voice-agent-accelerator"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "inspection_evidence": "Prompt-based frontend project for end users",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "EXCLUDE",
+        "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "inspection_evidence": "Agentic engineering learning content for end users",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "EXCLUDE",
+        "repo_full_name": "FavioVazquez/learnship"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "Confectionery of GreenteaOS insufficient evidence",
+        "inspection_label": "EXCLUDE",
+        "majority_label": "CONVENTIONAL_SOFTWARE",
+        "repo_full_name": "GreenteaOS/Caramel"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "Average JavaScript repo insufficient evidence",
+        "inspection_label": "EXCLUDE",
+        "majority_label": "CONVENTIONAL_SOFTWARE",
+        "repo_full_name": "Hacksore/cursed-repo"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "inspection_evidence": "Flowdown.ai URL suggests end-user AI product",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "EXCLUDE",
+        "repo_full_name": "Lakr233/FlowDown"
+      },
+      {
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "AI-powered DrawIO editor with MCP server for AI builders",
+        "inspection_label": "AI_PRODUCT",
+        "majority_label": "CONVENTIONAL_SOFTWARE",
+        "repo_full_name": "Menghuan1918/drawio2go"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "FoundryVTT module insufficient evidence",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "EXCLUDE",
+        "repo_full_name": "Nimble-Co/FoundryVTT-Nimble"
+      },
+      {
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "Sample applications for Teams educational content",
+        "inspection_label": "EXCLUDE",
+        "majority_label": "CONVENTIONAL_SOFTWARE",
+        "repo_full_name": "OfficeDev/microsoft-365-agents-toolkit-samples"
+      },
+      {
+        "claude_label": "AI_PRODUCT",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "inspection_evidence": "Backend server for dataset/model management not AI tooling",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "AI_PRODUCT",
+        "repo_full_name": "OpenCSGs/csghub-server"
+      },
+      {
+        "claude_label": "AI_PRODUCT",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "inspection_evidence": "ComfyUI nodes suite for generative AI end users",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "AI_PRODUCT",
+        "repo_full_name": "OvertliDS/overtli-studio-suite"
+      },
+      {
+        "claude_label": "EXCLUDE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "AMM smart contract not AI-specific",
+        "inspection_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "EXCLUDE",
+        "repo_full_name": "Oyl-Wallet/oyl-amm"
+      },
+      {
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "evidence_source_count": 0,
+        "functional_evidence": "",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "inspection_evidence": "CLI for Paperspace for AI cloud users",
+        "inspection_label": "AI_PRODUCT",
+        "majority_label": "CONVENTIONAL_SOFTWARE",
+        "repo_full_name": "Paperspace/cli"
+      }
+    ],
+    "exclude_vs_non_exclude": {
+      "agreement_rate": 0.82,
+      "cohens_kappa": 0.5631067961165047,
+      "confusion_matrix": {
+        "EXCLUDE": {
+          "EXCLUDE": 10,
+          "NON_EXCLUDE": 5
+        },
+        "NON_EXCLUDE": {
+          "EXCLUDE": 4,
+          "NON_EXCLUDE": 31
+        }
+      },
+      "labels": [
+        "EXCLUDE",
+        "NON_EXCLUDE"
+      ],
+      "paired_repositories": 50
+    },
+    "functional_evidence_warning_count": 100,
+    "functional_evidence_warnings": [
+      {
+        "message": "0-AI-UG/cate: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "0-AI-UG/cate",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "0-AI-UG/cate: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "0-AI-UG/cate",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "AIDotNet/OpenCowork: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "AIDotNet/OpenCowork",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "AIDotNet/OpenCowork: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "AIDotNet/OpenCowork",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "ARPAHLS/OPSIE: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "ARPAHLS/OPSIE",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "ARPAHLS/OPSIE: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "ARPAHLS/OPSIE",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Arcanyx-org/NiXium: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Arcanyx-org/NiXium",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Arcanyx-org/NiXium: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Arcanyx-org/NiXium",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Arindam200/awesome-ai-apps: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Arindam200/awesome-ai-apps",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Arindam200/awesome-ai-apps: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Arindam200/awesome-ai-apps",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "ArisGuimera/MobiAI-Core: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "ArisGuimera/MobiAI-Core",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "ArisGuimera/MobiAI-Core: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "ArisGuimera/MobiAI-Core",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Azure-Samples/art-voice-agent-accelerator: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Azure-Samples/art-voice-agent-accelerator",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Azure-Samples/art-voice-agent-accelerator: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Azure-Samples/art-voice-agent-accelerator",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Azure/kimojio-rs: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Azure/kimojio-rs",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Azure/kimojio-rs: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Azure/kimojio-rs",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "B-M-Capital-Research/honeclaw: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "B-M-Capital-Research/honeclaw",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "B-M-Capital-Research/honeclaw: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "B-M-Capital-Research/honeclaw",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "BNETDocs/bnetdocs-web: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "BNETDocs/bnetdocs-web",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "BNETDocs/bnetdocs-web: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "BNETDocs/bnetdocs-web",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Bitterbot-AI/bitterbot-desktop: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Bitterbot-AI/bitterbot-desktop",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Bitterbot-AI/bitterbot-desktop: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Bitterbot-AI/bitterbot-desktop",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "BlackBeltTechnology/pi-agent-dashboard: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "BlackBeltTechnology/pi-agent-dashboard: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "CavinHuang/comfyui-nodes-docs: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "CavinHuang/comfyui-nodes-docs",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "CavinHuang/comfyui-nodes-docs: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "CavinHuang/comfyui-nodes-docs",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "ChenZiHong-Gavin/weekly-vibe-coding: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "ChenZiHong-Gavin/weekly-vibe-coding: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "CompanyHelm/companyhelm: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "CompanyHelm/companyhelm",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "CompanyHelm/companyhelm: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "CompanyHelm/companyhelm",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Cppys/OpenNovel: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Cppys/OpenNovel",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Cppys/OpenNovel: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Cppys/OpenNovel",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "CrispStrobe/CrispEmbed: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "CrispStrobe/CrispEmbed",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "CrispStrobe/CrispEmbed: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "CrispStrobe/CrispEmbed",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "DataDog/stratus-red-team: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "DataDog/stratus-red-team",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "DataDog/stratus-red-team: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "DataDog/stratus-red-team",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Disentinel/grafema: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Disentinel/grafema",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Disentinel/grafema: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Disentinel/grafema",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "DontFuckMyCode/dfmc: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "DontFuckMyCode/dfmc",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "DontFuckMyCode/dfmc: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "DontFuckMyCode/dfmc",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "ExDragine/frontier: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "ExDragine/frontier",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "ExDragine/frontier: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "ExDragine/frontier",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "FavioVazquez/learnship: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "FavioVazquez/learnship",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "FavioVazquez/learnship: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "FavioVazquez/learnship",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "GreenteaOS/Caramel: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "GreenteaOS/Caramel",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "GreenteaOS/Caramel: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "GreenteaOS/Caramel",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "GregorStocks/mage-bench: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "GregorStocks/mage-bench",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "GregorStocks/mage-bench: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "GregorStocks/mage-bench",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Hacksore/cursed-repo: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Hacksore/cursed-repo",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Hacksore/cursed-repo: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Hacksore/cursed-repo",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "HaiNinh1/oh-my-opencode: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "HaiNinh1/oh-my-opencode",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "HaiNinh1/oh-my-opencode: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "HaiNinh1/oh-my-opencode",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "HiveTrace/HiveTraceRed: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "HiveTrace/HiveTraceRed",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "HiveTrace/HiveTraceRed: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "HiveTrace/HiveTraceRed",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "JamesPaynter/mycelium: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "JamesPaynter/mycelium",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "JamesPaynter/mycelium: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "JamesPaynter/mycelium",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Lakr233/FlowDown: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Lakr233/FlowDown",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Lakr233/FlowDown: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Lakr233/FlowDown",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "LessUp/awesome-cursorrules-zh: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "LessUp/awesome-cursorrules-zh",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "LessUp/awesome-cursorrules-zh: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "LessUp/awesome-cursorrules-zh",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Li-Bailiang/prompt-refine-skill: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Li-Bailiang/prompt-refine-skill",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Li-Bailiang/prompt-refine-skill: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Li-Bailiang/prompt-refine-skill",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "LiPu-jpg/Openwrite: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "LiPu-jpg/Openwrite",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "LiPu-jpg/Openwrite: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "LiPu-jpg/Openwrite",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "MaoXiaoYuZ/Long-Novel-GPT: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "MaoXiaoYuZ/Long-Novel-GPT",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "MaoXiaoYuZ/Long-Novel-GPT: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "MaoXiaoYuZ/Long-Novel-GPT",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Menghuan1918/drawio2go: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Menghuan1918/drawio2go",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Menghuan1918/drawio2go: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Menghuan1918/drawio2go",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "MinLL/MinAI: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "MinLL/MinAI",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "MinLL/MinAI: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "MinLL/MinAI",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "NVIDIA/skills: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "NVIDIA/skills",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "NVIDIA/skills: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "NVIDIA/skills",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Nimble-Co/FoundryVTT-Nimble: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Nimble-Co/FoundryVTT-Nimble",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Nimble-Co/FoundryVTT-Nimble: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Nimble-Co/FoundryVTT-Nimble",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "OWASP/www-project-top-10-for-large-language-model-applications: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "OWASP/www-project-top-10-for-large-language-model-applications: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "OfficeDev/microsoft-365-agents-toolkit-samples: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "OfficeDev/microsoft-365-agents-toolkit-samples",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "OfficeDev/microsoft-365-agents-toolkit-samples: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "OfficeDev/microsoft-365-agents-toolkit-samples",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "OpenCSGs/csghub-server: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "OpenCSGs/csghub-server",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "OpenCSGs/csghub-server: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "OpenCSGs/csghub-server",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "OtterMind/youclaw: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "OtterMind/youclaw",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "OtterMind/youclaw: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "OtterMind/youclaw",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "OvertliDS/overtli-studio-suite: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "OvertliDS/overtli-studio-suite",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "OvertliDS/overtli-studio-suite: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "OvertliDS/overtli-studio-suite",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Owl-Listener/ai-design-skills: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Owl-Listener/ai-design-skills",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Owl-Listener/ai-design-skills: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Owl-Listener/ai-design-skills",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Oyl-Wallet/oyl-amm: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Oyl-Wallet/oyl-amm",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Oyl-Wallet/oyl-amm: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Oyl-Wallet/oyl-amm",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Paperspace/cli: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Paperspace/cli",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Paperspace/cli: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Paperspace/cli",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Peuqui/AIfred-Intelligence: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Peuqui/AIfred-Intelligence",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Peuqui/AIfred-Intelligence: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Peuqui/AIfred-Intelligence",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "PlanExeOrg/PlanExe: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "PlanExeOrg/PlanExe",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "PlanExeOrg/PlanExe: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "PlanExeOrg/PlanExe",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "Prismer-AI/Prismer: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "Prismer-AI/Prismer",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "Prismer-AI/Prismer: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "Prismer-AI/Prismer",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "ROCm/hipDNN: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "ROCm/hipDNN",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "ROCm/hipDNN: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "ROCm/hipDNN",
+        "warning_type": "insufficient_evidence_sources"
+      },
+      {
+        "message": "RYOITABASHI/Shelly: functional_evidence is missing; record one sentence of functional repository evidence.",
+        "repo_full_name": "RYOITABASHI/Shelly",
+        "warning_type": "missing_functional_evidence"
+      },
+      {
+        "evidence_source_count": 0,
+        "message": "RYOITABASHI/Shelly: only 0 evidence-source boolean(s) are true; inspect at least 2 sources when available.",
+        "repo_full_name": "RYOITABASHI/Shelly",
+        "warning_type": "insufficient_evidence_sources"
+      }
+    ],
+    "paired_repositories": 50,
+    "per_class_metrics_inspection_vs_majority": {
+      "AI_PRODUCT": {
+        "fn": 4,
+        "fp": 3,
+        "precision": 0.7857142857142857,
+        "recall": 0.7333333333333333,
+        "tp": 11
+      },
+      "CONVENTIONAL_SOFTWARE": {
+        "fn": 6,
+        "fp": 8,
+        "precision": 0.6363636363636364,
+        "recall": 0.7,
+        "tp": 14
+      },
+      "EXCLUDE": {
+        "fn": 5,
+        "fp": 4,
+        "precision": 0.7142857142857143,
+        "recall": 0.6666666666666666,
+        "tp": 10
+      }
+    },
+    "reference_file": "data/processed/inspection_sample_50.csv",
+    "schema_version": "0.2"
+  },
+  "method": {
+    "bootstrap_replicates": 10000,
+    "ci_level": 0.95,
+    "estimator": "percentile bootstrap on paired repository labels",
+    "seed": 42
+  },
+  "paired_repositories": 50,
+  "reference_file": "data/processed/inspection_sample_50.csv",
+  "required_completed_fields": [
+    "inspector2_label",
+    "inspector2_confidence",
+    "inspector2_evidence_sources",
+    "inspector2_functional_note",
+    "inspector2_free_notes"
+  ],
+  "schema_version": "0.2",
+  "validation": {
+    "blank_file": "data/processed/inspection_sample_50_second_inspector_blank.csv",
+    "completed_file": "data/processed/inspection_sample_50_second_inspector_completed.csv",
+    "completed_repositories": 50,
+    "errors": [],
+    "expected_repositories": 50,
+    "schema_version": "0.2",
+    "valid": true,
+    "warning_count": 1,
+    "warnings": [
+      {
+        "evidence_source_count": 1,
+        "message": "OWASP/www-project-top-10-for-large-language-model-applications: only 1 evidence-source token(s) recorded; inspect at least 2 sources when available.",
+        "repo_full_name": "OWASP/www-project-top-10-for-large-language-model-applications",
+        "warning_type": "insufficient_evidence_sources"
+      }
+    ]
+  }
+}

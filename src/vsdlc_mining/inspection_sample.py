@@ -68,6 +68,28 @@ INSPECTION_BLANK_INSPECTION_FIELDS = [
 
 INSPECTION_BLANK_FIELDS = INSPECTION_BLANK_METADATA_FIELDS + INSPECTION_BLANK_INSPECTION_FIELDS
 
+SECOND_INSPECTOR_BLANK_INSPECTION_FIELDS = [
+    "inspector2_label",
+    "inspector2_confidence",
+    "inspector2_evidence_sources",
+    "inspector2_functional_note",
+    "inspector2_free_notes",
+]
+
+SECOND_INSPECTOR_BLANK_FIELDS = (
+    INSPECTION_BLANK_METADATA_FIELDS + SECOND_INSPECTOR_BLANK_INSPECTION_FIELDS
+)
+
+INSPECTOR2_EVIDENCE_SOURCE_TOKENS = frozenset(
+    {
+        "readme",
+        "file_tree",
+        "dependencies",
+        "entrypoints",
+        "instruction_consumption",
+    }
+)
+
 INSPECTION_EVIDENCE_SOURCE_FIELDS = (
     "inspected_readme",
     "inspected_file_tree",
@@ -228,6 +250,27 @@ def write_inspection_blank_csv(path: Path, rows: list[dict[str, str]]) -> int:
         writer.writeheader()
         writer.writerows(blank_rows)
     return len(blank_rows)
+
+
+def write_second_inspector_blank_csv(path: Path, rows: list[dict[str, str]]) -> int:
+    """Write a blind worksheet for a second functional-evidence inspector."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    blank_rows: list[dict[str, str]] = []
+    for row in rows:
+        blank = {field: row.get(field, "") for field in INSPECTION_BLANK_METADATA_FIELDS}
+        blank.update(dict.fromkeys(SECOND_INSPECTOR_BLANK_INSPECTION_FIELDS, ""))
+        blank_rows.append(blank)
+
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=SECOND_INSPECTOR_BLANK_FIELDS)
+        writer.writeheader()
+        writer.writerows(blank_rows)
+    return len(blank_rows)
+
+
+def read_second_inspector_blank_rows(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
 
 
 def build_sampling_summary(

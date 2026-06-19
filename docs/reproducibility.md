@@ -144,6 +144,143 @@ python3 scripts/compute_exclude_disagreement_stats.py
 
 Output: `data/processed/exclude_disagreement_stats.json`
 
+## Second functional-evidence inspector (RQ4 extension)
+
+The frozen RQ4 sample (`n{=}50`) can be reassessed by a second independent inspector using the same codebook and blind protocol. The second inspector must not see metadata consensus labels, Round~1 coder labels, inspector~1 labels, or any prior worksheet labels.
+
+### 1. Create the blank worksheet
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+PYTHONPATH=src python3 scripts/create_second_inspector_blank.py
+```
+
+Defaults:
+- Source metadata: `data/processed/inspection_sample_50_blank.csv`
+- Output: `data/processed/inspection_sample_50_second_inspector_blank.csv`
+
+The blank worksheet exposes only repository context fields (`repo_full_name`, `repo_url`, description/topics/language, matched-path provenance, CI/release evidence) plus empty inspector~2 fields:
+`inspector2_label`, `inspector2_confidence`, `inspector2_evidence_sources`, `inspector2_functional_note`, `inspector2_free_notes`.
+
+Record `inspector2_evidence_sources` as comma- or pipe-separated tokens from:
+`readme`, `file_tree`, `dependencies`, `entrypoints`, `instruction_consumption`.
+
+Protocol details: `docs/inspection_validation_protocol.md` (second-inspector section).
+
+### 2. Human completion
+
+Save the completed worksheet as:
+
+`data/processed/inspection_sample_50_second_inspector_completed.csv`
+
+Use the same 50 `repo_full_name` values and column order as the blank worksheet. Do not add prior label columns.
+
+### 3. Validate completed worksheet
+
+```bash
+PYTHONPATH=src python3 scripts/validate_second_inspection.py \
+  --blank data/processed/inspection_sample_50_second_inspector_blank.csv \
+  --completed data/processed/inspection_sample_50_second_inspector_completed.csv
+```
+
+Checks:
+- all 50 repositories present
+- `inspector2_label` in `{CONVENTIONAL_SOFTWARE, AI_PRODUCT, EXCLUDE}`
+- non-empty `inspector2_functional_note`
+- at least two evidence-source tokens when applicable
+
+### 4. Evaluate dual-inspector concordance
+
+```bash
+PYTHONPATH=src python3 scripts/evaluate_second_inspection.py
+```
+
+Defaults:
+- Metadata consensus reference: `data/processed/inspection_sample_50.csv`
+- Inspector~1 completed worksheet: `data/processed/inspection_sample_50_completed_fixed.csv`
+- Inspector~2 completed worksheet: `data/processed/inspection_sample_50_second_inspector_completed.csv`
+
+Outputs:
+- `data/processed/second_inspection_validation_results.json`
+- `data/processed/second_inspection_confusion_matrices.csv`
+- `data/processed/second_inspection_disagreement_stats.json`
+- `data/processed/manuscript_table_rq4_second_inspector.tex`
+
+Metrics computed for each comparison (`metadata_consensus_vs_inspector1`, `metadata_consensus_vs_inspector2`, `inspector1_vs_inspector2`):
+- three-class agreement, Cohen's $\kappa$, 95\% bootstrap CI
+- binary TARGET vs NON_TARGET agreement and $\kappa$
+- `AI_PRODUCT` vs `CONVENTIONAL_SOFTWARE` excluding `EXCLUDE`
+- `EXCLUDE` vs non-`EXCLUDE`
+- confusion matrices and disagreement decomposition (`EXCLUDE` vs `CONVENTIONAL_SOFTWARE`, `EXCLUDE` vs `AI_PRODUCT`, `AI_PRODUCT` vs `CONVENTIONAL_SOFTWARE`)
+
+Unit tests: `pytest tests/test_second_inspection.py`
+
+Existing RQ4 manuscript metrics remain unchanged until inspector~2 labels are completed and the dual-inspector evaluation is run deliberately for an updated analysis.
+
+## Second discovery frame (AI-topic robustness extension)
+
+Minimal robustness extension: an independent **AI-topic/metadata** discovery frame using GitHub **repository search** (not instruction-artifact code search). Results are framed as sensitivity to discovery mechanism within audited frames; they do not validate the instruction-artifact frame or generalize to all GitHub.
+
+### Predicates (repository search)
+
+| Label | API query fragment |
+|-------|-------------------|
+| `topic:llm` | `topic:llm` |
+| `topic:ai-agent` | `topic:ai-agent` |
+| `topic:mcp` | `topic:mcp` |
+| `topic:generative-ai` | `topic:generative-ai` |
+| `topic:copilot` | `topic:copilot` |
+| `topic:ai-application` | `topic:ai-application` |
+| `topic:agentic-ai` | `topic:agentic-ai` |
+
+Each predicate is combined with shared eligibility qualifiers in search:
+
+`stars:>=10 pushed:>=2024-06-01 fork:false archived:false`
+
+Random seed for sampling: **42** (target sample size **100**; uses all eligible if fewer than 100 remain).
+
+### Known deviations from the main instruction-artifact frame
+
+- Discovery uses `/search/repositories` on topic predicates instead of `/search/code` on instruction-artifact paths.
+- Phase~2 filtering skips the `missing_instruction_artifact` requirement (`require_instruction_artifact=False`).
+- Overlap with the instruction-artifact eligible set is marked in `instruction_frame_overlap`; sampling prefers non-overlapping repositories first.
+- Structural/keyword/CI-test filters otherwise follow `repo_filter.py` (stars, recency, fork/archived/template/mirror, exclusion keywords, CI or test evidence).
+
+### Commands
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+export GITHUB_TOKEN="..."   # required; never commit
+
+# Phase A — discover topic-frame candidates
+PYTHONPATH=src python3 scripts/run_second_frame_search.py
+
+# Phase B — apply eligibility filters (resume-safe)
+PYTHONPATH=src python3 scripts/run_second_frame_filter.py --resume
+
+# Phase C — sample n<=100 and create annotation blank worksheet
+PYTHONPATH=src python3 scripts/create_second_frame_sample.py
+
+# Phase D — after human annotation
+# Save completed labels to data/processed/second_frame_annotation_completed.csv
+PYTHONPATH=src python3 scripts/analyze_second_frame_contamination.py
+```
+
+Outputs:
+
+| Artifact | Path |
+|----------|------|
+| Raw/interim candidates | `data/raw/second_frame_candidates.jsonl` |
+| Eligible repositories | `data/interim/second_frame_eligible_repos.jsonl` |
+| Filter summary | `data/interim/second_frame_filter_summary.json` |
+| Sample manifest | `data/processed/second_frame_sample_100.csv` |
+| Annotation blank | `data/processed/second_frame_annotation_blank.csv` |
+| Analysis JSON | `data/processed/second_frame_contamination_results.json` |
+| Manuscript table | `data/processed/manuscript_table_second_frame.md` |
+| Manuscript paragraph | `data/processed/manuscript_paragraph_second_frame.md` |
+
+Unit tests: `pytest tests/test_second_frame.py`
+
 ## Learned metadata baselines
 
 Frozen pilot outputs include `data/processed/learned_baseline_results.json`, produced by:

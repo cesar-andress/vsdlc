@@ -14,6 +14,7 @@ from vsdlc_mining.config import (
     GITHUB_API_BASE,
     INITIAL_BACKOFF_SECONDS,
     MAX_CODE_SEARCH_PAGES,
+    MAX_REPO_SEARCH_PAGES,
     MAX_RETRIES,
     CORE_RATE_LIMIT_BUFFER,
     CORE_REQUEST_MIN_INTERVAL_SECONDS,
@@ -365,6 +366,8 @@ class GitHubClient:
 
             if path == "/search/code":
                 self._maybe_throttle_search(response)
+            elif path == "/search/repositories":
+                self._maybe_throttle_search(response)
             else:
                 self._maybe_throttle_core(response, path)
             return response
@@ -405,6 +408,63 @@ class GitHubClient:
                 break
             page += 1
         return items
+
+    def search_repositories(
+        self,
+        query: str,
+        *,
+        max_results: int,
+        max_pages: int | None = None,
+    ) -> list[dict[str, Any]]:
+        """Run GitHub repository search with pagination capped at max_results."""
+        page_cap = max_pages if max_pages is not None else MAX_REPO_SEARCH_PAGES
+        results: list[dict[str, Any]] = []
+        page = 1
+        while len(results) < max_results and page <= page_cap:
+            if page > 1:
+                time.sleep(SEARCH_PAGE_DELAY_SECONDS)
+            try:
+                payload = self.get_json(
+                    "/search/repositories",
+                    params={"q": query, "per_page": self.per_page, "page": page},
+                )
+            except GitHubClientError as exc:
+                if "Only the first 1000" in str(exc):
+                    logger.info(
+                        "Repository search hit GitHub 1000-result cap for query %r at page %d.",
+                        query,
+                        page,
+                    )
+                    break
+                raise
+
+            items = payload.get("items", [])
+            total_count = int(payload.get("total_count") or 0)
+            if not items:
+                break
+            results.extend(items)
+            logger.debug(
+                "Repository search page %d for %r: %d items (total_count=%d, collected=%d).",
+                page,
+                query,
+                len(items),
+                total_count,
+                len(results),
+            )
+            if len(items) < self.per_page:
+                break
+            if len(results) >= max_results:
+                break
+            if page >= page_cap:
+                logger.info(
+                    "Stopping repository search for %r at page %d (max_pages=%d).",
+                    query,
+                    page,
+                    page_cap,
+                )
+                break
+            page += 1
+        return results[:max_results]
 
     def search_code(
         self,
