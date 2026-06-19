@@ -12,7 +12,7 @@
 
 ### Description
 
-Frozen replication package for the MSR manuscript *Contamination in Repository Discovery Frames from AI-Instruction Artifacts*.
+Frozen replication package for the empirical study manuscript *Contamination in Repository Discovery Frames from AI-Instruction Artifacts*.
 Supports replay of discovery-frame yield, annotation consensus, inter-coder reliability, query-family contamination (RQ2), EXCLUDE disagreement analysis, learned metadata baselines, and the functional-evidence proxy audit.
 
 ### Main contents
