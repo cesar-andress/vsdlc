@@ -1,0 +1,125 @@
+{
+  "human_human": {
+    "conditional_agreement_when_reference_is": {
+      "conventional_software": {
+        "agreement_count": 96,
+        "agreement_rate": 0.733,
+        "n": 131
+      },
+      "exclude": {
+        "agreement_count": 24,
+        "agreement_rate": 0.429,
+        "n": 56
+      }
+    },
+    "confusion_matrix": {
+      "AI_PRODUCT": {
+        "AI_PRODUCT": 102,
+        "CONVENTIONAL_SOFTWARE": 10,
+        "EXCLUDE": 1
+      },
+      "CONVENTIONAL_SOFTWARE": {
+        "AI_PRODUCT": 25,
+        "CONVENTIONAL_SOFTWARE": 96,
+        "EXCLUDE": 10
+      },
+      "EXCLUDE": {
+        "AI_PRODUCT": 1,
+        "CONVENTIONAL_SOFTWARE": 31,
+        "EXCLUDE": 24
+      }
+    },
+    "disagreement_rate": 0.26,
+    "exclude_involving": {
+      "count": 43,
+      "percent_of_disagreements": 55.1
+    },
+    "paired_repositories": 300,
+    "patterns": {
+      "ai_product_vs_conventional": {
+        "count": 35,
+        "percent_of_disagreements": 44.9
+      },
+      "exclude_vs_ai_product": {
+        "count": 2,
+        "percent_of_disagreements": 2.6
+      },
+      "exclude_vs_conventional": {
+        "count": 41,
+        "percent_of_disagreements": 52.6
+      },
+      "other": {
+        "count": 0,
+        "percent_of_disagreements": 0.0
+      }
+    },
+    "product_role_only": {
+      "count": 35,
+      "percent_of_disagreements": 44.9
+    },
+    "source": "human1_vs_human2",
+    "total_disagreements": 78
+  },
+  "metadata_vs_inspection": {
+    "conditional_agreement_when_reference_is": {
+      "conventional_software": {
+        "agreement_count": 14,
+        "agreement_rate": 0.7,
+        "n": 20
+      },
+      "exclude": {
+        "agreement_count": 10,
+        "agreement_rate": 0.667,
+        "n": 15
+      }
+    },
+    "confusion_matrix": {
+      "AI_PRODUCT": {
+        "AI_PRODUCT": 11,
+        "CONVENTIONAL_SOFTWARE": 3,
+        "EXCLUDE": 1
+      },
+      "CONVENTIONAL_SOFTWARE": {
+        "AI_PRODUCT": 3,
+        "CONVENTIONAL_SOFTWARE": 14,
+        "EXCLUDE": 3
+      },
+      "EXCLUDE": {
+        "AI_PRODUCT": 0,
+        "CONVENTIONAL_SOFTWARE": 5,
+        "EXCLUDE": 10
+      }
+    },
+    "disagreement_rate": 0.3,
+    "exclude_involving": {
+      "count": 9,
+      "percent_of_disagreements": 60.0
+    },
+    "paired_repositories": 50,
+    "patterns": {
+      "ai_product_vs_conventional": {
+        "count": 6,
+        "percent_of_disagreements": 40.0
+      },
+      "exclude_vs_ai_product": {
+        "count": 1,
+        "percent_of_disagreements": 6.7
+      },
+      "exclude_vs_conventional": {
+        "count": 8,
+        "percent_of_disagreements": 53.3
+      },
+      "other": {
+        "count": 0,
+        "percent_of_disagreements": 0.0
+      }
+    },
+    "product_role_only": {
+      "count": 6,
+      "percent_of_disagreements": 40.0
+    },
+    "source": "annotation_consensus_vs_inspection",
+    "total_disagreements": 15
+  },
+  "schema_version": "0.2"
+}

@@ -116,6 +116,26 @@ ruff check src tests scripts
 mypy src/vsdlc_mining
 ```
 
+## Manuscript reliability metrics (Cohen's $\kappa$ bootstrap CIs)
+
+Frozen pilot outputs include `data/processed/kappa_bootstrap_ci.json`, produced by:
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+python3 scripts/compute_kappa_bootstrap_ci.py
+```
+
+Defaults:
+- Human--human pairs: `data/processed/gold_sample_330_three_annotator_comparison.csv` (`human1_label` vs `human2_label`, $n{=}300$)
+- Metadata vs inspection: `inspection_sample_50.csv` vs `inspection_sample_50_completed_fixed.csv` ($n{=}50$)
+
+The script computes point estimates and **95% percentile bootstrap confidence intervals** (10{,}000 resamples, seed 42) for:
+- three-class $\kappa$
+- `AI_PRODUCT` vs `CONVENTIONAL_SOFTWARE` (pairs where neither side is `EXCLUDE`)
+- collapsed `EXCLUDE` vs non-`EXCLUDE`
+
+Unit tests: `pytest tests/test_kappa_bootstrap.py`
+
 ## Citation after Zenodo DOI assignment
 
 1. Mint or reserve a DOI on Zenodo.

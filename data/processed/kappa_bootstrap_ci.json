@@ -1,0 +1,89 @@
+{
+  "human_human": {
+    "ai_product_vs_conventional": {
+      "agreement": 0.8497854077253219,
+      "agreement_ci_lower": 0.8025751072961373,
+      "agreement_ci_upper": 0.8969957081545065,
+      "bootstrap_replicates": 10000,
+      "bootstrap_valid_replicates": 10000,
+      "kappa": 0.7006130915231836,
+      "kappa_ci_lower": 0.6058689416783114,
+      "kappa_ci_upper": 0.7900270351456895,
+      "n": 233
+    },
+    "comparison_file": "data/processed/gold_sample_330_three_annotator_comparison.csv",
+    "exclude_vs_non_exclude": {
+      "agreement": 0.8566666666666667,
+      "agreement_ci_lower": 0.8166666666666667,
+      "agreement_ci_upper": 0.8933333333333333,
+      "bootstrap_replicates": 10000,
+      "bootstrap_valid_replicates": 10000,
+      "kappa": 0.44824636441402915,
+      "kappa_ci_lower": 0.3084370677731678,
+      "kappa_ci_upper": 0.5791532052372047,
+      "n": 300
+    },
+    "paired_repositories": 300,
+    "three_class": {
+      "agreement": 0.74,
+      "agreement_ci_lower": 0.69,
+      "agreement_ci_upper": 0.7866666666666666,
+      "bootstrap_replicates": 10000,
+      "bootstrap_valid_replicates": 10000,
+      "kappa": 0.579356091247371,
+      "kappa_ci_lower": 0.4997310381925766,
+      "kappa_ci_upper": 0.654334323521469,
+      "n": 300
+    }
+  },
+  "metadata_vs_inspection": {
+    "ai_product_vs_conventional": {
+      "agreement": 0.8064516129032258,
+      "agreement_ci_lower": 0.6451612903225806,
+      "agreement_ci_upper": 0.9354838709677419,
+      "bootstrap_replicates": 10000,
+      "bootstrap_valid_replicates": 10000,
+      "kappa": 0.6092436974789915,
+      "kappa_ci_lower": 0.2939958592132504,
+      "kappa_ci_upper": 0.8697478991596638,
+      "n": 31
+    },
+    "completed_file": "data/processed/inspection_sample_50_completed_fixed.csv",
+    "exclude_vs_non_exclude": {
+      "agreement": 0.82,
+      "agreement_ci_lower": 0.7,
+      "agreement_ci_upper": 0.92,
+      "bootstrap_replicates": 10000,
+      "bootstrap_valid_replicates": 10000,
+      "kappa": 0.5631067961165047,
+      "kappa_ci_lower": 0.2783505154639177,
+      "kappa_ci_upper": 0.7938144329896909,
+      "n": 50
+    },
+    "paired_repositories": 50,
+    "reference_file": "data/processed/inspection_sample_50.csv",
+    "three_class": {
+      "agreement": 0.7,
+      "agreement_ci_lower": 0.56,
+      "agreement_ci_upper": 0.82,
+      "bootstrap_replicates": 10000,
+      "bootstrap_valid_replicates": 10000,
+      "kappa": 0.5426829268292682,
+      "kappa_ci_lower": 0.3337563451776649,
+      "kappa_ci_upper": 0.7277676950998184,
+      "n": 50
+    },
+    "validation_point_estimates": {
+      "ai_product_vs_conventional_kappa": 0.6092436974789915,
+      "cohens_kappa": 0.5426829268292682,
+      "exclude_vs_non_exclude_kappa": 0.5631067961165047
+    }
+  },
+  "method": {
+    "bootstrap_replicates": 10000,
+    "ci_level": 0.95,
+    "estimator": "percentile bootstrap on paired repository labels",
+    "seed": 42
+  },
+  "schema_version": "0.2"
+}
