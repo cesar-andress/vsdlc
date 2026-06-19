@@ -90,8 +90,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 
 | Item | Owner action |
 |------|--------------|
-| `CITATION.cff` `repository-code` / `url` placeholders | Replace `PLACEHOLDER_ORG/vsdlc-mining` with final public repository URL |
-| `CITATION.cff` `doi` placeholder | Mint on Zenodo; do not claim DOI until assigned |
+| `CITATION.cff` DOI | Assigned: `10.5281/zenodo.20754778` (`v0.1.0-msr-contamination-audit`) |
 | `CITATION.cff` `date-released` | Set to actual Zenodo release date |
 | `pyproject.toml` `[project.urls]` | Align with final repository URL |
 | Generated dataset inclusion in Zenodo | Decide whether to bundle `data/raw/*.jsonl` and `data/interim/*.jsonl` or publish regeneration instructions only |

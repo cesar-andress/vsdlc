@@ -169,22 +169,27 @@ Unit tests: `pytest tests/test_learned_baselines.py`
 
 Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_heuristics.py` → `data/processed/baseline_comparison_330.json`
 
-## Citation after Zenodo DOI assignment
+## Citation (Zenodo)
 
-1. Mint or reserve a DOI on Zenodo.
-2. Replace `doi: 10.5281/zenodo.PLACEHOLDER` in `CITATION.cff`.
-3. Replace repository URL placeholders in `CITATION.cff` and `pyproject.toml`.
-4. Cite using the Zenodo record or the `CITATION.cff` metadata.
+**Title:** VSDLC Mining Pilot
 
-Example (fill after DOI assignment):
+**Release:** VSDLC Replication Package v0.1.0 — AI Instruction Artifact Contamination Audit
+
+**Version:** `v0.1.0-msr-contamination-audit`
+
+**DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
+
+Cite the Zenodo record or `CITATION.cff` in `vsdlc/`.
 
 ```bibtex
-@software{vsdlc_mining_pilot_2026,
-  author = {S{\'a}nchez, C{\'e}sar Andr{\'e}s and Moncunill, David Martin},
-  title = {{VSDLC Mining Pilot}},
-  year = {2026},
-  version = {0.1.0},
-  doi = {10.5281/zenodo.PLACEHOLDER},
-  url = {https://github.com/PLACEHOLDER_ORG/vsdlc-mining}
+@software{sanchez2026vsdlcMiningPilot,
+  author    = {Andr{\'e}s, C{\'e}sar},
+  title     = {{VSDLC Mining Pilot}},
+  year      = {2026},
+  version   = {v0.1.0-msr-contamination-audit},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20754778},
+  url       = {https://doi.org/10.5281/zenodo.20754778},
+  note      = {VSDLC Replication Package v0.1.0 --- AI Instruction Artifact Contamination Audit}
 }
 ```

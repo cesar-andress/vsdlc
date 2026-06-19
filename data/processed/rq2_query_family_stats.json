@@ -1,0 +1,223 @@
+{
+  "n_intersection": 300,
+  "sources": {
+    "queries_csv": "data/processed/gold_sample_360b_pilot.csv",
+    "majority_csv": "data/processed/gold_sample_330_three_annotator_comparison.csv"
+  },
+  "definitions": {
+    "primary_query": "first element of detected_instruction_artifacts.queries",
+    "primary_matched_path": "first element of detected_instruction_artifacts.matched_paths",
+    "pct_conventional": "100 * CONVENTIONAL_SOFTWARE / n_family",
+    "pct_ai_product": "100 * AI_PRODUCT / n_family",
+    "pct_non_target": "100 * (AI_PRODUCT + EXCLUDE) / n_family",
+    "pct_exclude": "100 * EXCLUDE / n_family"
+  },
+  "family_totals": {
+    "System prompts": 58,
+    "AGENTS.md": 25,
+    "Cursor rules": 24,
+    "Copilot instructions": 30,
+    "Editor rules": 28,
+    "CLAUDE/GEMINI": 37,
+    "Prompt paths": 80,
+    "Aider": 12,
+    "Chat modes": 6
+  },
+  "path_family_totals": {
+    "system-prompt": 65,
+    "AGENTS.md": 19,
+    "cursor rules": 23,
+    "copilot instructions": 30,
+    "editor rules": 27,
+    "CLAUDE/GEMINI": 28,
+    "other": 55,
+    "aider": 12,
+    "prompts": 35,
+    "chatmodes": 6
+  },
+  "cross_tab_majority_by_family": {
+    "Prompt paths": {
+      "CONVENTIONAL_SOFTWARE": 30,
+      "AI_PRODUCT": 35,
+      "EXCLUDE": 13,
+      "TIE": 2
+    },
+    "System prompts": {
+      "EXCLUDE": 14,
+      "CONVENTIONAL_SOFTWARE": 12,
+      "AI_PRODUCT": 32
+    },
+    "CLAUDE/GEMINI": {
+      "EXCLUDE": 10,
+      "TIE": 1,
+      "CONVENTIONAL_SOFTWARE": 13,
+      "AI_PRODUCT": 13
+    },
+    "Copilot instructions": {
+      "CONVENTIONAL_SOFTWARE": 20,
+      "EXCLUDE": 5,
+      "AI_PRODUCT": 5
+    },
+    "Editor rules": {
+      "EXCLUDE": 7,
+      "AI_PRODUCT": 9,
+      "CONVENTIONAL_SOFTWARE": 12
+    },
+    "AGENTS.md": {
+      "AI_PRODUCT": 6,
+      "CONVENTIONAL_SOFTWARE": 12,
+      "EXCLUDE": 7
+    },
+    "Cursor rules": {
+      "CONVENTIONAL_SOFTWARE": 11,
+      "EXCLUDE": 6,
+      "AI_PRODUCT": 6,
+      "TIE": 1
+    },
+    "Aider": {
+      "CONVENTIONAL_SOFTWARE": 9,
+      "AI_PRODUCT": 2,
+      "EXCLUDE": 1
+    },
+    "Chat modes": {
+      "CONVENTIONAL_SOFTWARE": 4,
+      "EXCLUDE": 2
+    }
+  },
+  "cross_tab_majority_by_matched_path_family": {
+    "system-prompt": {
+      "EXCLUDE": 15,
+      "CONVENTIONAL_SOFTWARE": 15,
+      "AI_PRODUCT": 35
+    },
+    "other": {
+      "CONVENTIONAL_SOFTWARE": 17,
+      "TIE": 2,
+      "AI_PRODUCT": 22,
+      "EXCLUDE": 14
+    },
+    "prompts": {
+      "EXCLUDE": 4,
+      "CONVENTIONAL_SOFTWARE": 12,
+      "AI_PRODUCT": 18,
+      "TIE": 1
+    },
+    "copilot instructions": {
+      "CONVENTIONAL_SOFTWARE": 20,
+      "EXCLUDE": 5,
+      "AI_PRODUCT": 5
+    },
+    "CLAUDE/GEMINI": {
+      "EXCLUDE": 7,
+      "CONVENTIONAL_SOFTWARE": 13,
+      "AI_PRODUCT": 8
+    },
+    "editor rules": {
+      "EXCLUDE": 6,
+      "AI_PRODUCT": 9,
+      "CONVENTIONAL_SOFTWARE": 12
+    },
+    "cursor rules": {
+      "CONVENTIONAL_SOFTWARE": 10,
+      "EXCLUDE": 6,
+      "AI_PRODUCT": 6,
+      "TIE": 1
+    },
+    "AGENTS.md": {
+      "AI_PRODUCT": 3,
+      "CONVENTIONAL_SOFTWARE": 11,
+      "EXCLUDE": 5
+    },
+    "aider": {
+      "CONVENTIONAL_SOFTWARE": 9,
+      "AI_PRODUCT": 2,
+      "EXCLUDE": 1
+    },
+    "chatmodes": {
+      "CONVENTIONAL_SOFTWARE": 4,
+      "EXCLUDE": 2
+    }
+  },
+  "table_top_families": [
+    {
+      "family": "Prompt paths",
+      "n": 80,
+      "pct_conventional": 37.5,
+      "pct_ai_product": 43.8,
+      "pct_non_target": 60.0,
+      "pct_exclude": 16.2,
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 30,
+        "AI_PRODUCT": 35,
+        "EXCLUDE": 13,
+        "TIE": 2
+      }
+    },
+    {
+      "family": "System prompts",
+      "n": 58,
+      "pct_conventional": 20.7,
+      "pct_ai_product": 55.2,
+      "pct_non_target": 79.3,
+      "pct_exclude": 24.1,
+      "counts": {
+        "EXCLUDE": 14,
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 32
+      }
+    },
+    {
+      "family": "CLAUDE/GEMINI",
+      "n": 37,
+      "pct_conventional": 35.1,
+      "pct_ai_product": 35.1,
+      "pct_non_target": 62.2,
+      "pct_exclude": 27.0,
+      "counts": {
+        "EXCLUDE": 10,
+        "TIE": 1,
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 13
+      }
+    },
+    {
+      "family": "Copilot instructions",
+      "n": 30,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 16.7,
+      "pct_non_target": 33.3,
+      "pct_exclude": 16.7,
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 20,
+        "EXCLUDE": 5,
+        "AI_PRODUCT": 5
+      }
+    },
+    {
+      "family": "Editor rules",
+      "n": 28,
+      "pct_conventional": 42.9,
+      "pct_ai_product": 32.1,
+      "pct_non_target": 57.1,
+      "pct_exclude": 25.0,
+      "counts": {
+        "EXCLUDE": 7,
+        "AI_PRODUCT": 9,
+        "CONVENTIONAL_SOFTWARE": 12
+      }
+    },
+    {
+      "family": "AGENTS.md",
+      "n": 25,
+      "pct_conventional": 48.0,
+      "pct_ai_product": 24.0,
+      "pct_non_target": 52.0,
+      "pct_exclude": 28.0,
+      "counts": {
+        "AI_PRODUCT": 6,
+        "CONVENTIONAL_SOFTWARE": 12,
+        "EXCLUDE": 7
+      }
+    }
+  ]
+}

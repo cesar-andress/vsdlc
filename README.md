@@ -165,7 +165,28 @@ See [`docs/reproducibility.md`](docs/reproducibility.md) for rerun steps, rate-l
 
 ## Citation
 
-A Zenodo DOI is **not yet assigned**. After the Zenodo record is released, cite using `CITATION.cff` (update `doi` and `repository-code` placeholders first).
+**Title:** VSDLC Mining Pilot
+
+**Release:** VSDLC Replication Package v0.1.0 — AI Instruction Artifact Contamination Audit
+
+**Version:** `v0.1.0-msr-contamination-audit`
+
+**DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
+
+```bibtex
+@software{sanchez2026vsdlcMiningPilot,
+  author    = {Andr{\'e}s, C{\'e}sar},
+  title     = {{VSDLC Mining Pilot}},
+  year      = {2026},
+  version   = {v0.1.0-msr-contamination-audit},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20754778},
+  url       = {https://doi.org/10.5281/zenodo.20754778},
+  note      = {VSDLC Replication Package v0.1.0 --- AI Instruction Artifact Contamination Audit}
+}
+```
+
+See also `CITATION.cff` for machine-readable metadata.
 
 ## License
 
@@ -173,7 +194,9 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Zenodo archival
 
-Release checklist: [`docs/zenodo_release_checklist.md`](docs/zenodo_release_checklist.md).
+Published release: [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778) (`v0.1.0-msr-contamination-audit`).
+
+Release notes: [`RELEASE.md`](RELEASE.md). Pre-release checklist: [`docs/zenodo_release_checklist.md`](docs/zenodo_release_checklist.md).
 
 ## Project layout
 

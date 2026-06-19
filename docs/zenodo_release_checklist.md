@@ -54,7 +54,9 @@ Use this checklist before creating a Git tag, GitHub release, or Zenodo upload f
 - [ ] DOI propagated back to `CITATION.cff` and README citation section
 - [ ] Zenodo record published (only when intentional)
 
-## Post-release
+## Post-release (v0.1.0-msr-contamination-audit)
 
-- [ ] Archive copy of generated datasets uploaded or checksums recorded
+- [x] Zenodo record published: [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
+- [x] DOI propagated to `CITATION.cff`, `README.md`, `docs/reproducibility.md`, `RELEASE.md`
+- [x] Git tag: `v0.1.0-msr-contamination-audit`
 - [ ] External references to this artifact updated with the final DOI (if any)
