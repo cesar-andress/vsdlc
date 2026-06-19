@@ -1,0 +1,4 @@
+family,n,tie_count,conventional_count,ai_product_count,exclude_count,non_target_count,pct_conventional,pct_ai_product,pct_exclude,pct_non_target,non_target_ci_low,non_target_ci_high
+complete_metadata,168,1,75,75,17,92,44.9,44.9,10.2,55.1,47.5,62.4
+missing_topics,99,3,48,33,15,48,50.0,34.4,15.6,50.0,40.2,59.8
+missing_description_and_topics,33,0,0,0,33,33,0.0,0.0,100.0,100.0,89.6,100.0

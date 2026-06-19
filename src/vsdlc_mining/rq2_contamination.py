@@ -54,29 +54,6 @@ def matched_path_to_family(path: str) -> str:
         return ".github/chatmodes"
     if ".cursor/rules" in lower:
         return ".cursor/rules"
-    if (
-        depth == 0
-        or name
-        in {
-            "agents.md",
-            "claude.md",
-            "gemini.md",
-            ".cursorrules",
-            "copilot-instructions.md",
-            ".windsurfrules",
-            ".clinerules",
-        }
-        or lower.endswith("/agents.md")
-        and depth <= 1
-    ):
-        if name in {"agents.md", "claude.md", "gemini.md", ".cursorrules"} or (
-            "copilot-instructions" in name and depth <= 1
-        ):
-            return "root instruction file"
-    if name in {"agents.md", "claude.md", "gemini.md"} and depth <= 2:
-        return "root instruction file"
-    if "copilot-instructions" in lower and depth <= 1:
-        return "root instruction file"
     if "/prompts/" in lower or lower.startswith("prompts/") or name.endswith(".prompt.md"):
         return "prompts directory"
     if (
@@ -101,7 +78,20 @@ def matched_path_to_family(path: str) -> str:
         )
     ):
         return "package/application source"
-    if depth == 0:
+    if depth == 0 or (
+        name
+        in {
+            "agents.md",
+            "claude.md",
+            "gemini.md",
+            ".cursorrules",
+            "copilot-instructions.md",
+            ".windsurfrules",
+            ".clinerules",
+        }
+    ):
+        return "root instruction file"
+    if "copilot-instructions" in lower and depth <= 1:
         return "root instruction file"
     return "unknown/other"
 

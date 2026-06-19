@@ -1,0 +1,1065 @@
+{
+  "n_intersection": 300,
+  "sources": {
+    "pilot_csv": "data/processed/gold_sample_360b_pilot.csv",
+    "comparison_csv": "data/processed/gold_sample_330_three_annotator_comparison.csv"
+  },
+  "definitions": {
+    "rate_denominator": "repositories with consensus label in {CONVENTIONAL_SOFTWARE, AI_PRODUCT, EXCLUDE}; TIE excluded from rates",
+    "non_target": "AI_PRODUCT + EXCLUDE",
+    "non_target_ci": "Wilson 95% interval on non_target rate"
+  },
+  "query_family_table": [
+    {
+      "family": "Prompt paths",
+      "n": 80,
+      "tie_count": 2,
+      "conventional_count": 30,
+      "ai_product_count": 35,
+      "exclude_count": 13,
+      "non_target_count": 48,
+      "pct_conventional": 38.5,
+      "pct_ai_product": 44.9,
+      "pct_exclude": 16.7,
+      "pct_non_target": 61.5,
+      "non_target_ci_95": [
+        50.4,
+        71.6
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 30,
+        "AI_PRODUCT": 35,
+        "EXCLUDE": 13,
+        "TIE": 2
+      }
+    },
+    {
+      "family": "System prompts",
+      "n": 58,
+      "tie_count": 0,
+      "conventional_count": 12,
+      "ai_product_count": 32,
+      "exclude_count": 14,
+      "non_target_count": 46,
+      "pct_conventional": 20.7,
+      "pct_ai_product": 55.2,
+      "pct_exclude": 24.1,
+      "pct_non_target": 79.3,
+      "non_target_ci_95": [
+        67.2,
+        87.7
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 32,
+        "EXCLUDE": 14,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "CLAUDE/GEMINI",
+      "n": 37,
+      "tie_count": 1,
+      "conventional_count": 13,
+      "ai_product_count": 13,
+      "exclude_count": 10,
+      "non_target_count": 23,
+      "pct_conventional": 36.1,
+      "pct_ai_product": 36.1,
+      "pct_exclude": 27.8,
+      "pct_non_target": 63.9,
+      "non_target_ci_95": [
+        47.6,
+        77.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 13,
+        "EXCLUDE": 10,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Copilot instructions",
+      "n": 30,
+      "tie_count": 0,
+      "conventional_count": 20,
+      "ai_product_count": 5,
+      "exclude_count": 5,
+      "non_target_count": 10,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 16.7,
+      "pct_exclude": 16.7,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        19.2,
+        51.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 20,
+        "AI_PRODUCT": 5,
+        "EXCLUDE": 5,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "Editor rule files",
+      "n": 28,
+      "tie_count": 0,
+      "conventional_count": 12,
+      "ai_product_count": 9,
+      "exclude_count": 7,
+      "non_target_count": 16,
+      "pct_conventional": 42.9,
+      "pct_ai_product": 32.1,
+      "pct_exclude": 25.0,
+      "pct_non_target": 57.1,
+      "non_target_ci_95": [
+        39.1,
+        73.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 9,
+        "EXCLUDE": 7,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "AGENTS.md",
+      "n": 25,
+      "tie_count": 0,
+      "conventional_count": 12,
+      "ai_product_count": 6,
+      "exclude_count": 7,
+      "non_target_count": 13,
+      "pct_conventional": 48.0,
+      "pct_ai_product": 24.0,
+      "pct_exclude": 28.0,
+      "pct_non_target": 52.0,
+      "non_target_ci_95": [
+        33.5,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 7,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "Cursor rules",
+      "n": 24,
+      "tie_count": 1,
+      "conventional_count": 11,
+      "ai_product_count": 6,
+      "exclude_count": 6,
+      "non_target_count": 12,
+      "pct_conventional": 47.8,
+      "pct_ai_product": 26.1,
+      "pct_exclude": 26.1,
+      "pct_non_target": 52.2,
+      "non_target_ci_95": [
+        33.0,
+        70.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 11,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 6,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Aider config",
+      "n": 12,
+      "tie_count": 0,
+      "conventional_count": 9,
+      "ai_product_count": 2,
+      "exclude_count": 1,
+      "non_target_count": 3,
+      "pct_conventional": 75.0,
+      "pct_ai_product": 16.7,
+      "pct_exclude": 8.3,
+      "pct_non_target": 25.0,
+      "non_target_ci_95": [
+        8.9,
+        53.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 9,
+        "AI_PRODUCT": 2,
+        "EXCLUDE": 1,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "Chat modes",
+      "n": 6,
+      "tie_count": 0,
+      "conventional_count": 4,
+      "ai_product_count": 0,
+      "exclude_count": 2,
+      "non_target_count": 2,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 33.3,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 4,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 2,
+        "TIE": 0
+      }
+    }
+  ],
+  "matched_path_family_table": [
+    {
+      "family": "root instruction file",
+      "n": 122,
+      "tie_count": 1,
+      "conventional_count": 71,
+      "ai_product_count": 23,
+      "exclude_count": 27,
+      "non_target_count": 50,
+      "pct_conventional": 58.7,
+      "pct_ai_product": 19.0,
+      "pct_exclude": 22.3,
+      "pct_non_target": 41.3,
+      "non_target_ci_95": [
+        32.9,
+        50.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 71,
+        "AI_PRODUCT": 23,
+        "EXCLUDE": 27,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "unknown/other",
+      "n": 56,
+      "tie_count": 2,
+      "conventional_count": 16,
+      "ai_product_count": 25,
+      "exclude_count": 13,
+      "non_target_count": 38,
+      "pct_conventional": 29.6,
+      "pct_ai_product": 46.3,
+      "pct_exclude": 24.1,
+      "pct_non_target": 70.4,
+      "non_target_ci_95": [
+        57.2,
+        80.9
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 16,
+        "AI_PRODUCT": 25,
+        "EXCLUDE": 13,
+        "TIE": 2
+      }
+    },
+    {
+      "family": "prompts directory",
+      "n": 51,
+      "tie_count": 1,
+      "conventional_count": 14,
+      "ai_product_count": 28,
+      "exclude_count": 8,
+      "non_target_count": 36,
+      "pct_conventional": 28.0,
+      "pct_ai_product": 56.0,
+      "pct_exclude": 16.0,
+      "pct_non_target": 72.0,
+      "non_target_ci_95": [
+        58.3,
+        82.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 14,
+        "AI_PRODUCT": 28,
+        "EXCLUDE": 8,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "system prompt source",
+      "n": 49,
+      "tie_count": 0,
+      "conventional_count": 13,
+      "ai_product_count": 25,
+      "exclude_count": 11,
+      "non_target_count": 36,
+      "pct_conventional": 26.5,
+      "pct_ai_product": 51.0,
+      "pct_exclude": 22.4,
+      "pct_non_target": 73.5,
+      "non_target_ci_95": [
+        59.7,
+        83.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 25,
+        "EXCLUDE": 11,
+        "TIE": 0
+      }
+    },
+    {
+      "family": ".cursor/rules",
+      "n": 14,
+      "tie_count": 0,
+      "conventional_count": 5,
+      "ai_product_count": 6,
+      "exclude_count": 3,
+      "non_target_count": 9,
+      "pct_conventional": 35.7,
+      "pct_ai_product": 42.9,
+      "pct_exclude": 21.4,
+      "pct_non_target": 64.3,
+      "non_target_ci_95": [
+        38.8,
+        83.7
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 5,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 3,
+        "TIE": 0
+      }
+    },
+    {
+      "family": ".github/chatmodes",
+      "n": 6,
+      "tie_count": 0,
+      "conventional_count": 4,
+      "ai_product_count": 0,
+      "exclude_count": 2,
+      "non_target_count": 2,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 33.3,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 4,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 2,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "docs/wiki",
+      "n": 1,
+      "tie_count": 0,
+      "conventional_count": 0,
+      "ai_product_count": 0,
+      "exclude_count": 1,
+      "non_target_count": 1,
+      "pct_conventional": 0.0,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 100.0,
+      "pct_non_target": 100.0,
+      "non_target_ci_95": [
+        20.7,
+        100.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 0,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 1,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "package/application source",
+      "n": 1,
+      "tie_count": 0,
+      "conventional_count": 0,
+      "ai_product_count": 1,
+      "exclude_count": 0,
+      "non_target_count": 1,
+      "pct_conventional": 0.0,
+      "pct_ai_product": 100.0,
+      "pct_exclude": 0.0,
+      "pct_non_target": 100.0,
+      "non_target_ci_95": [
+        20.7,
+        100.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 0,
+        "AI_PRODUCT": 1,
+        "EXCLUDE": 0,
+        "TIE": 0
+      }
+    }
+  ],
+  "sparse_metadata_table": [
+    {
+      "family": "complete_metadata",
+      "n": 168,
+      "tie_count": 1,
+      "conventional_count": 75,
+      "ai_product_count": 75,
+      "exclude_count": 17,
+      "non_target_count": 92,
+      "pct_conventional": 44.9,
+      "pct_ai_product": 44.9,
+      "pct_exclude": 10.2,
+      "pct_non_target": 55.1,
+      "non_target_ci_95": [
+        47.5,
+        62.4
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 75,
+        "AI_PRODUCT": 75,
+        "EXCLUDE": 17,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "missing_topics",
+      "n": 99,
+      "tie_count": 3,
+      "conventional_count": 48,
+      "ai_product_count": 33,
+      "exclude_count": 15,
+      "non_target_count": 48,
+      "pct_conventional": 50.0,
+      "pct_ai_product": 34.4,
+      "pct_exclude": 15.6,
+      "pct_non_target": 50.0,
+      "non_target_ci_95": [
+        40.2,
+        59.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 48,
+        "AI_PRODUCT": 33,
+        "EXCLUDE": 15,
+        "TIE": 3
+      }
+    },
+    {
+      "family": "missing_description_and_topics",
+      "n": 33,
+      "tie_count": 0,
+      "conventional_count": 0,
+      "ai_product_count": 0,
+      "exclude_count": 33,
+      "non_target_count": 33,
+      "pct_conventional": 0.0,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 100.0,
+      "pct_non_target": 100.0,
+      "non_target_ci_95": [
+        89.6,
+        100.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 0,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 33,
+        "TIE": 0
+      }
+    }
+  ],
+  "primary_language_group_table": [
+    {
+      "family": "TypeScript/JavaScript",
+      "n": 99,
+      "tie_count": 1,
+      "conventional_count": 41,
+      "ai_product_count": 32,
+      "exclude_count": 25,
+      "non_target_count": 57,
+      "pct_conventional": 41.8,
+      "pct_ai_product": 32.7,
+      "pct_exclude": 25.5,
+      "pct_non_target": 58.2,
+      "non_target_ci_95": [
+        48.3,
+        67.4
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 41,
+        "AI_PRODUCT": 32,
+        "EXCLUDE": 25,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Python",
+      "n": 82,
+      "tie_count": 1,
+      "conventional_count": 24,
+      "ai_product_count": 48,
+      "exclude_count": 9,
+      "non_target_count": 57,
+      "pct_conventional": 29.6,
+      "pct_ai_product": 59.3,
+      "pct_exclude": 11.1,
+      "pct_non_target": 70.4,
+      "non_target_ci_95": [
+        59.7,
+        79.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 24,
+        "AI_PRODUCT": 48,
+        "EXCLUDE": 9,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Other",
+      "n": 71,
+      "tie_count": 1,
+      "conventional_count": 43,
+      "ai_product_count": 13,
+      "exclude_count": 14,
+      "non_target_count": 27,
+      "pct_conventional": 61.4,
+      "pct_ai_product": 18.6,
+      "pct_exclude": 20.0,
+      "pct_non_target": 38.6,
+      "non_target_ci_95": [
+        28.0,
+        50.3
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 43,
+        "AI_PRODUCT": 13,
+        "EXCLUDE": 14,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Rust/Go",
+      "n": 31,
+      "tie_count": 1,
+      "conventional_count": 12,
+      "ai_product_count": 13,
+      "exclude_count": 5,
+      "non_target_count": 18,
+      "pct_conventional": 40.0,
+      "pct_ai_product": 43.3,
+      "pct_exclude": 16.7,
+      "pct_non_target": 60.0,
+      "non_target_ci_95": [
+        42.3,
+        75.4
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 13,
+        "EXCLUDE": 5,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Docs/Markdown",
+      "n": 17,
+      "tie_count": 0,
+      "conventional_count": 3,
+      "ai_product_count": 2,
+      "exclude_count": 12,
+      "non_target_count": 14,
+      "pct_conventional": 17.6,
+      "pct_ai_product": 11.8,
+      "pct_exclude": 70.6,
+      "pct_non_target": 82.4,
+      "non_target_ci_95": [
+        59.0,
+        93.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 3,
+        "AI_PRODUCT": 2,
+        "EXCLUDE": 12,
+        "TIE": 0
+      }
+    }
+  ],
+  "high_risk_query_families": [
+    {
+      "family": "System prompts",
+      "n": 58,
+      "tie_count": 0,
+      "conventional_count": 12,
+      "ai_product_count": 32,
+      "exclude_count": 14,
+      "non_target_count": 46,
+      "pct_conventional": 20.7,
+      "pct_ai_product": 55.2,
+      "pct_exclude": 24.1,
+      "pct_non_target": 79.3,
+      "non_target_ci_95": [
+        67.2,
+        87.7
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 32,
+        "EXCLUDE": 14,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "CLAUDE/GEMINI",
+      "n": 37,
+      "tie_count": 1,
+      "conventional_count": 13,
+      "ai_product_count": 13,
+      "exclude_count": 10,
+      "non_target_count": 23,
+      "pct_conventional": 36.1,
+      "pct_ai_product": 36.1,
+      "pct_exclude": 27.8,
+      "pct_non_target": 63.9,
+      "non_target_ci_95": [
+        47.6,
+        77.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 13,
+        "EXCLUDE": 10,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Prompt paths",
+      "n": 80,
+      "tie_count": 2,
+      "conventional_count": 30,
+      "ai_product_count": 35,
+      "exclude_count": 13,
+      "non_target_count": 48,
+      "pct_conventional": 38.5,
+      "pct_ai_product": 44.9,
+      "pct_exclude": 16.7,
+      "pct_non_target": 61.5,
+      "non_target_ci_95": [
+        50.4,
+        71.6
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 30,
+        "AI_PRODUCT": 35,
+        "EXCLUDE": 13,
+        "TIE": 2
+      }
+    }
+  ],
+  "lower_risk_query_families": [
+    {
+      "family": "Aider config",
+      "n": 12,
+      "tie_count": 0,
+      "conventional_count": 9,
+      "ai_product_count": 2,
+      "exclude_count": 1,
+      "non_target_count": 3,
+      "pct_conventional": 75.0,
+      "pct_ai_product": 16.7,
+      "pct_exclude": 8.3,
+      "pct_non_target": 25.0,
+      "non_target_ci_95": [
+        8.9,
+        53.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 9,
+        "AI_PRODUCT": 2,
+        "EXCLUDE": 1,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "Copilot instructions",
+      "n": 30,
+      "tie_count": 0,
+      "conventional_count": 20,
+      "ai_product_count": 5,
+      "exclude_count": 5,
+      "non_target_count": 10,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 16.7,
+      "pct_exclude": 16.7,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        19.2,
+        51.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 20,
+        "AI_PRODUCT": 5,
+        "EXCLUDE": 5,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "Chat modes",
+      "n": 6,
+      "tie_count": 0,
+      "conventional_count": 4,
+      "ai_product_count": 0,
+      "exclude_count": 2,
+      "non_target_count": 2,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 33.3,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 4,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 2,
+        "TIE": 0
+      }
+    }
+  ],
+  "high_risk_path_families": [
+    {
+      "family": "system prompt source",
+      "n": 49,
+      "tie_count": 0,
+      "conventional_count": 13,
+      "ai_product_count": 25,
+      "exclude_count": 11,
+      "non_target_count": 36,
+      "pct_conventional": 26.5,
+      "pct_ai_product": 51.0,
+      "pct_exclude": 22.4,
+      "pct_non_target": 73.5,
+      "non_target_ci_95": [
+        59.7,
+        83.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 25,
+        "EXCLUDE": 11,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "prompts directory",
+      "n": 51,
+      "tie_count": 1,
+      "conventional_count": 14,
+      "ai_product_count": 28,
+      "exclude_count": 8,
+      "non_target_count": 36,
+      "pct_conventional": 28.0,
+      "pct_ai_product": 56.0,
+      "pct_exclude": 16.0,
+      "pct_non_target": 72.0,
+      "non_target_ci_95": [
+        58.3,
+        82.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 14,
+        "AI_PRODUCT": 28,
+        "EXCLUDE": 8,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "unknown/other",
+      "n": 56,
+      "tie_count": 2,
+      "conventional_count": 16,
+      "ai_product_count": 25,
+      "exclude_count": 13,
+      "non_target_count": 38,
+      "pct_conventional": 29.6,
+      "pct_ai_product": 46.3,
+      "pct_exclude": 24.1,
+      "pct_non_target": 70.4,
+      "non_target_ci_95": [
+        57.2,
+        80.9
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 16,
+        "AI_PRODUCT": 25,
+        "EXCLUDE": 13,
+        "TIE": 2
+      }
+    },
+    {
+      "family": ".cursor/rules",
+      "n": 14,
+      "tie_count": 0,
+      "conventional_count": 5,
+      "ai_product_count": 6,
+      "exclude_count": 3,
+      "non_target_count": 9,
+      "pct_conventional": 35.7,
+      "pct_ai_product": 42.9,
+      "pct_exclude": 21.4,
+      "pct_non_target": 64.3,
+      "non_target_ci_95": [
+        38.8,
+        83.7
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 5,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 3,
+        "TIE": 0
+      }
+    }
+  ],
+  "high_exclude_query_families": [
+    {
+      "family": "Chat modes",
+      "n": 6,
+      "tie_count": 0,
+      "conventional_count": 4,
+      "ai_product_count": 0,
+      "exclude_count": 2,
+      "non_target_count": 2,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 33.3,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 4,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 2,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "AGENTS.md",
+      "n": 25,
+      "tie_count": 0,
+      "conventional_count": 12,
+      "ai_product_count": 6,
+      "exclude_count": 7,
+      "non_target_count": 13,
+      "pct_conventional": 48.0,
+      "pct_ai_product": 24.0,
+      "pct_exclude": 28.0,
+      "pct_non_target": 52.0,
+      "non_target_ci_95": [
+        33.5,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 7,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "CLAUDE/GEMINI",
+      "n": 37,
+      "tie_count": 1,
+      "conventional_count": 13,
+      "ai_product_count": 13,
+      "exclude_count": 10,
+      "non_target_count": 23,
+      "pct_conventional": 36.1,
+      "pct_ai_product": 36.1,
+      "pct_exclude": 27.8,
+      "pct_non_target": 63.9,
+      "non_target_ci_95": [
+        47.6,
+        77.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 13,
+        "EXCLUDE": 10,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Cursor rules",
+      "n": 24,
+      "tie_count": 1,
+      "conventional_count": 11,
+      "ai_product_count": 6,
+      "exclude_count": 6,
+      "non_target_count": 12,
+      "pct_conventional": 47.8,
+      "pct_ai_product": 26.1,
+      "pct_exclude": 26.1,
+      "pct_non_target": 52.2,
+      "non_target_ci_95": [
+        33.0,
+        70.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 11,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 6,
+        "TIE": 1
+      }
+    },
+    {
+      "family": "Editor rule files",
+      "n": 28,
+      "tie_count": 0,
+      "conventional_count": 12,
+      "ai_product_count": 9,
+      "exclude_count": 7,
+      "non_target_count": 16,
+      "pct_conventional": 42.9,
+      "pct_ai_product": 32.1,
+      "pct_exclude": 25.0,
+      "pct_non_target": 57.1,
+      "non_target_ci_95": [
+        39.1,
+        73.5
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 12,
+        "AI_PRODUCT": 9,
+        "EXCLUDE": 7,
+        "TIE": 0
+      }
+    }
+  ],
+  "high_exclude_path_families": [
+    {
+      "family": ".github/chatmodes",
+      "n": 6,
+      "tie_count": 0,
+      "conventional_count": 4,
+      "ai_product_count": 0,
+      "exclude_count": 2,
+      "non_target_count": 2,
+      "pct_conventional": 66.7,
+      "pct_ai_product": 0.0,
+      "pct_exclude": 33.3,
+      "pct_non_target": 33.3,
+      "non_target_ci_95": [
+        9.7,
+        70.0
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 4,
+        "AI_PRODUCT": 0,
+        "EXCLUDE": 2,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "unknown/other",
+      "n": 56,
+      "tie_count": 2,
+      "conventional_count": 16,
+      "ai_product_count": 25,
+      "exclude_count": 13,
+      "non_target_count": 38,
+      "pct_conventional": 29.6,
+      "pct_ai_product": 46.3,
+      "pct_exclude": 24.1,
+      "pct_non_target": 70.4,
+      "non_target_ci_95": [
+        57.2,
+        80.9
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 16,
+        "AI_PRODUCT": 25,
+        "EXCLUDE": 13,
+        "TIE": 2
+      }
+    },
+    {
+      "family": "system prompt source",
+      "n": 49,
+      "tie_count": 0,
+      "conventional_count": 13,
+      "ai_product_count": 25,
+      "exclude_count": 11,
+      "non_target_count": 36,
+      "pct_conventional": 26.5,
+      "pct_ai_product": 51.0,
+      "pct_exclude": 22.4,
+      "pct_non_target": 73.5,
+      "non_target_ci_95": [
+        59.7,
+        83.8
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 13,
+        "AI_PRODUCT": 25,
+        "EXCLUDE": 11,
+        "TIE": 0
+      }
+    },
+    {
+      "family": "root instruction file",
+      "n": 122,
+      "tie_count": 1,
+      "conventional_count": 71,
+      "ai_product_count": 23,
+      "exclude_count": 27,
+      "non_target_count": 50,
+      "pct_conventional": 58.7,
+      "pct_ai_product": 19.0,
+      "pct_exclude": 22.3,
+      "pct_non_target": 41.3,
+      "non_target_ci_95": [
+        32.9,
+        50.2
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 71,
+        "AI_PRODUCT": 23,
+        "EXCLUDE": 27,
+        "TIE": 1
+      }
+    },
+    {
+      "family": ".cursor/rules",
+      "n": 14,
+      "tie_count": 0,
+      "conventional_count": 5,
+      "ai_product_count": 6,
+      "exclude_count": 3,
+      "non_target_count": 9,
+      "pct_conventional": 35.7,
+      "pct_ai_product": 42.9,
+      "pct_exclude": 21.4,
+      "pct_non_target": 64.3,
+      "non_target_ci_95": [
+        38.8,
+        83.7
+      ],
+      "counts": {
+        "CONVENTIONAL_SOFTWARE": 5,
+        "AI_PRODUCT": 6,
+        "EXCLUDE": 3,
+        "TIE": 0
+      }
+    }
+  ]
+}

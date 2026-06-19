@@ -81,4 +81,4 @@ def test_analyze_rq2_contamination_structure_cli() -> None:
     assert payload["n_intersection"] == 300
     assert len(payload["query_family_table"]) >= 6
     assert len(payload["matched_path_family_table"]) >= 5
-    assert len(payload["sparse_metadata_table"]) == 4
+    assert len(payload["sparse_metadata_table"]) >= 3

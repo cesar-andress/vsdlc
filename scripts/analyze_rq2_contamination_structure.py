@@ -92,7 +92,17 @@ def stats_to_csv_rows(stats: list[Any]) -> list[dict[str, Any]]:
         payload = item.to_dict()
         rows.append(
             {
-                **{k: payload[k] for k in TABLE_FIELDS if k in payload},
+                "family": payload["family"],
+                "n": payload["n"],
+                "tie_count": payload["tie_count"],
+                "conventional_count": payload["conventional_count"],
+                "ai_product_count": payload["ai_product_count"],
+                "exclude_count": payload["exclude_count"],
+                "non_target_count": payload["non_target_count"],
+                "pct_conventional": payload["pct_conventional"],
+                "pct_ai_product": payload["pct_ai_product"],
+                "pct_exclude": payload["pct_exclude"],
+                "pct_non_target": payload["pct_non_target"],
                 "non_target_ci_low": payload["non_target_ci_95"][0],
                 "non_target_ci_high": payload["non_target_ci_95"][1],
             }
