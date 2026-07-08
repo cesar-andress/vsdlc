@@ -1,6 +1,6 @@
-# Zenodo release checklist — VSDLC Mining Pilot
+# Zenodo release checklist — contamination audit replication package
 
-Use this checklist before creating a Git tag, GitHub release, or Zenodo upload for this research artifact. **Do not publish until every required item is complete.**
+Use this checklist before creating a Git tag, GitHub release, or Zenodo upload for this replication package. **Do not publish until every required item is complete.**
 
 ## Code quality
 
@@ -11,7 +11,7 @@ Use this checklist before creating a Git tag, GitHub release, or Zenodo upload f
 
 ## Documentation
 
-- [ ] `README.md` describes the mining pilot, provenance research direction, and reproducible artifact
+- [ ] `README.md` describes the contamination audit replication package, study scope, and reproducible materials
 - [ ] `docs/reproducibility.md` is up to date
 - [ ] Repository traceability dataset schemas are documented in README or `docs/`
 
@@ -54,7 +54,7 @@ Use this checklist before creating a Git tag, GitHub release, or Zenodo upload f
 - [ ] DOI propagated back to `CITATION.cff` and README citation section
 - [ ] Zenodo record published (only when intentional)
 
-## Post-release (v0.1.0-msr-contamination-audit)
+## Post-release (archived release v0.1.0)
 
 - [x] Zenodo record published: [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
 - [x] DOI propagated to `CITATION.cff`, `README.md`, `docs/reproducibility.md`, `RELEASE.md`

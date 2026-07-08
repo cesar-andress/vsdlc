@@ -1,6 +1,8 @@
 # Release notes
 
-## v0.1.0-msr-contamination-audit
+## v0.1.0 — archived replication release
+
+**Journal-facing version:** v0.1.0 (frozen replication release for the EMSE contamination audit article)
 
 **Zenodo title:** VSDLC Mining Pilot
 
@@ -8,11 +10,11 @@
 
 **DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
 
-**Git tag:** `v0.1.0-msr-contamination-audit`
+**Git tag:** `v0.1.0` (legacy traceability tag `v0.1.0-msr-contamination-audit` on the published Zenodo deposit)
 
 ### Description
 
-Frozen replication package for the empirical study manuscript *Contamination in Repository Discovery Frames from AI-Instruction Artifacts*.
+Frozen replication package for the EMSE journal article *Contamination in Repository Discovery Frames from AI-Instruction Artifacts*.
 Supports replay of discovery-frame yield, annotation consensus, inter-coder reliability, query-family contamination (RQ2), EXCLUDE disagreement analysis, learned metadata baselines, and the functional-evidence proxy audit.
 
 ### Main contents
@@ -29,10 +31,10 @@ Supports replay of discovery-frame yield, annotation consensus, inter-coder reli
 
 ```bibtex
 @software{sanchez2026vsdlcMiningPilot,
-  author    = {Andr{\'e}s, C{\'e}sar},
+  author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
   title     = {{VSDLC Mining Pilot}},
   year      = {2026},
-  version   = {v0.1.0-msr-contamination-audit},
+  version   = {v0.1.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20754778},
   url       = {https://doi.org/10.5281/zenodo.20754778},

@@ -3,11 +3,16 @@ title: "VSDLC Mining Pilot"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
-  - family-names: Sánchez
-    given-names: César Andrés
-  - family-names: Moncunill
-    given-names: David Martin
-version: v0.1.0-msr-contamination-audit
+  - family-names: Andrés
+    given-names: César
+    orcid: https://orcid.org/0009-0001-8968-3404
+  - family-names: Martín-Moncunill
+    given-names: David
+    orcid: https://orcid.org/0000-0003-2422-9005
+  - family-names: Baños
+    given-names: José Manuel
+    orcid: https://orcid.org/0009-0004-9971-7390
+version: v0.1.0
 license: MIT
 url: "https://doi.org/10.5281/zenodo.20754778"
 doi: 10.5281/zenodo.20754778
@@ -16,14 +21,12 @@ keywords:
   - software engineering
   - mining software repositories
   - AI-assisted software development provenance
-  - dataset contamination
-  - traceability
+  - sampling-frame contamination
   - GitHub
-  - reproducible research artifact
+  - replication package
 abstract: >-
-  Public replication package for an MSR contamination audit of GitHub
-  repository discovery frames built from AI instruction-artifact path
-  predicates. Includes the mining pipeline (Phases 1--2), frozen pilot
-  datasets, annotation worksheets, evaluation scripts, and schema documents
-  for replaying metadata-visible coding, reliability analysis, and
-  functional-evidence proxy audits.
+  Public replication package for a methodological-empirical audit of sampling-frame
+  contamination in GitHub repository discovery frames built from AI instruction-artifact
+  path predicates. Includes the mining pipeline (Phases 1--2), frozen study datasets,
+  annotation worksheets, evaluation scripts, and schema documents for replaying
+  metadata-visible coding, reliability analysis, and functional-evidence proxy audits.

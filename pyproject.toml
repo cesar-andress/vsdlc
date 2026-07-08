@@ -5,13 +5,14 @@ build-backend = "hatchling.build"
 [project]
 name = "vsdlc-mining"
 version = "0.1.0"
-description = "Repository mining framework for AI-assisted software development provenance (Phases 1–2)."
+description = "Replication package for the AI-instruction-artifact contamination audit (Phases 1–4)."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"
 authors = [
-    { name = "César Andrés Sánchez" },
-    { name = "David Martin Moncunill" },
+    { name = "César Andrés" },
+    { name = "David Martín-Moncunill" },
+    { name = "José Manuel Baños" },
 ]
 keywords = [
     "software-engineering",

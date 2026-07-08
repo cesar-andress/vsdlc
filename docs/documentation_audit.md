@@ -5,7 +5,7 @@ Scope: `~/papers/vsdlc/vsdlc` (repository mining artifact only)
 
 ## Audit objective
 
-Present the repository as an **initial public research artifact** for AI-assisted software development provenance — not as a journal/conference paper companion.
+Present the repository as a **replication package** for the EMSE methodological-empirical contamination audit study.
 
 ## Scan coverage
 
@@ -90,7 +90,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 
 | Item | Owner action |
 |------|--------------|
-| `CITATION.cff` DOI | Assigned: `10.5281/zenodo.20754778` (`v0.1.0-msr-contamination-audit`) |
+| `CITATION.cff` DOI | Assigned: `10.5281/zenodo.20754778` (archived release v0.1.0) |
 | `CITATION.cff` `date-released` | Set to actual Zenodo release date |
 | `pyproject.toml` `[project.urls]` | Align with final repository URL |
 | Generated dataset inclusion in Zenodo | Decide whether to bundle `data/raw/*.jsonl` and `data/interim/*.jsonl` or publish regeneration instructions only |

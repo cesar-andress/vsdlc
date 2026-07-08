@@ -31,7 +31,7 @@ Optional: store the token in a local `.env` file (ignored by git) and `source` i
 
 ## Rerun procedure
 
-### Quick pilot
+### Quick test run
 
 Controlled test before the full mining run. Uses separate `pilot_*` paths so main outputs stay untouched.
 
@@ -51,7 +51,7 @@ python scripts/run_repo_filter.py \
   --limit-repos 20
 ```
 
-Expected pilot runtime: **~2–5 minutes** (mostly code-search rate limits).
+Expected test-run runtime: **~2–5 minutes** (mostly code-search rate limits).
 
 ### Full run — Phase 1 (seed search)
 
@@ -118,7 +118,7 @@ mypy src/vsdlc_mining
 
 ## Manuscript reliability metrics (Cohen's $\kappa$ bootstrap CIs)
 
-Frozen pilot outputs include `data/processed/kappa_bootstrap_ci.json`, produced by:
+Frozen study outputs include `data/processed/kappa_bootstrap_ci.json`, produced by:
 
 ```bash
 cd ~/papers/vsdlc/vsdlc
@@ -162,9 +162,9 @@ Outputs:
 
 Unit tests: `pytest tests/test_target_sensitivity.py`
 
-## Second functional-evidence inspector (RQ4 extension)
+## Independent second functional-evidence inspection (RQ4 extension)
 
-The frozen RQ4 sample (`n{=}50`) can be reassessed by a second independent inspector using the same codebook and blind protocol. The second inspector must not see metadata consensus labels, Round~1 coder labels, inspector~1 labels, or any prior worksheet labels.
+The frozen RQ4 sample (`n{=}50`) can be reassessed by a second independent inspection pass using the same codebook and label-independent protocol. The second pass must not use metadata consensus labels, Round~1 coder labels, inspector~1 labels, or any prior worksheet labels.
 
 ### 1. Create the blank worksheet
 
@@ -301,7 +301,7 @@ Unit tests: `pytest tests/test_second_frame.py`
 
 ## Learned metadata baselines
 
-Frozen pilot outputs include `data/processed/learned_baseline_results.json`, produced by:
+Frozen study outputs include `data/processed/learned_baseline_results.json`, produced by:
 
 ```bash
 cd ~/papers/vsdlc/vsdlc
@@ -330,7 +330,7 @@ Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_he
 
 **Release:** VSDLC Replication Package v0.1.0 — AI Instruction Artifact Contamination Audit
 
-**Version:** `v0.1.0-msr-contamination-audit`
+**Version:** v0.1.0
 
 **DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
 
@@ -338,10 +338,10 @@ Cite the Zenodo record or `CITATION.cff` in `vsdlc/`.
 
 ```bibtex
 @software{sanchez2026vsdlcMiningPilot,
-  author    = {Andr{\'e}s, C{\'e}sar},
+  author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
   title     = {{VSDLC Mining Pilot}},
   year      = {2026},
-  version   = {v0.1.0-msr-contamination-audit},
+  version   = {v0.1.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20754778},
   url       = {https://doi.org/10.5281/zenodo.20754778},
