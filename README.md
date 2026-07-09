@@ -2,7 +2,7 @@
 
 Public replication package for a **methodological-empirical audit** of sampling-frame contamination in GitHub repository discovery frames built from AI instruction-artifact path predicates.
 
-This repository provides a **repository mining framework** (Phases 1–2) that discovers public repositories containing AI instruction artifacts, filters an eligible cohort, and supports frozen audit annotation and evaluation for the contamination study reported in the EMSE journal article (`papers/`).
+This repository provides a **repository mining framework** (Phases 1--2) that discovers public repositories containing AI instruction artifacts, filters an eligible cohort, and supports frozen audit annotation and evaluation for the repository-discovery reporting study submitted to *Information and Software Technology* (`papers/`).
 
 **Study scope:** Target-conditional contamination prevalence and predicate-family structure in one frozen instruction-artifact discovery frame, relative to a conventional application-software target under an exploratory codebook.
 
@@ -165,24 +165,24 @@ See [`docs/reproducibility.md`](docs/reproducibility.md) for rerun steps, rate-l
 
 ## Citation
 
-**Title:** VSDLC Mining Pilot
+**Title:** Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts
 
-**Release:** VSDLC Replication Package v0.1.0 — AI Instruction Artifact Contamination Audit
+**Release:** IST submission replication package v1.0.0-ist
 
-**Version:** v0.1.0 (archived replication release on Zenodo)
+**Version:** v1.0.0-ist (pending Zenodo upload; live deposit still serves v0.1.0-msr-contamination-audit)
 
 **DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
 
 ```bibtex
 @software{sanchez2026vsdlcMiningPilot,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{VSDLC Mining Pilot}},
+  title     = {{Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts}},
   year      = {2026},
-  version   = {v0.1.0},
+  version   = {v1.0.0-ist},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20754778},
   url       = {https://doi.org/10.5281/zenodo.20754778},
-  note      = {VSDLC Replication Package v0.1.0 --- AI Instruction Artifact Contamination Audit}
+  note      = {Frozen replication package for IST journal submission}
 }
 ```
 
@@ -194,7 +194,8 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Zenodo archival
 
-Published release: [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778) (v0.1.0).
+Published record: [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778).  
+**IST upload pending:** see [`docs/zenodo_ist_metadata.md`](docs/zenodo_ist_metadata.md).
 
 Release notes: [`RELEASE.md`](RELEASE.md). Pre-release checklist: [`docs/zenodo_release_checklist.md`](docs/zenodo_release_checklist.md).
 

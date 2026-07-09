@@ -144,9 +144,49 @@ python3 scripts/compute_exclude_disagreement_stats.py
 
 Output: `data/processed/exclude_disagreement_stats.json`
 
+## Consensus label regeneration (Round~1 plurality)
+
+The frozen comparison file `data/processed/gold_sample_330_three_annotator_comparison.csv` stores:
+- `majority_label`: three-coder Round~1 plurality vote over `human1_label`, `human2_label`, and `claude_label`
+- `human_only_label`: shared human label when the two humans agree, otherwise `TIE`
+- `human_disagreement`: boolean flag for 1--1 human disagreement
+
+Regenerate and validate against the frozen `majority_label` column:
+
+```bash
+cd ~/papers/vsdlc/vsdlc
+python3.12 scripts/compute_majority_label.py
+```
+
+Human-only consensus sensitivity (manuscript Table~{tab:human-only-consensus}):
+
+```bash
+python3.12 scripts/analyze_human_only_consensus_sensitivity.py
+```
+
+Outputs:
+
+| Artifact | Path |
+|----------|------|
+| Sensitivity JSON | `data/processed/human_only_consensus_sensitivity.json` |
+| Manuscript table | `data/processed/manuscript_table_human_only_consensus.tex` |
+
+## LLM third-coder characterization
+
+```bash
+python3.12 scripts/analyze_llm_third_adjudicator.py
+```
+
+Outputs:
+
+| Artifact | Path |
+|----------|------|
+| Audit JSON | `data/processed/llm_third_adjudicator_audit.json` |
+| Manuscript tables | `data/processed/manuscript_table_llm_adjudicator_audit.tex` |
+
 ## Target-sensitivity analysis (RQ1 supplement)
 
-Uses frozen consensus labels only (`data/processed/gold_sample_330_three_annotator_comparison.csv`); no relabeling.
+Uses frozen three-way plurality labels (`majority_label` in `data/processed/gold_sample_330_three_annotator_comparison.csv`); no relabeling.
 
 ```bash
 cd ~/papers/vsdlc/vsdlc
@@ -313,7 +353,7 @@ python3 scripts/evaluate_learned_baselines.py \
 ```
 
 Defaults:
-- Reference labels: `majority_label` on the human--human intersection ($n{=}296$ after excluding four tied rows)
+- Reference labels: `majority_label` (three-way Round~1 plurality; $n{=}296$ after excluding four three-way `TIE` rows)
 - Features: annotation-visible metadata only (no labels, no functional-evidence fields)
 - Evaluation: stratified 5-fold cross-validation (seed 42)
 - Models: TF-IDF + logistic regression, TF-IDF + random forest, sentence embeddings (`all-MiniLM-L6-v2`) + logistic regression

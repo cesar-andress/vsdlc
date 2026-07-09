@@ -1,32 +1,52 @@
 cff-version: 1.2.0
-title: "VSDLC Mining Pilot"
+title: "Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
   - family-names: Andrés
     given-names: César
     orcid: https://orcid.org/0009-0001-8968-3404
+    affiliation: "Universidad Camilo José Cela, Spain"
   - family-names: Martín-Moncunill
     given-names: David
     orcid: https://orcid.org/0000-0003-2422-9005
+    affiliation: "Universidad Camilo José Cela, Spain"
   - family-names: Baños
     given-names: José Manuel
     orcid: https://orcid.org/0009-0004-9971-7390
-version: v0.1.0
+    affiliation: "Universidad Camilo José Cela, Spain"
+version: v1.0.0-ist
 license: MIT
 url: "https://doi.org/10.5281/zenodo.20754778"
 doi: 10.5281/zenodo.20754778
-date-released: 2026-06-18
+date-released: 2026-07-09
 keywords:
-  - software engineering
+  - empirical software engineering
   - mining software repositories
-  - AI-assisted software development provenance
-  - sampling-frame contamination
-  - GitHub
-  - replication package
+  - repository discovery
+  - sampling validity
+  - reporting guidelines
+  - reproducibility
+  - AI-instruction artifacts
+  - construct validity
 abstract: >-
-  Public replication package for a methodological-empirical audit of sampling-frame
-  contamination in GitHub repository discovery frames built from AI instruction-artifact
-  path predicates. Includes the mining pipeline (Phases 1--2), frozen study datasets,
-  annotation worksheets, evaluation scripts, and schema documents for replaying
-  metadata-visible coding, reliability analysis, and functional-evidence proxy audits.
+  Frozen replication package for the IST journal submission
+  Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts.
+  Includes the mining pipeline (discover and filter), frozen study datasets,
+  annotation worksheets, evaluation scripts, sensitivity analyses, and schema
+  documents for replaying metadata-visible coding, reliability analysis, and
+  functional-evidence proxy audits under alternative targets and consensus rules.
+repository-code: "https://github.com/cesar-andres/vsdlc"
+preferred-citation:
+  type: article
+  title: "Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts"
+  authors:
+    - family-names: Andrés
+      given-names: César
+    - family-names: Martín-Moncunill
+      given-names: David
+    - family-names: Baños
+      given-names: José Manuel
+  year: 2026
+  journal: "Information and Software Technology"
+  notes: "Manuscript under review; cite the Zenodo record for the replication package."

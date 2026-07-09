@@ -1,0 +1,1083 @@
+{
+  "source_comparison_csv": "data/processed/gold_sample_330_three_annotator_comparison.csv",
+  "pairwise_agreement": {
+    "llm_vs_human1": {
+      "reference": "human1",
+      "comparison": "llm",
+      "n": 300,
+      "overall_agreement": 0.84,
+      "cohens_kappa": 0.753,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 87,
+          "CONVENTIONAL_SOFTWARE": 17,
+          "EXCLUDE": 9
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 4,
+          "CONVENTIONAL_SOFTWARE": 110,
+          "EXCLUDE": 17
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 1,
+          "EXCLUDE": 55
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 87,
+          "fp": 4,
+          "fn": 26,
+          "precision": 0.956,
+          "recall": 0.77,
+          "f1": 0.853
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 110,
+          "fp": 18,
+          "fn": 21,
+          "precision": 0.859,
+          "recall": 0.84,
+          "f1": 0.849
+        },
+        "EXCLUDE": {
+          "tp": 55,
+          "fp": 26,
+          "fn": 1,
+          "precision": 0.679,
+          "recall": 0.982,
+          "f1": 0.803
+        }
+      },
+      "macro_f1": 0.835,
+      "weighted_f1": 0.842,
+      "reference_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 131,
+        "EXCLUDE": 56,
+        "AI_PRODUCT": 113
+      },
+      "comparison_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 128,
+        "EXCLUDE": 81,
+        "AI_PRODUCT": 91
+      }
+    },
+    "llm_vs_human2": {
+      "reference": "human2",
+      "comparison": "llm",
+      "n": 300,
+      "overall_agreement": 0.72,
+      "cohens_kappa": 0.565,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 87,
+          "CONVENTIONAL_SOFTWARE": 32,
+          "EXCLUDE": 9
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 4,
+          "CONVENTIONAL_SOFTWARE": 95,
+          "EXCLUDE": 38
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 1,
+          "EXCLUDE": 34
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 87,
+          "fp": 4,
+          "fn": 41,
+          "precision": 0.956,
+          "recall": 0.68,
+          "f1": 0.795
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 95,
+          "fp": 33,
+          "fn": 42,
+          "precision": 0.742,
+          "recall": 0.693,
+          "f1": 0.717
+        },
+        "EXCLUDE": {
+          "tp": 34,
+          "fp": 47,
+          "fn": 1,
+          "precision": 0.42,
+          "recall": 0.971,
+          "f1": 0.586
+        }
+      },
+      "macro_f1": 0.699,
+      "weighted_f1": 0.735,
+      "reference_label_distribution": {
+        "AI_PRODUCT": 128,
+        "CONVENTIONAL_SOFTWARE": 137,
+        "EXCLUDE": 35
+      },
+      "comparison_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 128,
+        "EXCLUDE": 81,
+        "AI_PRODUCT": 91
+      }
+    },
+    "human1_vs_human2": {
+      "reference": "human1",
+      "comparison": "human2",
+      "n": 300,
+      "overall_agreement": 0.74,
+      "cohens_kappa": 0.579,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 102,
+          "CONVENTIONAL_SOFTWARE": 10,
+          "EXCLUDE": 1
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 25,
+          "CONVENTIONAL_SOFTWARE": 96,
+          "EXCLUDE": 10
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 1,
+          "CONVENTIONAL_SOFTWARE": 31,
+          "EXCLUDE": 24
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 102,
+          "fp": 26,
+          "fn": 11,
+          "precision": 0.797,
+          "recall": 0.903,
+          "f1": 0.846
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 96,
+          "fp": 41,
+          "fn": 35,
+          "precision": 0.701,
+          "recall": 0.733,
+          "f1": 0.716
+        },
+        "EXCLUDE": {
+          "tp": 24,
+          "fp": 11,
+          "fn": 32,
+          "precision": 0.686,
+          "recall": 0.429,
+          "f1": 0.527
+        }
+      },
+      "macro_f1": 0.696,
+      "weighted_f1": 0.73,
+      "reference_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 131,
+        "EXCLUDE": 56,
+        "AI_PRODUCT": 113
+      },
+      "comparison_label_distribution": {
+        "AI_PRODUCT": 128,
+        "CONVENTIONAL_SOFTWARE": 137,
+        "EXCLUDE": 35
+      }
+    }
+  },
+  "human_disagreement_subset": {
+    "n_human_disagreement": 78,
+    "llm_agrees_human1_count": 55,
+    "llm_agrees_human1_pct": 70.5,
+    "llm_agrees_human2_count": 19,
+    "llm_agrees_human2_pct": 24.4,
+    "llm_agrees_neither_count": 4,
+    "llm_agrees_neither_pct": 5.1,
+    "plurality_sided_with_human1": 55,
+    "plurality_sided_with_human2": 19,
+    "plurality_label_distribution": {
+      "CONVENTIONAL_SOFTWARE": 27,
+      "EXCLUDE": 41,
+      "AI_PRODUCT": 6
+    },
+    "llm_label_distribution": {
+      "CONVENTIONAL_SOFTWARE": 27,
+      "EXCLUDE": 45,
+      "AI_PRODUCT": 6
+    },
+    "human1_label_distribution": {
+      "CONVENTIONAL_SOFTWARE": 35,
+      "EXCLUDE": 32,
+      "AI_PRODUCT": 11
+    },
+    "human2_label_distribution": {
+      "AI_PRODUCT": 26,
+      "CONVENTIONAL_SOFTWARE": 41,
+      "EXCLUDE": 11
+    },
+    "repositories": [
+      {
+        "repo_full_name": "0-AI-UG/cate",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "26d0/vrchat-ime-chat",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "9mtm/Agent-Player",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "AI-Escape/open-ice",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "AIDotNet/OpenCowork",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Affitor/affiliate-skills",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Arcanyx-org/NiXium",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "ArisGuimera/MobiAI-Core",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Autonoma-Labs/Open-CoWork",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Azure-Samples/Copilot-Studio-with-Azure-AI-Search",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Azure-Samples/art-voice-agent-accelerator",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "AI_PRODUCT",
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Azure/kimojio-rs",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Azure/oav",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "B-M-Capital-Research/honeclaw",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "BNETDocs/bnetdocs-web",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "AI_PRODUCT",
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Castor6/tactus",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "CavinHuang/comfyui-nodes-docs",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "ChenZiHong-Gavin/weekly-vibe-coding",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "CompanyHelm/companyhelm",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Cppys/OpenNovel",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "CrispStrobe/CrispEmbed",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "AI_PRODUCT",
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Cyfrin/Updraft",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "DataDog/stratus-red-team",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "DavidWells/stars",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "DeadmanAbir/AgentGenesis",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "EXCLUDE",
+        "majority_label": "TIE"
+      },
+      {
+        "repo_full_name": "DevopsArtFactory/unic",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Disentinel/grafema",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "DontFuckMyCode/dfmc",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "EffortlessMetrics/perl-lsp",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "EliasOenal/multimon-ng",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Eliezer-app/eliezer",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "ExDragine/frontier",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "FavioVazquez/learnship",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Gijsreyn/bicep-ext-databricks",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "GoogleCloudPlatform/kubernetes-engine-samples",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "GoogleCloudPlatform/vertex-ai-creative-studio",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "GregorStocks/mage-bench",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "AI_PRODUCT",
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "HaiNinh1/oh-my-opencode",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "HeartWise-AI/DeepCORO_CLIP",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "TIE"
+      },
+      {
+        "repo_full_name": "HiveTrace/HiveTraceRed",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Horace-Maxwell/horosa-skill",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "EXCLUDE",
+        "majority_label": "TIE"
+      },
+      {
+        "repo_full_name": "IstiN/yoloit",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "JamesPaynter/mycelium",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Kong/developer.konghq.com",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Lakr233/FlowDown",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "LastBotInc/nextjs-supabase-ai-webapp",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "LazyAGI/LazyMind",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "LessUp/awesome-cursorrules-zh",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "LiPu-jpg/Openwrite",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "LiteyukiStudio/agent",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "MODSetter/SurfSense",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "MStanislavov/stratoseer",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "MadAppGang/dingo",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "MaoXiaoYuZ/Long-Novel-GPT",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "MatrixCoreX/RustClaw",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "TIE"
+      },
+      {
+        "repo_full_name": "Maxsky5/openducktor",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Menghuan1918/drawio2go",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "MicrosoftLearning/trainer-demo-deploy",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "MinLL/MinAI",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Minh-Tam-Solution/SDLC-Enterprise-Framework",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Nakajima-Foundation/ownplate",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Nimble-Co/FoundryVTT-Nimble",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "NiuTrans/ToFu",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "OfficeDev/microsoft-365-agents-toolkit-samples",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "OpenCSGs/csghub-server",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "AI_PRODUCT",
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "OtterMind/youclaw",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "OvertliDS/overtli-studio-suite",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "AI_PRODUCT",
+        "majority_label": "AI_PRODUCT"
+      },
+      {
+        "repo_full_name": "Oyl-Wallet/oyl-amm",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Paperspace/cli",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "PaulDuvall/vibecoding",
+        "human1_label": "AI_PRODUCT",
+        "human2_label": "EXCLUDE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "PaulJPhilp/effect-cli-tui",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "PaulJPhilp/effect-notion",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "Peuqui/AIfred-Intelligence",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "PrestaShop/docs",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "QuantumNous/new-api-docs-v1",
+        "human1_label": "EXCLUDE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      },
+      {
+        "repo_full_name": "RYOITABASHI/Shelly",
+        "human1_label": "CONVENTIONAL_SOFTWARE",
+        "human2_label": "AI_PRODUCT",
+        "claude_label": "CONVENTIONAL_SOFTWARE",
+        "majority_label": "CONVENTIONAL_SOFTWARE"
+      },
+      {
+        "repo_full_name": "Raphasha27/Raphasha27",
+        "human1_label": "EXCLUDE",
+        "human2_label": "CONVENTIONAL_SOFTWARE",
+        "claude_label": "EXCLUDE",
+        "majority_label": "EXCLUDE"
+      }
+    ]
+  },
+  "functional_validation": {
+    "n_inspected": 50,
+    "repos": [
+      "0-AI-UG/cate",
+      "AIDotNet/OpenCowork",
+      "ARPAHLS/OPSIE",
+      "Arcanyx-org/NiXium",
+      "Arindam200/awesome-ai-apps",
+      "ArisGuimera/MobiAI-Core",
+      "Azure-Samples/art-voice-agent-accelerator",
+      "Azure/kimojio-rs",
+      "B-M-Capital-Research/honeclaw",
+      "BNETDocs/bnetdocs-web",
+      "Bitterbot-AI/bitterbot-desktop",
+      "BlackBeltTechnology/pi-agent-dashboard",
+      "CavinHuang/comfyui-nodes-docs",
+      "ChenZiHong-Gavin/weekly-vibe-coding",
+      "CompanyHelm/companyhelm",
+      "Cppys/OpenNovel",
+      "CrispStrobe/CrispEmbed",
+      "DataDog/stratus-red-team",
+      "Disentinel/grafema",
+      "DontFuckMyCode/dfmc",
+      "ExDragine/frontier",
+      "FavioVazquez/learnship",
+      "GreenteaOS/Caramel",
+      "GregorStocks/mage-bench",
+      "Hacksore/cursed-repo",
+      "HaiNinh1/oh-my-opencode",
+      "HiveTrace/HiveTraceRed",
+      "JamesPaynter/mycelium",
+      "Lakr233/FlowDown",
+      "LessUp/awesome-cursorrules-zh",
+      "Li-Bailiang/prompt-refine-skill",
+      "LiPu-jpg/Openwrite",
+      "MaoXiaoYuZ/Long-Novel-GPT",
+      "Menghuan1918/drawio2go",
+      "MinLL/MinAI",
+      "NVIDIA/skills",
+      "Nimble-Co/FoundryVTT-Nimble",
+      "OWASP/www-project-top-10-for-large-language-model-applications",
+      "OfficeDev/microsoft-365-agents-toolkit-samples",
+      "OpenCSGs/csghub-server",
+      "OtterMind/youclaw",
+      "OvertliDS/overtli-studio-suite",
+      "Owl-Listener/ai-design-skills",
+      "Oyl-Wallet/oyl-amm",
+      "Paperspace/cli",
+      "Peuqui/AIfred-Intelligence",
+      "PlanExeOrg/PlanExe",
+      "Prismer-AI/Prismer",
+      "ROCm/hipDNN",
+      "RYOITABASHI/Shelly"
+    ],
+    "inspection_label_distribution": {
+      "CONVENTIONAL_SOFTWARE": 22,
+      "AI_PRODUCT": 14,
+      "EXCLUDE": 14
+    },
+    "three_way_plurality": {
+      "reference": "functional_inspection",
+      "comparison": "three_way_plurality",
+      "n": 50,
+      "overall_agreement": 0.7,
+      "cohens_kappa": 0.543,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 11,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 0
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 14,
+          "EXCLUDE": 5
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 1,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 10
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 11,
+          "fp": 4,
+          "fn": 3,
+          "precision": 0.733,
+          "recall": 0.786,
+          "f1": 0.759
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 14,
+          "fp": 6,
+          "fn": 8,
+          "precision": 0.7,
+          "recall": 0.636,
+          "f1": 0.667
+        },
+        "EXCLUDE": {
+          "tp": 10,
+          "fp": 5,
+          "fn": 4,
+          "precision": 0.667,
+          "recall": 0.714,
+          "f1": 0.69
+        }
+      },
+      "macro_f1": 0.705,
+      "weighted_f1": 0.699,
+      "reference_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 22,
+        "AI_PRODUCT": 14,
+        "EXCLUDE": 14
+      },
+      "comparison_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 20,
+        "AI_PRODUCT": 15,
+        "EXCLUDE": 15
+      }
+    },
+    "llm": {
+      "reference": "functional_inspection",
+      "comparison": "llm",
+      "n": 50,
+      "overall_agreement": 0.58,
+      "cohens_kappa": 0.36,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 6,
+          "EXCLUDE": 5
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 3,
+          "CONVENTIONAL_SOFTWARE": 13,
+          "EXCLUDE": 6
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 1,
+          "EXCLUDE": 13
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 11,
+          "precision": 0.5,
+          "recall": 0.214,
+          "f1": 0.3
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 13,
+          "fp": 7,
+          "fn": 9,
+          "precision": 0.65,
+          "recall": 0.591,
+          "f1": 0.619
+        },
+        "EXCLUDE": {
+          "tp": 13,
+          "fp": 11,
+          "fn": 1,
+          "precision": 0.542,
+          "recall": 0.929,
+          "f1": 0.684
+        }
+      },
+      "macro_f1": 0.534,
+      "weighted_f1": 0.548,
+      "reference_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 22,
+        "AI_PRODUCT": 14,
+        "EXCLUDE": 14
+      },
+      "comparison_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 20,
+        "EXCLUDE": 24,
+        "AI_PRODUCT": 6
+      }
+    },
+    "human1": {
+      "reference": "functional_inspection",
+      "comparison": "human1",
+      "n": 50,
+      "overall_agreement": 0.88,
+      "cohens_kappa": 0.814,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 14,
+          "CONVENTIONAL_SOFTWARE": 0,
+          "EXCLUDE": 0
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 0,
+          "CONVENTIONAL_SOFTWARE": 20,
+          "EXCLUDE": 2
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 1,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 10
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 14,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.933,
+          "recall": 1.0,
+          "f1": 0.966
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 20,
+          "fp": 3,
+          "fn": 2,
+          "precision": 0.87,
+          "recall": 0.909,
+          "f1": 0.889
+        },
+        "EXCLUDE": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 4,
+          "precision": 0.833,
+          "recall": 0.714,
+          "f1": 0.769
+        }
+      },
+      "macro_f1": 0.875,
+      "weighted_f1": 0.877,
+      "reference_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 22,
+        "AI_PRODUCT": 14,
+        "EXCLUDE": 14
+      },
+      "comparison_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 23,
+        "AI_PRODUCT": 15,
+        "EXCLUDE": 12
+      }
+    },
+    "human2": {
+      "reference": "functional_inspection",
+      "comparison": "human2",
+      "n": 50,
+      "overall_agreement": 0.24,
+      "cohens_kappa": -0.164,
+      "confusion_matrix_reference_rows": {
+        "AI_PRODUCT": {
+          "AI_PRODUCT": 8,
+          "CONVENTIONAL_SOFTWARE": 6,
+          "EXCLUDE": 0
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "AI_PRODUCT": 15,
+          "CONVENTIONAL_SOFTWARE": 3,
+          "EXCLUDE": 4
+        },
+        "EXCLUDE": {
+          "AI_PRODUCT": 1,
+          "CONVENTIONAL_SOFTWARE": 12,
+          "EXCLUDE": 1
+        }
+      },
+      "per_class_metrics_reference_as_gold": {
+        "AI_PRODUCT": {
+          "tp": 8,
+          "fp": 16,
+          "fn": 6,
+          "precision": 0.333,
+          "recall": 0.571,
+          "f1": 0.421
+        },
+        "CONVENTIONAL_SOFTWARE": {
+          "tp": 3,
+          "fp": 18,
+          "fn": 19,
+          "precision": 0.143,
+          "recall": 0.136,
+          "f1": 0.14
+        },
+        "EXCLUDE": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 13,
+          "precision": 0.2,
+          "recall": 0.071,
+          "f1": 0.105
+        }
+      },
+      "macro_f1": 0.222,
+      "weighted_f1": 0.209,
+      "reference_label_distribution": {
+        "CONVENTIONAL_SOFTWARE": 22,
+        "AI_PRODUCT": 14,
+        "EXCLUDE": 14
+      },
+      "comparison_label_distribution": {
+        "AI_PRODUCT": 24,
+        "CONVENTIONAL_SOFTWARE": 21,
+        "EXCLUDE": 5
+      }
+    }
+  },
+  "interpretation_notes": [
+    "Metrics treat the first named annotator as reference for per-class precision/recall/F1.",
+    "Overall agreement and Cohen's kappa are symmetric for pairwise coder comparisons.",
+    "Functional validation uses inspection_label as reference on n=50 stratified repositories."
+  ]
+}
