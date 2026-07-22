@@ -1,13 +1,13 @@
 \section{Related Work}
 \label{sec:related-work}
 
-Empirical software engineering increasingly forms GitHub corpora by searching for files that instruct coding agents how to work in a repository.
-A path match is a retrieval event, not a membership proof for the analytic population named in a research question.
-Documentation mirrors, prompt packs, coursework repositories, and AI-builder tooling can satisfy the same discovery predicate as a conventional application, so contaminated repositories in the denominator bias downstream statistics whenever membership is assumed rather than audited~\cite{kalliamvakou2014,kalliamvakou2015indepth,zimmermann2008}.
-This section situates that problem in prior work and delimits what remains open.
-We do not claim that sample--target mismatch on GitHub is newly discovered; that lesson is established~\cite{kalliamvakou2014,kalliamvakou2015indepth,baltes2022sampling,howison2004perils}.
+GitHub search makes it easy to retrieve repositories that contain files instructing coding agents how to work in a project~\cite{agentsmd2025,cursor2024docs,brown2024copilot,claude2024docs,anthropic2024mcp}.
+A path match is a retrieval event, not a membership proof for the analytic population named in a research question~\cite{kalliamvakou2015indepth,baltes2022sampling}.
+Repositories that satisfy an instruction-file predicate may still be off-target for a study that claims to analyze conventional applications---including, in principle, documentation hosts, prompt packs, coursework templates, or AI-builder tooling---so unvalidated denominators can bias downstream statistics~\cite{kalliamvakou2015indepth,baltes2022sampling}.
+This section situates that risk in prior work and delimits what remains open.
+We do not claim that sample--target mismatch on GitHub is newly discovered; that lesson is established~\cite{kalliamvakou2015indepth,baltes2022sampling,howison2004perils}.
 The open question is narrower: whether discovery frames built from AI-instruction artifacts require an operational audit in which contamination is target-conditional, structured by predicate family, and sensitive to the consensus protocol used to aggregate coder labels.
-Answering that question matters because instruction-file predicates are now easy to operationalize as search queries~\cite{agentsmd2025,cursor2024docs,brown2024copilot,claude2024docs,anthropic2024mcp}, while the corresponding membership checks remain largely implicit in published empirical designs~\cite{baltes2022sampling,chen2025promptware,hou2024llm4se}.
+Answering that question matters because the predicates themselves are now concrete and searchable~\cite{agentsmd2025,cursor2024docs,brown2024copilot,claude2024docs,anthropic2024mcp}, while peer-reviewed methodological guidance on sampling frames~\cite{baltes2022sampling} and surveys of prompt-enabled and LLM-for-SE systems~\cite{chen2025promptware,hou2024llm4se} do not, to our reading, specify how to audit membership under those predicates.
 
 \subsection{Mining software repositories methodology}
 \label{subsec:rw-msr}
@@ -18,9 +18,9 @@ Subsequent infrastructure made GitHub-scale extraction routine.
 Event streams and mirrors lowered the cost of assembling candidate sets~\cite{gousios2013,gousios2014lean}; commit-level tooling reduced the engineering burden of traversing histories~\cite{spadini2018pydriller}; and cross-forge corpora expanded coverage beyond a single forge's search API~\cite{ma2019woc,pietri2019swh,dicossmo2017softwareheritage}.
 A systematic mapping of GitHub-based software engineering research catalogues the topical breadth that such pipelines enable~\cite{cosentino2017mapping}.
 
-This line largely solves \emph{access} and \emph{extraction cost}.
-It does not, by itself, establish that repositories retrieved by a filename or path predicate belong in the population a study claims to represent.
-When discovery is cheap, the binding constraint shifts from ``can we find repositories?'' to ``do the repositories we found match the target?''---a validity question that retrieval completeness cannot answer~\cite{baltes2022sampling,wohlin2012,runeson2009}.
+This line largely reduces \emph{access} and \emph{extraction cost}.
+It does not, by itself, establish that repositories retrieved by a filename or path predicate belong in the population a study claims to represent~\cite{kalliamvakou2015indepth,baltes2022sampling}.
+When discovery is cheap, the binding constraint shifts from ``can we find repositories?'' to ``do the repositories we found match the target?''---a validity question that retrieval completeness cannot answer~\cite{baltes2022sampling,wohlin2012}.
 MSR methodology therefore supplies the backdrop for the present article, but not the audit of instruction-artifact discovery frames.
 
 \subsection{Repository discovery and GitHub sampling}
@@ -30,36 +30,37 @@ GitHub sampling practice has been studied both descriptively and critically.
 Dabic et al.\ examine how MSR studies sample projects and how sampling choices shape corpora~\cite{dabic2021sampling}.
 Baltes and Ralph review sampling across software engineering research and argue that frames, populations, and generalization claims must be stated explicitly if empirical results are to be interpretable~\cite{baltes2022sampling}.
 Stars, social signals, and related metadata are fragile popularity and contribution proxies~\cite{borges2016popularity,tsay2014influence}, so ranking or filtering by metadata alone does not settle membership.
-Software Heritage and World of Code further show that discovery can be redesigned for archive-scale coverage and provenance~\cite{ma2019woc,pietri2019swh,dicossmo2017softwareheritage}, yet larger coverage still leaves membership as an author-defined validity judgment~\cite{baltes2022sampling}.
+Software Heritage and World of Code further show that discovery can be redesigned for archive-scale coverage and provenance~\cite{ma2019woc,pietri2019swh,dicossmo2017softwareheritage}.
+Larger coverage does not remove the need to define and defend the analytic population relative to the research question~\cite{baltes2022sampling}.
 
 A related curation literature filters GitHub for engineered software projects.
 RepoReapers classifies engineered versus non-engineered repositories~\cite{munaiah2017curating}; PHANTOM revisits curation with time-series clustering~\cite{phantom2020}.
 These filters remove substantial non-software noise and are often the right first screen for MSR studies that intend to analyze software development activity~\cite{munaiah2017curating,phantom2020,kalliamvakou2015indepth}.
-They do not equate engineered status with membership in a study-specific analytic population for instruction-artifact research.
-An engineered AI-builder SDK, prompt pack, documentation mirror, or coursework template can survive engineered and activity filters while remaining off-target for a conventional-application study~\cite{munaiah2017curating,phantom2020,baltes2022sampling}.
-Conversely, the same repository may be on-target for an AI-tooling study.
+They do not equate engineered status with membership in a study-specific analytic population~\cite{baltes2022sampling,wohlin2012}.
+In particular, an engineered repository can still be the wrong \emph{product role} for a conventional-application question (for example, tooling or template hosts), just as the same repository may be on-target for an AI-tooling question.
+Whether such off-target-but-engineered cases arise under instruction-file predicates is an empirical residual relative to RepoReapers and PHANTOM, not a result those filters already report~\cite{munaiah2017curating,phantom2020}.
 Prevalence is therefore target-conditional: the membership question cannot be collapsed into a universal ``is engineered?'' classifier~\cite{baltes2022sampling,wohlin2012}.
 
 Discovery infrastructure and sampling guidelines leave an operational remainder.
-They tell researchers to declare a frame and to avoid obvious toys; they do not specify how to audit frames whose inclusion event is ``contains instruction file~$X$,'' nor how to report whether heterogeneous instruction predicates induce heterogeneous contamination~\cite{dabic2021sampling,baltes2022sampling}.
-In particular, a frame-wide contamination percentage without a predicate-family breakdown answers the wrong question when one filename indexes applications, another indexes prompt libraries, and a third indexes editor-local rule packs~\cite{dabic2021sampling,baltes2022sampling,chen2025promptware}.
+They tell researchers to declare a frame and to avoid obvious toys~\cite{dabic2021sampling,baltes2022sampling}; they do not specify how to audit frames whose inclusion event is ``contains instruction file~$X$,'' nor whether contamination should be reported by predicate family when predicates are heterogeneous~\cite{baltes2022sampling,chen2025promptware}.
+Whether a single frame-wide contamination percentage is interpretable under such heterogeneity is therefore open for instruction-artifact frames rather than settled by prior sampling guidance~\cite{dabic2021sampling,baltes2022sampling}.
 
 \subsection{Construct validity and sampling bias}
 \label{subsec:rw-validity}
 
 Forge mining warnings long predate GitHub: SourceForge status and metadata systematically mislead naive samples~\cite{howison2004perils}.
-On GitHub, Kalliamvakou et al.\ show that many entities are not software projects, that activity proxies are unreliable, and that pipelines inherit those mismatches~\cite{kalliamvakou2014,kalliamvakou2015indepth}.
+On GitHub, Kalliamvakou et al.\ show that many entities are not software projects, that activity proxies are unreliable, and that pipelines inherit those mismatches~\cite{kalliamvakou2015indepth}.
 Classical experimental guidance treats operational definitions and constructs as first-class validity objects~\cite{wohlin2012,runeson2009}.
 Siegmund et al.\ document community disagreement about the relative priority of internal and external validity~\cite{siegmund2015views}, which makes undeclared analytic targets especially risky when authors later generalize from a retrieved sample.
 Ampatzoglou et al.\ taxonomize threats to validity in secondary studies~\cite{ampatzoglou2019threats}; Verdecchia et al.\ critically reflect on how threats are discussed in software engineering research more broadly and urge stronger alignment between claimed constructs and measured ones~\cite{verdecchia2023threats}.
 Construct failures also appear in change-based mining when tangled commits break the intended link between commits and defects~\cite{herzig2013tangled}.
 
 Two implications follow for instruction-artifact frames.
-First, the peril is not merely that GitHub contains non-projects; it is that path predicates can retrieve \emph{real software} of the wrong product role relative to the research question~\cite{kalliamvakou2015indepth,baltes2022sampling}.
-That form of mismatch survives filters aimed at toys and empty repositories~\cite{munaiah2017curating,phantom2020}.
+First, the peril is not only that GitHub contains non-projects; path-based retrieval can also admit software entities that fail a study-specific membership definition even when they are recognizably software~\cite{kalliamvakou2015indepth,baltes2022sampling}.
+Engineered-project filters address a related but distinct screen and therefore do not, by themselves, discharge that membership obligation~\cite{munaiah2017curating,phantom2020}.
 Second, validity reporting that lists generic threats without naming the analytic target, the discovery predicates, and the label-aggregation rule leaves the estimand under-specified~\cite{verdecchia2023threats,siegmund2015views,baltes2022sampling}.
-Sampling bias research therefore motivates the present audit without already performing it for AI-instruction discovery.
-The contribution boundary starts after the perils taxonomy ends: not ``can GitHub samples be wrong?'' but ``how should instruction-artifact frames be audited so that wrongness is measurable, comparable, and protocol-aware?''~\cite{kalliamvakou2015indepth,baltes2022sampling,verdecchia2023threats}.
+Sampling bias research therefore motivates an audit of AI-instruction discovery without already providing one.
+The contribution boundary we adopt is operational rather than taxonomic: not ``can GitHub samples be wrong?''~\cite{kalliamvakou2015indepth}, but how to measure and report wrongness when discovery is an instruction-file predicate and labels are aggregated under alternative consensus rules.
 
 \subsection{Dataset contamination and adjacent senses of error}
 \label{subsec:rw-contamination}
@@ -70,15 +71,15 @@ On GitHub code corpora, D{\'e}j{\`a}Vu maps massive duplication~\cite{lopes2017d
 Cross-project defect prediction classic results show that domain mismatch collapses predictive performance even when retrieval succeeds~\cite{zimmermann2008}.
 
 A parallel validation line studies corrupted or process-fragile labels inside otherwise scoped datasets: NASA defect data quality~\cite{shepperd2013nasa}, researcher and process bias in defect prediction~\cite{shepperd2014bias}, and SZZ and feature-collection failures under manual validation~\cite{herbold2022szz}.
-Benchmark construction likewise insists on explicit scope and careful filtering~\cite{dambros2012defectbenchmark,tantithamthavorn2017validation,jimenez2024swebench}.
+Benchmark construction likewise insists on explicit scope and careful filtering~\cite{dambros2012defectbenchmark,tantithamthavorn2017validation}.
 Tantithamthavorn et al.\ further show that the choice of model-validation technique can change conclusions even when the underlying defect data are held fixed~\cite{tantithamthavorn2017validation}.
 
-These results strengthen the methodological intuition that unvalidated denominators and brittle operationalizations bias downstream claims~\cite{herbold2022szz,shepperd2013nasa,zimmermann2008}.
+These results strengthen the methodological intuition that unvalidated constructs and brittle operationalizations bias downstream claims~\cite{herbold2022szz,shepperd2013nasa,zimmermann2008}.
 They do not solve path-search population mismatch for instruction-artifact frames.
 Leakage and duplication pollute training or evaluation sets; sample--target contamination admits the wrong repositories into the analytic population even when no model is trained~\cite{kalliamvakou2015indepth,baltes2022sampling}.
 Equating the two senses would both mis-cite prior work and obscure the estimand of this article.
 We therefore reuse the validation ethos of dataset papers while keeping the contamination construct distinct~\cite{herbold2022szz,dambros2012defectbenchmark}.
-For instruction-artifact frames, the practical risk is not that a classifier sees duplicated code snippets; it is that the study denominator quietly mixes on-target applications with off-target instruction hosts that still look like software projects~\cite{kalliamvakou2015indepth,munaiah2017curating,lopes2017dejavu}.
+For instruction-artifact frames, the open risk is membership error in the study denominator---on-target applications mixed with off-target hosts that still satisfy the path predicate---which is not the same failure mode as duplicated training snippets~\cite{kalliamvakou2015indepth,baltes2022sampling,lopes2017dejavu}.
 
 \subsection{Reporting guidelines and reproducibility}
 \label{subsec:rw-reporting}
@@ -89,9 +90,9 @@ Replication mapping and artifact studies document uneven replayability and scarc
 Repository-based studies are particularly hard to reproduce when retrieval, filters, and labels are underspecified~\cite{gonzalez2011repro,gonzalez2023revisit}.
 Gonz{\'a}lez-Barahona and Robles revisit that reproducibility problem a decade later and find that many barriers persist~\cite{gonzalez2023revisit}.
 
-These norms justify releasing worksheets, frozen labels, and alternative-protocol scripts as first-class research products~\cite{heumuller2020,winter2022artifacts,liu2024researchartifacts}.
-They do not substitute for evidence that, in instruction-artifact frames, such reporting items are consequential---that is, that consensus protocols and predicate families change what a contamination rate means~\cite{baltes2022sampling,tantithamthavorn2017validation}.
-Reporting guidance without that empirical hinge remains generic relative to Baltes and Ralph's sampling critique~\cite{baltes2022sampling}.
+These norms justify releasing worksheets, frozen labels, and alternative-protocol scripts as research products~\cite{heumuller2020,winter2022artifacts,liu2024researchartifacts}.
+They do not, however, supply evidence that---in instruction-artifact frames---consensus protocols or predicate families change what a contamination rate means; that consequentiality is an empirical question for the present audit, motivated by sampling-frame critique and by sensitivity results in other SE estimands~\cite{baltes2022sampling,tantithamthavorn2017validation}.
+Reporting guidance without such a hinge remains generic relative to Baltes and Ralph's sampling critique~\cite{baltes2022sampling}.
 Likewise, a replication package alone is necessary hygiene rather than a scientific claim~\cite{heumuller2020,gonzalez2023revisit}.
 
 \subsection{Human annotation and consensus protocols}
@@ -104,15 +105,15 @@ Herbold et al.\ show that manual validation can expose systematic failure in aut
 Dataset-quality work more generally treats human inspection as a corrective for process-induced error~\cite{shepperd2013nasa,shepperd2014bias}.
 
 What is solved is the availability of agreement tools and the expectation of multi-coder discipline~\cite{cohen1960kappa,landis1977kappa,runeson2009}.
-What remains weakly treated is the status of the \emph{consensus rule} itself as part of a prevalence estimand.
+What is less settled for prevalence-style membership rates is whether the \emph{consensus rule} used to aggregate coder labels should be treated as part of the estimand rather than as an invisible implementation detail.
 Sensitivity analyses elsewhere in software engineering show that methodological choices can change conclusions even when the underlying observations are fixed~\cite{tantithamthavorn2017validation}.
-Transferred to membership labeling, that lesson implies that a contamination rate reported under one tie-breaking or majority rule should not be treated as protocol-invariant without evidence~\cite{tantithamthavorn2017validation,baltes2022sampling,verdecchia2023threats}.
-Prior work supplies the measurement instruments and cousin examples of membership ground truth~\cite{golzadeh2021bots,herbold2022szz}; it does not report complementary consensus estimates of instruction-frame contamination on the same repositories, nor does it locate disagreement at membership boundaries versus product-role classes for that discovery regime.
+Transferred to membership labeling, that analogy suggests that a contamination rate reported under one tie-breaking or majority rule should not be assumed protocol-invariant without evidence~\cite{tantithamthavorn2017validation,baltes2022sampling}.
+Prior work supplies measurement instruments and cousin examples of membership ground truth~\cite{golzadeh2021bots,herbold2022szz}; to our knowledge it does not report complementary consensus estimates of instruction-frame contamination on the same repositories, nor locate disagreement at membership boundaries versus product-role classes for that discovery regime.
 
 \subsection{LLM-assisted annotation}
 \label{subsec:rw-llm-annotation}
 
-Large language models are increasingly used as annotators and judges.
+Large language models have been evaluated as annotators and judges.
 Gilardi et al.\ report that ChatGPT can outperform crowd workers on some text-annotation tasks~\cite{gilardi2023chatgpt}.
 Zheng et al.\ evaluate LLM-as-a-judge reliability on multi-turn benchmarks~\cite{zheng2023judge}.
 In software engineering, Ahmed et al.\ ask whether LLMs can replace manual annotation of SE artifacts and give a more cautious, domain-specific answer~\cite{ahmed2025llms}.
@@ -120,8 +121,8 @@ Human--AI interaction guidelines caution against unsupervised automation of cons
 Preliminary requirements-engineering uses of ChatGPT illustrate both opportunity and the need for human oversight~\cite{fantechi2023}.
 
 The evidence is conflicting across domains.
-Optimistic general-NLP results do not automatically transfer to repository membership boundaries, where metadata sparsity and product-role ambiguity concentrate disagreement~\cite{gilardi2023chatgpt,ahmed2025llms,kalliamvakou2015indepth,borges2016popularity}.
-For the problem addressed here, LLM assistance is at best an optional adjudication aid under audit; it is not a substitute for a human-coded membership protocol whose consensus sensitivity can be measured~\cite{ahmed2025llms,amershi2019humanai,cohen1960kappa}.
+Optimistic general-NLP results therefore cannot be assumed to transfer to repository membership decisions, where GitHub metadata are sparse and product roles can be ambiguous~\cite{ahmed2025llms,kalliamvakou2015indepth,borges2016popularity}.
+For the problem addressed here, LLM assistance is at best an optional adjudication aid under audit; it is not a substitute for a human-coded membership protocol whose sensitivity to consensus rules can be inspected~\cite{ahmed2025llms,runeson2009}.
 Treating LLM labels as authoritative membership would import unsettled transfer assumptions into the contamination estimand~\cite{ahmed2025llms,gilardi2023chatgpt}.
 
 \subsection{AI instruction artifacts}
@@ -134,7 +135,7 @@ Primary documentation specifies the concrete filenames and configuration surface
 
 This cluster documents the phenomenon that makes instruction-file discovery practically available.
 It does not audit whether repositories retrieved via those filenames match the analytic population a study claims, nor does it provide family-level contamination reporting~\cite{chen2025promptware,baltes2022sampling}.
-The scarcity of peer-reviewed methodological work on these predicates is itself part of the motivation: empirical practice can adopt discovery affordances faster than methodology papers audit them~\cite{hou2024llm4se,fan2023,chen2025promptware}.
+We therefore treat the scarcity of peer-reviewed \emph{sampling} methodology for these predicates as a working observation from the clusters above, not as a measured adoption lag between practice and methodology~\cite{hou2024llm4se,chen2025promptware}.
 
 \subsection{Existing studies using AI instruction artifacts}
 \label{subsec:rw-existing-instruction-studies}
@@ -143,11 +144,11 @@ Published empirical work that touches agent-instruction ecosystems currently clu
 Copilot studies measure interaction and productivity~\cite{ziegler2024copilot,barke2023groundedcopilot,vaithilingam2022expectation}.
 Promptware articulates engineering concerns for prompt-enabled systems~\cite{chen2025promptware}.
 Broader LLM4SE surveys map tasks and open problems~\cite{hou2024llm4se,fan2023}.
-Companion corpus work on AI convention lifecycle and adoption--maintenance patterns charts how instruction files spread across repositories~\cite{ai_convention_lifecycle_corpus2026}.
+Companion corpus work on AI convention lifecycle and adoption--maintenance patterns charts how instruction files spread across repositories~\cite{ai_convention_lifecycle_corpus2026}; we cite it only as a related data product, not as a methodological predecessor that already audited sample--target contamination.
 Benchmark construction from GitHub issues shows that filtering choices shape evaluation populations, but the inclusion event is issue--patch linkage rather than instruction-file presence~\cite{jimenez2024swebench}.
 
-Across these studies, retrieval of repositories that contain instruction artifacts is typically instrumental: a means to observe assistant use, prompt structure, or task performance~\cite{ziegler2024copilot,chen2025promptware,ai_convention_lifecycle_corpus2026}.
-Membership in a declared analytic population---conventional applications versus AI-product tooling versus non-products---is rarely the estimand, and consensus-protocol sensitivity of contamination rates is not reported~\cite{baltes2022sampling,kalliamvakou2015indepth,tantithamthavorn2017validation}.
+In the studies above that do engage instruction artifacts as objects, the research estimand is typically assistant use, prompt structure, adoption, or task performance rather than membership of retrieved repositories in a declared analytic population~\cite{ziegler2024copilot,chen2025promptware,ai_convention_lifecycle_corpus2026}.
+Consensus-protocol sensitivity of contamination rates is not the reported outcome in that cluster.
 Grey documentation of instruction formats is necessary phenomenon evidence~\cite{agentsmd2025,cursor2024docs,brown2024copilot,claude2024docs,anthropic2024mcp}, but documentation is not a methodological audit.
 The closest methodological cousins remain general GitHub perils, sampling guidelines, and engineered-project curation, none of which operationalize instruction-predicate family structure or consensus sensitivity for this regime~\cite{kalliamvakou2015indepth,baltes2022sampling,munaiah2017curating,phantom2020}.
 
@@ -156,11 +157,11 @@ The closest methodological cousins remain general GitHub perils, sampling guidel
 
 Synthesizing the clusters above yields a narrow residual problem.
 
-Already solved, at the level of awareness and infrastructure, are GitHub perils~\cite{kalliamvakou2014,kalliamvakou2015indepth,howison2004perils}, sampling-frame reporting expectations~\cite{baltes2022sampling}, engineered-project curation for some questions~\cite{munaiah2017curating,phantom2020}, leakage and duplication as distinct contamination senses~\cite{kaufman2012,lopes2017dejavu,allamanis2019duplication,kapoor2023leakage}, label-validation culture in defect and related datasets~\cite{herbold2022szz,shepperd2013nasa,shepperd2014bias}, multi-coder agreement tools~\cite{cohen1960kappa,landis1977kappa}, and artifact or replication norms~\cite{heumuller2020,winter2022artifacts,gonzalez2011repro,gonzalez2023revisit,liu2024researchartifacts,silva2012replication}.
+Already available, at the level of awareness and infrastructure, are GitHub perils~\cite{kalliamvakou2015indepth,howison2004perils}, sampling-frame reporting expectations~\cite{baltes2022sampling}, engineered-project curation for some questions~\cite{munaiah2017curating,phantom2020}, leakage and duplication as distinct contamination senses~\cite{kaufman2012,lopes2017dejavu,allamanis2019duplication,kapoor2023leakage}, label-validation culture in defect and related datasets~\cite{herbold2022szz,shepperd2013nasa,shepperd2014bias}, multi-coder agreement tools~\cite{cohen1960kappa,landis1977kappa}, and artifact or replication norms~\cite{heumuller2020,winter2022artifacts,gonzalez2023revisit,liu2024researchartifacts,silva2012replication}.
 
-Partially solved are operational sample--target audits for new discovery predicates, threats-to-validity discourse without worksheets tied to a concrete estimand~\cite{ampatzoglou2019threats,verdecchia2023threats,siegmund2015views}, sensitivity culture for methodological choices in other estimands~\cite{tantithamthavorn2017validation}, and LLM annotation transfer to software engineering membership labels under conflicting evidence~\cite{gilardi2023chatgpt,ahmed2025llms}.
+Partially available are operational sample--target audits for new discovery predicates, threats-to-validity discourse without worksheets tied to a concrete estimand~\cite{ampatzoglou2019threats,verdecchia2023threats,siegmund2015views}, sensitivity culture for methodological choices in other estimands~\cite{tantithamthavorn2017validation}, and LLM annotation transfer to software engineering membership labels under conflicting evidence~\cite{gilardi2023chatgpt,ahmed2025llms}.
 
-What remains unsolved---and what no verified peer-reviewed study in our search closes jointly---is an integrated account of AI-instruction discovery frames in which:
+What remains jointly open for AI-instruction discovery frames---on the evidence of the clusters reviewed above---is an integrated account in which:
 \begin{enumerate}
   \item contamination is defined as satisfied search predicate and outside the stated analytic population (target-conditional membership error);
   \item misalignment is examined by predicate family rather than only as a frame-wide rate;
@@ -181,15 +182,15 @@ Golzadeh et al.\ show how to build membership ground truth for bots, transferrin
 \label{subsec:rw-why-needed}
 
 The necessity claim is therefore limited and methodological.
-As MSR begins to assemble corpora by searching for agent-instruction files~\cite{agentsmd2025,cursor2024docs,brown2024copilot,claude2024docs,anthropic2024mcp,chen2025promptware}, ordinary perils warnings, engineered filters, and generic sampling guidelines leave researchers without evidence-based checks for a regime in which off-target repositories may still look like engineered software~\cite{kalliamvakou2015indepth,munaiah2017curating,phantom2020,baltes2022sampling}.
-Without family-level reporting, heterogeneous predicates collapse into one uninterpretable rate~\cite{dabic2021sampling,baltes2022sampling}.
-Without consensus-protocol sensitivity, a single operational contamination percentage is easy to over-interpret as protocol-invariant~\cite{tantithamthavorn2017validation,cohen1960kappa,verdecchia2023threats}.
-Without replayable worksheets, the community cannot compare audits across targets or revisit membership under alternative definitions~\cite{heumuller2020,gonzalez2023revisit,silva2012replication,winter2022artifacts}.
-In short, the literature already tells researchers that GitHub samples can be wrong~\cite{kalliamvakou2015indepth}; it does not yet tell them how wrongness behaves when the discovery mechanism is an AI-instruction path predicate and the estimand is a multi-coder contamination rate~\cite{baltes2022sampling,tantithamthavorn2017validation,chen2025promptware}.
+Because instruction-file predicates are now searchable~\cite{agentsmd2025,cursor2024docs,brown2024copilot,claude2024docs,anthropic2024mcp,chen2025promptware}, ordinary perils warnings, engineered filters, and generic sampling guidelines leave an operational gap whenever off-target repositories may still look like engineered software~\cite{kalliamvakou2015indepth,munaiah2017curating,phantom2020,baltes2022sampling}.
+Without family-level reporting, heterogeneous predicates risk collapsing into one rate that is hard to interpret~\cite{dabic2021sampling,baltes2022sampling}.
+Without consensus-protocol sensitivity, a single operational contamination percentage is easy to over-interpret as protocol-invariant~\cite{tantithamthavorn2017validation,verdecchia2023threats}.
+Without replayable worksheets, audits are difficult to compare across targets or to revisit under alternative membership definitions~\cite{heumuller2020,gonzalez2023revisit,winter2022artifacts}.
+In short, the literature already tells researchers that GitHub samples can be wrong~\cite{kalliamvakou2015indepth}; it does not yet show how wrongness behaves when the discovery mechanism is an AI-instruction path predicate and the estimand is a multi-coder contamination rate~\cite{baltes2022sampling,tantithamthavorn2017validation,chen2025promptware}.
 
 This article does not propose a new theory of GitHub bias, a replacement for engineered-project curation, or a general sampling methodology~\cite{kalliamvakou2015indepth,munaiah2017curating,baltes2022sampling}.
 It also does not treat artifact release or multi-coder worksheets as novel in isolation; those practices are established expectations~\cite{heumuller2020,cohen1960kappa,runeson2009}.
-What it contributes is an operational audit for AI-instruction discovery frames---applied to one public GitHub frame---together with reporting guidance derived from that audit: declare the analytic target, record predicate families, report complementary consensus estimates, and validate labels before scaling claims~\cite{baltes2022sampling,verdecchia2023threats,sanchez2026vsdlcMiningPilot}.
+What it contributes is an operational audit for AI-instruction discovery frames---applied to one public GitHub frame---together with reporting recommendations derived from that audit: declare the analytic target, record predicate families, report complementary consensus estimates, and validate labels before scaling claims~\cite{baltes2022sampling,verdecchia2023threats}.
 If the audit shows that contamination rates move under alternative consensus protocols while family-level structure remains informative, the scientific payload is a measurement-validity result for a new discovery regime rather than a restatement of GitHub perils~\cite{tantithamthavorn2017validation,kalliamvakou2015indepth,baltes2022sampling}.
-The following sections specify the protocol and the evidence on which that guidance rests.
+The following sections specify the protocol and the evidence on which those recommendations rest.
 Section~\ref{sec:study-design} defines the discover--filter--annotate--inspect pipeline used in the audit; Section~\ref{sec:results} reports protocol sensitivity, family structure, disagreement, and inspection concordance.
