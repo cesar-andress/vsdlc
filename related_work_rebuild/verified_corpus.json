@@ -1,0 +1,4126 @@
+{
+  "verified": [
+    {
+      "doi": "10.1145/2597073.2597074",
+      "title": "The promises and perils of mining GitHub",
+      "authors": [
+        {
+          "family": "Kalliamvakou",
+          "given": "Eirini"
+        },
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Blincoe",
+          "given": "Kelly"
+        },
+        {
+          "family": "Singer",
+          "given": "Leif"
+        },
+        {
+          "family": "German",
+          "given": "Daniel M."
+        },
+        {
+          "family": "Damian",
+          "given": "Daniela"
+        }
+      ],
+      "venue": "Proceedings of the 11th Working Conference on Mining Software Repositories",
+      "year": 2014,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2597073.2597074",
+      "area_hint": "sampling_bias",
+      "note": "Promises and Perils of Mining GitHub",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-015-9393-5",
+      "title": "An in-depth study of the promises and perils of mining GitHub",
+      "authors": [
+        {
+          "family": "Kalliamvakou",
+          "given": "Eirini"
+        },
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Blincoe",
+          "given": "Kelly"
+        },
+        {
+          "family": "Singer",
+          "given": "Leif"
+        },
+        {
+          "family": "German",
+          "given": "Daniel M."
+        },
+        {
+          "family": "Damian",
+          "given": "Daniela"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2015,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-015-9393-5",
+      "area_hint": "sampling_bias",
+      "note": "Kalliamvakou EMSE journal version if exists",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-021-10072-8",
+      "title": "Sampling in software engineering research: a critical review and guidelines",
+      "authors": [
+        {
+          "family": "Baltes",
+          "given": "Sebastian"
+        },
+        {
+          "family": "Ralph",
+          "given": "Paul"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2022,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-021-10072-8",
+      "area_hint": "sampling",
+      "note": "Baltes Ralph sampling guidelines",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/msr.2012.6224294",
+      "title": "GHTorrent: Github's data from a firehose",
+      "authors": [
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Spinellis",
+          "given": "D."
+        }
+      ],
+      "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+      "year": 2012,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/msr.2012.6224294",
+      "area_hint": "msr_methodology",
+      "note": "GHTorrent",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2597073.2597126",
+      "title": "Lean GHTorrent: GitHub data on demand",
+      "authors": [
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Vasilescu",
+          "given": "Bogdan"
+        },
+        {
+          "family": "Serebrenik",
+          "given": "Alexander"
+        },
+        {
+          "family": "Zaidman",
+          "given": "Andy"
+        }
+      ],
+      "venue": "Proceedings of the 11th Working Conference on Mining Software Repositories",
+      "year": 2014,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2597073.2597126",
+      "area_hint": "msr_methodology",
+      "note": "lean GHTorrent",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/msr52588.2021.00074",
+      "title": "Sampling Projects in GitHub for MSR Studies",
+      "authors": [
+        {
+          "family": "Dabic",
+          "given": "Ozren"
+        },
+        {
+          "family": "Aghajani",
+          "given": "Emad"
+        },
+        {
+          "family": "Bavota",
+          "given": "Gabriele"
+        }
+      ],
+      "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+      "year": 2021,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/msr52588.2021.00074",
+      "area_hint": "sampling",
+      "note": "Dabic Sampling Projects in GitHub",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2901739.2901776",
+      "title": "Findings from GitHub",
+      "authors": [
+        {
+          "family": "Cosentino",
+          "given": "Valerio"
+        },
+        {
+          "family": "Luis",
+          "given": "Javier"
+        },
+        {
+          "family": "Cabot",
+          "given": "Jordi"
+        }
+      ],
+      "venue": "Proceedings of the 13th International Conference on Mining Software Repositories",
+      "year": 2016,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2901739.2901776",
+      "area_hint": "msr_methodology",
+      "note": "Cosentino GitHub mapping?",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2973839.2973841",
+      "title": "A Model Driven Transformation Development Process for Model to Model Transformation",
+      "authors": [
+        {
+          "family": "Magalhães",
+          "given": "A. P."
+        },
+        {
+          "family": "Andrade",
+          "given": "A."
+        },
+        {
+          "family": "Maciel",
+          "given": "R. S."
+        }
+      ],
+      "venue": "Proceedings of the XXX Brazilian Symposium on Software Engineering",
+      "year": 2016,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2973839.2973841",
+      "area_hint": "msr_methodology",
+      "note": "Cosentino?",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/msr.2019.00075",
+      "title": "Exploratory Study of Slack Q&amp;A Chats as a Mining Source for Software Engineering Tools",
+      "authors": [
+        {
+          "family": "Chatterjee",
+          "given": "Preetha"
+        },
+        {
+          "family": "Damevski",
+          "given": "Kostadin"
+        },
+        {
+          "family": "Pollock",
+          "given": "Lori"
+        },
+        {
+          "family": "Augustine",
+          "given": "Vinay"
+        },
+        {
+          "family": "Kraft",
+          "given": "Nicholas A."
+        }
+      ],
+      "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+      "year": 2019,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/msr.2019.00075",
+      "area_hint": "discovery",
+      "note": "World of Code",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3183558",
+      "title": "Building the universal archive of source code",
+      "authors": [
+        {
+          "family": "Abramatic",
+          "given": "Jean-François"
+        },
+        {
+          "family": "Di Cosmo",
+          "given": "Roberto"
+        },
+        {
+          "family": "Zacchiroli",
+          "given": "Stefano"
+        }
+      ],
+      "venue": "Communications of the ACM",
+      "year": 2018,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3183558",
+      "area_hint": "discovery",
+      "note": "Software Heritage CACM",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3340531.3412778",
+      "title": "LensKit for Python: Next-Generation Software for Recommender Systems Experiments",
+      "authors": [
+        {
+          "family": "Ekstrand",
+          "given": "Michael D."
+        }
+      ],
+      "venue": "Proceedings of the 29th ACM International Conference on Information &amp; Knowledge Management",
+      "year": 2020,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3340531.3412778",
+      "area_hint": "discovery",
+      "note": "Software Heritage? alternate",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.infsof.2018.10.006",
+      "title": "Identifying, categorizing and mitigating threats to validity in software engineering secondary studies",
+      "authors": [
+        {
+          "family": "Ampatzoglou",
+          "given": "Apostolos"
+        },
+        {
+          "family": "Bibi",
+          "given": "Stamatia"
+        },
+        {
+          "family": "Avgeriou",
+          "given": "Paris"
+        },
+        {
+          "family": "Verbeek",
+          "given": "Marijn"
+        },
+        {
+          "family": "Chatzigeorgiou",
+          "given": "Alexander"
+        }
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2019,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.infsof.2018.10.006",
+      "area_hint": "threats",
+      "note": "Ampatzoglou threats to validity",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.infsof.2021.106738",
+      "title": "Does it matter who pays back Technical Debt? An empirical study of self-fixed TD",
+      "authors": [
+        {
+          "family": "Tan",
+          "given": "Jie"
+        },
+        {
+          "family": "Feitosa",
+          "given": "Daniel"
+        },
+        {
+          "family": "Avgeriou",
+          "given": "Paris"
+        }
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2022,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.infsof.2021.106738",
+      "area_hint": "threats",
+      "note": "Vidoni threats MSR",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/icse.2015.55",
+      "title": "Work Practices and Challenges in Pull-Based Development: The Integrator's Perspective",
+      "authors": [
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Zaidman",
+          "given": "Andy"
+        },
+        {
+          "family": "Storey",
+          "given": "Margaret-Anne"
+        },
+        {
+          "family": "Deursen",
+          "given": "Arie van"
+        }
+      ],
+      "venue": "2015 IEEE/ACM 37th IEEE International Conference on Software Engineering",
+      "year": 2015,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icse.2015.55",
+      "area_hint": "construct_validity",
+      "note": "Siegmund confounding",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-008-9102-8",
+      "title": "Guidelines for conducting and reporting case study research in software engineering",
+      "authors": [
+        {
+          "family": "Runeson",
+          "given": "Per"
+        },
+        {
+          "family": "Höst",
+          "given": "Martin"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2008,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-008-9102-8",
+      "area_hint": "reporting",
+      "note": "Runeson case study guidelines",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/978-3-642-29044-2",
+      "title": "Experimentation in Software Engineering",
+      "authors": [
+        {
+          "family": "Wohlin",
+          "given": "Claes"
+        },
+        {
+          "family": "Runeson",
+          "given": "Per"
+        },
+        {
+          "family": "Höst",
+          "given": "Martin"
+        },
+        {
+          "family": "Ohlsson",
+          "given": "Magnus C."
+        },
+        {
+          "family": "Regnell",
+          "given": "Björn"
+        },
+        {
+          "family": "Wesslén",
+          "given": "Anders"
+        }
+      ],
+      "venue": null,
+      "year": 2012,
+      "publisher": "Springer Berlin Heidelberg",
+      "type": "book",
+      "url": "https://doi.org/10.1007/978-3-642-29044-2",
+      "area_hint": "reporting",
+      "note": "Wohlin Experimentation",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.infsof.2006.08.001",
+      "title": "Classifying variability modeling techniques",
+      "authors": [
+        {
+          "family": "Sinnema",
+          "given": "Marco"
+        },
+        {
+          "family": "Deelstra",
+          "given": "Sybren"
+        }
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2007,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.infsof.2006.08.001",
+      "area_hint": "reporting",
+      "note": "Kitchenham?",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2382577.2382579",
+      "title": "Leakage in data mining",
+      "authors": [
+        {
+          "family": "Kaufman",
+          "given": "Shachar"
+        },
+        {
+          "family": "Rosset",
+          "given": "Saharon"
+        },
+        {
+          "family": "Perlich",
+          "given": "Claudia"
+        },
+        {
+          "family": "Stitelman",
+          "given": "Ori"
+        }
+      ],
+      "venue": "ACM Transactions on Knowledge Discovery from Data",
+      "year": 2012,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/2382577.2382579",
+      "area_hint": "dataset_contamination",
+      "note": "Kaufman leakage",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.patcog.2011.06.019",
+      "title": "A unifying view on dataset shift in classification",
+      "authors": [
+        {
+          "family": "Moreno-Torres",
+          "given": "Jose G."
+        },
+        {
+          "family": "Raeder",
+          "given": "Troy"
+        },
+        {
+          "family": "Alaiz-Rodríguez",
+          "given": "Rocío"
+        },
+        {
+          "family": "Chawla",
+          "given": "Nitesh V."
+        },
+        {
+          "family": "Herrera",
+          "given": "Francisco"
+        }
+      ],
+      "venue": "Pattern Recognition",
+      "year": 2012,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.patcog.2011.06.019",
+      "area_hint": "dataset_contamination",
+      "note": "Moreno dataset shift",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/icse.2017.32",
+      "title": "Efficient Detection of Thread Safety Violations via Coverage-Guided Generation of Concurrent Tests",
+      "authors": [
+        {
+          "family": "Choudhary",
+          "given": "Ankit"
+        },
+        {
+          "family": "Lu",
+          "given": "Shan"
+        },
+        {
+          "family": "Pradel",
+          "given": "Michael"
+        }
+      ],
+      "venue": "2017 IEEE/ACM 39th International Conference on Software Engineering (ICSE)",
+      "year": 2017,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icse.2017.32",
+      "area_hint": "dataset_contamination",
+      "note": "Lopes DejaVu",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3340544",
+      "title": "An Empirical Study on Learning Bug-Fixing Patches in the Wild via Neural Machine Translation",
+      "authors": [
+        {
+          "family": "Tufano",
+          "given": "Michele"
+        },
+        {
+          "family": "Watson",
+          "given": "Cody"
+        },
+        {
+          "family": "Bavota",
+          "given": "Gabriele"
+        },
+        {
+          "family": "Penta",
+          "given": "Massimiliano Di"
+        },
+        {
+          "family": "White",
+          "given": "Martin"
+        },
+        {
+          "family": "Poshyvanyk",
+          "given": "Denys"
+        }
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2019,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3340544",
+      "area_hint": "dataset_contamination",
+      "note": "Allamanis adverse duplication",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/1595696.1595713",
+      "title": "Cross-project defect prediction",
+      "authors": [
+        {
+          "family": "Zimmermann",
+          "given": "Thomas"
+        },
+        {
+          "family": "Nagappan",
+          "given": "Nachiappan"
+        },
+        {
+          "family": "Gall",
+          "given": "Harald"
+        },
+        {
+          "family": "Giger",
+          "given": "Emanuel"
+        },
+        {
+          "family": "Murphy",
+          "given": "Brendan"
+        }
+      ],
+      "venue": "Proceedings of the 7th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering",
+      "year": 2009,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/1595696.1595713",
+      "area_hint": "dataset_contamination",
+      "note": "Zimmermann cross-project",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-011-9173-9",
+      "title": "Evaluating defect prediction approaches: a benchmark and an extensive comparison",
+      "authors": [
+        {
+          "family": "D’Ambros",
+          "given": "Marco"
+        },
+        {
+          "family": "Lanza",
+          "given": "Michele"
+        },
+        {
+          "family": "Robbes",
+          "given": "Romain"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2011,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-011-9173-9",
+      "area_hint": "datasets",
+      "note": "DAmbros defect benchmark",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-021-10092-4",
+      "title": "Problems with SZZ and features: An empirical study of the state of practice of defect prediction data collection",
+      "authors": [
+        {
+          "family": "Herbold",
+          "given": "Steffen"
+        },
+        {
+          "family": "Trautsch",
+          "given": "Alexander"
+        },
+        {
+          "family": "Trautsch",
+          "given": "Fabian"
+        },
+        {
+          "family": "Ledel",
+          "given": "Benjamin"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2022,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-021-10092-4",
+      "area_hint": "datasets",
+      "note": "Herbold SZZ problems",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/tse.2016.2584050",
+      "title": "An Empirical Comparison of Model Validation Techniques for Defect Prediction Models",
+      "authors": [
+        {
+          "family": "Tantithamthavorn",
+          "given": "Chakkrit"
+        },
+        {
+          "family": "McIntosh",
+          "given": "Shane"
+        },
+        {
+          "family": "Hassan",
+          "given": "Ahmed E."
+        },
+        {
+          "family": "Matsumoto",
+          "given": "Kenichi"
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2017,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tse.2016.2584050",
+      "area_hint": "datasets",
+      "note": "Tantithamthavorn validation",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/tse.2013.11",
+      "title": "Data Quality: Some Comments on the NASA Software Defect Datasets",
+      "authors": [
+        {
+          "family": "Shepperd",
+          "given": "Martin"
+        },
+        {
+          "family": "Song",
+          "given": "Qinbao"
+        },
+        {
+          "family": "Sun",
+          "given": "Zhongbin"
+        },
+        {
+          "family": "Mair",
+          "given": "Carolyn"
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2013,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tse.2013.11",
+      "area_hint": "datasets",
+      "note": "Shepperd data quality",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2568225.2568318",
+      "title": "How do professionals perceive legacy systems and software modernization?",
+      "authors": [
+        {
+          "family": "Khadka",
+          "given": "Ravi"
+        },
+        {
+          "family": "Batlajery",
+          "given": "Belfrit V."
+        },
+        {
+          "family": "Saeidi",
+          "given": "Amir M."
+        },
+        {
+          "family": "Jansen",
+          "given": "Slinger"
+        },
+        {
+          "family": "Hage",
+          "given": "Jurriaan"
+        }
+      ],
+      "venue": "Proceedings of the 36th International Conference on Software Engineering",
+      "year": 2014,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2568225.2568318",
+      "area_hint": "datasets",
+      "note": "Herzig tangled changes?",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-020-09851-6",
+      "title": "Publish or perish, but do not forget your software artifacts",
+      "authors": [
+        {
+          "family": "Heumüller",
+          "given": "Robert"
+        },
+        {
+          "family": "Nielebock",
+          "given": "Sebastian"
+        },
+        {
+          "family": "Krüger",
+          "given": "Jacob"
+        },
+        {
+          "family": "Ortmeier",
+          "given": "Frank"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2020,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-020-09851-6",
+      "area_hint": "reproducibility",
+      "note": "Heumuller artifacts",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.jss.2024.112032",
+      "title": "Research artifacts in software engineering publications: Status and trends",
+      "authors": [
+        {
+          "family": "Liu",
+          "given": "Mugeng"
+        },
+        {
+          "family": "Huang",
+          "given": "Xiaolong"
+        },
+        {
+          "family": "He",
+          "given": "Wei"
+        },
+        {
+          "family": "Xie",
+          "given": "Yibing"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jie M."
+        },
+        {
+          "family": "Jing",
+          "given": "Xiang"
+        },
+        {
+          "family": "Chen",
+          "given": "Zhenpeng"
+        },
+        {
+          "family": "Ma",
+          "given": "Yun"
+        }
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2024,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.jss.2024.112032",
+      "area_hint": "reproducibility",
+      "note": "Liu research artifacts",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3540250.3549172",
+      "title": "A retrospective study of one decade of artifact evaluations",
+      "authors": [
+        {
+          "family": "Winter",
+          "given": "Stefan"
+        },
+        {
+          "family": "Timperley",
+          "given": "Christopher S."
+        },
+        {
+          "family": "Hermann",
+          "given": "Ben"
+        },
+        {
+          "family": "Cito",
+          "given": "Jürgen"
+        },
+        {
+          "family": "Bell",
+          "given": "Jonathan"
+        },
+        {
+          "family": "Hilton",
+          "given": "Michael"
+        },
+        {
+          "family": "Beyer",
+          "given": "Dirk"
+        }
+      ],
+      "venue": "Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+      "year": 2022,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3540250.3549172",
+      "area_hint": "reproducibility",
+      "note": "Winter artifact eval",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-012-9227-7",
+      "title": "Replication of empirical studies in software engineering research: a systematic mapping study",
+      "authors": [
+        {
+          "family": "da Silva",
+          "given": "Fabio Q. B."
+        },
+        {
+          "family": "Suassuna",
+          "given": "Marcos"
+        },
+        {
+          "family": "França",
+          "given": "A. César C."
+        },
+        {
+          "family": "Grubb",
+          "given": "Alicia M."
+        },
+        {
+          "family": "Gouveia",
+          "given": "Tatiana B."
+        },
+        {
+          "family": "Monteiro",
+          "given": "Cleviton V. F."
+        },
+        {
+          "family": "dos Santos",
+          "given": "Igor Ebrahim"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2012,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-012-9227-7",
+      "area_hint": "reproducibility",
+      "note": "da Silva replication",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-011-9181-9",
+      "title": "On the reproducibility of empirical software engineering studies based on data retrieved from development repositories",
+      "authors": [
+        {
+          "family": "González-Barahona",
+          "given": "Jesús M."
+        },
+        {
+          "family": "Robles",
+          "given": "Gregorio"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2011,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-011-9181-9",
+      "area_hint": "reproducibility",
+      "note": "Gonzalez-Barahona",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1177/001316446002000104",
+      "title": "A Coefficient of Agreement for Nominal Scales",
+      "authors": [
+        {
+          "family": "Cohen",
+          "given": "Jacob"
+        }
+      ],
+      "venue": "Educational and Psychological Measurement",
+      "year": 1960,
+      "publisher": "SAGE Publications",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1177/001316446002000104",
+      "area_hint": "annotation",
+      "note": "Cohen kappa",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.2307/2529310",
+      "title": "The Measurement of Observer Agreement for Categorical Data",
+      "authors": [
+        {
+          "family": "Landis",
+          "given": "J. Richard"
+        },
+        {
+          "family": "Koch",
+          "given": "Gary G."
+        }
+      ],
+      "venue": "Biometrics",
+      "year": 1977,
+      "publisher": "JSTOR",
+      "type": "journal-article",
+      "url": "https://doi.org/10.2307/2529310",
+      "area_hint": "annotation",
+      "note": "Landis Koch",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1073/pnas.2305016120",
+      "title": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "authors": [
+        {
+          "family": "Gilardi",
+          "given": "Fabrizio"
+        },
+        {
+          "family": "Alizadeh",
+          "given": "Meysam"
+        },
+        {
+          "family": "Kubli",
+          "given": "Maël"
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2023,
+      "publisher": "National Academy of Sciences",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1073/pnas.2305016120",
+      "area_hint": "llm_annotation",
+      "note": "Gilardi ChatGPT annotation",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3695988",
+      "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+      "authors": [
+        {
+          "family": "Hou",
+          "given": "Xinyi"
+        },
+        {
+          "family": "Zhao",
+          "given": "Yanjie"
+        },
+        {
+          "family": "Liu",
+          "given": "Yue"
+        },
+        {
+          "family": "Yang",
+          "given": "Zhou"
+        },
+        {
+          "family": "Wang",
+          "given": "Kailong"
+        },
+        {
+          "family": "Li",
+          "given": "Li"
+        },
+        {
+          "family": "Luo",
+          "given": "Xiapu"
+        },
+        {
+          "family": "Lo",
+          "given": "David"
+        },
+        {
+          "family": "Grundy",
+          "given": "John"
+        },
+        {
+          "family": "Wang",
+          "given": "Haoyu"
+        }
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2024,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3695988",
+      "area_hint": "ai_se",
+      "note": "Hou LLM4SE SLR",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/icse-fose59343.2023.00008",
+      "title": "Large Language Models for Software Engineering: Survey and Open Problems",
+      "authors": [
+        {
+          "family": "Fan",
+          "given": "Angela"
+        },
+        {
+          "family": "Gokkaya",
+          "given": "Beliz"
+        },
+        {
+          "family": "Harman",
+          "given": "Mark"
+        },
+        {
+          "family": "Lyubarskiy",
+          "given": "Mitya"
+        },
+        {
+          "family": "Sengupta",
+          "given": "Shubho"
+        },
+        {
+          "family": "Yoo",
+          "given": "Shin"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jie M."
+        }
+      ],
+      "venue": "2023 IEEE/ACM International Conference on Software Engineering: Future of Software Engineering (ICSE-FoSE)",
+      "year": 2023,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icse-fose59343.2023.00008",
+      "area_hint": "ai_se",
+      "note": "Fan LLM survey",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3796535",
+      "title": "Promptware Engineering: Software Engineering for Prompt-Enabled Systems",
+      "authors": [
+        {
+          "family": "Chen",
+          "given": "Zhenpeng"
+        },
+        {
+          "family": "Wang",
+          "given": "Chong"
+        },
+        {
+          "family": "Sun",
+          "given": "Weisong"
+        },
+        {
+          "family": "Liu",
+          "given": "Xuanzhe"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jie M."
+        },
+        {
+          "family": "Liu",
+          "given": "Yang"
+        }
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2026,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3796535",
+      "area_hint": "instruction_artifacts",
+      "note": "Chen Promptware",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3633453",
+      "title": "Measuring GitHub Copilot's Impact on Productivity",
+      "authors": [
+        {
+          "family": "Ziegler",
+          "given": "Albert"
+        },
+        {
+          "family": "Kalliamvakou",
+          "given": "Eirini"
+        },
+        {
+          "family": "Li",
+          "given": "X. Alice"
+        },
+        {
+          "family": "Rice",
+          "given": "Andrew"
+        },
+        {
+          "family": "Rifkin",
+          "given": "Devon"
+        },
+        {
+          "family": "Simister",
+          "given": "Shawn"
+        },
+        {
+          "family": "Sittampalam",
+          "given": "Ganesh"
+        },
+        {
+          "family": "Aftandilian",
+          "given": "Edward"
+        }
+      ],
+      "venue": "Communications of the ACM",
+      "year": 2024,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3633453",
+      "area_hint": "ai_se",
+      "note": "Ziegler Copilot productivity",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3586030",
+      "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+      "authors": [
+        {
+          "family": "Barke",
+          "given": "Shraddha"
+        },
+        {
+          "family": "James",
+          "given": "Michael B."
+        },
+        {
+          "family": "Polikarpova",
+          "given": "Nadia"
+        }
+      ],
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "year": 2023,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3586030",
+      "area_hint": "ai_se",
+      "note": "Barke Grounded Copilot",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2950290.2983989",
+      "title": "Disrupting developer productivity one bot at a time",
+      "authors": [
+        {
+          "family": "Storey",
+          "given": "Margaret-Anne"
+        },
+        {
+          "family": "Zagalsky",
+          "given": "Alexey"
+        }
+      ],
+      "venue": "Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+      "year": 2016,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2950290.2983989",
+      "area_hint": "ai_se",
+      "note": "Storey bots",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1002/spe.70029",
+      "title": "Generative AI for Requirements Engineering: A Systematic Literature Review",
+      "authors": [
+        {
+          "family": "Cheng",
+          "given": "Haowei"
+        },
+        {
+          "family": "Husen",
+          "given": "Jati H."
+        },
+        {
+          "family": "Lu",
+          "given": "Yijun"
+        },
+        {
+          "family": "Racharak",
+          "given": "Teeradaj"
+        },
+        {
+          "family": "Yoshioka",
+          "given": "Nobukazu"
+        },
+        {
+          "family": "Ubayashi",
+          "given": "Naoyasu"
+        },
+        {
+          "family": "Washizaki",
+          "given": "Hironori"
+        }
+      ],
+      "venue": "Software: Practice and Experience",
+      "year": 2025,
+      "publisher": "Wiley",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1002/spe.70029",
+      "area_hint": "ai_se",
+      "note": "Cheng GenAI RE",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3290605.3300233",
+      "title": "Guidelines for Human-AI Interaction",
+      "authors": [
+        {
+          "family": "Amershi",
+          "given": "Saleema"
+        },
+        {
+          "family": "Weld",
+          "given": "Dan"
+        },
+        {
+          "family": "Vorvoreanu",
+          "given": "Mihaela"
+        },
+        {
+          "family": "Fourney",
+          "given": "Adam"
+        },
+        {
+          "family": "Nushi",
+          "given": "Besmira"
+        },
+        {
+          "family": "Collisson",
+          "given": "Penny"
+        },
+        {
+          "family": "Suh",
+          "given": "Jina"
+        },
+        {
+          "family": "Iqbal",
+          "given": "Shamsi"
+        },
+        {
+          "family": "Bennett",
+          "given": "Paul N."
+        },
+        {
+          "family": "Inkpen",
+          "given": "Kori"
+        },
+        {
+          "family": "Teevan",
+          "given": "Jaime"
+        },
+        {
+          "family": "Kikin-Gil",
+          "given": "Ruth"
+        },
+        {
+          "family": "Horvitz",
+          "given": "Eric"
+        }
+      ],
+      "venue": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+      "year": 2019,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3290605.3300233",
+      "area_hint": "annotation",
+      "note": "Amershi Human-AI",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/re57278.2023.00045",
+      "title": "Inconsistency Detection in Natural Language Requirements using ChatGPT: a Preliminary Evaluation",
+      "authors": [
+        {
+          "family": "Fantechi",
+          "given": "Alessandro"
+        },
+        {
+          "family": "Gnesi",
+          "given": "Stefania"
+        },
+        {
+          "family": "Passaro",
+          "given": "Lucia"
+        },
+        {
+          "family": "Semini",
+          "given": "Laura"
+        }
+      ],
+      "venue": "2023 IEEE 31st International Requirements Engineering Conference (RE)",
+      "year": 2023,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/re57278.2023.00045",
+      "area_hint": "llm_annotation",
+      "note": "Fantechi ChatGPT RE",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2901739.2901778",
+      "title": "Characterization of the Xen project code review process",
+      "authors": [
+        {
+          "family": "Izquierdo-Cortazar",
+          "given": "Daniel"
+        },
+        {
+          "family": "Kurth",
+          "given": "Lars"
+        },
+        {
+          "family": "Gonzalez-Barahona",
+          "given": "Jesus M."
+        },
+        {
+          "family": "Dueñas",
+          "given": "Santiago"
+        },
+        {
+          "family": "Sekitoleko",
+          "given": "Nelson"
+        }
+      ],
+      "venue": "Proceedings of the 13th International Conference on Mining Software Repositories",
+      "year": 2016,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2901739.2901778",
+      "area_hint": "metadata",
+      "note": "Borges stars",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/2568225.2568260",
+      "title": "An exploratory study of the pull-based software development model",
+      "authors": [
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Pinzger",
+          "given": "Martin"
+        },
+        {
+          "family": "Deursen",
+          "given": "Arie van"
+        }
+      ],
+      "venue": "Proceedings of the 36th International Conference on Software Engineering",
+      "year": 2014,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/2568225.2568260",
+      "area_hint": "metadata",
+      "note": "Tsay influence",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/1985793.1985795",
+      "title": "A practical guide for using statistical tests to assess randomized algorithms in software engineering",
+      "authors": [
+        {
+          "family": "Arcuri",
+          "given": "Andrea"
+        },
+        {
+          "family": "Briand",
+          "given": "Lionel"
+        }
+      ],
+      "venue": "Proceedings of the 33rd International Conference on Software Engineering",
+      "year": 2011,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/1985793.1985795",
+      "area_hint": "sampling_bias",
+      "note": "Howison SourceForge perils?",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/1082983.1083161",
+      "title": "SCQL",
+      "authors": [
+        {
+          "family": "Hindle",
+          "given": "Abram"
+        },
+        {
+          "family": "German",
+          "given": "Daniel M."
+        }
+      ],
+      "venue": "ACM SIGSOFT Software Engineering Notes",
+      "year": 2005,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/1082983.1083161",
+      "area_hint": "sampling_bias",
+      "note": "Howison perils SourceForge MSR",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/978-3-031-70314-0_15",
+      "title": "GitHub Repositories and Jupyter Notebooks",
+      "authors": [
+        {
+          "family": "Wünschiers",
+          "given": "Röbbe"
+        }
+      ],
+      "venue": "Computational Biology",
+      "year": 2025,
+      "publisher": "Springer Nature Switzerland",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/978-3-031-70314-0_15",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/979-8-8688-2196-7_1",
+      "title": "Getting Started with GitHub Copilot",
+      "authors": [
+        {
+          "family": "Reddy Vootukuri",
+          "given": "Naga Santhosh"
+        }
+      ],
+      "venue": "Vibe Coding with GitHub Copilot",
+      "year": 2025,
+      "publisher": "Apress",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/979-8-8688-2196-7_1",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/979-8-8688-2196-7_2",
+      "title": "Exploring GitHub Copilot Features",
+      "authors": [
+        {
+          "family": "Reddy Vootukuri",
+          "given": "Naga Santhosh"
+        }
+      ],
+      "venue": "Vibe Coding with GitHub Copilot",
+      "year": 2025,
+      "publisher": "Apress",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/979-8-8688-2196-7_2",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/979-8-8688-2196-7_3",
+      "title": "GitHub Copilot Chat in Developer Workflow",
+      "authors": [
+        {
+          "family": "Reddy Vootukuri",
+          "given": "Naga Santhosh"
+        }
+      ],
+      "venue": "Vibe Coding with GitHub Copilot",
+      "year": 2025,
+      "publisher": "Apress",
+      "type": "book-chapter",
+      "url": "https://doi.org/10.1007/979-8-8688-2196-7_3",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-017-9512-6",
+      "title": "Curating GitHub for engineered software projects",
+      "authors": [
+        {
+          "family": "Munaiah",
+          "given": "Nuthan"
+        },
+        {
+          "family": "Kroh",
+          "given": "Steven"
+        },
+        {
+          "family": "Cabrey",
+          "given": "Craig"
+        },
+        {
+          "family": "Nagappan",
+          "given": "Meiyappan"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2017,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-017-9512-6",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s10664-020-09825-8",
+      "title": "PHANTOM: Curating GitHub for engineered software projects using time-series clustering",
+      "authors": [
+        {
+          "family": "Pickerill",
+          "given": "Peter"
+        },
+        {
+          "family": "Jungen",
+          "given": "Heiko Joshua"
+        },
+        {
+          "family": "Ochodek",
+          "given": "Mirosław"
+        },
+        {
+          "family": "Maćkowiak",
+          "given": "Michał"
+        },
+        {
+          "family": "Staron",
+          "given": "Miroslaw"
+        }
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2020,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10664-020-09825-8",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s11219-014-9241-7",
+      "title": "Which process metrics can significantly improve defect prediction models? An empirical study",
+      "authors": [
+        {
+          "family": "Madeyski",
+          "given": "Lech"
+        },
+        {
+          "family": "Jureczko",
+          "given": "Marian"
+        }
+      ],
+      "venue": "Software Quality Journal",
+      "year": 2014,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s11219-014-9241-7",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s11219-016-9353-3",
+      "title": "Software defect prediction: do different classifiers find the same defects?",
+      "authors": [
+        {
+          "family": "Bowes",
+          "given": "David"
+        },
+        {
+          "family": "Hall",
+          "given": "Tracy"
+        },
+        {
+          "family": "Petrić",
+          "given": "Jean"
+        }
+      ],
+      "venue": "Software Quality Journal",
+      "year": 2017,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s11219-016-9353-3",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s11704-024-40231-1",
+      "title": "A survey on large language model based autonomous agents",
+      "authors": [
+        {
+          "family": "Wang",
+          "given": "Lei"
+        },
+        {
+          "family": "Ma",
+          "given": "Chen"
+        },
+        {
+          "family": "Feng",
+          "given": "Xueyang"
+        },
+        {
+          "family": "Zhang",
+          "given": "Zeyu"
+        },
+        {
+          "family": "Yang",
+          "given": "Hao"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jingsen"
+        },
+        {
+          "family": "Chen",
+          "given": "Zhiyuan"
+        },
+        {
+          "family": "Tang",
+          "given": "Jiakai"
+        },
+        {
+          "family": "Chen",
+          "given": "Xu"
+        },
+        {
+          "family": "Lin",
+          "given": "Yankai"
+        },
+        {
+          "family": "Zhao",
+          "given": "Wayne Xin"
+        },
+        {
+          "family": "Wei",
+          "given": "Zhewei"
+        },
+        {
+          "family": "Wen",
+          "given": "Jirong"
+        }
+      ],
+      "venue": "Frontiers of Computer Science",
+      "year": 2024,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s11704-024-40231-1",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1007/s11704-026-60308-3",
+      "title": "A Survey of Large Language Models",
+      "authors": [
+        {
+          "family": "Zhao",
+          "given": "Wayne Xin"
+        },
+        {
+          "family": "Zhou",
+          "given": "Kun"
+        },
+        {
+          "family": "Li",
+          "given": "Junyi"
+        },
+        {
+          "family": "Tang",
+          "given": "Tianyi"
+        },
+        {
+          "family": "Dong",
+          "given": "Zican"
+        },
+        {
+          "family": "Hou",
+          "given": "Yupeng"
+        },
+        {
+          "family": "Zhang",
+          "given": "Beichen"
+        },
+        {
+          "family": "Min",
+          "given": "Yingqian"
+        },
+        {
+          "family": "Zhang",
+          "given": "Junjie"
+        },
+        {
+          "family": "Liu",
+          "given": "Peiyu"
+        },
+        {
+          "family": "Wang",
+          "given": "Xiaolei"
+        },
+        {
+          "family": "Du",
+          "given": "Yifan"
+        },
+        {
+          "family": "Yang",
+          "given": "Chen"
+        },
+        {
+          "family": "Chen",
+          "given": "Yushuo"
+        },
+        {
+          "family": "Chen",
+          "given": "Zhipeng"
+        },
+        {
+          "family": "Jiang",
+          "given": "Jinhao"
+        },
+        {
+          "family": "Ren",
+          "given": "Ruiyang"
+        },
+        {
+          "family": "Li",
+          "given": "Yifan"
+        },
+        {
+          "family": "Tang",
+          "given": "Xinyu"
+        },
+        {
+          "family": "Liu",
+          "given": "Zikang"
+        },
+        {
+          "family": "Hu",
+          "given": "Yiwen"
+        },
+        {
+          "family": "Nie",
+          "given": "Jian-Yun"
+        },
+        {
+          "family": "Wen",
+          "given": "Ji-Rong"
+        }
+      ],
+      "venue": "Frontiers of Computer Science",
+      "year": 2026,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s11704-026-60308-3",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.infsof.2018.01.006",
+      "title": "The role and value of replication in empirical software engineering results",
+      "authors": [
+        {
+          "family": "Shepperd",
+          "given": "Martin"
+        },
+        {
+          "family": "Ajienka",
+          "given": "Nemitari"
+        },
+        {
+          "family": "Counsell",
+          "given": "Steve"
+        }
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2018,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.infsof.2018.01.006",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.infsof.2023.107329",
+      "title": "Threats to validity in software engineering research: A critical reflection",
+      "authors": [
+        {
+          "family": "Verdecchia",
+          "given": "Roberto"
+        },
+        {
+          "family": "Engström",
+          "given": "Emelie"
+        },
+        {
+          "family": "Lago",
+          "given": "Patricia"
+        },
+        {
+          "family": "Runeson",
+          "given": "Per"
+        },
+        {
+          "family": "Song",
+          "given": "Qunying"
+        }
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.infsof.2023.107329",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.jss.2018.12.001",
+      "title": "Fine-grained just-in-time defect prediction",
+      "authors": [
+        {
+          "family": "Pascarella",
+          "given": "Luca"
+        },
+        {
+          "family": "Palomba",
+          "given": "Fabio"
+        },
+        {
+          "family": "Bacchelli",
+          "given": "Alberto"
+        }
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2019,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.jss.2018.12.001",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.jss.2021.110911",
+      "title": "A ground-truth dataset and classification model for detecting bots in GitHub issue and PR comments",
+      "authors": [
+        {
+          "family": "Golzadeh",
+          "given": "Mehdi"
+        },
+        {
+          "family": "Decan",
+          "given": "Alexandre"
+        },
+        {
+          "family": "Legay",
+          "given": "Damien"
+        },
+        {
+          "family": "Mens",
+          "given": "Tom"
+        }
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2021,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.jss.2021.110911",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.jss.2022.111537",
+      "title": "On the use of deep learning in software defect prediction",
+      "authors": [
+        {
+          "family": "Giray",
+          "given": "Görkem"
+        },
+        {
+          "family": "Bennin",
+          "given": "Kwabena Ebo"
+        },
+        {
+          "family": "Köksal",
+          "given": "Ömer"
+        },
+        {
+          "family": "Babur",
+          "given": "Önder"
+        },
+        {
+          "family": "Tekinerdogan",
+          "given": "Bedir"
+        }
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.jss.2022.111537",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.jss.2023.111827",
+      "title": "On the outdatedness of workflows in the GitHub Actions ecosystem",
+      "authors": [
+        {
+          "family": "Decan",
+          "given": "Alexandre"
+        },
+        {
+          "family": "Mens",
+          "given": "Tom"
+        },
+        {
+          "family": "Onsori Delicheh",
+          "given": "Hassan"
+        }
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.jss.2023.111827",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.lindif.2023.102274",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "authors": [
+        {
+          "family": "Kasneci",
+          "given": "Enkelejda"
+        },
+        {
+          "family": "Sessler",
+          "given": "Kathrin"
+        },
+        {
+          "family": "Küchemann",
+          "given": "Stefan"
+        },
+        {
+          "family": "Bannert",
+          "given": "Maria"
+        },
+        {
+          "family": "Dementieva",
+          "given": "Daryna"
+        },
+        {
+          "family": "Fischer",
+          "given": "Frank"
+        },
+        {
+          "family": "Gasser",
+          "given": "Urs"
+        },
+        {
+          "family": "Groh",
+          "given": "Georg"
+        },
+        {
+          "family": "Günnemann",
+          "given": "Stephan"
+        },
+        {
+          "family": "Hüllermeier",
+          "given": "Eyke"
+        },
+        {
+          "family": "Krusche",
+          "given": "Stephan"
+        },
+        {
+          "family": "Kutyniok",
+          "given": "Gitta"
+        },
+        {
+          "family": "Michaeli",
+          "given": "Tilman"
+        },
+        {
+          "family": "Nerdel",
+          "given": "Claudia"
+        },
+        {
+          "family": "Pfeffer",
+          "given": "Jürgen"
+        },
+        {
+          "family": "Poquet",
+          "given": "Oleksandra"
+        },
+        {
+          "family": "Sailer",
+          "given": "Michael"
+        },
+        {
+          "family": "Schmidt",
+          "given": "Albrecht"
+        },
+        {
+          "family": "Seidel",
+          "given": "Tina"
+        },
+        {
+          "family": "Stadler",
+          "given": "Matthias"
+        },
+        {
+          "family": "Weller",
+          "given": "Jochen"
+        },
+        {
+          "family": "Kuhn",
+          "given": "Jochen"
+        },
+        {
+          "family": "Kasneci",
+          "given": "Gjergji"
+        }
+      ],
+      "venue": "Learning and Individual Differences",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.lindif.2023.102274",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1016/j.patter.2023.100804",
+      "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+      "authors": [
+        {
+          "family": "Kapoor",
+          "given": "Sayash"
+        },
+        {
+          "family": "Narayanan",
+          "given": "Arvind"
+        }
+      ],
+      "venue": "Patterns",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.patter.2023.100804",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1038/ismej.2014.106",
+      "title": "Improved annotation of antibiotic resistance determinants reveals microbial resistomes cluster by ecology",
+      "authors": [
+        {
+          "family": "Gibson",
+          "given": "Molly K"
+        },
+        {
+          "family": "Forsberg",
+          "given": "Kevin J"
+        },
+        {
+          "family": "Dantas",
+          "given": "Gautam"
+        }
+      ],
+      "venue": "The ISME Journal",
+      "year": 2014,
+      "publisher": "Oxford University Press (OUP)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/ismej.2014.106",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1038/s41467-019-13336-6",
+      "title": "Engineered E. coli Nissle 1917 for the delivery of matrix-tethered therapeutic domains to the gut",
+      "authors": [
+        {
+          "family": "Praveschotinunt",
+          "given": "Pichet"
+        },
+        {
+          "family": "Duraj-Thatte",
+          "given": "Anna M."
+        },
+        {
+          "family": "Gelfat",
+          "given": "Ilia"
+        },
+        {
+          "family": "Bahl",
+          "given": "Franziska"
+        },
+        {
+          "family": "Chou",
+          "given": "David B."
+        },
+        {
+          "family": "Joshi",
+          "given": "Neel S."
+        }
+      ],
+      "venue": "Nature Communications",
+      "year": 2019,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s41467-019-13336-6",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1038/s41586-023-06291-2",
+      "title": "Large language models encode clinical knowledge",
+      "authors": [
+        {
+          "family": "Singhal",
+          "given": "Karan"
+        },
+        {
+          "family": "Azizi",
+          "given": "Shekoofeh"
+        },
+        {
+          "family": "Tu",
+          "given": "Tao"
+        },
+        {
+          "family": "Mahdavi",
+          "given": "S. Sara"
+        },
+        {
+          "family": "Wei",
+          "given": "Jason"
+        },
+        {
+          "family": "Chung",
+          "given": "Hyung Won"
+        },
+        {
+          "family": "Scales",
+          "given": "Nathan"
+        },
+        {
+          "family": "Tanwani",
+          "given": "Ajay"
+        },
+        {
+          "family": "Cole-Lewis",
+          "given": "Heather"
+        },
+        {
+          "family": "Pfohl",
+          "given": "Stephen"
+        },
+        {
+          "family": "Payne",
+          "given": "Perry"
+        },
+        {
+          "family": "Seneviratne",
+          "given": "Martin"
+        },
+        {
+          "family": "Gamble",
+          "given": "Paul"
+        },
+        {
+          "family": "Kelly",
+          "given": "Chris"
+        },
+        {
+          "family": "Babiker",
+          "given": "Abubakr"
+        },
+        {
+          "family": "Schärli",
+          "given": "Nathanael"
+        },
+        {
+          "family": "Chowdhery",
+          "given": "Aakanksha"
+        },
+        {
+          "family": "Mansfield",
+          "given": "Philip"
+        },
+        {
+          "family": "Demner-Fushman",
+          "given": "Dina"
+        },
+        {
+          "family": "Agüera y Arcas",
+          "given": "Blaise"
+        },
+        {
+          "family": "Webster",
+          "given": "Dale"
+        },
+        {
+          "family": "Corrado",
+          "given": "Greg S."
+        },
+        {
+          "family": "Matias",
+          "given": "Yossi"
+        },
+        {
+          "family": "Chou",
+          "given": "Katherine"
+        },
+        {
+          "family": "Gottweis",
+          "given": "Juraj"
+        },
+        {
+          "family": "Tomasev",
+          "given": "Nenad"
+        },
+        {
+          "family": "Liu",
+          "given": "Yun"
+        },
+        {
+          "family": "Rajkomar",
+          "given": "Alvin"
+        },
+        {
+          "family": "Barral",
+          "given": "Joelle"
+        },
+        {
+          "family": "Semturs",
+          "given": "Christopher"
+        },
+        {
+          "family": "Karthikesalingam",
+          "given": "Alan"
+        },
+        {
+          "family": "Natarajan",
+          "given": "Vivek"
+        }
+      ],
+      "venue": "Nature",
+      "year": 2023,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s41586-023-06291-2",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1038/s41586-023-06792-0",
+      "title": "Autonomous chemical research with large language models",
+      "authors": [
+        {
+          "family": "Boiko",
+          "given": "Daniil A."
+        },
+        {
+          "family": "MacKnight",
+          "given": "Robert"
+        },
+        {
+          "family": "Kline",
+          "given": "Ben"
+        },
+        {
+          "family": "Gomes",
+          "given": "Gabe"
+        }
+      ],
+      "venue": "Nature",
+      "year": 2023,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s41586-023-06792-0",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1038/s41597-020-0495-6",
+      "title": "PTB-XL, a large publicly available electrocardiography dataset",
+      "authors": [
+        {
+          "family": "Wagner",
+          "given": "Patrick"
+        },
+        {
+          "family": "Strodthoff",
+          "given": "Nils"
+        },
+        {
+          "family": "Bousseljot",
+          "given": "Ralf-Dieter"
+        },
+        {
+          "family": "Kreiseler",
+          "given": "Dieter"
+        },
+        {
+          "family": "Lunze",
+          "given": "Fatima I."
+        },
+        {
+          "family": "Samek",
+          "given": "Wojciech"
+        },
+        {
+          "family": "Schaeffter",
+          "given": "Tobias"
+        }
+      ],
+      "venue": "Scientific Data",
+      "year": 2020,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s41597-020-0495-6",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1061/(asce)wr.1943-5452.0001601",
+      "title": "Battle of the Leakage Detection and Isolation Methods",
+      "authors": [
+        {
+          "family": "Vrachimis",
+          "given": "Stelios G."
+        },
+        {
+          "family": "Eliades",
+          "given": "Demetrios G."
+        },
+        {
+          "family": "Taormina",
+          "given": "Riccardo"
+        },
+        {
+          "family": "Kapelan",
+          "given": "Zoran"
+        },
+        {
+          "family": "Ostfeld",
+          "given": "Avi"
+        },
+        {
+          "family": "Liu",
+          "given": "Shuming"
+        },
+        {
+          "family": "Kyriakou",
+          "given": "Marios"
+        },
+        {
+          "family": "Pavlou",
+          "given": "Pavlos"
+        },
+        {
+          "family": "Qiu",
+          "given": "Mengning"
+        },
+        {
+          "family": "Polycarpou",
+          "given": "Marios M."
+        }
+      ],
+      "venue": "Journal of Water Resources Planning and Management",
+      "year": 2022,
+      "publisher": "American Society of Civil Engineers (ASCE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1061/(asce)wr.1943-5452.0001601",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1093/nar/gkq1189",
+      "title": "CDD: a Conserved Domain Database for the functional annotation of proteins",
+      "authors": [
+        {
+          "family": "Marchler-Bauer",
+          "given": "A."
+        },
+        {
+          "family": "Lu",
+          "given": "S."
+        },
+        {
+          "family": "Anderson",
+          "given": "J. B."
+        },
+        {
+          "family": "Chitsaz",
+          "given": "F."
+        },
+        {
+          "family": "Derbyshire",
+          "given": "M. K."
+        },
+        {
+          "family": "DeWeese-Scott",
+          "given": "C."
+        },
+        {
+          "family": "Fong",
+          "given": "J. H."
+        },
+        {
+          "family": "Geer",
+          "given": "L. Y."
+        },
+        {
+          "family": "Geer",
+          "given": "R. C."
+        },
+        {
+          "family": "Gonzales",
+          "given": "N. R."
+        },
+        {
+          "family": "Gwadz",
+          "given": "M."
+        },
+        {
+          "family": "Hurwitz",
+          "given": "D. I."
+        },
+        {
+          "family": "Jackson",
+          "given": "J. D."
+        },
+        {
+          "family": "Ke",
+          "given": "Z."
+        },
+        {
+          "family": "Lanczycki",
+          "given": "C. J."
+        },
+        {
+          "family": "Lu",
+          "given": "F."
+        },
+        {
+          "family": "Marchler",
+          "given": "G. H."
+        },
+        {
+          "family": "Mullokandov",
+          "given": "M."
+        },
+        {
+          "family": "Omelchenko",
+          "given": "M. V."
+        },
+        {
+          "family": "Robertson",
+          "given": "C. L."
+        },
+        {
+          "family": "Song",
+          "given": "J. S."
+        },
+        {
+          "family": "Thanki",
+          "given": "N."
+        },
+        {
+          "family": "Yamashita",
+          "given": "R. A."
+        },
+        {
+          "family": "Zhang",
+          "given": "D."
+        },
+        {
+          "family": "Zhang",
+          "given": "N."
+        },
+        {
+          "family": "Zheng",
+          "given": "C."
+        },
+        {
+          "family": "Bryant",
+          "given": "S. H."
+        }
+      ],
+      "venue": "Nucleic Acids Research",
+      "year": 2010,
+      "publisher": "Oxford University Press (OUP)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1093/nar/gkq1189",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1093/nargab/lqaa108",
+      "title": "BRAKER2: automatic eukaryotic genome annotation with GeneMark-EP+ and AUGUSTUS supported by a protein database",
+      "authors": [
+        {
+          "family": "Brůna",
+          "given": "Tomáš"
+        },
+        {
+          "family": "Hoff",
+          "given": "Katharina J"
+        },
+        {
+          "family": "Lomsadze",
+          "given": "Alexandre"
+        },
+        {
+          "family": "Stanke",
+          "given": "Mario"
+        },
+        {
+          "family": "Borodovsky",
+          "given": "Mark"
+        }
+      ],
+      "venue": "NAR Genomics and Bioinformatics",
+      "year": 2021,
+      "publisher": "Oxford University Press (OUP)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1093/nargab/lqaa108",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/access.2017.2682323",
+      "title": "A Systematic Mapping Study of Software Development With GitHub",
+      "authors": [
+        {
+          "family": "Cosentino",
+          "given": "Valerio"
+        },
+        {
+          "family": "Canovas Izquierdo",
+          "given": "Javier L."
+        },
+        {
+          "family": "Cabot",
+          "given": "Jordi"
+        }
+      ],
+      "venue": "IEEE Access",
+      "year": 2017,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/access.2017.2682323",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/access.2023.3287654",
+      "title": "Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub",
+      "authors": [
+        {
+          "family": "Buchgeher",
+          "given": "Georg"
+        },
+        {
+          "family": "Schöberl",
+          "given": "Stefan"
+        },
+        {
+          "family": "Geist",
+          "given": "Verena"
+        },
+        {
+          "family": "Dorninger",
+          "given": "Bernhard"
+        },
+        {
+          "family": "Haindl",
+          "given": "Philipp"
+        },
+        {
+          "family": "Weinreich",
+          "given": "Rainer"
+        }
+      ],
+      "venue": "IEEE Access",
+      "year": 2023,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/access.2023.3287654",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/access.2024.3365742",
+      "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+      "authors": [
+        {
+          "family": "Raiaan",
+          "given": "Mohaimenul Azam Khan"
+        },
+        {
+          "family": "Mukta",
+          "given": "Md. Saddam Hossain"
+        },
+        {
+          "family": "Fatema",
+          "given": "Kaniz"
+        },
+        {
+          "family": "Fahad",
+          "given": "Nur Mohammad"
+        },
+        {
+          "family": "Sakib",
+          "given": "Sadman"
+        },
+        {
+          "family": "Mim",
+          "given": "Most Marufatul Jannat"
+        },
+        {
+          "family": "Ahmad",
+          "given": "Jubaer"
+        },
+        {
+          "family": "Ali",
+          "given": "Mohammed Eunus"
+        },
+        {
+          "family": "Azam",
+          "given": "Sami"
+        }
+      ],
+      "venue": "IEEE Access",
+      "year": 2024,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/access.2024.3365742",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/icsme.2018.00032",
+      "title": "How do Multiple Pull Requests Change the Same Code: A Study of Competing Pull Requests in GitHub",
+      "authors": [
+        {
+          "family": "Zhang",
+          "given": "Xin"
+        },
+        {
+          "family": "Chen",
+          "given": "Yang"
+        },
+        {
+          "family": "Gu",
+          "given": "Yongfeng"
+        },
+        {
+          "family": "Zou",
+          "given": "Weiqin"
+        },
+        {
+          "family": "Xie",
+          "given": "Xiaoyuan"
+        },
+        {
+          "family": "Jia",
+          "given": "Xiangyang"
+        },
+        {
+          "family": "Xuan",
+          "given": "Jifeng"
+        }
+      ],
+      "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+      "year": 2018,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icsme.2018.00032",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/icsme55016.2022.00029",
+      "title": "On the Use of GitHub Actions in Software Development Repositories",
+      "authors": [
+        {
+          "family": "Decan",
+          "given": "Alexandre"
+        },
+        {
+          "family": "Mens",
+          "given": "Tom"
+        },
+        {
+          "family": "Mazrae",
+          "given": "Pooya Rostami"
+        },
+        {
+          "family": "Golzadeh",
+          "given": "Mehdi"
+        }
+      ],
+      "venue": "2022 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+      "year": 2022,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icsme55016.2022.00029",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/msr.2017.62",
+      "title": "Oops, My Tests Broke the Build: An Explorative Analysis of Travis CI with GitHub",
+      "authors": [
+        {
+          "family": "Beller",
+          "given": "Moritz"
+        },
+        {
+          "family": "Gousios",
+          "given": "Georgios"
+        },
+        {
+          "family": "Zaidman",
+          "given": "Andy"
+        }
+      ],
+      "venue": "2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)",
+      "year": 2017,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/msr.2017.62",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/msr.2019.00030",
+      "title": "The Software Heritage Graph Dataset: Public Software Development Under One Roof",
+      "authors": [
+        {
+          "family": "Pietri",
+          "given": "Antoine"
+        },
+        {
+          "family": "Spinellis",
+          "given": "Diomidis"
+        },
+        {
+          "family": "Zacchiroli",
+          "given": "Stefano"
+        }
+      ],
+      "venue": "2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR)",
+      "year": 2019,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/msr.2019.00030",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/saner.2016.12",
+      "title": "When GitHub Meets CRAN: An Analysis of Inter-Repository Package Dependency Problems",
+      "authors": [
+        {
+          "family": "Decan",
+          "given": "Alexandre"
+        },
+        {
+          "family": "Mens",
+          "given": "Tom"
+        },
+        {
+          "family": "Claes",
+          "given": "Maelick"
+        },
+        {
+          "family": "Grosjean",
+          "given": "Philippe"
+        }
+      ],
+      "venue": "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",
+      "year": 2016,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/saner.2016.12",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/saner.2017.7884607",
+      "title": "Socio-technical evolution of the Ruby ecosystem in GitHub",
+      "authors": [
+        {
+          "family": "Constantinou",
+          "given": "Eleni"
+        },
+        {
+          "family": "Mens",
+          "given": "Tom"
+        }
+      ],
+      "venue": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+      "year": 2017,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/saner.2017.7884607",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/saner53432.2022.00084",
+      "title": "On the rise and fall of CI services in GitHub",
+      "authors": [
+        {
+          "family": "Golzadeh",
+          "given": "Mehdi"
+        },
+        {
+          "family": "Decan",
+          "given": "Alexandre"
+        },
+        {
+          "family": "Mens",
+          "given": "Tom"
+        }
+      ],
+      "venue": "2022 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+      "year": 2022,
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/saner53432.2022.00084",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/tse.2014.2322358",
+      "title": "Researcher Bias: The Use of Machine Learning in Software Defect Prediction",
+      "authors": [
+        {
+          "family": "Shepperd",
+          "given": "Martin"
+        },
+        {
+          "family": "Bowes",
+          "given": "David"
+        },
+        {
+          "family": "Hall",
+          "given": "Tracy"
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2014,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tse.2014.2322358",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1109/tse.2018.2836442",
+      "title": "A Comprehensive Investigation of the Role of Imbalanced Learning for Software Defect Prediction",
+      "authors": [
+        {
+          "family": "Song",
+          "given": "Qinbao"
+        },
+        {
+          "family": "Guo",
+          "given": "Yuchen"
+        },
+        {
+          "family": "Shepperd",
+          "given": "Martin"
+        }
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2019,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tse.2018.2836442",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1140/epjc/s10052-016-4271-x",
+      "title": "Search for the lepton flavour violating decay $$\\mu ^+ \\rightarrow \\mathrm {e}^+ \\gamma $$ μ + → e + γ with the full dataset of the MEG experiment",
+      "authors": [
+        {
+          "family": "Baldini",
+          "given": "A. M."
+        },
+        {
+          "family": "Bao",
+          "given": "Y."
+        },
+        {
+          "family": "Baracchini",
+          "given": "E."
+        },
+        {
+          "family": "Bemporad",
+          "given": "C."
+        },
+        {
+          "family": "Berg",
+          "given": "F."
+        },
+        {
+          "family": "Biasotti",
+          "given": "M."
+        },
+        {
+          "family": "Boca",
+          "given": "G."
+        },
+        {
+          "family": "Cascella",
+          "given": "M."
+        },
+        {
+          "family": "Cattaneo",
+          "given": "P. W."
+        },
+        {
+          "family": "Cavoto",
+          "given": "G."
+        },
+        {
+          "family": "Cei",
+          "given": "F."
+        },
+        {
+          "family": "Cerri",
+          "given": "C."
+        },
+        {
+          "family": "Chiarello",
+          "given": "G."
+        },
+        {
+          "family": "Chiri",
+          "given": "C."
+        },
+        {
+          "family": "Corvaglia",
+          "given": "A."
+        },
+        {
+          "family": "de Bari",
+          "given": "A."
+        },
+        {
+          "family": "De Gerone",
+          "given": "M."
+        },
+        {
+          "family": "Doke",
+          "given": "T."
+        },
+        {
+          "family": "D’Onofrio",
+          "given": "A."
+        },
+        {
+          "family": "Dussoni",
+          "given": "S."
+        },
+        {
+          "family": "Egger",
+          "given": "J."
+        },
+        {
+          "family": "Fujii",
+          "given": "Y."
+        },
+        {
+          "family": "Galli",
+          "given": "L."
+        },
+        {
+          "family": "Gatti",
+          "given": "F."
+        },
+        {
+          "family": "Grancagnolo",
+          "given": "F."
+        },
+        {
+          "family": "Grassi",
+          "given": "M."
+        },
+        {
+          "family": "Graziosi",
+          "given": "A."
+        },
+        {
+          "family": "Grigoriev",
+          "given": "D. N."
+        },
+        {
+          "family": "Haruyama",
+          "given": "T."
+        },
+        {
+          "family": "Hildebrandt",
+          "given": "M."
+        },
+        {
+          "family": "Hodge",
+          "given": "Z."
+        },
+        {
+          "family": "Ieki",
+          "given": "K."
+        },
+        {
+          "family": "Ignatov",
+          "given": "F."
+        },
+        {
+          "family": "Iwamoto",
+          "given": "T."
+        },
+        {
+          "family": "Kaneko",
+          "given": "D."
+        },
+        {
+          "family": "Kang",
+          "given": "T. I."
+        },
+        {
+          "family": "Kettle",
+          "given": "P.-R."
+        },
+        {
+          "family": "Khazin",
+          "given": "B. I."
+        },
+        {
+          "family": "Khomutov",
+          "given": "N."
+        },
+        {
+          "family": "Korenchenko",
+          "given": "A."
+        },
+        {
+          "family": "Kravchuk",
+          "given": "N."
+        },
+        {
+          "family": "Lim",
+          "given": "G. M. A."
+        },
+        {
+          "family": "Maki",
+          "given": "A."
+        },
+        {
+          "family": "Mihara",
+          "given": "S."
+        },
+        {
+          "family": "Molzon",
+          "given": "W."
+        },
+        {
+          "family": "Mori",
+          "given": "Toshinori"
+        },
+        {
+          "family": "Morsani",
+          "given": "F."
+        },
+        {
+          "family": "Mtchedilishvili",
+          "given": "A."
+        },
+        {
+          "family": "Mzavia",
+          "given": "D."
+        },
+        {
+          "family": "Nakaura",
+          "given": "S."
+        },
+        {
+          "family": "Nardò",
+          "given": "R."
+        },
+        {
+          "family": "Nicolò",
+          "given": "D."
+        },
+        {
+          "family": "Nishiguchi",
+          "given": "H."
+        },
+        {
+          "family": "Nishimura",
+          "given": "M."
+        },
+        {
+          "family": "Ogawa",
+          "given": "S."
+        },
+        {
+          "family": "Ootani",
+          "given": "W."
+        },
+        {
+          "family": "Orito",
+          "given": "S."
+        },
+        {
+          "family": "Panareo",
+          "given": "M."
+        },
+        {
+          "family": "Papa",
+          "given": "A."
+        },
+        {
+          "family": "Pazzi",
+          "given": "R."
+        },
+        {
+          "family": "Pepino",
+          "given": "A."
+        },
+        {
+          "family": "Piredda",
+          "given": "G."
+        },
+        {
+          "family": "Pizzigoni",
+          "given": "G."
+        },
+        {
+          "family": "Popov",
+          "given": "A."
+        },
+        {
+          "family": "Raffaelli",
+          "given": "F."
+        },
+        {
+          "family": "Renga",
+          "given": "F."
+        },
+        {
+          "family": "Ripiccini",
+          "given": "E."
+        },
+        {
+          "family": "Ritt",
+          "given": "S."
+        },
+        {
+          "family": "Rossella",
+          "given": "M."
+        },
+        {
+          "family": "Rutar",
+          "given": "G."
+        },
+        {
+          "family": "Sawada",
+          "given": "R."
+        },
+        {
+          "family": "Sergiampietri",
+          "given": "F."
+        },
+        {
+          "family": "Signorelli",
+          "given": "G."
+        },
+        {
+          "family": "Simonetta",
+          "given": "M."
+        },
+        {
+          "family": "Tassielli",
+          "given": "G. F."
+        },
+        {
+          "family": "Tenchini",
+          "given": "F."
+        },
+        {
+          "family": "Uchiyama",
+          "given": "Y."
+        },
+        {
+          "family": "Venturini",
+          "given": "M."
+        },
+        {
+          "family": "Voena",
+          "given": "C."
+        },
+        {
+          "family": "Yamamoto",
+          "given": "A."
+        },
+        {
+          "family": "Yoshida",
+          "given": "K."
+        },
+        {
+          "family": "You",
+          "given": "Z."
+        },
+        {
+          "family": "Yudin",
+          "given": "Yu. V."
+        },
+        {
+          "family": "Zanello",
+          "given": "D."
+        }
+      ],
+      "venue": "The European Physical Journal C",
+      "year": 2016,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1140/epjc/s10052-016-4271-x",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3133908",
+      "title": "DéjàVu: a map of code duplicates on GitHub",
+      "authors": [
+        {
+          "family": "Lopes",
+          "given": "Cristina V."
+        },
+        {
+          "family": "Maj",
+          "given": "Petr"
+        },
+        {
+          "family": "Martins",
+          "given": "Pedro"
+        },
+        {
+          "family": "Saini",
+          "given": "Vaibhav"
+        },
+        {
+          "family": "Yang",
+          "given": "Di"
+        },
+        {
+          "family": "Zitny",
+          "given": "Jakub"
+        },
+        {
+          "family": "Sajnani",
+          "given": "Hitesh"
+        },
+        {
+          "family": "Vitek",
+          "given": "Jan"
+        }
+      ],
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "year": 2017,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3133908",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3236024.3264598",
+      "title": "PyDriller: Python framework for mining software repositories",
+      "authors": [
+        {
+          "family": "Spadini",
+          "given": "Davide"
+        },
+        {
+          "family": "Aniche",
+          "given": "Maurício"
+        },
+        {
+          "family": "Bacchelli",
+          "given": "Alberto"
+        }
+      ],
+      "venue": "Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+      "year": 2018,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3236024.3264598",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3368089.3409746",
+      "title": "A first look at good first issues on GitHub",
+      "authors": [
+        {
+          "family": "Tan",
+          "given": "Xin"
+        },
+        {
+          "family": "Zhou",
+          "given": "Minghui"
+        },
+        {
+          "family": "Sun",
+          "given": "Zeyu"
+        }
+      ],
+      "venue": "Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+      "year": 2020,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3368089.3409746",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3442188.3445918",
+      "title": "Towards Accountability for Machine Learning Datasets: Practices from Software Engineering and Infrastructure",
+      "authors": [
+        {
+          "family": "Hutchinson",
+          "given": "Ben"
+        },
+        {
+          "family": "Smart",
+          "given": "Andrew"
+        },
+        {
+          "family": "Hanna",
+          "given": "Alex"
+        },
+        {
+          "family": "Denton",
+          "given": "Remi"
+        },
+        {
+          "family": "Greer",
+          "given": "Christina"
+        },
+        {
+          "family": "Kjartansson",
+          "given": "Oddur"
+        },
+        {
+          "family": "Barnes",
+          "given": "Parker"
+        },
+        {
+          "family": "Mitchell",
+          "given": "Margaret"
+        }
+      ],
+      "venue": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "year": 2021,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3442188.3445918",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3510003.3510116",
+      "title": "GitHub sponsors",
+      "authors": [
+        {
+          "family": "Shimada",
+          "given": "Naomichi"
+        },
+        {
+          "family": "Xiao",
+          "given": "Tao"
+        },
+        {
+          "family": "Hata",
+          "given": "Hideaki"
+        },
+        {
+          "family": "Treude",
+          "given": "Christoph"
+        },
+        {
+          "family": "Matsumoto",
+          "given": "Kenichi"
+        }
+      ],
+      "venue": "Proceedings of the 44th International Conference on Software Engineering",
+      "year": 2022,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3510003.3510116",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3520312.3534862",
+      "title": "A systematic evaluation of large language models of code",
+      "authors": [
+        {
+          "family": "Xu",
+          "given": "Frank F."
+        },
+        {
+          "family": "Alon",
+          "given": "Uri"
+        },
+        {
+          "family": "Neubig",
+          "given": "Graham"
+        },
+        {
+          "family": "Hellendoorn",
+          "given": "Vincent Josua"
+        }
+      ],
+      "venue": "Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming",
+      "year": 2022,
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3520312.3534862",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1145/3649506",
+      "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+      "authors": [
+        {
+          "family": "Yang",
+          "given": "Jingfeng"
+        },
+        {
+          "family": "Jin",
+          "given": "Hongye"
+        },
+        {
+          "family": "Tang",
+          "given": "Ruixiang"
+        },
+        {
+          "family": "Han",
+          "given": "Xiaotian"
+        },
+        {
+          "family": "Feng",
+          "given": "Qizhang"
+        },
+        {
+          "family": "Jiang",
+          "given": "Haoming"
+        },
+        {
+          "family": "Zhong",
+          "given": "Shaochen"
+        },
+        {
+          "family": "Yin",
+          "given": "Bing"
+        },
+        {
+          "family": "Hu",
+          "given": "Xia"
+        }
+      ],
+      "venue": "ACM Transactions on Knowledge Discovery from Data",
+      "year": 2024,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3649506",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1186/s40411-017-0044-y",
+      "title": "How diverse is your team? Investigating gender and nationality diversity in GitHub teams",
+      "authors": [
+        {
+          "family": "Ortu",
+          "given": "Marco"
+        },
+        {
+          "family": "Destefanis",
+          "given": "Giuseppe"
+        },
+        {
+          "family": "Counsell",
+          "given": "Steve"
+        },
+        {
+          "family": "Swift",
+          "given": "Stephen"
+        },
+        {
+          "family": "Tonelli",
+          "given": "Roberto"
+        },
+        {
+          "family": "Marchesi",
+          "given": "Michele"
+        }
+      ],
+      "venue": "Journal of Software Engineering Research and Development",
+      "year": 2017,
+      "publisher": "Sociedade Brasileira de Computacao - SB",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1186/s40411-017-0044-y",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1186/s40537-020-00379-6",
+      "title": "Performance Analysis of Intrusion Detection Systems Using a Feature Selection Method on the UNSW-NB15 Dataset",
+      "authors": [
+        {
+          "family": "Kasongo",
+          "given": "Sydney M."
+        },
+        {
+          "family": "Sun",
+          "given": "Yanxia"
+        }
+      ],
+      "venue": "Journal of Big Data",
+      "year": 2020,
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1186/s40537-020-00379-6",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1371/journal.pcbi.1006790",
+      "title": "Apollo: Democratizing genome annotation",
+      "authors": [
+        {
+          "family": "Dunn",
+          "given": "Nathan A."
+        },
+        {
+          "family": "Unni",
+          "given": "Deepak R."
+        },
+        {
+          "family": "Diesh",
+          "given": "Colin"
+        },
+        {
+          "family": "Munoz-Torres",
+          "given": "Monica"
+        },
+        {
+          "family": "Harris",
+          "given": "Nomi L."
+        },
+        {
+          "family": "Yao",
+          "given": "Eric"
+        },
+        {
+          "family": "Rasche",
+          "given": "Helena"
+        },
+        {
+          "family": "Holmes",
+          "given": "Ian H."
+        },
+        {
+          "family": "Elsik",
+          "given": "Christine G."
+        },
+        {
+          "family": "Lewis",
+          "given": "Suzanna E."
+        }
+      ],
+      "venue": "PLOS Computational Biology",
+      "year": 2019,
+      "publisher": "Public Library of Science (PLoS)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1371/journal.pcbi.1006790",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.14569/ijacsa.2019.0100538",
+      "title": "Performance Analysis of Machine Learning Techniques on Software Defect Prediction using NASA Datasets",
+      "authors": [
+        {
+          "family": "Iqbal",
+          "given": "Ahmed"
+        },
+        {
+          "family": "Aftab",
+          "given": "Shabib"
+        },
+        {
+          "family": "Ali",
+          "given": "Umair"
+        },
+        {
+          "family": "Nawaz",
+          "given": "Zahid"
+        },
+        {
+          "family": "Sana",
+          "given": "Laraib"
+        },
+        {
+          "family": "Ahmad",
+          "given": "Munir"
+        },
+        {
+          "family": "Husen",
+          "given": "Arif"
+        }
+      ],
+      "venue": "International Journal of Advanced Computer Science and Applications",
+      "year": 2019,
+      "publisher": "The Science and Information Organization",
+      "type": "journal-article",
+      "url": "https://doi.org/10.14569/ijacsa.2019.0100538",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.14722/ndss.2019.23418",
+      "title": "How Bad Can It Git? Characterizing Secret Leakage in Public GitHub Repositories",
+      "authors": [
+        {
+          "family": "Meli",
+          "given": "Michael"
+        },
+        {
+          "family": "McNiece",
+          "given": "Matthew R."
+        },
+        {
+          "family": "Reaves",
+          "given": "Bradley"
+        }
+      ],
+      "venue": "Proceedings 2019 Network and Distributed System Security Symposium",
+      "year": 2019,
+      "publisher": "Internet Society",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.14722/ndss.2019.23418",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.1609/icwsm.v8i1.14552",
+      "title": "Coding Together at Scale: GitHub as a Collaborative Social Network",
+      "authors": [
+        {
+          "family": "Lima",
+          "given": "Antonio"
+        },
+        {
+          "family": "Rossi",
+          "given": "Luca"
+        },
+        {
+          "family": "Musolesi",
+          "given": "Mirco"
+        }
+      ],
+      "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "year": 2014,
+      "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+      "type": "journal-article",
+      "url": "https://doi.org/10.1609/icwsm.v8i1.14552",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.18293/seke2023-077",
+      "title": "Practices and Challenges of Using GitHub Copilot: An Empirical Study",
+      "authors": [
+        {
+          "family": "Zhang",
+          "given": "Beiqi"
+        },
+        {
+          "family": "Liang",
+          "given": "Peng"
+        },
+        {
+          "family": "Zhou",
+          "given": "Xiyu"
+        },
+        {
+          "family": "Ahmad",
+          "given": "Aakash"
+        },
+        {
+          "family": "Waseem",
+          "given": "Muhammad"
+        }
+      ],
+      "venue": "International Conferences on Software Engineering and Knowledge Engineering",
+      "year": 2023,
+      "publisher": "KSI Research Inc.",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.18293/seke2023-077",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.18653/v1/d18-1425",
+      "title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
+      "authors": [
+        {
+          "family": "Yu",
+          "given": "Tao"
+        },
+        {
+          "family": "Zhang",
+          "given": "Rui"
+        },
+        {
+          "family": "Yang",
+          "given": "Kai"
+        },
+        {
+          "family": "Yasunaga",
+          "given": "Michihiro"
+        },
+        {
+          "family": "Wang",
+          "given": "Dongxu"
+        },
+        {
+          "family": "Li",
+          "given": "Zifan"
+        },
+        {
+          "family": "Ma",
+          "given": "James"
+        },
+        {
+          "family": "Li",
+          "given": "Irene"
+        },
+        {
+          "family": "Yao",
+          "given": "Qingning"
+        },
+        {
+          "family": "Roman",
+          "given": "Shanelle"
+        },
+        {
+          "family": "Zhang",
+          "given": "Zilin"
+        },
+        {
+          "family": "Radev",
+          "given": "Dragomir"
+        }
+      ],
+      "venue": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      "year": 2018,
+      "publisher": "Association for Computational Linguistics",
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.18653/v1/d18-1425",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.3390/metabo9070144",
+      "title": "MolNetEnhancer: Enhanced Molecular Networks by Integrating Metabolome Mining and Annotation Tools",
+      "authors": [
+        {
+          "family": "Ernst",
+          "given": "Madeleine"
+        },
+        {
+          "family": "Kang",
+          "given": "Kyo Bin"
+        },
+        {
+          "family": "Caraballo-Rodríguez",
+          "given": "Andrés Mauricio"
+        },
+        {
+          "family": "Nothias",
+          "given": "Louis-Felix"
+        },
+        {
+          "family": "Wandy",
+          "given": "Joe"
+        },
+        {
+          "family": "Chen",
+          "given": "Christopher"
+        },
+        {
+          "family": "Wang",
+          "given": "Mingxun"
+        },
+        {
+          "family": "Rogers",
+          "given": "Simon"
+        },
+        {
+          "family": "Medema",
+          "given": "Marnix H."
+        },
+        {
+          "family": "Dorrestein",
+          "given": "Pieter C."
+        },
+        {
+          "family": "van der Hooft",
+          "given": "Justin J.J."
+        }
+      ],
+      "venue": "Metabolites",
+      "year": 2019,
+      "publisher": "MDPI AG",
+      "type": "journal-article",
+      "url": "https://doi.org/10.3390/metabo9070144",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.3390/s19112548",
+      "title": "Recent Advances in Pipeline Monitoring and Oil Leakage Detection Technologies: Principles and Approaches",
+      "authors": [
+        {
+          "family": "Adegboye",
+          "given": "Mutiu Adesina"
+        },
+        {
+          "family": "Fung",
+          "given": "Wai-Keung"
+        },
+        {
+          "family": "Karnik",
+          "given": "Aditya"
+        }
+      ],
+      "venue": "Sensors",
+      "year": 2019,
+      "publisher": "MDPI AG",
+      "type": "journal-article",
+      "url": "https://doi.org/10.3390/s19112548",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    },
+    {
+      "doi": "10.7287/peerj.preprints.2617v1",
+      "title": "Curating GitHub for engineered software projects",
+      "authors": [
+        {
+          "family": "Munaiah",
+          "given": "Nuthan"
+        },
+        {
+          "family": "Kroh",
+          "given": "Steven"
+        },
+        {
+          "family": "Cabrey",
+          "given": "Craig"
+        },
+        {
+          "family": "Nagappan",
+          "given": "Meiyappan"
+        }
+      ],
+      "venue": null,
+      "year": 2016,
+      "publisher": "PeerJ",
+      "type": "posted-content",
+      "url": "https://doi.org/10.7287/peerj.preprints.2617v1",
+      "area_hint": "auto",
+      "note": "from_search",
+      "verified": "YES"
+    }
+  ],
+  "discarded": [
+    {
+      "doi": "10.1007/s10664-017-9512-2",
+      "area_hint": "sampling",
+      "note": "Munaiah Curating GitHub / RepoReapers",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.1016/j.infsoft.2015.02.007",
+      "area_hint": "reporting",
+      "note": "Petersen systematic maps",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.1145/2382535.2382537",
+      "area_hint": "dataset_contamination",
+      "note": "Kaufman alt DOI",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.48550/arxiv.2306.05685",
+      "area_hint": "llm_annotation",
+      "note": "Zheng MT-Bench arxiv DOI",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.4230/oasics.icpec.2025.4",
+      "area_hint": "auto",
+      "note": "from_search",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.48550/arxiv.2107.03374",
+      "area_hint": "auto",
+      "note": "from_search",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.48550/arxiv.2206.04615",
+      "area_hint": "auto",
+      "note": "from_search",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.48550/arxiv.2302.11382",
+      "area_hint": "auto",
+      "note": "from_search",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.48550/arxiv.2305.01210",
+      "area_hint": "auto",
+      "note": "from_search",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    },
+    {
+      "doi": "10.48550/arxiv.2308.10620",
+      "area_hint": "auto",
+      "note": "from_search",
+      "reason": "HTTP Error 404: Not Found",
+      "verified": "NO"
+    }
+  ]
+}

@@ -1,0 +1,2336 @@
+[
+  {
+    "query": "Curating GitHub for engineered software projects",
+    "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+    "year": 2020,
+    "doi": "10.1038/s41586-020-2308-7",
+    "venue": "Nature",
+    "cited_by": 10237,
+    "authors": [
+      "Konrad J. Karczewski",
+      "Laurent C. Francioli",
+      "Grace Tiao",
+      "Beryl B. Cummings",
+      "Jessica Alföldi"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3029661147"
+  },
+  {
+    "query": "Curating GitHub for engineered software projects",
+    "title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "year": 2017,
+    "doi": "10.1186/s12859-017-1934-z",
+    "venue": "BMC Bioinformatics",
+    "cited_by": 6289,
+    "authors": [
+      "Curtis Rueden",
+      "Johannes Schindelin",
+      "Mark Hiner",
+      "Barry E. DeZonia",
+      "Alison E. Walter"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2580035316"
+  },
+  {
+    "query": "Curating GitHub for engineered software projects",
+    "title": "The Gene Ontology resource: enriching a GOld mine",
+    "year": 2020,
+    "doi": "10.1093/nar/gkaa1113",
+    "venue": "Nucleic Acids Research",
+    "cited_by": 3918,
+    "authors": [
+      "Seth Carbon",
+      "Eric Douglass",
+      "Benjamin M. Good",
+      "Deepak Unni",
+      "Nomi L. Harris"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3112600195"
+  },
+  {
+    "query": "Curating GitHub for engineered software projects",
+    "title": "COVID-19 vaccine BNT162b1 elicits human antibody and TH1 T cell responses",
+    "year": 2020,
+    "doi": "10.1038/s41586-020-2814-7",
+    "venue": "Nature",
+    "cited_by": 2058,
+    "authors": [
+      "Uğur Şahin",
+      "Alexander Muik",
+      "Evelyna Derhovanessian",
+      "Isabel Vogler",
+      "Lena M. Kranz"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3090844627"
+  },
+  {
+    "query": "Curating GitHub for engineered software projects",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "year": 2022,
+    "doi": "10.1109/access.2021.3140175",
+    "venue": "IEEE Access",
+    "cited_by": 1784,
+    "authors": [
+      "Sangmin Park",
+      "Young‐Gab Kim"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4206484811"
+  },
+  {
+    "query": "Promises and perils of mining GitHub",
+    "title": "The promises and perils of mining GitHub",
+    "year": 2014,
+    "doi": "10.1145/2597073.2597074",
+    "venue": null,
+    "cited_by": 764,
+    "authors": [
+      "Eirini Kalliamvakou",
+      "Georgios Gousios",
+      "Kelly Blincoe",
+      "Leif Singer",
+      "Daniel M. Germán"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2140952846"
+  },
+  {
+    "query": "Promises and perils of mining GitHub",
+    "title": "Generative artificial intelligence in supply chain and operations management: a capability-based framework for analysis and implementation",
+    "year": 2024,
+    "doi": "10.1080/00207543.2024.2309309",
+    "venue": "International Journal of Production Research",
+    "cited_by": 373,
+    "authors": [
+      "Ilya Jackson",
+      "Dmitry Ivanov",
+      "Alexandre Dolgui",
+      "Jafar Namdar"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4391403992"
+  },
+  {
+    "query": "Promises and perils of mining GitHub",
+    "title": "Dynamic Malware Analysis in the Modern Era—A State of the Art Survey",
+    "year": 2019,
+    "doi": "10.1145/3329786",
+    "venue": "ACM Computing Surveys",
+    "cited_by": 373,
+    "authors": [
+      "Ori Or-Meir",
+      "Nir Nissim",
+      "Yuval Elovici",
+      "Lior Rokach"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2972552958"
+  },
+  {
+    "query": "Promises and perils of mining GitHub",
+    "title": "Artificial Intelligence and Machine Learning Technology Driven Modern Drug Discovery and Development",
+    "year": 2023,
+    "doi": "10.3390/ijms24032026",
+    "venue": "International Journal of Molecular Sciences",
+    "cited_by": 313,
+    "authors": [
+      "Chayna Sarkar",
+      "Biswadeep Das",
+      "Vikram Singh Rawat",
+      "Julie Birdie Wahlang",
+      "Arvind Nongpiur"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4317625850"
+  },
+  {
+    "query": "Promises and perils of mining GitHub",
+    "title": "An in-depth study of the promises and perils of mining GitHub",
+    "year": 2015,
+    "doi": "10.1007/s10664-015-9393-5",
+    "venue": "Empirical Software Engineering",
+    "cited_by": 278,
+    "authors": [
+      "Eirini Kalliamvakou",
+      "Georgios Gousios",
+      "Kelly Blincoe",
+      "Leif Singer",
+      "Daniel M. Germán"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1914969610"
+  },
+  {
+    "query": "sampling in software engineering research Baltes",
+    "title": "Life course epidemiology: Figure 1",
+    "year": 2003,
+    "doi": "10.1136/jech.57.10.778",
+    "venue": "Journal of Epidemiology & Community Health",
+    "cited_by": 2012,
+    "authors": [
+      "Diana Kuh",
+      "Y Ben-Shlomo",
+      "J Lynch",
+      "J Hallqvist",
+      "C Power"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2043489981"
+  },
+  {
+    "query": "sampling in software engineering research Baltes",
+    "title": "A comprehensive AI policy education framework for university teaching and learning",
+    "year": 2023,
+    "doi": "10.1186/s41239-023-00408-3",
+    "venue": "International Journal of Educational Technology in Higher Education",
+    "cited_by": 1212,
+    "authors": [
+      "Cecilia Ka Yuk Chan"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4383312437"
+  },
+  {
+    "query": "sampling in software engineering research Baltes",
+    "title": "Artificial intelligence in supply chain management: A systematic literature review",
+    "year": 2020,
+    "doi": "10.1016/j.jbusres.2020.09.009",
+    "venue": "Journal of Business Research",
+    "cited_by": 930,
+    "authors": [
+      "Reza Toorajipour",
+      "Vahid Sohrabpour",
+      "Ali Nazarpour",
+      "Pejvak Oghazi",
+      "Maria Fischl"
+    ],
+    "type": "review",
+    "oa_id": "https://openalex.org/W3089252064"
+  },
+  {
+    "query": "sampling in software engineering research Baltes",
+    "title": "Association of Age-Related Hearing Loss With Cognitive Function, Cognitive Impairment, and Dementia",
+    "year": 2017,
+    "doi": "10.1001/jamaoto.2017.2513",
+    "venue": "JAMA Otolaryngology–Head & Neck Surgery",
+    "cited_by": 929,
+    "authors": [
+      "David G. Loughrey",
+      "Michelle E. Kelly",
+      "George A. Kelley",
+      "Sabina Brennan",
+      "Brian Lawlor"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2775253012"
+  },
+  {
+    "query": "sampling in software engineering research Baltes",
+    "title": "4D flow cardiovascular magnetic resonance consensus statement",
+    "year": 2015,
+    "doi": "10.1186/s12968-015-0174-5",
+    "venue": "Journal of Cardiovascular Magnetic Resonance",
+    "cited_by": 877,
+    "authors": [
+      "Petter Dyverfeldt",
+      "Malenka M. Bissell",
+      "Alex J. Barker",
+      "Ann F. Bolger",
+      "Carl‐Johan Carlhäll"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2112795878"
+  },
+  {
+    "query": "World of Code Ma",
+    "title": "Global cancer statistics",
+    "year": 2011,
+    "doi": "10.3322/caac.20107",
+    "venue": "CA A Cancer Journal for Clinicians",
+    "cited_by": 55073,
+    "authors": [
+      "Ahmedin Jemal",
+      "Freddie Bray",
+      "Jacques Ferlay",
+      "Elizabeth Ward",
+      "David Forman"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2106787323"
+  },
+  {
+    "query": "World of Code Ma",
+    "title": "WGCNA: an R package for weighted correlation network analysis",
+    "year": 2008,
+    "doi": "10.1186/1471-2105-9-559",
+    "venue": "BMC Bioinformatics",
+    "cited_by": 29512,
+    "authors": [
+      "Peter Langfelder",
+      "Steve Horvath"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1966327575"
+  },
+  {
+    "query": "World of Code Ma",
+    "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+    "year": 2009,
+    "doi": "10.1088/0953-8984/21/39/395502",
+    "venue": "Journal of Physics Condensed Matter",
+    "cited_by": 28973,
+    "authors": [
+      "Paolo Giannozzi",
+      "Stefano Baroni",
+      "Nicola Bonini",
+      "Matteo Calandra",
+      "Roberto Car"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2120145199"
+  },
+  {
+    "query": "World of Code Ma",
+    "title": "Global cancer statistics, 2012",
+    "year": 2015,
+    "doi": "10.3322/caac.21262",
+    "venue": "CA A Cancer Journal for Clinicians",
+    "cited_by": 27386,
+    "authors": [
+      "Lindsey A. Torre",
+      "Freddie Bray",
+      "Rebecca L. Siegel",
+      "Jacques Ferlay",
+      "Joannie Lortet‐Tieulent"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2917837889"
+  },
+  {
+    "query": "World of Code Ma",
+    "title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers",
+    "year": 2015,
+    "doi": "10.1016/j.softx.2015.06.001",
+    "venue": "SoftwareX",
+    "cited_by": 27228,
+    "authors": [
+      "M Abraham",
+      "Teemu J. Murtola",
+      "Roland Schulz",
+      "Szilárd Páll",
+      "Jeremy C. Smith"
+    ],
+    "type": "software-paper",
+    "oa_id": "https://openalex.org/W1031578623"
+  },
+  {
+    "query": "DéjàVu code duplicates GitHub Lopes",
+    "title": "DéjàVu: a map of code duplicates on GitHub",
+    "year": 2017,
+    "doi": "10.1145/3133908",
+    "venue": "Proceedings of the ACM on Programming Languages",
+    "cited_by": 182,
+    "authors": [
+      "Cristina Videira Lopes",
+      "Petr Maj",
+      "Pedro Martins",
+      "Vaibhav Saini",
+      "Di Yang"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2762844179"
+  },
+  {
+    "query": "DéjàVu code duplicates GitHub Lopes",
+    "title": "Uncovering Similar but Different Packages in PyPI and Potential Security Threats",
+    "year": 2026,
+    "doi": null,
+    "venue": "arXiv (Cornell University)",
+    "cited_by": 0,
+    "authors": [
+      "Seong-Jin Park",
+      "Soojin Han",
+      "Seunghoon Woo"
+    ],
+    "type": "preprint",
+    "oa_id": "https://openalex.org/W7166900428"
+  },
+  {
+    "query": "DéjàVu code duplicates GitHub Lopes",
+    "title": "No Accidental Software Agent First Canonical Code for Human Code Entropy Reduction and 30 to 500 times Lower Frontier Model Requirements",
+    "year": 2026,
+    "doi": null,
+    "venue": "arXiv (Cornell University)",
+    "cited_by": 0,
+    "authors": [
+      "Jepson Taylor"
+    ],
+    "type": "preprint",
+    "oa_id": "https://openalex.org/W7164973715"
+  },
+  {
+    "query": "DéjàVu code duplicates GitHub Lopes",
+    "title": "Project-wise Comparison of Software Birthmarks Using Weighted Partial Similarity",
+    "year": 2026,
+    "doi": null,
+    "venue": "arXiv (Cornell University)",
+    "cited_by": 0,
+    "authors": [
+      "Nikolay Fedorov",
+      "Akito Monden",
+      "Hiroki Inayoshi",
+      "Haruaki Tamada",
+      "Masateru Tsunoda"
+    ],
+    "type": "preprint",
+    "oa_id": "https://openalex.org/W7166252892"
+  },
+  {
+    "query": "threats to validity software engineering Ampatzoglou",
+    "title": "A systematic mapping study on technical debt and its management",
+    "year": 2014,
+    "doi": "10.1016/j.jss.2014.12.027",
+    "venue": "Journal of Systems and Software",
+    "cited_by": 736,
+    "authors": [
+      "Zengyang Li",
+      "Paris Avgeriou",
+      "Peng Liang"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2028836139"
+  },
+  {
+    "query": "threats to validity software engineering Ampatzoglou",
+    "title": "Tailored gamification in education: A literature review and future agenda",
+    "year": 2022,
+    "doi": "10.1007/s10639-022-11122-4",
+    "venue": "Education and Information Technologies",
+    "cited_by": 318,
+    "authors": [
+      "Wilk Oliveira",
+      "Juho Hamari",
+      "Lei Shi",
+      "Armando M. Toda",
+      "Luiz Rodrigues"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4293060971"
+  },
+  {
+    "query": "threats to validity software engineering Ampatzoglou",
+    "title": "Identifying, categorizing and mitigating threats to validity in software engineering secondary studies",
+    "year": 2018,
+    "doi": "10.1016/j.infsof.2018.10.006",
+    "venue": "Information and Software Technology",
+    "cited_by": 294,
+    "authors": [
+      "Apostolos Ampatzoglou",
+      "Stamatia Bibi",
+      "Paris Avgeriou",
+      "Marijn Verbeek",
+      "Alexander Chatzigeorgiou"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2897889469"
+  },
+  {
+    "query": "threats to validity software engineering Ampatzoglou",
+    "title": "Measuring and Monitoring Technical Debt",
+    "year": 2011,
+    "doi": "10.1016/b978-0-12-385512-1.00002-5",
+    "venue": "Advances in computers",
+    "cited_by": 218,
+    "authors": [
+      "Carolyn Seaman",
+      "Yuepu Guo"
+    ],
+    "type": "book-chapter",
+    "oa_id": "https://openalex.org/W140915724"
+  },
+  {
+    "query": "threats to validity software engineering Ampatzoglou",
+    "title": "Artificial intelligence for literature reviews: opportunities and challenges",
+    "year": 2024,
+    "doi": "10.1007/s10462-024-10902-3",
+    "venue": "Artificial Intelligence Review",
+    "cited_by": 202,
+    "authors": [
+      "F. J. Bolaños",
+      "Angelo A. Salatino",
+      "Francesco Osborne",
+      "Enrico Motta"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4401667275"
+  },
+  {
+    "query": "threats to validity mining software repositories Vidoni",
+    "title": "Self-admitted technical debt in R: detection and causes",
+    "year": 2022,
+    "doi": "10.1007/s10515-022-00358-6",
+    "venue": "Automated Software Engineering",
+    "cited_by": 27,
+    "authors": [
+      "Rishab Sharma",
+      "Ramin Shahbazi",
+      "Fatemeh H. Fard",
+      "Zadia Codabux",
+      "Melina Vidoni"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4293080012"
+  },
+  {
+    "query": "threats to validity mining software repositories Vidoni",
+    "title": "The concept of collaborative engineering: a systematic literature review",
+    "year": 2022,
+    "doi": "10.1080/21693277.2022.2133856",
+    "venue": "Production & Manufacturing Research",
+    "cited_by": 19,
+    "authors": [
+      "Leonilde Varela",
+      "Goran D. Putnik",
+      "Fernando Romero"
+    ],
+    "type": "review",
+    "oa_id": "https://openalex.org/W4308203383"
+  },
+  {
+    "query": "threats to validity mining software repositories Vidoni",
+    "title": "Asking about Technical Debt: Characteristics and Automatic Identification of Technical Debt Questions on Stack Overflow",
+    "year": 2022,
+    "doi": "10.1145/3544902.3546245",
+    "venue": null,
+    "cited_by": 14,
+    "authors": [
+      "Nicholas Kozanidis",
+      "Roberto Verdecchia",
+      "Emitzá Guzmán"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W4296422515"
+  },
+  {
+    "query": "threats to validity mining software repositories Vidoni",
+    "title": "Insights into software development approaches: mining Q &amp;A repositories",
+    "year": 2023,
+    "doi": "10.1007/s10664-023-10417-5",
+    "venue": "Empirical Software Engineering",
+    "cited_by": 13,
+    "authors": [
+      "Arif Ali Khan",
+      "Javed Ali Khan",
+      "Muhammad Azeem Akbar",
+      "Peng Zhou",
+      "Mahdi Fahmideh"
+    ],
+    "type": "book-chapter",
+    "oa_id": "https://openalex.org/W4388945681"
+  },
+  {
+    "query": "threats to validity mining software repositories Vidoni",
+    "title": "Using Architecture Decision Records in Open Source Projects—An MSR Study on GitHub",
+    "year": 2023,
+    "doi": "10.1109/access.2023.3287654",
+    "venue": "IEEE Access",
+    "cited_by": 12,
+    "authors": [
+      "Georg Buchgeher",
+      "Stefan Schöberl",
+      "Verena Geist",
+      "Bernhard Dorninger",
+      "Philipp Haindl"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4381163551"
+  },
+  {
+    "query": "ACM SIGSOFT Empirical Standards Ralph",
+    "title": "What happens when software developers are (un)happy",
+    "year": 2018,
+    "doi": "10.1016/j.jss.2018.02.041",
+    "venue": "Journal of Systems and Software",
+    "cited_by": 247,
+    "authors": [
+      "Daniel Graziotin",
+      "Fabian Fagerholm",
+      "Xiaofeng Wang",
+      "Pekka Abrahamsson"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2733560047"
+  },
+  {
+    "query": "ACM SIGSOFT Empirical Standards Ralph",
+    "title": "A Tale of Two Cities: Software Developers Working from Home during the COVID-19 Pandemic",
+    "year": 2021,
+    "doi": "10.1145/3487567",
+    "venue": "ACM Transactions on Software Engineering and Methodology",
+    "cited_by": 213,
+    "authors": [
+      "Denae Ford",
+      "Margaret‐Anne Storey",
+      "Thomas Zimmermann",
+      "Christian Bird",
+      "Sonia Jaffe"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3081249378"
+  },
+  {
+    "query": "ACM SIGSOFT Empirical Standards Ralph",
+    "title": "Trade-offs between Distributed Ledger Technology Characteristics",
+    "year": 2020,
+    "doi": "10.1145/3379463",
+    "venue": "ACM Computing Surveys",
+    "cited_by": 168,
+    "authors": [
+      "Niclas Kannengießer",
+      "Sebastian Lins",
+      "Tobias Dehling",
+      "Ali Sunyaev"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3029501235"
+  },
+  {
+    "query": "ACM SIGSOFT Empirical Standards Ralph",
+    "title": "Navigating the Complexity of Generative AI Adoption in Software Engineering",
+    "year": 2024,
+    "doi": "10.1145/3652154",
+    "venue": "ACM Transactions on Software Engineering and Methodology",
+    "cited_by": 166,
+    "authors": [
+      "Daniel Russo"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4393278146"
+  },
+  {
+    "query": "ACM SIGSOFT Empirical Standards Ralph",
+    "title": "Recommending adaptive changes for framework evolution",
+    "year": 2008,
+    "doi": "10.1145/1368088.1368154",
+    "venue": null,
+    "cited_by": 156,
+    "authors": [
+      "Barthélémy Dagenais",
+      "Martin P. Robillard"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2103188316"
+  },
+  {
+    "query": "ChatGPT outperforms crowd-workers Gilardi",
+    "title": "Generative AI",
+    "year": 2023,
+    "doi": "10.1007/s12599-023-00834-7",
+    "venue": "Business & Information Systems Engineering",
+    "cited_by": 1234,
+    "authors": [
+      "Stefan Feuerriegel",
+      "Jochen Hartmann",
+      "Christian Janiesch",
+      "Patrick Zschech"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4386693657"
+  },
+  {
+    "query": "ChatGPT outperforms crowd-workers Gilardi",
+    "title": "ChatGPT outperforms crowd workers for text-annotation tasks",
+    "year": 2023,
+    "doi": "10.1073/pnas.2305016120",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "cited_by": 984,
+    "authors": [
+      "Fabrizio Gilardi",
+      "Meysam Alizadeh",
+      "Maël Kubli"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4384662964"
+  },
+  {
+    "query": "ChatGPT outperforms crowd-workers Gilardi",
+    "title": "Visual Instruction Tuning",
+    "year": 2023,
+    "doi": "10.48550/arxiv.2304.08485",
+    "venue": "arXiv (Cornell University)",
+    "cited_by": 686,
+    "authors": [
+      "Haotian Liu",
+      "Chunyuan Li",
+      "Qingyang Wu",
+      "Yong Jae Lee"
+    ],
+    "type": "preprint",
+    "oa_id": "https://openalex.org/W4366330503"
+  },
+  {
+    "query": "ChatGPT outperforms crowd-workers Gilardi",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "year": 2023,
+    "doi": "10.48550/arxiv.2306.05685",
+    "venue": "arXiv (Cornell University)",
+    "cited_by": 469,
+    "authors": [
+      "Zheng, Lianmin",
+      "Wei-Lin Chiang",
+      "Ying Sheng",
+      "Siyuan Zhuang",
+      "Zhanghao Wu"
+    ],
+    "type": "preprint",
+    "oa_id": "https://openalex.org/W4380353763"
+  },
+  {
+    "query": "ChatGPT outperforms crowd-workers Gilardi",
+    "title": "Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
+    "year": 2024,
+    "doi": "10.1145/3649506",
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "cited_by": 469,
+    "authors": [
+      "Jingfeng Yang",
+      "Hongye Jin",
+      "Ruixiang Tang",
+      "Xiaotian Han",
+      "Qizhang Feng"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4392240262"
+  },
+  {
+    "query": "LLM as a judge Zheng",
+    "title": "Social cognition and the brain: A meta‐analysis",
+    "year": 2008,
+    "doi": "10.1002/hbm.20547",
+    "venue": "Human Brain Mapping",
+    "cited_by": 1824,
+    "authors": [
+      "Frank Van Overwalle"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2118796430"
+  },
+  {
+    "query": "LLM as a judge Zheng",
+    "title": "A Survey of Large Language Models",
+    "year": 2026,
+    "doi": "10.1007/s11704-026-60308-3",
+    "venue": "Frontiers of Computer Science",
+    "cited_by": 1420,
+    "authors": [
+      "Wayne Xin Zhao",
+      "Kun Zhou",
+      "Junyi Li",
+      "Tianyi Tang",
+      "Zican Dong"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4362515116"
+  },
+  {
+    "query": "LLM as a judge Zheng",
+    "title": "A survey on large language model based autonomous agents",
+    "year": 2024,
+    "doi": "10.1007/s11704-024-40231-1",
+    "venue": "Frontiers of Computer Science",
+    "cited_by": 1270,
+    "authors": [
+      "Lei Wang",
+      "Chen Ma",
+      "Xueyang Feng",
+      "Zeyu Zhang",
+      "Hao Yang"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4393065402"
+  },
+  {
+    "query": "LLM as a judge Zheng",
+    "title": "Prediction and prevention of the next pandemic zoonosis",
+    "year": 2012,
+    "doi": "10.1016/s0140-6736(12)61684-5",
+    "venue": "The Lancet",
+    "cited_by": 1088,
+    "authors": [
+      "Stephen S. Morse",
+      "Jonna A. K. Mazet",
+      "Mark Woolhouse",
+      "Colin R. Parrish",
+      "Dennis Carroll"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2098459942"
+  },
+  {
+    "query": "LLM as a judge Zheng",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "year": 2024,
+    "doi": "10.1162/tacl_a_00638",
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "cited_by": 1048,
+    "authors": [
+      "Nelson F. Liu",
+      "Kevin Lin",
+      "John Hewitt",
+      "Ashwin Paranjape",
+      "Michele Bevilacqua"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4391876619"
+  },
+  {
+    "query": "data leakage software engineering",
+    "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+    "year": 2013,
+    "doi": "10.1016/j.future.2013.01.010",
+    "venue": "Future Generation Computer Systems",
+    "cited_by": 12022,
+    "authors": [
+      "Jayavardhana Gubbi",
+      "Rajkumar Buyya",
+      "Slaven Marusic",
+      "Marimuthu Palaniswami"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2111619626"
+  },
+  {
+    "query": "data leakage software engineering",
+    "title": "<i>Planck</i>2015 results",
+    "year": 2016,
+    "doi": "10.1051/0004-6361/201525830",
+    "venue": "Astronomy and Astrophysics",
+    "cited_by": 10691,
+    "authors": [
+      "P. A. R. Ade",
+      "N. Aghanim",
+      "M. Arnaud",
+      "M. Ashdown",
+      "J. Aumont"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4292875581"
+  },
+  {
+    "query": "data leakage software engineering",
+    "title": "What Will 5G Be?",
+    "year": 2014,
+    "doi": "10.1109/jsac.2014.2328098",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "cited_by": 8203,
+    "authors": [
+      "Jeffrey G. Andrews",
+      "Stefano Buzzi",
+      "Wan Choi",
+      "Stephen V. Hanly",
+      "Angel Lozano"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2054692642"
+  },
+  {
+    "query": "data leakage software engineering",
+    "title": "Planck 2015 results",
+    "year": 2016,
+    "doi": "10.17863/cam.32861",
+    "venue": "Nottingham ePrints (University of Nottingham)",
+    "cited_by": 5476,
+    "authors": [
+      "Ade, PAR",
+      "N. Aghanim",
+      "M. Arnaud",
+      "M. Ashdown",
+      "J. Aumont"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1909359706"
+  },
+  {
+    "query": "data leakage software engineering",
+    "title": "The CMS experiment at the CERN LHC",
+    "year": 2008,
+    "doi": "10.1088/1748-0221/3/08/s08004",
+    "venue": "Journal of Instrumentation",
+    "cited_by": 5464,
+    "authors": [
+      "S. Chatrchyan",
+      "G. Hmayakyan",
+      "V. Khachatryan",
+      "A. M. Sirunyan",
+      "W. Adam"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2151512268"
+  },
+  {
+    "query": "dataset contamination large language models",
+    "title": "WGCNA: an R package for weighted correlation network analysis",
+    "year": 2008,
+    "doi": "10.1186/1471-2105-9-559",
+    "venue": "BMC Bioinformatics",
+    "cited_by": 29512,
+    "authors": [
+      "Peter Langfelder",
+      "Steve Horvath"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1966327575"
+  },
+  {
+    "query": "dataset contamination large language models",
+    "title": "A scaling normalization method for differential expression analysis of RNA-seq data",
+    "year": 2010,
+    "doi": "10.1186/gb-2010-11-3-r25",
+    "venue": "Genome biology",
+    "cited_by": 8620,
+    "authors": [
+      "Mark D. Robinson",
+      "Alicia Oshlack"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2107018762"
+  },
+  {
+    "query": "dataset contamination large language models",
+    "title": "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control",
+    "year": 2007,
+    "doi": "10.1523/jneurosci.5587-06.2007",
+    "venue": "Journal of Neuroscience",
+    "cited_by": 7569,
+    "authors": [
+      "William W. Seeley",
+      "Vinod Menon",
+      "Alan F. Schatzberg",
+      "Jennifer Keller",
+      "Gary H. Glover"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2116658855"
+  },
+  {
+    "query": "dataset contamination large language models",
+    "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+    "year": 2024,
+    "doi": "10.1016/s0140-6736(24)00757-8",
+    "venue": "The Lancet",
+    "cited_by": 4603,
+    "authors": [
+      "Masayuki Teramoto",
+      "Damian Santomauro",
+      "Amirali Aali",
+      "Yohannes Abate",
+      "Cristiana Abbafati"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4394894573"
+  },
+  {
+    "query": "dataset contamination large language models",
+    "title": "Physical distancing, face masks, and eye protection to prevent person-to-person transmission of SARS-CoV-2 and COVID-19: a systematic review and meta-analysis",
+    "year": 2020,
+    "doi": "10.1016/s0140-6736(20)31142-9",
+    "venue": "The Lancet",
+    "cited_by": 4089,
+    "authors": [
+      "Derek K. Chu",
+      "Elie A Akl",
+      "Stephanie Duda",
+      "Karla Solo",
+      "Sally Yaacoub"
+    ],
+    "type": "review",
+    "oa_id": "https://openalex.org/W3032742287"
+  },
+  {
+    "query": "Sampling GitHub repositories MSR Dabic",
+    "title": "On the Use of GitHub Actions in Software Development Repositories",
+    "year": 2022,
+    "doi": "10.1109/icsme55016.2022.00029",
+    "venue": null,
+    "cited_by": 61,
+    "authors": [
+      "Alexandre Decan",
+      "Tom Mens",
+      "Pooya Rostami Mazrae",
+      "Mehdi Golzadeh"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W4312824631"
+  },
+  {
+    "query": "Sampling GitHub repositories MSR Dabic",
+    "title": "Just-in-time software defect prediction using deep temporal convolutional networks",
+    "year": 2021,
+    "doi": "10.1007/s00521-021-06659-3",
+    "venue": "Neural Computing and Applications",
+    "cited_by": 28,
+    "authors": [
+      "Pasquale Ardimento",
+      "Lerina Aversano",
+      "Mario Luca Bernardi",
+      "Marta Cimitile",
+      "Martina Iammarino"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3211813532"
+  },
+  {
+    "query": "Sampling GitHub repositories MSR Dabic",
+    "title": "On the outdatedness of workflows in the GitHub Actions ecosystem",
+    "year": 2023,
+    "doi": "10.1016/j.jss.2023.111827",
+    "venue": "Journal of Systems and Software",
+    "cited_by": 21,
+    "authors": [
+      "Alexandre Decan",
+      "Tom Mens",
+      "Hassan Onsori Delicheh"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4386171395"
+  },
+  {
+    "query": "Sampling GitHub repositories MSR Dabic",
+    "title": "On the accuracy of bot detection techniques",
+    "year": 2022,
+    "doi": "10.1145/3528228.3528406",
+    "venue": null,
+    "cited_by": 15,
+    "authors": [
+      "Mehdi Golzadeh",
+      "Alexandre Decan",
+      "Natarajan Chidambaram"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W4312817695"
+  },
+  {
+    "query": "Sampling GitHub repositories MSR Dabic",
+    "title": "State‐of‐the‐practice in quality assurance in Java‐based open source software development",
+    "year": 2024,
+    "doi": "10.1002/spe.3321",
+    "venue": "Software Practice and Experience",
+    "cited_by": 14,
+    "authors": [
+      "Ali Khatami",
+      "Andy Zaidman"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4392375699"
+  },
+  {
+    "query": "GHTorrent Gousios",
+    "title": "Review of Deep Learning Algorithms and Architectures",
+    "year": 2019,
+    "doi": "10.1109/access.2019.2912200",
+    "venue": "IEEE Access",
+    "cited_by": 1847,
+    "authors": [
+      "Ajay Shrestha",
+      "Ausif Mahmood"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2942231644"
+  },
+  {
+    "query": "GHTorrent Gousios",
+    "title": "PyDriller: Python framework for mining software repositories",
+    "year": 2018,
+    "doi": "10.1145/3236024.3264598",
+    "venue": null,
+    "cited_by": 296,
+    "authors": [
+      "Davide Spadini",
+      "Maurício Aniche",
+      "Alberto Bacchelli"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2899407111"
+  },
+  {
+    "query": "GHTorrent Gousios",
+    "title": "Usage, costs, and benefits of continuous integration in open-source projects",
+    "year": 2016,
+    "doi": "10.1145/2970276.2970358",
+    "venue": null,
+    "cited_by": 292,
+    "authors": [
+      "Michael Hilton",
+      "Timothy Tunnell",
+      "Kai Huang",
+      "Darko Marinov",
+      "Danny Dig"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2347053969"
+  },
+  {
+    "query": "GHTorrent Gousios",
+    "title": "Analyzing the State of Static Analysis: A Large-Scale Evaluation in Open Source Software",
+    "year": 2016,
+    "doi": "10.1109/saner.2016.105",
+    "venue": null,
+    "cited_by": 211,
+    "authors": [
+      "Moritz Beller",
+      "Radjino Bholanath",
+      "Shane McIntosh",
+      "Andy Zaidman"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W814172419"
+  },
+  {
+    "query": "GHTorrent Gousios",
+    "title": "DéjàVu: a map of code duplicates on GitHub",
+    "year": 2017,
+    "doi": "10.1145/3133908",
+    "venue": "Proceedings of the ACM on Programming Languages",
+    "cited_by": 182,
+    "authors": [
+      "Cristina Videira Lopes",
+      "Petr Maj",
+      "Pedro Martins",
+      "Vaibhav Saini",
+      "Di Yang"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2762844179"
+  },
+  {
+    "query": "Software Heritage Di Cosmo",
+    "title": "Spaceborne, UAV and ground-based remote sensing techniques for landslide mapping, monitoring and early warning",
+    "year": 2017,
+    "doi": "10.1186/s40677-017-0073-1",
+    "venue": "Geoenvironmental Disasters",
+    "cited_by": 364,
+    "authors": [
+      "Nicola Casagli",
+      "William Frodella",
+      "Stefano Morelli",
+      "Veronica Tofani",
+      "Andrea Ciampalini"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2594847594"
+  },
+  {
+    "query": "Software Heritage Di Cosmo",
+    "title": "Towards FAIR principles for research software",
+    "year": 2019,
+    "doi": "10.3233/ds-190026",
+    "venue": "Data Science",
+    "cited_by": 335,
+    "authors": [
+      "Anna‐Lena Lamprecht",
+      "Leyla Garcia",
+      "Mateusz Kuzak",
+      "Carlos Martínez-Ortiz",
+      "Ricardo Arcila"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2986579771"
+  },
+  {
+    "query": "Software Heritage Di Cosmo",
+    "title": "Airborne and spaceborne remote sensing for archaeological and cultural heritage applications: A review of the century (1907–2017)",
+    "year": 2019,
+    "doi": "10.1016/j.rse.2019.111280",
+    "venue": "Remote Sensing of Environment",
+    "cited_by": 295,
+    "authors": [
+      "Lei Luo",
+      "Xinyuan Wang",
+      "Huadong Guo",
+      "Rosa Lasaponara",
+      "Xin Zong"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2962045372"
+  },
+  {
+    "query": "Software Heritage Di Cosmo",
+    "title": "Rice Crop Detection Using LSTM, Bi-LSTM, and Machine Learning Models from Sentinel-1 Time Series",
+    "year": 2020,
+    "doi": "10.3390/rs12162655",
+    "venue": "Remote Sensing",
+    "cited_by": 193,
+    "authors": [
+      "Hugo Crisóstomo de Castro Filho",
+      "Osmar Abílio de Carvalho Júnior",
+      "Osmar Abílio de Carvalho Júnior",
+      "Osmar Luiz Ferreira de Carvalho",
+      "Osmar Luiz Ferreira de Carvalho"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3073623721"
+  },
+  {
+    "query": "Software Heritage Di Cosmo",
+    "title": "The Parallel SBAS Approach for Sentinel-1 Interferometric Wide Swath Deformation Time-Series Generation: Algorithm Description and Products Quality Assessment",
+    "year": 2019,
+    "doi": "10.1109/tgrs.2019.2904912",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "cited_by": 184,
+    "authors": [
+      "Michele Manunta",
+      "Claudio De Luca",
+      "Ivana Zinno",
+      "Francesco Casu",
+      "M. Manzo"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2946295604"
+  },
+  {
+    "query": "confounding parameters software engineering Siegmund",
+    "title": "The Role of Actigraphy in the Study of Sleep and Circadian Rhythms",
+    "year": 2003,
+    "doi": "10.1093/sleep/26.3.342",
+    "venue": "SLEEP",
+    "cited_by": 2745,
+    "authors": [
+      "Sonia Ancoli‐Israel",
+      "Roger J. Cole",
+      "Cathy Alessi",
+      "Mark J. Chambers",
+      "William H. Moorcroft"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1277966809"
+  },
+  {
+    "query": "confounding parameters software engineering Siegmund",
+    "title": "Fluorescence lifetime imaging microscopy: fundamentals and advances in instrumentation, analysis, and applications",
+    "year": 2020,
+    "doi": "10.1117/1.jbo.25.7.071203",
+    "venue": "Journal of Biomedical Optics",
+    "cited_by": 859,
+    "authors": [
+      "Rupsa Datta",
+      "Tiffany M. Heaster",
+      "Joe T. Sharick",
+      "Amani A. Gillette",
+      "Melissa C. Skala"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3025520212"
+  },
+  {
+    "query": "confounding parameters software engineering Siegmund",
+    "title": "Tropospheric Ozone Assessment Report: Assessment of global-scale model performance for global and regional ozone distributions, variability, and trends",
+    "year": 2018,
+    "doi": "10.1525/elementa.265",
+    "venue": "Elementa Science of the Anthropocene",
+    "cited_by": 498,
+    "authors": [
+      "Paul J. Young",
+      "Vaishali Naïk",
+      "Arlene M. Fiore",
+      "Audrey Gaudel",
+      "Jean J. Guo"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2769762907"
+  },
+  {
+    "query": "confounding parameters software engineering Siegmund",
+    "title": "Engineered E. coli Nissle 1917 for the delivery of matrix-tethered therapeutic domains to the gut",
+    "year": 2019,
+    "doi": "10.1038/s41467-019-13336-6",
+    "venue": "Nature Communications",
+    "cited_by": 461,
+    "authors": [
+      "Pichet Praveschotinunt",
+      "Anna Duraj‐Thatte",
+      "Ilia Gelfat",
+      "Franziska Bahl",
+      "David B. Chou"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2993480649"
+  },
+  {
+    "query": "confounding parameters software engineering Siegmund",
+    "title": "Clinical artificial intelligence quality improvement: towards continual monitoring and updating of AI algorithms in healthcare",
+    "year": 2022,
+    "doi": "10.1038/s41746-022-00611-y",
+    "venue": "npj Digital Medicine",
+    "cited_by": 374,
+    "authors": [
+      "Jean Feng",
+      "Rachael V. Phillips",
+      "Ivana Malenica",
+      "Andrew Bishara",
+      "Alan Hubbard"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4281681378"
+  },
+  {
+    "query": "RepoReapers Munaiah",
+    "title": "How well are regular expressions tested in the wild?",
+    "year": 2018,
+    "doi": "10.1145/3236024.3236072",
+    "venue": null,
+    "cited_by": 27,
+    "authors": [
+      "Peipei Wang",
+      "Kathryn T. Stolee"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2898674000"
+  },
+  {
+    "query": "RepoReapers Munaiah",
+    "title": "Does UML Modeling Associate with Lower Defect Proneness?: A Preliminary Empirical Investigation",
+    "year": 2019,
+    "doi": "10.1109/msr.2019.00024",
+    "venue": null,
+    "cited_by": 12,
+    "authors": [
+      "Adithya Raghuraman",
+      "Truong Ho-Quang",
+      "Michel R. V. Chaudron",
+      "Alexander Serebrenik",
+      "Bogdan Vasilescu"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2954683010"
+  },
+  {
+    "query": "RepoReapers Munaiah",
+    "title": "GitHub sponsors",
+    "year": 2022,
+    "doi": "10.1145/3510003.3510116",
+    "venue": "Proceedings of the 44th International Conference on Software Engineering",
+    "cited_by": 11,
+    "authors": [
+      "Naomichi Shimada",
+      "Tao Xiao",
+      "Hideaki Hata",
+      "Christoph Treude",
+      "Kenichi Matsumoto"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W4226091684"
+  },
+  {
+    "query": "RepoReapers Munaiah",
+    "title": "Eliminating abstraction overhead of Java stream pipelines using ahead-of-time program optimization",
+    "year": 2020,
+    "doi": "10.1145/3428236",
+    "venue": "Proceedings of the ACM on Programming Languages",
+    "cited_by": 9,
+    "authors": [
+      "Anders Møller",
+      "Oskar Haarklou Veileborg"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3106995643"
+  },
+  {
+    "query": "RepoReapers Munaiah",
+    "title": "Investigating developers’ perception on software testability and its effects",
+    "year": 2023,
+    "doi": "10.1007/s10664-023-10373-0",
+    "venue": "Empirical Software Engineering",
+    "cited_by": 6,
+    "authors": [
+      "Tushar Sharma",
+      "Stefanos Georgiou",
+      "Maria Kechagia",
+      "Taher A. Ghaleb",
+      "Federica Sarro"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4386715810"
+  },
+  {
+    "query": "GitHub stars Borges",
+    "title": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME",
+    "year": 2024,
+    "doi": "10.1002/aisy.202400304",
+    "venue": "Advanced Intelligent Systems",
+    "cited_by": 687,
+    "authors": [
+      "Ahmed Salih",
+      "Zahra Raisi‐Estabragh",
+      "Ilaria Boscolo Galazzo",
+      "Petia Radeva",
+      "Steffen E. Petersen"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4400135851"
+  },
+  {
+    "query": "GitHub stars Borges",
+    "title": "The 2020 release of the ExoMol database: Molecular line lists for exoplanet and other hot atmospheres",
+    "year": 2020,
+    "doi": "10.1016/j.jqsrt.2020.107228",
+    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+    "cited_by": 230,
+    "authors": [
+      "Jonathan Tennyson",
+      "S. N. Yurchenko",
+      "A. F. Al-Refaie",
+      "V. H. J. Clark",
+      "K. L. Chubb"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3044479166"
+  },
+  {
+    "query": "GitHub stars Borges",
+    "title": "DéjàVu: a map of code duplicates on GitHub",
+    "year": 2017,
+    "doi": "10.1145/3133908",
+    "venue": "Proceedings of the ACM on Programming Languages",
+    "cited_by": 182,
+    "authors": [
+      "Cristina Videira Lopes",
+      "Petr Maj",
+      "Pedro Martins",
+      "Vaibhav Saini",
+      "Di Yang"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2762844179"
+  },
+  {
+    "query": "GitHub stars Borges",
+    "title": "MPI-AMRVAC 3.0: Updates to an open-source simulation framework",
+    "year": 2023,
+    "doi": "10.1051/0004-6361/202245359",
+    "venue": "Astronomy and Astrophysics",
+    "cited_by": 111,
+    "authors": [
+      "Rony Keppens",
+      "B. Popescu Braileanu",
+      "Yuhao Zhou",
+      "Wenzhi Ruan",
+      "Chun Xia"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4327761944"
+  },
+  {
+    "query": "GitHub stars Borges",
+    "title": "An empirical study on the effectiveness of static C code analyzers for vulnerability detection",
+    "year": 2022,
+    "doi": "10.1145/3533767.3534380",
+    "venue": null,
+    "cited_by": 107,
+    "authors": [
+      "Stephan Lipp",
+      "Sebastian Bănescu",
+      "Alexander Pretschner"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W4285490477"
+  },
+  {
+    "query": "lean GHTorrent",
+    "title": "Review of Deep Learning Algorithms and Architectures",
+    "year": 2019,
+    "doi": "10.1109/access.2019.2912200",
+    "venue": "IEEE Access",
+    "cited_by": 1847,
+    "authors": [
+      "Ajay Shrestha",
+      "Ausif Mahmood"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2942231644"
+  },
+  {
+    "query": "lean GHTorrent",
+    "title": "Analyzing the State of Static Analysis: A Large-Scale Evaluation in Open Source Software",
+    "year": 2016,
+    "doi": "10.1109/saner.2016.105",
+    "venue": null,
+    "cited_by": 211,
+    "authors": [
+      "Moritz Beller",
+      "Radjino Bholanath",
+      "Shane McIntosh",
+      "Andy Zaidman"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W814172419"
+  },
+  {
+    "query": "lean GHTorrent",
+    "title": "Lean GHTorrent: GitHub data on demand",
+    "year": 2014,
+    "doi": "10.1145/2597073.2597126",
+    "venue": null,
+    "cited_by": 173,
+    "authors": [
+      "Georgios Gousios",
+      "Bogdan Vasilescu",
+      "Alexander Serebrenik",
+      "Andy Zaidman"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2073429012"
+  },
+  {
+    "query": "lean GHTorrent",
+    "title": "On the reaction to deprecation of clients of 4 + 1 popular Java APIs and the JDK",
+    "year": 2017,
+    "doi": "10.1007/s10664-017-9554-9",
+    "venue": "Empirical Software Engineering",
+    "cited_by": 56,
+    "authors": [
+      "Anand Ashok Sawant",
+      "Romain Robbes",
+      "Alberto Bacchelli"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2762481683"
+  },
+  {
+    "query": "lean GHTorrent",
+    "title": "On the Reaction to Deprecation of 25,357 Clients of 4+1 Popular Java APIs",
+    "year": 2016,
+    "doi": "10.1109/icsme.2016.64",
+    "venue": null,
+    "cited_by": 52,
+    "authors": [
+      "Anand Ashok Sawant",
+      "Romain Robbes",
+      "Alberto Bacchelli"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2574490029"
+  },
+  {
+    "query": "replication packages software engineering",
+    "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
+    "year": 2019,
+    "doi": "10.1038/s41467-019-09234-6",
+    "venue": "Nature Communications",
+    "cited_by": 15788,
+    "authors": [
+      "Yingyao Zhou",
+      "Bin Zhou",
+      "Lars Pache",
+      "Max W. Chang",
+      "Alireza Hadj Khodabakhshi"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2928665623"
+  },
+  {
+    "query": "replication packages software engineering",
+    "title": "Astropy: A community Python package for astronomy",
+    "year": 2013,
+    "doi": "10.1051/0004-6361/201322068",
+    "venue": "Astronomy and Astrophysics",
+    "cited_by": 14615,
+    "authors": [
+      "Thomas Robitaille",
+      "Erik Tollerud",
+      "P. Greenfield",
+      "Michael Droettboom",
+      "Erik M. Bray"
+    ],
+    "type": "software-paper",
+    "oa_id": "https://openalex.org/W2135625048"
+  },
+  {
+    "query": "replication packages software engineering",
+    "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+    "year": 2023,
+    "doi": "10.4230/lipics.giscience.2023.43",
+    "venue": "Leibniz-Zentrum für Informatik (Schloss Dagstuhl)",
+    "cited_by": 14264,
+    "authors": [
+      "Rivo Kaugeranna",
+      "Eliina Kaugeranna",
+      "Aion, (Claude Sonnet 4.6)"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4292779060"
+  },
+  {
+    "query": "replication packages software engineering",
+    "title": "Bioconductor: open software development for computational biology and bioinformatics",
+    "year": 2004,
+    "doi": "10.1186/gb-2004-5-10-r80",
+    "venue": "Genome biology",
+    "cited_by": 12572,
+    "authors": [
+      "Robert Gentleman",
+      "Vincent J. Carey",
+      "Douglas M. Bates",
+      "Ben Bolstad",
+      "Marcel Dettling"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2160697532"
+  },
+  {
+    "query": "replication packages software engineering",
+    "title": "FSL",
+    "year": 2011,
+    "doi": "10.1016/j.neuroimage.2011.09.015",
+    "venue": "NeuroImage",
+    "cited_by": 11946,
+    "authors": [
+      "Mark Jenkinson",
+      "Christian F. Beckmann",
+      "Timothy E.J. Behrens",
+      "Mark W. Woolrich",
+      "Stephen M. Smith"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2977883299"
+  },
+  {
+    "query": "inter-rater reliability requirements engineering",
+    "title": "A new criterion for assessing discriminant validity in variance-based structural equation modeling",
+    "year": 2014,
+    "doi": "10.1007/s11747-014-0403-8",
+    "venue": "Journal of the Academy of Marketing Science",
+    "cited_by": 34556,
+    "authors": [
+      "Jörg Henseler",
+      "Christian M. Ringle",
+      "Marko Sarstedt"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2105846236"
+  },
+  {
+    "query": "inter-rater reliability requirements engineering",
+    "title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+    "year": 2013,
+    "doi": "10.1016/j.future.2013.01.010",
+    "venue": "Future Generation Computer Systems",
+    "cited_by": 12022,
+    "authors": [
+      "Jayavardhana Gubbi",
+      "Rajkumar Buyya",
+      "Slaven Marusic",
+      "Marimuthu Palaniswami"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2111619626"
+  },
+  {
+    "query": "inter-rater reliability requirements engineering",
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+    "year": 2019,
+    "doi": "10.1016/j.inffus.2019.12.012",
+    "venue": "Information Fusion",
+    "cited_by": 9247,
+    "authors": [
+      "Alejandro Barredo Arrieta",
+      "Natalia Díaz-Rodríguez",
+      "Javier Del Ser",
+      "Adrien Bennetot",
+      "Siham Tabik"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2981731882"
+  },
+  {
+    "query": "inter-rater reliability requirements engineering",
+    "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+    "year": 2018,
+    "doi": "10.1016/s0140-6736(18)32203-7",
+    "venue": "The Lancet",
+    "cited_by": 8706,
+    "authors": [
+      "Gregory A. Roth",
+      "Degu Abate",
+      "Kalkidan Hassen Abate",
+      "Solomón Mequanente Abay",
+      "Cristiana Abbafati"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2899736836"
+  },
+  {
+    "query": "inter-rater reliability requirements engineering",
+    "title": "Partial Least Squares Structural Equation Modeling (PLS-SEM) Using R",
+    "year": 2021,
+    "doi": "10.1007/978-3-030-80519-7",
+    "venue": "Classroom companion: business",
+    "cited_by": 8639,
+    "authors": [
+      "Joseph F. Hair",
+      "G. Tomas M. Hult",
+      "Christian M. Ringle",
+      "Marko Sarstedt",
+      "Nicholas P. Danks"
+    ],
+    "type": "book",
+    "oa_id": "https://openalex.org/W3210383951"
+  },
+  {
+    "query": "annotation disagreement software engineering",
+    "title": "Integrative analysis of 111 reference human epigenomes",
+    "year": 2015,
+    "doi": "10.1038/nature14248",
+    "venue": "Nature",
+    "cited_by": 7189,
+    "authors": [
+      "Anshul Kundaje",
+      "Wouter Meuleman",
+      "Jason Ernst",
+      "Misha Bilenky",
+      "Angela Yen"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2076154138"
+  },
+  {
+    "query": "annotation disagreement software engineering",
+    "title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+    "year": 2014,
+    "doi": "10.1109/tmi.2014.2377694",
+    "venue": "IEEE Transactions on Medical Imaging",
+    "cited_by": 6606,
+    "authors": [
+      "Bjoern Menze",
+      "András Jakab",
+      "Stefan Bauer",
+      "Jayashree Kalpathy–Cramer",
+      "Keyvan Farahani"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1641498739"
+  },
+  {
+    "query": "annotation disagreement software engineering",
+    "title": "Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking",
+    "year": 2016,
+    "doi": "10.1038/nbt.3597",
+    "venue": "Nature Biotechnology",
+    "cited_by": 4648,
+    "authors": [
+      "Mingxun Wang",
+      "Jeremy Carver",
+      "Vanessa V. Phelan",
+      "Laura M. Sanchez",
+      "Neha Garg"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2504691963"
+  },
+  {
+    "query": "annotation disagreement software engineering",
+    "title": "Lexicon-Based Methods for Sentiment Analysis",
+    "year": 2011,
+    "doi": "10.1162/coli_a_00049",
+    "venue": "Computational Linguistics",
+    "cited_by": 3265,
+    "authors": [
+      "Maite Taboada",
+      "Julian Brooke",
+      "Milan Tofiloski",
+      "Kimberly Voll",
+      "Manfred Stede"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2084046180"
+  },
+  {
+    "query": "annotation disagreement software engineering",
+    "title": "The Lung Image Database Consortium (LIDC) and Image Database Resource Initiative (IDRI): A Completed Reference Database of Lung Nodules on CT Scans",
+    "year": 2011,
+    "doi": "10.1118/1.3528204",
+    "venue": "Medical Physics",
+    "cited_by": 2814,
+    "authors": [
+      "Samuel G. Armato",
+      "Geoffrey McLennan",
+      "Luc Bidaut",
+      "Michael F. McNitt‐Gray",
+      "Charles R. Meyer"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1986649315"
+  },
+  {
+    "query": "using large language models for coding tasks annotation",
+    "title": "Features and development of <i>Coot</i>",
+    "year": 2010,
+    "doi": "10.1107/s0907444910007493",
+    "venue": "Acta Crystallographica Section D Biological Crystallography",
+    "cited_by": 29767,
+    "authors": [
+      "Paul Emsley",
+      "Bernhard Lohkamp",
+      "W. G. Scott",
+      "Kevin Cowtan"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2124026197"
+  },
+  {
+    "query": "using large language models for coding tasks annotation",
+    "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome",
+    "year": 2011,
+    "doi": "10.1186/1471-2105-12-323",
+    "venue": "BMC Bioinformatics",
+    "cited_by": 23669,
+    "authors": [
+      "Bo Li",
+      "Colin N. Dewey"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1999574084"
+  },
+  {
+    "query": "using large language models for coding tasks annotation",
+    "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+    "year": 2013,
+    "doi": "10.1371/journal.pone.0061217",
+    "venue": "PLoS ONE",
+    "cited_by": 22788,
+    "authors": [
+      "Paul J. McMurdie",
+      "Susan Holmes"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2056279562"
+  },
+  {
+    "query": "using large language models for coding tasks annotation",
+    "title": "Twelve years of SAMtools and BCFtools",
+    "year": 2021,
+    "doi": "10.1093/gigascience/giab008",
+    "venue": "GigaScience",
+    "cited_by": 16220,
+    "authors": [
+      "Petr Danecek",
+      "James Bonfield",
+      "Jennifer Liddle",
+      "John Marshall",
+      "Valeriu Ohan"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3131055609"
+  },
+  {
+    "query": "using large language models for coding tasks annotation",
+    "title": "A survey on deep learning in medical image analysis",
+    "year": 2017,
+    "doi": "10.1016/j.media.2017.07.005",
+    "venue": "Medical Image Analysis",
+    "cited_by": 14617,
+    "authors": [
+      "Geert Litjens",
+      "Thijs Kooi",
+      "Babak Ehteshami Bejnordi",
+      "Arnaud A. A. Setio",
+      "Francesco Ciompi"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2592929672"
+  },
+  {
+    "query": "prompt engineering software engineering survey",
+    "title": "ImageJ2: ImageJ for the next generation of scientific image data",
+    "year": 2017,
+    "doi": "10.1186/s12859-017-1934-z",
+    "venue": "BMC Bioinformatics",
+    "cited_by": 6289,
+    "authors": [
+      "Curtis Rueden",
+      "Johannes Schindelin",
+      "Mark Hiner",
+      "Barry E. DeZonia",
+      "Alison E. Walter"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2580035316"
+  },
+  {
+    "query": "prompt engineering software engineering survey",
+    "title": "The Human Microbiome Project",
+    "year": 2007,
+    "doi": "10.1038/nature06244",
+    "venue": "Nature",
+    "cited_by": 6135,
+    "authors": [
+      "Peter J. Turnbaugh",
+      "Ruth E. Ley",
+      "Micah Hamady",
+      "Claire M. Fraser",
+      "Rob Knight"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2131186249"
+  },
+  {
+    "query": "prompt engineering software engineering survey",
+    "title": "The CMS experiment at the CERN LHC",
+    "year": 2008,
+    "doi": "10.1088/1748-0221/3/08/s08004",
+    "venue": "Journal of Instrumentation",
+    "cited_by": 5464,
+    "authors": [
+      "S. Chatrchyan",
+      "G. Hmayakyan",
+      "V. Khachatryan",
+      "A. M. Sirunyan",
+      "W. Adam"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2151512268"
+  },
+  {
+    "query": "prompt engineering software engineering survey",
+    "title": "ViennaRNA Package 2.0",
+    "year": 2011,
+    "doi": "10.1186/1748-7188-6-26",
+    "venue": "Algorithms for Molecular Biology",
+    "cited_by": 5447,
+    "authors": [
+      "Ronny Lorenz",
+      "Stephan H Bernhart",
+      "Christian Höner zu Siederdissen",
+      "Hakim Tafer",
+      "Christoph Flamm"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2086561953"
+  },
+  {
+    "query": "prompt engineering software engineering survey",
+    "title": "The Duality of Technology: Rethinking the Concept of Technology in Organizations",
+    "year": 1992,
+    "doi": "10.1287/orsc.3.3.398",
+    "venue": "Organization Science",
+    "cited_by": 4809,
+    "authors": [
+      "Wanda J. Orlikowski"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2101419153"
+  },
+  {
+    "query": "agentic software engineering",
+    "title": "A new criterion for assessing discriminant validity in variance-based structural equation modeling",
+    "year": 2014,
+    "doi": "10.1007/s11747-014-0403-8",
+    "venue": "Journal of the Academy of Marketing Science",
+    "cited_by": 34556,
+    "authors": [
+      "Jörg Henseler",
+      "Christian M. Ringle",
+      "Marko Sarstedt"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2105846236"
+  },
+  {
+    "query": "agentic software engineering",
+    "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+    "year": 2019,
+    "doi": "10.1038/s41587-019-0209-9",
+    "venue": "Nature Biotechnology",
+    "cited_by": 24379,
+    "authors": [
+      "Evan Bolyen",
+      "Jai Ram Rideout",
+      "Matthew R. Dillon",
+      "Nicholas A. Bokulich",
+      "Christian C. Abnet"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2963276645"
+  },
+  {
+    "query": "agentic software engineering",
+    "title": "Array programming with NumPy",
+    "year": 2020,
+    "doi": "10.1038/s41586-020-2649-2",
+    "venue": "Nature",
+    "cited_by": 22743,
+    "authors": [
+      "Charles R. Harris",
+      "K. Jarrod Millman",
+      "Stéfan J. van der Walt",
+      "Ralf Gommers",
+      "Pauli Virtanen"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3035965352"
+  },
+  {
+    "query": "agentic software engineering",
+    "title": "Array programming with NumPy",
+    "year": 2020,
+    "doi": null,
+    "venue": "TUScholarShare (Temple University)",
+    "cited_by": 18809,
+    "authors": [
+      "Harris, CR",
+      "Millman, KJ",
+      "van der Walt, SJ",
+      "Gommers, R",
+      "Virtanen, P"
+    ],
+    "type": "review",
+    "oa_id": "https://openalex.org/W3099878876"
+  },
+  {
+    "query": "agentic software engineering",
+    "title": "Grey Wolf Optimizer",
+    "year": 2014,
+    "doi": "10.1016/j.advengsoft.2013.12.007",
+    "venue": "Advances in Engineering Software",
+    "cited_by": 18630,
+    "authors": [
+      "Seyedali Mirjalili",
+      "Seyed Mohammad Mirjalili",
+      "Seyed Mohammad Mirjalili",
+      "Seyed Mohammad Mirjalili",
+      "Andrew Lewis"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2061438946"
+  },
+  {
+    "query": "AI coding assistants empirical study",
+    "title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+    "year": 2023,
+    "doi": "10.4230/lipics.itp.2023.19",
+    "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+    "cited_by": 77019,
+    "authors": [
+      "Jakubův, Jan",
+      "Chvalovský, Karel",
+      "Goertzel, Zarathustra",
+      "Kaliszyk, Cezary",
+      "Olšák, Mirek"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4385245566"
+  },
+  {
+    "query": "AI coding assistants empirical study",
+    "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+    "year": 2021,
+    "doi": "10.1136/bmj.n160",
+    "venue": "BMJ",
+    "cited_by": 11205,
+    "authors": [
+      "Matthew J. Page",
+      "David Moher",
+      "Patrick M. Bossuyt",
+      "Isabelle Boutron",
+      "Tammy Hoffmann"
+    ],
+    "type": "review",
+    "oa_id": "https://openalex.org/W3123893780"
+  },
+  {
+    "query": "AI coding assistants empirical study",
+    "title": "Systematic review of research on artificial intelligence applications in higher education – where are the educators?",
+    "year": 2019,
+    "doi": "10.1186/s41239-019-0171-0",
+    "venue": "International Journal of Educational Technology in Higher Education",
+    "cited_by": 5585,
+    "authors": [
+      "Olaf Zawacki‐Richter",
+      "Victoria I. Marín",
+      "Melissa Bond",
+      "Franziska Gouverneur"
+    ],
+    "type": "review",
+    "oa_id": "https://openalex.org/W2981863007"
+  },
+  {
+    "query": "AI coding assistants empirical study",
+    "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+    "year": 2023,
+    "doi": "10.1016/j.lindif.2023.102274",
+    "venue": "Learning and Individual Differences",
+    "cited_by": 5500,
+    "authors": [
+      "Enkelejda Kasneci",
+      "Kathrin Seßler",
+      "Stefan Küchemann",
+      "Maria Bannert",
+      "Daryna Dementieva"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4323655724"
+  },
+  {
+    "query": "AI coding assistants empirical study",
+    "title": "Discriminant analysis of principal components: a new method for the analysis of genetically structured populations",
+    "year": 2010,
+    "doi": "10.1186/1471-2156-11-94",
+    "venue": "BMC Genetics",
+    "cited_by": 5136,
+    "authors": [
+      "Thibaut Jombart",
+      "Sébastien Devillard",
+      "François Balloux"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W1977601452"
+  },
+  {
+    "query": "benchmark construction software engineering",
+    "title": "XGBoost",
+    "year": 2016,
+    "doi": "10.1145/2939672.2939785",
+    "venue": null,
+    "cited_by": 49805,
+    "authors": [
+      "Tianqi Chen",
+      "Carlos Guestrin"
+    ],
+    "type": "conference-paper",
+    "oa_id": "https://openalex.org/W2295598076"
+  },
+  {
+    "query": "benchmark construction software engineering",
+    "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+    "year": 2020,
+    "doi": "10.1038/s41592-019-0686-2",
+    "venue": "Nature Methods",
+    "cited_by": 38522,
+    "authors": [
+      "Pauli Virtanen",
+      "Ralf Gommers",
+      "Travis E. Oliphant",
+      "Matt Haberland",
+      "Tyler Reddy"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W3003257820"
+  },
+  {
+    "query": "benchmark construction software engineering",
+    "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+    "year": 2009,
+    "doi": "10.1088/0953-8984/21/39/395502",
+    "venue": "Journal of Physics Condensed Matter",
+    "cited_by": 28973,
+    "authors": [
+      "Paolo Giannozzi",
+      "Stefano Baroni",
+      "Nicola Bonini",
+      "Matteo Calandra",
+      "Roberto Car"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2120145199"
+  },
+  {
+    "query": "benchmark construction software engineering",
+    "title": "UCHIME improves sensitivity and speed of chimera detection",
+    "year": 2011,
+    "doi": "10.1093/bioinformatics/btr381",
+    "venue": "Bioinformatics",
+    "cited_by": 15580,
+    "authors": [
+      "R. C. Edgar",
+      "Brian J. Haas",
+      "José C. Clemente",
+      "Christopher Quince",
+      "Rob Knight"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2136879569"
+  },
+  {
+    "query": "benchmark construction software engineering",
+    "title": "A survey on deep learning in medical image analysis",
+    "year": 2017,
+    "doi": "10.1016/j.media.2017.07.005",
+    "venue": "Medical Image Analysis",
+    "cited_by": 14617,
+    "authors": [
+      "Geert Litjens",
+      "Thijs Kooi",
+      "Babak Ehteshami Bejnordi",
+      "Arnaud A. A. Setio",
+      "Francesco Ciompi"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2592929672"
+  },
+  {
+    "query": "SWE-bench",
+    "title": "Surviving Sepsis Campaign guidelines for management of severe sepsis and septic shock",
+    "year": 2004,
+    "doi": "10.1007/s00134-004-2210-z",
+    "venue": "Intensive Care Medicine",
+    "cited_by": 3345,
+    "authors": [
+      "R. Phillip Dellinger",
+      "Jean Carlet",
+      "Henry Masur",
+      "Herwig Gerlach",
+      "Thierry Calandra"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2163814324"
+  },
+  {
+    "query": "SWE-bench",
+    "title": "DECLINING MOUNTAIN SNOWPACK IN WESTERN NORTH AMERICA*",
+    "year": 2005,
+    "doi": "10.1175/bams-86-1-39",
+    "venue": "Bulletin of the American Meteorological Society",
+    "cited_by": 1533,
+    "authors": [
+      "Philip W. Mote",
+      "Alan F. Hamlet",
+      "Martyn Clark",
+      "Dennis P. Lettenmaier"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2068753710"
+  },
+  {
+    "query": "SWE-bench",
+    "title": "The ATLAS Simulation Infrastructure",
+    "year": 2010,
+    "doi": "10.1140/epjc/s10052-010-1429-9",
+    "venue": "The European Physical Journal C",
+    "cited_by": 1514,
+    "authors": [
+      "G. Aad",
+      "B. Abbott",
+      "J. Abdallah",
+      "A. A. Abdelalim",
+      "A. Abdesselam"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2090940374"
+  },
+  {
+    "query": "SWE-bench",
+    "title": "A Survey of Large Language Models",
+    "year": 2026,
+    "doi": "10.1007/s11704-026-60308-3",
+    "venue": "Frontiers of Computer Science",
+    "cited_by": 1420,
+    "authors": [
+      "Wayne Xin Zhao",
+      "Kun Zhou",
+      "Junyi Li",
+      "Tianyi Tang",
+      "Zican Dong"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W4362515116"
+  },
+  {
+    "query": "SWE-bench",
+    "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+    "year": 2022,
+    "doi": "10.48550/arxiv.2204.14198",
+    "venue": "arXiv (Cornell University)",
+    "cited_by": 1245,
+    "authors": [
+      "Alayrac, Jean-Baptiste",
+      "Jeff Donahue",
+      "Pauline Luc",
+      "Antoine Miech",
+      "Iain Barr"
+    ],
+    "type": "preprint",
+    "oa_id": "https://openalex.org/W4225323055"
+  },
+  {
+    "query": "cross-project defect prediction Zimmermann",
+    "title": "Reassessing the projections of the World Water Development Report",
+    "year": 2019,
+    "doi": "10.1038/s41545-019-0039-9",
+    "venue": "npj Clean Water",
+    "cited_by": 2517,
+    "authors": [
+      "Alberto Boretti",
+      "Lorenzo Rosa"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2966722893"
+  },
+  {
+    "query": "cross-project defect prediction Zimmermann",
+    "title": "Variations in the Prevalence of Obesity Among European Countries, and a Consideration of Possible Causes.",
+    "year": 2017,
+    "doi": "10.1159/000455952",
+    "venue": "PubMed",
+    "cited_by": 1951,
+    "authors": [
+      "John E Blundell",
+      "Jennifer Lyn Baker",
+      "Emma Boyland",
+      "Ellen Blaak",
+      "Jadwiga Charzewska"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2588601551"
+  },
+  {
+    "query": "cross-project defect prediction Zimmermann",
+    "title": "Triglycerides and Cardiovascular Disease",
+    "year": 2011,
+    "doi": "10.1161/cir.0b013e3182160726",
+    "venue": "Circulation",
+    "cited_by": 1872,
+    "authors": [
+      "Michael Miller",
+      "Neil J. Stone",
+      "Christie M. Ballantyne",
+      "Vera Bittner",
+      "Michael H Criqui"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2036747551"
+  },
+  {
+    "query": "cross-project defect prediction Zimmermann",
+    "title": "Structural properties of nanoclusters: Energetic, thermodynamic, and kinetic effects",
+    "year": 2005,
+    "doi": "10.1103/revmodphys.77.371",
+    "venue": "Reviews of Modern Physics",
+    "cited_by": 1789,
+    "authors": [
+      "Francesca Baletto",
+      "Riccardo Ferrando"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2019801150"
+  },
+  {
+    "query": "cross-project defect prediction Zimmermann",
+    "title": "Intestinal permeability – a new target for disease prevention and therapy",
+    "year": 2014,
+    "doi": "10.1186/s12876-014-0189-7",
+    "venue": "BMC Gastroenterology",
+    "cited_by": 1705,
+    "authors": [
+      "Stephan C. Bischoff",
+      "Giovanni Barbara",
+      "Wim A. Buurman",
+      "Theo Ockhuizen",
+      "Jörg–Dieter Schulzke"
+    ],
+    "type": "article",
+    "oa_id": "https://openalex.org/W2133808995"
+  }
+]

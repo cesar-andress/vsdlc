@@ -1,0 +1,2784 @@
+{
+  "verified": {},
+  "failed": {
+    "kalliamvakou2014": {
+      "doi": "10.1145/2597073.2597074",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "kalliamvakou2016": {
+      "doi": "10.1007/s10664-015-9393-5",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "baltes2022sampling": {
+      "doi": "10.1007/s10664-021-10072-8",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "munaiah2017": {
+      "doi": "10.1007/s10664-017-9512-2",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "gousios2012": {
+      "doi": "10.1109/MSR.2012.6224294",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "cosentino2017": {
+      "doi": "10.1145/2973839.2973841",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "bird2009": {
+      "doi": "10.1109/MSR.2009.5069491",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "nagappan2013": {
+      "doi": "10.1145/2491411.2491417",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "ampatzoglou2019": {
+      "doi": "10.1016/j.infsof.2018.10.006",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "siegmund2015": {
+      "doi": "10.1109/ICSE.2015.55",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "feldt2010": {
+      "reason": "no_doi_candidate"
+    },
+    "wohlin2012": {
+      "doi": "10.1007/978-3-642-29044-2",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "runeson2009": {
+      "doi": "10.1007/s10664-008-9102-8",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "kaufman2012": {
+      "doi": "10.1145/2382577.2382579",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "moreno2012": {
+      "doi": "10.1016/j.patcog.2011.06.019",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "tu2020": {
+      "reason": "no_doi_candidate"
+    },
+    "allamanis2019": {
+      "doi": "10.1145/3340544",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "lopes2017": {
+      "doi": "10.1109/ICSE.2017.32",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "shihab2012": {
+      "reason": "no_doi_candidate"
+    },
+    "ma2019woc": {
+      "doi": "10.1109/MSR.2019.00075",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "dicossmo2018": {
+      "doi": "10.1145/3183558",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "gharehyazie2017": {
+      "doi": "10.1145/3106237.3106267",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "heumuller2020": {
+      "doi": "10.1007/s10664-020-09851-6",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "liu2024": {
+      "doi": "10.1016/j.jss.2024.112032",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "winter2022": {
+      "doi": "10.1145/3540250.3549172",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "silva2014": {
+      "doi": "10.1007/s10664-012-9227-7",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "timperley2021": {
+      "doi": "10.1109/ICSE-SEIP52600.2021.00020",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "gonzalezbarahona2012": {
+      "doi": "10.1007/s10664-011-9181-9",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "ralph2021empirical": {
+      "reason": "no_doi_candidate"
+    },
+    "kitchenham2007": {
+      "doi": "10.1016/j.infsof.2006.08.001",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "petersen2015": {
+      "doi": "10.1016/j.infsoft.2015.02.007",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "cohen1960": {
+      "doi": "10.1177/001316446002000104",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "landis1977": {
+      "doi": "10.2307/2529310",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "mcnamara2018": {
+      "reason": "no_doi_candidate"
+    },
+    "gilardi2023": {
+      "doi": "10.1073/pnas.2305016120",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "zheng2023judging": {
+      "reason": "no_doi_candidate"
+    },
+    "wang2024llmasjudge": {
+      "reason": "no_doi_candidate"
+    },
+    "hou2024": {
+      "doi": "10.1145/3695988",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "fan2023": {
+      "doi": "10.1109/ICSE-FoSE59343.2023.00008",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "chen2025promptware": {
+      "doi": "10.1145/3796535",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "jimenez2024": {
+      "reason": "no_doi_candidate"
+    },
+    "ziegler2024": {
+      "doi": "10.1145/3633453",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "barke2023": {
+      "doi": "10.1145/3586030",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "storey2016": {
+      "doi": "10.1145/2950290.2983989",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "dambros2012": {
+      "doi": "10.1007/s10664-011-9173-9",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "herbold2022": {
+      "doi": "10.1007/s10664-021-10092-4",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "tantithamthavorn2017": {
+      "doi": "10.1109/TSE.2016.2584050",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "zimmermann2009": {
+      "doi": "10.1145/1595696.1595713",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "shepperd2013": {
+      "doi": "10.1109/TSE.2013.11",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "dabic2021": {
+      "doi": "10.1109/MSR52588.2021.00074",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "borges2016": {
+      "doi": "10.1145/2901739.2901778",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "tsay2014": {
+      "doi": "10.1145/2568225.2568260",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "gousios2014": {
+      "doi": "10.1145/2597073.2597126",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "cosentino2016github": {
+      "doi": "10.1145/2901739.2901776",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "vidoni2022": {
+      "doi": "10.1016/j.infsoft.2021.106738",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "hassan2008msr": {
+      "reason": "no_doi_candidate"
+    },
+    "robles2010": {
+      "reason": "no_doi_candidate"
+    },
+    "lopez2024contamination": {
+      "reason": "no_doi_candidate"
+    },
+    "rong2024leakage": {
+      "reason": "no_doi_candidate"
+    },
+    "jiang2025data": {
+      "reason": "no_doi_candidate"
+    },
+    "amershi2019": {
+      "doi": "10.1145/3290605.3300233",
+      "reason": "local variable 'urllib' referenced before assignment"
+    },
+    "cheng2026": {
+      "doi": "10.1002/spe.70029",
+      "reason": "local variable 'urllib' referenced before assignment"
+    }
+  },
+  "title_search": [
+    {
+      "query": "Curating GitHub for engineered software projects",
+      "doi": "10.7287/peerj.preprints.2617v1",
+      "title": "Curating GitHub for engineered software projects",
+      "authors": [
+        "Munaiah, Nuthan",
+        "Kroh, Steven",
+        "Cabrey, Craig",
+        "Nagappan, Meiyappan"
+      ],
+      "venue": "",
+      "year": 2016,
+      "publisher": "PeerJ",
+      "score": 53.000183,
+      "url": "https://doi.org/10.7287/peerj.preprints.2617v1"
+    },
+    {
+      "query": "Curating GitHub for engineered software projects",
+      "doi": "10.1007/s10664-017-9512-6",
+      "title": "Curating GitHub for engineered software projects",
+      "authors": [
+        "Munaiah, Nuthan",
+        "Kroh, Steven",
+        "Cabrey, Craig",
+        "Nagappan, Meiyappan"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2017,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 47.219734,
+      "url": "https://doi.org/10.1007/s10664-017-9512-6"
+    },
+    {
+      "query": "Curating GitHub for engineered software projects",
+      "doi": "10.1007/s10664-020-09825-8",
+      "title": "PHANTOM: Curating GitHub for engineered software projects using time-series clustering",
+      "authors": [
+        "Pickerill, Peter",
+        "Jungen, Heiko Joshua",
+        "Ochodek, Mirosław",
+        "Maćkowiak, Michał",
+        "Staron, Miroslaw"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2020,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 43.400745,
+      "url": "https://doi.org/10.1007/s10664-020-09825-8"
+    },
+    {
+      "query": "Promises and perils of mining GitHub",
+      "doi": "10.1145/2597073.2597074",
+      "title": "The promises and perils of mining GitHub",
+      "authors": [
+        "Kalliamvakou, Eirini",
+        "Gousios, Georgios",
+        "Blincoe, Kelly",
+        "Singer, Leif",
+        "German, Daniel M.",
+        "Damian, Daniela"
+      ],
+      "venue": "Proceedings of the 11th Working Conference on Mining Software Repositories",
+      "year": 2014,
+      "publisher": "ACM",
+      "score": 38.784134,
+      "url": "https://doi.org/10.1145/2597073.2597074"
+    },
+    {
+      "query": "Promises and perils of mining GitHub",
+      "doi": "10.1007/s10664-015-9393-5",
+      "title": "An in-depth study of the promises and perils of mining GitHub",
+      "authors": [
+        "Kalliamvakou, Eirini",
+        "Gousios, Georgios",
+        "Blincoe, Kelly",
+        "Singer, Leif",
+        "German, Daniel M.",
+        "Damian, Daniela"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2015,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 33.47818,
+      "url": "https://doi.org/10.1007/s10664-015-9393-5"
+    },
+    {
+      "query": "Promises and perils of mining GitHub",
+      "doi": "10.1145/3475716.3475775",
+      "title": "Promises and Perils of Inferring Personality on GitHub",
+      "authors": [
+        "van Mil, Frenk C.J.",
+        "Rastogi, Ayushi",
+        "Zaidman, Andy"
+      ],
+      "venue": "Proceedings of the 15th ACM / IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)",
+      "year": 2021,
+      "publisher": "ACM",
+      "score": 29.624626,
+      "url": "https://doi.org/10.1145/3475716.3475775"
+    },
+    {
+      "query": "A Critical Review of Sampling in Software Engineering Research",
+      "doi": "10.1007/s10664-021-10072-8",
+      "title": "Sampling in software engineering research: a critical review and guidelines",
+      "authors": [
+        "Baltes, Sebastian",
+        "Ralph, Paul"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2022,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 33.768646,
+      "url": "https://doi.org/10.1007/s10664-021-10072-8"
+    },
+    {
+      "query": "A Critical Review of Sampling in Software Engineering Research",
+      "doi": "10.1109/issre.1994.341358",
+      "title": "Assessment of a sampling method for measuring safety-critical software reliability",
+      "authors": [
+        "Bastani, F.",
+        "Pasquini, A."
+      ],
+      "venue": "Proceedings of 1994 IEEE International Symposium on Software Reliability Engineering",
+      "year": null,
+      "publisher": "IEEE Comput. Soc. Press",
+      "score": 25.324457,
+      "url": "https://doi.org/10.1109/issre.1994.341358"
+    },
+    {
+      "query": "A Critical Review of Sampling in Software Engineering Research",
+      "doi": "10.1145/2884781.2884833",
+      "title": "Grounded theory in software engineering research",
+      "authors": [
+        "Stol, Klaas-Jan",
+        "Ralph, Paul",
+        "Fitzgerald, Brian"
+      ],
+      "venue": "Proceedings of the 38th International Conference on Software Engineering",
+      "year": 2016,
+      "publisher": "ACM",
+      "score": 24.48922,
+      "url": "https://doi.org/10.1145/2884781.2884833"
+    },
+    {
+      "query": "Sampling Projects in GitHub for MSR Studies",
+      "doi": "10.1109/msr52588.2021.00074",
+      "title": "Sampling Projects in GitHub for MSR Studies",
+      "authors": [
+        "Dabic, Ozren",
+        "Aghajani, Emad",
+        "Bavota, Gabriele"
+      ],
+      "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+      "year": 2021,
+      "publisher": "IEEE",
+      "score": 47.973392,
+      "url": "https://doi.org/10.1109/msr52588.2021.00074"
+    },
+    {
+      "query": "Sampling Projects in GitHub for MSR Studies",
+      "doi": "10.1109/msr59073.2023.00026",
+      "title": "GIRT-Data: Sampling GitHub Issue Report Templates",
+      "authors": [
+        "Nikeghbal, Nafiseh",
+        "Hossein Kargaran, Amir",
+        "Heydarnoori, Abbas",
+        "Schütze, Hinrich"
+      ],
+      "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+      "year": 2023,
+      "publisher": "IEEE",
+      "score": 31.850245,
+      "url": "https://doi.org/10.1109/msr59073.2023.00026"
+    },
+    {
+      "query": "Sampling Projects in GitHub for MSR Studies",
+      "doi": "10.1109/msr59073.2023.00031",
+      "title": "Wasmizer: Curating WebAssembly-driven Projects on GitHub",
+      "authors": [
+        "Nicholson, Alexander",
+        "Stiévenart, Quentin",
+        "Mazidi, Arash",
+        "Ghafari, Mohammad"
+      ],
+      "venue": "2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+      "year": 2023,
+      "publisher": "IEEE",
+      "score": 31.303848,
+      "url": "https://doi.org/10.1109/msr59073.2023.00031"
+    },
+    {
+      "query": "World of Code: A Large-Scale Infrastructure",
+      "doi": "10.23846/b/ob/202011",
+      "title": "Do large-scale water infrastructure interventions reduce disease?",
+      "authors": [
+        ", "
+      ],
+      "venue": "",
+      "year": 2020,
+      "publisher": "International Initiative for Impact Evaluation (3ie)",
+      "score": 26.172035,
+      "url": "https://doi.org/10.23846/b/ob/202011"
+    },
+    {
+      "query": "World of Code: A Large-Scale Infrastructure",
+      "doi": "10.1021/acsomega.3c02249.s001",
+      "title": "warpDOCK: Large-Scale Virtual Drug Discovery Using Cloud Infrastructure",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "American Chemical Society (ACS)",
+      "score": 25.04675,
+      "url": "https://doi.org/10.1021/acsomega.3c02249.s001"
+    },
+    {
+      "query": "World of Code: A Large-Scale Infrastructure",
+      "doi": "10.1007/978-1-4842-0511-2_1",
+      "title": "Managing Large-Scale Infrastructure",
+      "authors": [
+        "Ali, Syed"
+      ],
+      "venue": "Practical Linux Infrastructure",
+      "year": 2014,
+      "publisher": "Apress",
+      "score": 24.983858,
+      "url": "https://doi.org/10.1007/978-1-4842-0511-2_1"
+    },
+    {
+      "query": "DéjàVu: A Map of Code Duplicates on GitHub",
+      "doi": "10.1145/3133908",
+      "title": "DéjàVu: a map of code duplicates on GitHub",
+      "authors": [
+        "Lopes, Cristina V.",
+        "Maj, Petr",
+        "Martins, Pedro",
+        "Saini, Vaibhav",
+        "Yang, Di",
+        "Zitny, Jakub"
+      ],
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "year": 2017,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 45.212288,
+      "url": "https://doi.org/10.1145/3133908"
+    },
+    {
+      "query": "DéjàVu: A Map of Code Duplicates on GitHub",
+      "doi": "10.5281/zenodo.60356",
+      "title": "The Series Distance matlab code, GitHub repository,",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "Copernicus GmbH",
+      "score": 26.639313,
+      "url": "https://doi.org/10.5281/zenodo.60356"
+    },
+    {
+      "query": "DéjàVu: A Map of Code Duplicates on GitHub",
+      "doi": "10.5194/gmd-2018-180-rc1",
+      "title": "Review of Python code and GitHub repository",
+      "authors": [],
+      "venue": "",
+      "year": 2018,
+      "publisher": "Copernicus GmbH",
+      "score": 26.447174,
+      "url": "https://doi.org/10.5194/gmd-2018-180-rc1"
+    },
+    {
+      "query": "The adverse effects of code duplication in machine learning",
+      "doi": "10.1145/3359591.3359735",
+      "title": "The adverse effects of code duplication in machine learning models of code",
+      "authors": [
+        "Allamanis, Miltiadis"
+      ],
+      "venue": "Proceedings of the 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software",
+      "year": 2019,
+      "publisher": "ACM",
+      "score": 37.67601,
+      "url": "https://doi.org/10.1145/3359591.3359735"
+    },
+    {
+      "query": "The adverse effects of code duplication in machine learning",
+      "doi": "10.1021/acs.est.2c07039.s001",
+      "title": "Using Machine Learning to Predict Adverse Effects of Metallic Nanomaterials to Various Aquatic Organisms",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "American Chemical Society (ACS)",
+      "score": 26.945192,
+      "url": "https://doi.org/10.1021/acs.est.2c07039.s001"
+    },
+    {
+      "query": "The adverse effects of code duplication in machine learning",
+      "doi": "10.1021/acs.est.2c07039.s002",
+      "title": "Using Machine Learning to Predict Adverse Effects of Metallic Nanomaterials to Various Aquatic Organisms",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "American Chemical Society (ACS)",
+      "score": 26.88101,
+      "url": "https://doi.org/10.1021/acs.est.2c07039.s002"
+    },
+    {
+      "query": "Threats to validity in software engineering research",
+      "doi": "10.1201/b19292-14",
+      "title": "Validity Threats",
+      "authors": [],
+      "venue": "Empirical Research in Software Engineering",
+      "year": 2016,
+      "publisher": "Chapman and Hall/CRC",
+      "score": 35.72243,
+      "url": "https://doi.org/10.1201/b19292-14"
+    },
+    {
+      "query": "Threats to validity in software engineering research",
+      "doi": "10.2139/ssrn.4493848",
+      "title": "Threats to Validity in Software Engineering Research: A Critical Reflection",
+      "authors": [
+        "Verdecchia, Roberto",
+        "Engström, Emelie",
+        "Lago, Patricia",
+        "Runeson, Per",
+        "Song, Qunying"
+      ],
+      "venue": "",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "score": 32.094494,
+      "url": "https://doi.org/10.2139/ssrn.4493848"
+    },
+    {
+      "query": "Threats to validity in software engineering research",
+      "doi": "10.1016/j.infsof.2023.107329",
+      "title": "Threats to validity in software engineering research: A critical reflection",
+      "authors": [
+        "Verdecchia, Roberto",
+        "Engström, Emelie",
+        "Lago, Patricia",
+        "Runeson, Per",
+        "Song, Qunying"
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "score": 30.884989,
+      "url": "https://doi.org/10.1016/j.infsof.2023.107329"
+    },
+    {
+      "query": "ACM SIGSOFT Empirical Standards",
+      "doi": "10.1145/3437479.3437483",
+      "title": "ACM SIGSOFT Empirical Standards Released",
+      "authors": [
+        "Ralph, Paul"
+      ],
+      "venue": "ACM SIGSOFT Software Engineering Notes",
+      "year": 2021,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 40.729313,
+      "url": "https://doi.org/10.1145/3437479.3437483"
+    },
+    {
+      "query": "ACM SIGSOFT Empirical Standards",
+      "doi": "10.1145/3772008.3772012",
+      "title": "ACM SIGSOFT SEN Empirical Software Engineering: Introducing Our New Regular Column",
+      "authors": [
+        "Bogner, Justus",
+        "Verdecchia, Roberto"
+      ],
+      "venue": "ACM SIGSOFT Software Engineering Notes",
+      "year": 2025,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 30.673456,
+      "url": "https://doi.org/10.1145/3772008.3772012"
+    },
+    {
+      "query": "ACM SIGSOFT Empirical Standards",
+      "doi": "10.1145/182824.182833",
+      "title": "Formal methods and standards",
+      "authors": [
+        "Kilov, Haim"
+      ],
+      "venue": "ACM SIGSOFT Software Engineering Notes",
+      "year": 1994,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 30.162132,
+      "url": "https://doi.org/10.1145/182824.182833"
+    },
+    {
+      "query": "Guidelines for conducting and reporting case study research",
+      "doi": "10.1007/s10664-008-9102-8",
+      "title": "Guidelines for conducting and reporting case study research in software engineering",
+      "authors": [
+        "Runeson, Per",
+        "Höst, Martin"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2008,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 33.15265,
+      "url": "https://doi.org/10.1007/s10664-008-9102-8"
+    },
+    {
+      "query": "Guidelines for conducting and reporting case study research",
+      "doi": "10.34193/ei-a-5888",
+      "title": "Compliance to guidelines in reporting animal research: A case study",
+      "authors": [
+        "Majumder, Kakoli"
+      ],
+      "venue": "Editage Insights",
+      "year": null,
+      "publisher": "Cactus Communications - Editage",
+      "score": 31.962387,
+      "url": "https://doi.org/10.34193/ei-a-5888"
+    },
+    {
+      "query": "Guidelines for conducting and reporting case study research",
+      "doi": "10.1002/9781118181034.ch6",
+      "title": "Reporting and Dissemination",
+      "authors": [],
+      "venue": "Case Study Research in Software Engineering",
+      "year": 2012,
+      "publisher": "Wiley",
+      "score": 30.042374,
+      "url": "https://doi.org/10.1002/9781118181034.ch6"
+    },
+    {
+      "query": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "doi": "10.1073/pnas.2305016120",
+      "title": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "authors": [
+        "Gilardi, Fabrizio",
+        "Alizadeh, Meysam",
+        "Kubli, Maël"
+      ],
+      "venue": "Proceedings of the National Academy of Sciences",
+      "year": 2023,
+      "publisher": "National Academy of Sciences",
+      "score": 57.569458,
+      "url": "https://doi.org/10.1073/pnas.2305016120"
+    },
+    {
+      "query": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "doi": "10.1109/access.2020.3022773",
+      "title": "A Robust Consistency Model of Crowd Workers in Text Labeling Tasks",
+      "authors": [
+        "Alqershi, Fattoh",
+        "Al-Qurishi, Muhammad",
+        "Aksoy, Mehmet Sabih",
+        "Alrubaian, Majed",
+        "Imran, Muhammad"
+      ],
+      "venue": "IEEE Access",
+      "year": 2020,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "score": 30.075653,
+      "url": "https://doi.org/10.1109/access.2020.3022773"
+    },
+    {
+      "query": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "doi": "10.31235/osf.io/x58kn",
+      "title": "ChatGPT for Text Annotation? Mind the Hype!",
+      "authors": [
+        "Ollion, Etienne",
+        "Shen, Rubing",
+        "Macanovic, Ana",
+        "Chatelain, Arnault"
+      ],
+      "venue": "",
+      "year": 2023,
+      "publisher": "Center for Open Science",
+      "score": 29.712763,
+      "url": "https://doi.org/10.31235/osf.io/x58kn"
+    },
+    {
+      "query": "Judging LLM-as-a-Judge with MT-Bench",
+      "doi": "10.52202/075280-2020",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "authors": [
+        "Zheng, Lianmin",
+        "Chiang, Wei-Lin",
+        "Sheng, Ying",
+        "Zhuang, Siyuan",
+        "Wu, Zhanghao",
+        "Zhuang, Yonghao"
+      ],
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "year": 2023,
+      "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+      "score": 37.80064,
+      "url": "https://doi.org/10.52202/075280-2020"
+    },
+    {
+      "query": "Judging LLM-as-a-Judge with MT-Bench",
+      "doi": "10.4135/9781071800942.n5",
+      "title": "The Adversary Judge: The Experience of the Trial Judge",
+      "authors": [
+        "Frankel, Marvin E."
+      ],
+      "venue": "Judges on Judging: Views from the Bench",
+      "year": 2017,
+      "publisher": "CQ Press",
+      "score": 34.866096,
+      "url": "https://doi.org/10.4135/9781071800942.n5"
+    },
+    {
+      "query": "Judging LLM-as-a-Judge with MT-Bench",
+      "doi": "10.4135/9781071800942.n16",
+      "title": "The Judge as a Legislator",
+      "authors": [
+        "Cardozo, Benjamin N."
+      ],
+      "venue": "Judges on Judging: Views from the Bench",
+      "year": 2017,
+      "publisher": "CQ Press",
+      "score": 33.782883,
+      "url": "https://doi.org/10.4135/9781071800942.n16"
+    },
+    {
+      "query": "Empirical standards for software engineering research",
+      "doi": "10.1145/3239235.3267437",
+      "title": "Standards of validity and the validity of standards in behavioral software engineering research",
+      "authors": [
+        "Gren, Lucas"
+      ],
+      "venue": "Proceedings of the 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
+      "year": 2018,
+      "publisher": "ACM",
+      "score": 29.553057,
+      "url": "https://doi.org/10.1145/3239235.3267437"
+    },
+    {
+      "query": "Empirical standards for software engineering research",
+      "doi": "10.1023/a:1009731704468",
+      "title": "Sharing the Wealth: Accumulating and Sharing Lessons Learned in Empirical Software Engineering Research",
+      "authors": [
+        "Harrison, Warren"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 1998,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 27.840214,
+      "url": "https://doi.org/10.1023/a:1009731704468"
+    },
+    {
+      "query": "Empirical standards for software engineering research",
+      "doi": "10.1016/j.csi.2022.103688",
+      "title": "Determining a core view of research quality in empirical software engineering",
+      "authors": [
+        "Molléri, Jefferson Seide",
+        "Mendes, Emilia",
+        "Petersen, Kai",
+        "Felderer, Michael"
+      ],
+      "venue": "Computer Standards &amp; Interfaces",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "score": 27.500023,
+      "url": "https://doi.org/10.1016/j.csi.2022.103688"
+    },
+    {
+      "query": "How do Multiple Pull Requests Affect Software Engineering",
+      "doi": "10.1109/icsme.2018.00032",
+      "title": "How do Multiple Pull Requests Change the Same Code: A Study of Competing Pull Requests in GitHub",
+      "authors": [
+        "Zhang, Xin",
+        "Chen, Yang",
+        "Gu, Yongfeng",
+        "Zou, Weiqin",
+        "Xie, Xiaoyuan",
+        "Jia, Xiangyang"
+      ],
+      "venue": "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+      "year": 2018,
+      "publisher": "IEEE",
+      "score": 42.192776,
+      "url": "https://doi.org/10.1109/icsme.2018.00032"
+    },
+    {
+      "query": "How do Multiple Pull Requests Affect Software Engineering",
+      "doi": "10.1145/3383219.3383242",
+      "title": "How Do FOSS Communities Decide to Accept Pull Requests?",
+      "authors": [
+        "Alami, Adam",
+        "Cohn, Marisa Leavitt",
+        "Wąisowski, Andrzej"
+      ],
+      "venue": "Proceedings of the Evaluation and Assessment in Software Engineering",
+      "year": 2020,
+      "publisher": "ACM",
+      "score": 40.07939,
+      "url": "https://doi.org/10.1145/3383219.3383242"
+    },
+    {
+      "query": "How do Multiple Pull Requests Affect Software Engineering",
+      "doi": "10.1145/3425269.3425280",
+      "title": "Measuring Unique Changes",
+      "authors": [
+        "Silva, Daniel Augusto Nunes da",
+        "Soares, Daricélio Moreira",
+        "Gonçalves, Silvana Andrade"
+      ],
+      "venue": "Proceedings of the 14th Brazilian Symposium on Software Components, Architectures, and Reuse",
+      "year": 2020,
+      "publisher": "ACM",
+      "score": 37.151054,
+      "url": "https://doi.org/10.1145/3425269.3425280"
+    },
+    {
+      "query": "On the unreliability of bug severity data",
+      "doi": "10.1007/s10664-015-9409-1",
+      "title": "On the unreliability of bug severity data",
+      "authors": [
+        "Tian, Yuan",
+        "Ali, Nasir",
+        "Lo, David",
+        "Hassan, Ahmed E."
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2015,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 33.149834,
+      "url": "https://doi.org/10.1007/s10664-015-9409-1"
+    },
+    {
+      "query": "On the unreliability of bug severity data",
+      "doi": "10.2139/ssrn.5148763",
+      "title": "A Proposed Framework for Enhancing Software Bug Severity Prediction Using Smote to Handle Data Imbalance",
+      "authors": [
+        "Ahlawat, Sweety",
+        "Khurana, Dr. Dhiraj"
+      ],
+      "venue": "",
+      "year": 2025,
+      "publisher": "Elsevier BV",
+      "score": 23.833027,
+      "url": "https://doi.org/10.2139/ssrn.5148763"
+    },
+    {
+      "query": "On the unreliability of bug severity data",
+      "doi": "10.1007/s10664-016-9484-y",
+      "title": "Will this localization tool be effective for this bug? Mitigating the impact of unreliability of information retrieval based bug localization tools",
+      "authors": [
+        "Le, Tien-Duy B.",
+        "Thung, Ferdian",
+        "Lo, David"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2016,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 22.45826,
+      "url": "https://doi.org/10.1007/s10664-016-9484-y"
+    },
+    {
+      "query": "A systematic mapping study on mining software repositories",
+      "doi": "10.1016/j.infsof.2025.107677",
+      "title": "Mining software repositories for software architecture — A systematic mapping study",
+      "authors": [
+        "Soliman, Mohamed",
+        "Albonico, Michel",
+        "Malavolta, Ivano",
+        "Wortmann, Andreas"
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2025,
+      "publisher": "Elsevier BV",
+      "score": 41.034576,
+      "url": "https://doi.org/10.1016/j.infsof.2025.107677"
+    },
+    {
+      "query": "A systematic mapping study on mining software repositories",
+      "doi": "10.1016/j.infsof.2021.106791",
+      "title": "A systematic process for Mining Software Repositories: Results from a systematic literature review",
+      "authors": [
+        "Vidoni, M."
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2022,
+      "publisher": "Elsevier BV",
+      "score": 33.74642,
+      "url": "https://doi.org/10.1016/j.infsof.2021.106791"
+    },
+    {
+      "query": "A systematic mapping study on mining software repositories",
+      "doi": "10.1109/msr.2010.5463348",
+      "title": "Replicating MSR: A study of the potential replicability of papers published in the Mining Software Repositories proceedings",
+      "authors": [
+        "Robles, Gregorio"
+      ],
+      "venue": "2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010)",
+      "year": 2010,
+      "publisher": "IEEE",
+      "score": 33.431557,
+      "url": "https://doi.org/10.1109/msr.2010.5463348"
+    },
+    {
+      "query": "GitHub repositories with Jupyter notebooks",
+      "doi": "10.1007/978-3-031-70314-0_15",
+      "title": "GitHub Repositories and Jupyter Notebooks",
+      "authors": [
+        "Wünschiers, Röbbe"
+      ],
+      "venue": "Computational Biology",
+      "year": 2025,
+      "publisher": "Springer Nature Switzerland",
+      "score": 48.761467,
+      "url": "https://doi.org/10.1007/978-3-031-70314-0_15"
+    },
+    {
+      "query": "GitHub repositories with Jupyter notebooks",
+      "doi": "10.22152/programming-journal.org/2021/5/15",
+      "title": "Jupyter Notebooks on GitHub: Characteristics and Code Clones",
+      "authors": [
+        "Källén, Malin",
+        "Wrigstad, Tobias"
+      ],
+      "venue": "The Art, Science, and Engineering of Programming",
+      "year": 2021,
+      "publisher": "Aspect-Oriented Software Association (AOSA)",
+      "score": 37.439743,
+      "url": "https://doi.org/10.22152/programming-journal.org/2021/5/15"
+    },
+    {
+      "query": "GitHub repositories with Jupyter notebooks",
+      "doi": "10.1109/msr52588.2021.00072",
+      "title": "KGTorrent: A Dataset of Python Jupyter Notebooks from Kaggle",
+      "authors": [
+        "Quaranta, Luigi",
+        "Calefato, Fabio",
+        "Lanubile, Filippo"
+      ],
+      "venue": "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)",
+      "year": 2021,
+      "publisher": "IEEE",
+      "score": 34.664608,
+      "url": "https://doi.org/10.1109/msr52588.2021.00072"
+    },
+    {
+      "query": "Towards a Benchmark for Traceability",
+      "doi": "10.1145/2024445.2024451",
+      "title": "Towards a benchmark for traceability",
+      "authors": [
+        "Ben Charrada, Eya",
+        "Caspar, David",
+        "Jeanneret, Cédric",
+        "Glinz, Martin"
+      ],
+      "venue": "Proceedings of the 12th International Workshop on Principles of Software Evolution and the 7th annual ERCIM Workshop on Software Evolution",
+      "year": 2011,
+      "publisher": "ACM",
+      "score": 22.339481,
+      "url": "https://doi.org/10.1145/2024445.2024451"
+    },
+    {
+      "query": "Towards a Benchmark for Traceability",
+      "doi": "10.33612/diss.1453958540",
+      "title": "Towards Achieving Effective Traceability Management Between And Within Software Artifacts",
+      "authors": [
+        ", ",
+        "Pauzi, Zaki"
+      ],
+      "venue": "",
+      "year": null,
+      "publisher": "University of Groningen Press",
+      "score": 20.43665,
+      "url": "https://doi.org/10.33612/diss.1453958540"
+    },
+    {
+      "query": "Towards a Benchmark for Traceability",
+      "doi": "10.1109/tefse.2009.5069576",
+      "title": "Towards traceability from project management to system models",
+      "authors": [
+        "Helming, Jonas",
+        "Koegel, Maximilian",
+        "Naughton, Helmut"
+      ],
+      "venue": "2009 ICSE Workshop on Traceability in Emerging Forms of Software Engineering",
+      "year": 2009,
+      "publisher": "IEEE",
+      "score": 19.871346,
+      "url": "https://doi.org/10.1109/tefse.2009.5069576"
+    },
+    {
+      "query": "Pitfalls of GitHub mining",
+      "doi": "10.21203/rs.3.rs-8478733/v1",
+      "title": "QModel: A Time-Aware GitHub Mining Framework for Empirical Software Quality Studies",
+      "authors": [
+        "Polishchuk, Dmytro"
+      ],
+      "venue": "",
+      "year": 2026,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 21.756664,
+      "url": "https://doi.org/10.21203/rs.3.rs-8478733/v1"
+    },
+    {
+      "query": "Pitfalls of GitHub mining",
+      "doi": "10.2139/ssrn.2927901",
+      "title": "GitHub API Based QuantNet Mining Infrastructure in R",
+      "authors": [
+        "Borke, Lukas"
+      ],
+      "venue": "SSRN Electronic Journal",
+      "year": 2017,
+      "publisher": "Elsevier BV",
+      "score": 21.62989,
+      "url": "https://doi.org/10.2139/ssrn.2927901"
+    },
+    {
+      "query": "Pitfalls of GitHub mining",
+      "doi": "10.2139/ssrn.5547515",
+      "title": "Integrating Large Language Models in Software EngineeringEducation: A Pilot Study through GitHub Repositories Mining",
+      "authors": [
+        "Khan, Maryam",
+        "Akbar, Muhammad Azeem",
+        "Kasurinen, Jussi"
+      ],
+      "venue": "",
+      "year": 2025,
+      "publisher": "Elsevier BV",
+      "score": 20.167671,
+      "url": "https://doi.org/10.2139/ssrn.5547515"
+    },
+    {
+      "query": "What do developers discuss about code comments",
+      "doi": "10.26226/morressier.613b54401459512fce6a7cff",
+      "title": "What do Developers Discuss about Code Comments?",
+      "authors": [
+        "Rani, Pooja",
+        "Birrer, Mathias",
+        "Panichella, Sebastiano",
+        "Ghafari, Mohammad",
+        "Oscar, Nierstrasz"
+      ],
+      "venue": "",
+      "year": 2021,
+      "publisher": "Morressier",
+      "score": 60.497414,
+      "url": "https://doi.org/10.26226/morressier.613b54401459512fce6a7cff"
+    },
+    {
+      "query": "What do developers discuss about code comments",
+      "doi": "10.1109/scam52516.2021.00027",
+      "title": "What Do Developers Discuss about Code Comments?",
+      "authors": [
+        "Rani, Pooja",
+        "Birrer, Mathias",
+        "Panichella, Sebastiano",
+        "Ghafari, Mohammad",
+        "Nierstrasz, Oscar"
+      ],
+      "venue": "2021 IEEE 21st International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+      "year": 2021,
+      "publisher": "IEEE",
+      "score": 51.764378,
+      "url": "https://doi.org/10.1109/scam52516.2021.00027"
+    },
+    {
+      "query": "What do developers discuss about code comments",
+      "doi": "10.2139/ssrn.4673515",
+      "title": "What Do Developers Discuss About Software Monitoring in Stack Overflow? A Case Study on Prometheus",
+      "authors": [
+        "Batoun, Mohamed Amine",
+        "Ennajih, Mawan",
+        "Sayagh, Mohammed",
+        "Ouni, Ali"
+      ],
+      "venue": "",
+      "year": 2023,
+      "publisher": "Elsevier BV",
+      "score": 38.46898,
+      "url": "https://doi.org/10.2139/ssrn.4673515"
+    },
+    {
+      "query": "Selecting open source software projects",
+      "doi": "10.1109/edurex.2012.6225697",
+      "title": "Integrating Open Source Software into software engineering curriculum: Challenges in selecting projects",
+      "authors": [
+        "Gokhale, Swapna S.",
+        "Smith, Therese",
+        "McCartney, Robert"
+      ],
+      "venue": "2012 First International Workshop on Software Engineering Education Based on Real-World Experiences (EduRex)",
+      "year": 2012,
+      "publisher": "IEEE",
+      "score": 34.80481,
+      "url": "https://doi.org/10.1109/edurex.2012.6225697"
+    },
+    {
+      "query": "Selecting open source software projects",
+      "doi": "10.1145/2538862.2538932",
+      "title": "Selecting open source software projects to teach software engineering",
+      "authors": [
+        "Smith, Therese Mary",
+        "McCartney, Robert",
+        "Gokhale, Swapna S.",
+        "Kaczmarczyk, Lisa C."
+      ],
+      "venue": "Proceedings of the 45th ACM technical symposium on Computer science education",
+      "year": 2014,
+      "publisher": "ACM",
+      "score": 34.176064,
+      "url": "https://doi.org/10.1145/2538862.2538932"
+    },
+    {
+      "query": "Selecting open source software projects",
+      "doi": "10.22215/etd/2006-07513",
+      "title": "Sales generated using open source software projects",
+      "authors": [
+        "Yang, Jihong"
+      ],
+      "venue": "",
+      "year": null,
+      "publisher": "Carleton University",
+      "score": 34.10672,
+      "url": "https://doi.org/10.22215/etd/2006-07513"
+    },
+    {
+      "query": "An empirical study of the relation between mining",
+      "doi": "10.1016/0148-9062(95)93499-f",
+      "title": "An empirical relation between overburden pressure and firn density",
+      "authors": [],
+      "venue": "International Journal of Rock Mechanics and Mining Sciences &amp; Geomechanics Abstracts",
+      "year": 1995,
+      "publisher": "Elsevier BV",
+      "score": 24.148457,
+      "url": "https://doi.org/10.1016/0148-9062(95)93499-f"
+    },
+    {
+      "query": "An empirical study of the relation between mining",
+      "doi": "10.1016/0148-9062(84)92793-1",
+      "title": "Empirical relation between electrical transverse resistance and hydraulic transmissivity",
+      "authors": [],
+      "venue": "International Journal of Rock Mechanics and Mining Sciences &amp; Geomechanics Abstracts",
+      "year": 1984,
+      "publisher": "Elsevier BV",
+      "score": 24.077486,
+      "url": "https://doi.org/10.1016/0148-9062(84)92793-1"
+    },
+    {
+      "query": "An empirical study of the relation between mining",
+      "doi": "10.1016/s1365-1609(02)00032-1",
+      "title": "An empirical relation between mode I fracture toughness and the tensile strength of rock",
+      "authors": [
+        "Zhang, Z.X"
+      ],
+      "venue": "International Journal of Rock Mechanics and Mining Sciences",
+      "year": 2002,
+      "publisher": "Elsevier BV",
+      "score": 23.627728,
+      "url": "https://doi.org/10.1016/s1365-1609(02)00032-1"
+    },
+    {
+      "query": "Replication package",
+      "doi": "10.53962/p8t5-wzwr",
+      "title": "Replication Package REVIVE-PEEP trial Registered Report",
+      "authors": [],
+      "venue": "Replication Package REVIVE-PEEP Registered Report",
+      "year": 2026,
+      "publisher": "Liberate Science GmbH",
+      "score": 25.086224,
+      "url": "https://doi.org/10.53962/p8t5-wzwr"
+    },
+    {
+      "query": "Replication package",
+      "doi": "10.53962/kyep-h9",
+      "title": "Replication Package ALL-IN-META-BCG-CORONA",
+      "authors": [],
+      "venue": "Replication Package ALL-IN-META-BCG-CORONA",
+      "year": 2026,
+      "publisher": "Liberate Science GmbH",
+      "score": 24.69424,
+      "url": "https://doi.org/10.53962/kyep-h9"
+    },
+    {
+      "query": "Replication package",
+      "doi": "10.7717/peerj-cs.1669/supp-1",
+      "title": "Supplemental Information 1: Replication Package.",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "PeerJ",
+      "score": 24.120626,
+      "url": "https://doi.org/10.7717/peerj-cs.1669/supp-1"
+    },
+    {
+      "query": "Data leakage in software engineering",
+      "doi": "10.21275/sr24509123132",
+      "title": "Static Testing in Software Engineering - Reducing Defect Leakage",
+      "authors": [
+        "Ghorai, Aindrila"
+      ],
+      "venue": "International Journal of Science and Research (IJSR)",
+      "year": 2018,
+      "publisher": "International Journal of Science and Research",
+      "score": 23.70676,
+      "url": "https://doi.org/10.21275/sr24509123132"
+    },
+    {
+      "query": "Data leakage in software engineering",
+      "doi": "10.1007/s10664-024-10518-9",
+      "title": "The impact of concept drift and data leakage on log level prediction models",
+      "authors": [
+        "Ouatiti, Youssef Esseddiq",
+        "Sayagh, Mohammed",
+        "Kerzazi, Noureddine",
+        "Adams, Bram",
+        "Hassan, Ahmed E."
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2024,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 22.317421,
+      "url": "https://doi.org/10.1007/s10664-024-10518-9"
+    },
+    {
+      "query": "Data leakage in software engineering",
+      "doi": "10.3724/sp.j.1001.2012.03974",
+      "title": "Extended Chinese Wall Model for Aggressive Data Leakage Prevention",
+      "authors": [
+        "MA, Jun",
+        "WANG, Zhi-Ying",
+        "REN, Jiang-Chun",
+        "WU, Jiang-Jiang",
+        "CHENG, Yong",
+        "MEI, Song-Zhu"
+      ],
+      "venue": "Journal of Software",
+      "year": 2012,
+      "publisher": "China Science Publishing & Media Ltd.",
+      "score": 22.03728,
+      "url": "https://doi.org/10.3724/sp.j.1001.2012.03974"
+    },
+    {
+      "query": "Benchmark data contamination",
+      "doi": "10.1109/bigdata66926.2025.11402039",
+      "title": "Analysis of Semantic Benchmark Data Contamination Attack for LLM-Driven Fake News Detection",
+      "authors": [
+        "Xu, Cheng",
+        "Kechadi, M-Tahar"
+      ],
+      "venue": "2025 IEEE International Conference on Big Data (BigData)",
+      "year": 2025,
+      "publisher": "IEEE",
+      "score": 22.543043,
+      "url": "https://doi.org/10.1109/bigdata66926.2025.11402039"
+    },
+    {
+      "query": "Benchmark data contamination",
+      "doi": "10.22541/au.177499048.88707055/v1",
+      "title": "Contamination Percolation in Multi-Agent LLM Systems: A Measurement Framework and Benchmark",
+      "authors": [
+        "Sharma, Aman"
+      ],
+      "venue": "",
+      "year": 2026,
+      "publisher": "Wiley",
+      "score": 20.382507,
+      "url": "https://doi.org/10.22541/au.177499048.88707055/v1"
+    },
+    {
+      "query": "Benchmark data contamination",
+      "doi": "10.1088/1361-6560/ae1366/data1",
+      "title": "AMDM Benchmark Supporting Data",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "IOP Publishing",
+      "score": 19.519373,
+      "url": "https://doi.org/10.1088/1361-6560/ae1366/data1"
+    },
+    {
+      "query": "Human-labeled datasets software engineering",
+      "doi": "10.34190/icair.5.1.3030",
+      "title": "Comparing human-labeled and AI-labeled speech datasets for TTS",
+      "authors": [
+        "Wirth, Johannes",
+        "Peinl, René"
+      ],
+      "venue": "International Conference on AI Research",
+      "year": 2024,
+      "publisher": "Academic Conferences and Publishing International Ltd",
+      "score": 22.500967,
+      "url": "https://doi.org/10.34190/icair.5.1.3030"
+    },
+    {
+      "query": "Human-labeled datasets software engineering",
+      "doi": "10.5334/jors.148",
+      "title": "xarray: N-D labeled Arrays and Datasets in Python",
+      "authors": [
+        "Hoyer, Stephan",
+        "Hamman, Joe"
+      ],
+      "venue": "Journal of Open Research Software",
+      "year": 2017,
+      "publisher": "Ubiquity Press, Ltd.",
+      "score": 22.183586,
+      "url": "https://doi.org/10.5334/jors.148"
+    },
+    {
+      "query": "Human-labeled datasets software engineering",
+      "doi": "10.1007/978-1-84800-907-3_1",
+      "title": "Human-Centered Software Engineering: Software Engineering Architectures, Patterns, and Sodels for Human Computer Interaction",
+      "authors": [
+        "Seffah, Ahmed",
+        "Vanderdonckt, Jean",
+        "Desmarais, Michel C."
+      ],
+      "venue": "Human-Computer Interaction Series",
+      "year": 2009,
+      "publisher": "Springer London",
+      "score": 21.278965,
+      "url": "https://doi.org/10.1007/978-1-84800-907-3_1"
+    },
+    {
+      "query": "Interrater agreement software engineering",
+      "doi": "10.1023/a:1009820201126",
+      "title": "Benchmarking Kappa: Interrater Agreement in Software Process Assessments",
+      "authors": [
+        "Emam, Khaled El"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 1999,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 34.911995,
+      "url": "https://doi.org/10.1023/a:1009820201126"
+    },
+    {
+      "query": "Interrater agreement software engineering",
+      "doi": "10.1109/isese.2005.1541837",
+      "title": "An experiment on subjective evolvability evaluation of object-oriented software: explaining factors and interrater agreement",
+      "authors": [
+        "Mantyla, M.V."
+      ],
+      "venue": "2005 International Symposium on Empirical Software Engineering, 2005.",
+      "year": null,
+      "publisher": "IEEE",
+      "score": 32.651814,
+      "url": "https://doi.org/10.1109/isese.2005.1541837"
+    },
+    {
+      "query": "Interrater agreement software engineering",
+      "doi": "10.1007/978-3-030-11671-2_3",
+      "title": "Interrater Agreement",
+      "authors": [
+        "Popping, Roel"
+      ],
+      "venue": "Introduction to Interrater Agreement for Nominal Data",
+      "year": 2019,
+      "publisher": "Springer International Publishing",
+      "score": 30.208452,
+      "url": "https://doi.org/10.1007/978-3-030-11671-2_3"
+    },
+    {
+      "query": "Using LLMs for annotation in software engineering",
+      "doi": "10.1109/msr66628.2025.00086",
+      "title": "Can LLMs Replace Manual Annotation of Software Engineering Artifacts?",
+      "authors": [
+        "Ahmed, Toufique",
+        "Devanbu, Premkumar",
+        "Treude, Christoph",
+        "Pradel, Michael"
+      ],
+      "venue": "2025 IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)",
+      "year": 2025,
+      "publisher": "IEEE",
+      "score": 30.257349,
+      "url": "https://doi.org/10.1109/msr66628.2025.00086"
+    },
+    {
+      "query": "Using LLMs for annotation in software engineering",
+      "doi": "10.1007/s10664-023-10423-7",
+      "title": "Multi-granular software annotation using file-level weak labelling",
+      "authors": [
+        "Sas, Cezar",
+        "Capiluppi, Andrea"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2023,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 26.42194,
+      "url": "https://doi.org/10.1007/s10664-023-10423-7"
+    },
+    {
+      "query": "Using LLMs for annotation in software engineering",
+      "doi": "10.1109/sera65747.2025.11154541",
+      "title": "SYNC: SYnergistic aNnotation Collaboration between Humans and LLMs for Enhanced Model Training",
+      "authors": [
+        "Le, Tammy",
+        "Taylor, Will",
+        "Maharjan, Shradha",
+        "Xia, Meng",
+        "Song, Myoungkyu"
+      ],
+      "venue": "2025 IEEE/ACIS 23rd International Conference on Software Engineering Research, Management and Applications (SERA)",
+      "year": 2025,
+      "publisher": "IEEE",
+      "score": 25.338009,
+      "url": "https://doi.org/10.1109/sera65747.2025.11154541"
+    },
+    {
+      "query": "Prompt engineering as software engineering",
+      "doi": "10.1109/ase63991.2025.00276",
+      "title": "Prompt-with-Me: in-IDE Structured Prompt Management for LLM-Driven Software Engineering",
+      "authors": [
+        "Li, Ziyou",
+        "Sergeyuk, Agnia",
+        "Izadi, Maliheh"
+      ],
+      "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "year": 2025,
+      "publisher": "IEEE",
+      "score": 29.906384,
+      "url": "https://doi.org/10.1109/ase63991.2025.00276"
+    },
+    {
+      "query": "Prompt engineering as software engineering",
+      "doi": "10.1109/mitp.2024.3525458/mm1",
+      "title": "Landscape and Taxonomy of Prompt Engineering Patterns in Software Engineering_supp1-3525458.pdf",
+      "authors": [
+        "Sasaki, Yuya"
+      ],
+      "venue": "",
+      "year": null,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "score": 28.466965,
+      "url": "https://doi.org/10.1109/mitp.2024.3525458/mm1"
+    },
+    {
+      "query": "Prompt engineering as software engineering",
+      "doi": "10.1145/3803437.3805788",
+      "title": "Prompt Engineering in Software Engineering Education: An Empirical Study of Demand, Supply, and Assessment",
+      "authors": [
+        "Kassab, Mohamad"
+      ],
+      "venue": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+      "year": 2026,
+      "publisher": "ACM",
+      "score": 27.860832,
+      "url": "https://doi.org/10.1145/3803437.3805788"
+    },
+    {
+      "query": "Repository mining with large language models",
+      "doi": "10.24818/ida-ql/2025.200",
+      "title": "Enhancing Large Language Models for Bitcoin Time Series Forecasting",
+      "authors": [
+        "Chaffard, Owen"
+      ],
+      "venue": "IDA Quantlets Repository",
+      "year": 2025,
+      "publisher": "Bucharest University of Economic Studies",
+      "score": 31.675312,
+      "url": "https://doi.org/10.24818/ida-ql/2025.200"
+    },
+    {
+      "query": "Repository mining with large language models",
+      "doi": "10.24818/ida-ql/2025.201",
+      "title": "Enhancing Large Language Models for Bitcoin Time Series Forecasting",
+      "authors": [
+        "Chaffard, Owen"
+      ],
+      "venue": "IDA Quantlets Repository",
+      "year": 2025,
+      "publisher": "Bucharest University of Economic Studies",
+      "score": 31.56263,
+      "url": "https://doi.org/10.24818/ida-ql/2025.201"
+    },
+    {
+      "query": "Repository mining with large language models",
+      "doi": "10.51473/rcmos.v1i1.2026.2199",
+      "title": "Um framework de recomendação de automação baseado em Task Mining e Large Language Models",
+      "authors": [
+        "Bastos, Márcio da Silva"
+      ],
+      "venue": "RCMOS - Revista Científica Multidisciplinar O Saber",
+      "year": 2026,
+      "publisher": "Editora Aluz",
+      "score": 29.202555,
+      "url": "https://doi.org/10.51473/rcmos.v1i1.2026.2199"
+    },
+    {
+      "query": "GHTorrent: GitHub's data from a firehose",
+      "doi": "10.1109/msr.2012.6224294",
+      "title": "GHTorrent: Github's data from a firehose",
+      "authors": [
+        "Gousios, Georgios",
+        "Spinellis, D."
+      ],
+      "venue": "2012 9th IEEE Working Conference on Mining Software Repositories (MSR)",
+      "year": 2012,
+      "publisher": "IEEE",
+      "score": 40.04059,
+      "url": "https://doi.org/10.1109/msr.2012.6224294"
+    },
+    {
+      "query": "GHTorrent: GitHub's data from a firehose",
+      "doi": "10.1145/2597073.2597126",
+      "title": "Lean GHTorrent: GitHub data on demand",
+      "authors": [
+        "Gousios, Georgios",
+        "Vasilescu, Bogdan",
+        "Serebrenik, Alexander",
+        "Zaidman, Andy"
+      ],
+      "venue": "Proceedings of the 11th Working Conference on Mining Software Repositories",
+      "year": 2014,
+      "publisher": "ACM",
+      "score": 32.927807,
+      "url": "https://doi.org/10.1145/2597073.2597126"
+    },
+    {
+      "query": "GHTorrent: GitHub's data from a firehose",
+      "doi": "10.59350/ymtk3-n1s70",
+      "title": "Publishing biodiversity data directly from GitHub to GBIF",
+      "authors": [
+        "Page, Roderic"
+      ],
+      "venue": "",
+      "year": 2014,
+      "publisher": "Front Matter",
+      "score": 24.957043,
+      "url": "https://doi.org/10.59350/ymtk3-n1s70"
+    },
+    {
+      "query": "Software Heritage: Why and How to Preserve Source Code",
+      "doi": "10.9785/cri-2015-0403",
+      "title": "Tooling for Open Source Software License Compliance",
+      "authors": [
+        "Hemel, Armijn"
+      ],
+      "venue": "Computer Law Review International",
+      "year": 2015,
+      "publisher": "Verlag Dr. Otto Schmidt",
+      "score": 31.673847,
+      "url": "https://doi.org/10.9785/cri-2015-0403"
+    },
+    {
+      "query": "Software Heritage: Why and How to Preserve Source Code",
+      "doi": "10.6019/tol.oa_software-w.2021.00001.1",
+      "title": "Open access: Why build open source software and how to do it successfully",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "EMBL-EBI",
+      "score": 30.922337,
+      "url": "https://doi.org/10.6019/tol.oa_software-w.2021.00001.1"
+    },
+    {
+      "query": "Software Heritage: Why and How to Preserve Source Code",
+      "doi": "10.7554/elife.35796.026",
+      "title": "Source code 2. Source code of Matlab software 2.",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "eLife Sciences Publications, Ltd",
+      "score": 30.36179,
+      "url": "https://doi.org/10.7554/elife.35796.026"
+    },
+    {
+      "query": "A retrospective study of one decade of artifact evaluations",
+      "doi": "10.1145/3540250.3549172",
+      "title": "A retrospective study of one decade of artifact evaluations",
+      "authors": [
+        "Winter, Stefan",
+        "Timperley, Christopher S.",
+        "Hermann, Ben",
+        "Cito, Jürgen",
+        "Bell, Jonathan",
+        "Hilton, Michael"
+      ],
+      "venue": "Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+      "year": 2022,
+      "publisher": "ACM",
+      "score": 34.845432,
+      "url": "https://doi.org/10.1145/3540250.3549172"
+    },
+    {
+      "query": "A retrospective study of one decade of artifact evaluations",
+      "doi": "10.3386/w12311",
+      "title": "The Boskin Commission Report: A Retrospective One Decade Later",
+      "authors": [
+        "Gordon, Robert"
+      ],
+      "venue": "",
+      "year": 2006,
+      "publisher": "National Bureau of Economic Research",
+      "score": 26.24893,
+      "url": "https://doi.org/10.3386/w12311"
+    },
+    {
+      "query": "A retrospective study of one decade of artifact evaluations",
+      "doi": "10.1007/0-306-47559-6_11",
+      "title": "Case Study Evaluations: A Decade of Progress?",
+      "authors": [
+        "Yin, Robert K."
+      ],
+      "venue": "Evaluation in Education and Human Services",
+      "year": null,
+      "publisher": "Kluwer Academic Publishers",
+      "score": 23.16996,
+      "url": "https://doi.org/10.1007/0-306-47559-6_11"
+    },
+    {
+      "query": "Publish or perish but do not forget your software artifacts",
+      "doi": "10.1007/s10664-020-09851-6",
+      "title": "Publish or perish, but do not forget your software artifacts",
+      "authors": [
+        "Heumüller, Robert",
+        "Nielebock, Sebastian",
+        "Krüger, Jacob",
+        "Ortmeier, Frank"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2020,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 59.767513,
+      "url": "https://doi.org/10.1007/s10664-020-09851-6"
+    },
+    {
+      "query": "Publish or perish but do not forget your software artifacts",
+      "doi": "10.1126/science.opms.r0900077",
+      "title": "Funding Your Future: Publish Or Perish",
+      "authors": [
+        "Gewin, Virginia"
+      ],
+      "venue": "Science",
+      "year": 2009,
+      "publisher": "American Association for the Advancement of Science (AAAS)",
+      "score": 37.873695,
+      "url": "https://doi.org/10.1126/science.opms.r0900077"
+    },
+    {
+      "query": "Publish or perish but do not forget your software artifacts",
+      "doi": "10.5465/amle.2012.0070",
+      "title": "The Publish or Perish Book: Your Guide to Effective and Responsible Citation AnalysisThe Publish or Perish Book: Your Guide to Effective and Responsible Citation Analysis, by HarzingAnne-Wil. Tarma Software Research, Pty. Ltd., 2010. 246 pages, hardcover.",
+      "authors": [
+        "Trau, R. N. C."
+      ],
+      "venue": "Academy of Management Learning &amp; Education",
+      "year": 2012,
+      "publisher": "Academy of Management",
+      "score": 36.903194,
+      "url": "https://doi.org/10.5465/amle.2012.0070"
+    },
+    {
+      "query": "Research artifacts in software engineering publications",
+      "doi": "10.1016/j.jss.2024.112032",
+      "title": "Research artifacts in software engineering publications: Status and trends",
+      "authors": [
+        "Liu, Mugeng",
+        "Huang, Xiaolong",
+        "He, Wei",
+        "Xie, Yibing",
+        "Zhang, Jie M.",
+        "Jing, Xiang"
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2024,
+      "publisher": "Elsevier BV",
+      "score": 28.675968,
+      "url": "https://doi.org/10.1016/j.jss.2024.112032"
+    },
+    {
+      "query": "Research artifacts in software engineering publications",
+      "doi": "10.1016/j.infsof.2025.107830",
+      "title": "Research artifacts in secondary studies: A systematic mapping in software engineering",
+      "authors": [
+        "Huotala, Aleksi",
+        "Kuutila, Miikka",
+        "Mäntylä, Mika"
+      ],
+      "venue": "Information and Software Technology",
+      "year": 2025,
+      "publisher": "Elsevier BV",
+      "score": 25.024883,
+      "url": "https://doi.org/10.1016/j.infsof.2025.107830"
+    },
+    {
+      "query": "Research artifacts in software engineering publications",
+      "doi": "10.1007/s10664-020-09918-4",
+      "title": "Wikifying software artifacts",
+      "authors": [
+        "Nassif, Mathieu",
+        "Robillard, Martin P."
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2021,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 24.227987,
+      "url": "https://doi.org/10.1007/s10664-020-09918-4"
+    },
+    {
+      "query": "Problems with SZZ and features",
+      "doi": "10.1007/s10664-021-10092-4",
+      "title": "Problems with SZZ and features: An empirical study of the state of practice of defect prediction data collection",
+      "authors": [
+        "Herbold, Steffen",
+        "Trautsch, Alexander",
+        "Trautsch, Fabian",
+        "Ledel, Benjamin"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2022,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 23.238888,
+      "url": "https://doi.org/10.1007/s10664-021-10092-4"
+    },
+    {
+      "query": "Problems with SZZ and features",
+      "doi": "10.22541/au.153701518.89151518",
+      "title": "Preliminary Notes 1.",
+      "authors": [
+        "SZZ, "
+      ],
+      "venue": "",
+      "year": 2018,
+      "publisher": "Wiley",
+      "score": 22.701778,
+      "url": "https://doi.org/10.22541/au.153701518.89151518"
+    },
+    {
+      "query": "Problems with SZZ and features",
+      "doi": "10.1007/s10664-025-10616-2",
+      "title": "WIA-SZZ: Work item aware SZZ",
+      "authors": [
+        "Perez-Rosero, Salomé",
+        "Dyer, Robert",
+        "Flint, Samuel W.",
+        "McIntosh, Shane",
+        "Srisa-an, Witawas"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2025,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 20.34096,
+      "url": "https://doi.org/10.1007/s10664-025-10616-2"
+    },
+    {
+      "query": "Evaluating defect prediction approaches a benchmark",
+      "doi": "10.1007/s10664-011-9173-9",
+      "title": "Evaluating defect prediction approaches: a benchmark and an extensive comparison",
+      "authors": [
+        "D’Ambros, Marco",
+        "Lanza, Michele",
+        "Robbes, Romain"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2011,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 33.263687,
+      "url": "https://doi.org/10.1007/s10664-011-9173-9"
+    },
+    {
+      "query": "Evaluating defect prediction approaches a benchmark",
+      "doi": "10.1145/3180155.3182542",
+      "title": "A comparative study to benchmark cross-project defect prediction approaches",
+      "authors": [
+        "Herbold, Steffen",
+        "Trautsch, Alexander",
+        "Grabowski, Jens"
+      ],
+      "venue": "Proceedings of the 40th International Conference on Software Engineering",
+      "year": 2018,
+      "publisher": "ACM",
+      "score": 28.274876,
+      "url": "https://doi.org/10.1145/3180155.3182542"
+    },
+    {
+      "query": "Evaluating defect prediction approaches a benchmark",
+      "doi": "10.5220/0014953100004015",
+      "title": "Evaluating Defect-Prediction Models through Weighted EA-Z and Heterogeneous Feature Representations",
+      "authors": [
+        "Nadejde, Camelia-Petrina",
+        "Serban, Camelia",
+        "Vescan, Andreea"
+      ],
+      "venue": "Proceedings of the 21st International Conference on Evaluation of Novel Approaches to Software Engineering",
+      "year": 2026,
+      "publisher": "SCITEPRESS - Science and Technology Publications",
+      "score": 27.927708,
+      "url": "https://doi.org/10.5220/0014953100004015"
+    },
+    {
+      "query": "Cross-project defect prediction a large scale experiment",
+      "doi": "10.1145/1595696.1595713",
+      "title": "Cross-project defect prediction",
+      "authors": [
+        "Zimmermann, Thomas",
+        "Nagappan, Nachiappan",
+        "Gall, Harald",
+        "Giger, Emanuel",
+        "Murphy, Brendan"
+      ],
+      "venue": "Proceedings of the 7th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering",
+      "year": 2009,
+      "publisher": "ACM",
+      "score": 34.050293,
+      "url": "https://doi.org/10.1145/1595696.1595713"
+    },
+    {
+      "query": "Cross-project defect prediction a large scale experiment",
+      "doi": "10.1007/978-3-032-01336-1_6",
+      "title": "Cross-Project Defect Prediction",
+      "authors": [
+        "Xu, Zhou"
+      ],
+      "venue": "Machine-Learning-Assisted Software Defect Prediction",
+      "year": 2025,
+      "publisher": "Springer Nature Switzerland",
+      "score": 33.386482,
+      "url": "https://doi.org/10.1007/978-3-032-01336-1_6"
+    },
+    {
+      "query": "Cross-project defect prediction a large scale experiment",
+      "doi": "10.11606/t.55.2018.tde-21032018-163840",
+      "title": "Cross-project defect prediction with meta-Learning",
+      "authors": [
+        "Porto, Faimison Rodrigues"
+      ],
+      "venue": "",
+      "year": null,
+      "publisher": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+      "score": 33.007732,
+      "url": "https://doi.org/10.11606/t.55.2018.tde-21032018-163840"
+    },
+    {
+      "query": "An empirical comparison of model validation techniques",
+      "doi": "10.1109/tse.2017.2748129",
+      "title": "Comments on ScottKnottESD in response to \"An empirical comparison of model validation techniques for defect prediction models\"",
+      "authors": [
+        "Herbold, Steffen"
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2017,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "score": 25.759108,
+      "url": "https://doi.org/10.1109/tse.2017.2748129"
+    },
+    {
+      "query": "An empirical comparison of model validation techniques",
+      "doi": "10.1109/tse.2016.2584050",
+      "title": "An Empirical Comparison of Model Validation Techniques for Defect Prediction Models",
+      "authors": [
+        "Tantithamthavorn, Chakkrit",
+        "McIntosh, Shane",
+        "Hassan, Ahmed E.",
+        "Matsumoto, Kenichi"
+      ],
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2017,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "score": 25.45596,
+      "url": "https://doi.org/10.1109/tse.2016.2584050"
+    },
+    {
+      "query": "An empirical comparison of model validation techniques",
+      "doi": "10.1111/j.1538-4632.1986.tb00092.x",
+      "title": "Model Comparison and Model Validation Issues in Empirical Work on Urban Density Functions",
+      "authors": [
+        "Anselin, Luc",
+        "Can, Ayse"
+      ],
+      "venue": "Geographical Analysis",
+      "year": 1986,
+      "publisher": "Wiley",
+      "score": 23.673225,
+      "url": "https://doi.org/10.1111/j.1538-4632.1986.tb00092.x"
+    },
+    {
+      "query": "Leakage in data mining formulation detection",
+      "doi": "10.1145/2020408.2020496",
+      "title": "Leakage in data mining",
+      "authors": [
+        "Kaufman, Shachar",
+        "Rosset, Saharon",
+        "Perlich, Claudia"
+      ],
+      "venue": "Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining",
+      "year": 2011,
+      "publisher": "ACM",
+      "score": 34.58134,
+      "url": "https://doi.org/10.1145/2020408.2020496"
+    },
+    {
+      "query": "Leakage in data mining formulation detection",
+      "doi": "10.1145/2382577.2382579",
+      "title": "Leakage in data mining",
+      "authors": [
+        "Kaufman, Shachar",
+        "Rosset, Saharon",
+        "Perlich, Claudia",
+        "Stitelman, Ori"
+      ],
+      "venue": "ACM Transactions on Knowledge Discovery from Data",
+      "year": 2012,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 31.040852,
+      "url": "https://doi.org/10.1145/2382577.2382579"
+    },
+    {
+      "query": "Leakage in data mining formulation detection",
+      "doi": "10.1186/s13040-025-00516-y",
+      "title": "Generalization or mirage? Data leakage and reported performance in neonatal EEG seizure detection models: a systematic review",
+      "authors": [
+        "Tegenaw, Geletaw Sahle",
+        "Song, Hailin",
+        "Ward, Tomas"
+      ],
+      "venue": "BioData Mining",
+      "year": 2026,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 25.397278,
+      "url": "https://doi.org/10.1186/s13040-025-00516-y"
+    },
+    {
+      "query": "A unifying view on dataset shift",
+      "doi": "10.1016/j.patcog.2011.06.019",
+      "title": "A unifying view on dataset shift in classification",
+      "authors": [
+        "Moreno-Torres, Jose G.",
+        "Raeder, Troy",
+        "Alaiz-Rodríguez, Rocío",
+        "Chawla, Nitesh V.",
+        "Herrera, Francisco"
+      ],
+      "venue": "Pattern Recognition",
+      "year": 2012,
+      "publisher": "Elsevier BV",
+      "score": 28.791355,
+      "url": "https://doi.org/10.1016/j.patcog.2011.06.019"
+    },
+    {
+      "query": "A unifying view on dataset shift",
+      "doi": "10.7551/mitpress/9780262170055.003.0010",
+      "title": "An Adversarial View of Covariate Shift and a Minimax Approach",
+      "authors": [
+        "Amir, Globerson",
+        "Choon, Hui Teo",
+        "Alex, Smola",
+        "Sam, Roweis"
+      ],
+      "venue": "Dataset Shift in Machine Learning",
+      "year": 2008,
+      "publisher": "The MIT Press",
+      "score": 23.995281,
+      "url": "https://doi.org/10.7551/mitpress/9780262170055.003.0010"
+    },
+    {
+      "query": "A unifying view on dataset shift",
+      "doi": "10.7551/mitpress/7921.003.0015",
+      "title": "An Adversarial View of Covariate Shift and a Minimax Approach",
+      "authors": [
+        "Globerson, Amir",
+        "Teo, Choon Hui",
+        "Smola, Alex",
+        "Roweis, Sam"
+      ],
+      "venue": "Dataset Shift in Machine Learning",
+      "year": 2008,
+      "publisher": "The MIT Press",
+      "score": 23.707851,
+      "url": "https://doi.org/10.7551/mitpress/7921.003.0015"
+    },
+    {
+      "query": "Large language models for software engineering a systematic literature review",
+      "doi": "10.1145/3815425",
+      "title": "A Systematic Literature Review on Detecting Software Vulnerabilities with Large Language Models",
+      "authors": [
+        "Kaniewski, Sabrina",
+        "Schmidt, Fabian",
+        "Enzweiler, Markus",
+        "Menth, Michael",
+        "Heer, Tobias"
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2026,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 37.545715,
+      "url": "https://doi.org/10.1145/3815425"
+    },
+    {
+      "query": "Large language models for software engineering a systematic literature review",
+      "doi": "10.21203/rs.3.rs-10126259/v1",
+      "title": "Are Large Language Models Ready for Quantum Software Engineering? A Multivocal Literature Review",
+      "authors": [
+        "Porta, Antonio Della",
+        "Lambiase, Stefano",
+        "De Lucia, Andrea",
+        "Palomba, Fabio"
+      ],
+      "venue": "",
+      "year": 2026,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 37.073696,
+      "url": "https://doi.org/10.21203/rs.3.rs-10126259/v1"
+    },
+    {
+      "query": "Large language models for software engineering a systematic literature review",
+      "doi": "10.1016/j.jss.2025.112762",
+      "title": "Software refactoring research with large language models: A systematic literature review",
+      "authors": [
+        "Martinez, Sofia",
+        "Xu, Luo",
+        "Elnaggar, Mariam",
+        "Abdullah Alomar, Eman"
+      ],
+      "venue": "Journal of Systems and Software",
+      "year": 2026,
+      "publisher": "Elsevier BV",
+      "score": 36.75741,
+      "url": "https://doi.org/10.1016/j.jss.2025.112762"
+    },
+    {
+      "query": "SWE-bench Can Language Models Resolve",
+      "doi": "10.1145/3759425.3763379",
+      "title": "CG-Bench: Can Language Models Assist Call Graph Construction in the Real World?",
+      "authors": [
+        "Yuan, Ting",
+        "Zhang, Wenrui",
+        "Chen, Dong",
+        "Wang, Jie"
+      ],
+      "venue": "Proceedings of the 1st ACM SIGPLAN International Workshop on Language Models and Programming Languages",
+      "year": 2025,
+      "publisher": "ACM",
+      "score": 26.236088,
+      "url": "https://doi.org/10.1145/3759425.3763379"
+    },
+    {
+      "query": "SWE-bench Can Language Models Resolve",
+      "doi": "10.18653/v1/2026.findings-acl.402",
+      "title": "SWE-QA: Can Language Models Answer Repository-level Code Questions?",
+      "authors": [
+        "Peng, Weihan",
+        "Shi, Yuling",
+        "Wang, Yuhang",
+        "Zhang, Xinyun",
+        "Shen, Beijun",
+        "Gu, Xiaodong"
+      ],
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "year": 2026,
+      "publisher": "Association for Computational Linguistics",
+      "score": 25.707186,
+      "url": "https://doi.org/10.18653/v1/2026.findings-acl.402"
+    },
+    {
+      "query": "SWE-bench Can Language Models Resolve",
+      "doi": "10.58445/rars.3925",
+      "title": "Comparison of How Four Large Language Models Resolve Trolley-Problem Moral Dilemmas",
+      "authors": [
+        "Agarwal, Ayush"
+      ],
+      "venue": "",
+      "year": 2026,
+      "publisher": "Polygence",
+      "score": 25.617262,
+      "url": "https://doi.org/10.58445/rars.3925"
+    },
+    {
+      "query": "Measuring GitHub Copilot impact on productivity",
+      "doi": "10.1007/979-8-8688-2196-7_2",
+      "title": "Exploring GitHub Copilot Features",
+      "authors": [
+        "Reddy Vootukuri, Naga Santhosh"
+      ],
+      "venue": "Vibe Coding with GitHub Copilot",
+      "year": 2025,
+      "publisher": "Apress",
+      "score": 45.21744,
+      "url": "https://doi.org/10.1007/979-8-8688-2196-7_2"
+    },
+    {
+      "query": "Measuring GitHub Copilot impact on productivity",
+      "doi": "10.1007/979-8-8688-2196-7_1",
+      "title": "Getting Started with GitHub Copilot",
+      "authors": [
+        "Reddy Vootukuri, Naga Santhosh"
+      ],
+      "venue": "Vibe Coding with GitHub Copilot",
+      "year": 2025,
+      "publisher": "Apress",
+      "score": 44.574734,
+      "url": "https://doi.org/10.1007/979-8-8688-2196-7_1"
+    },
+    {
+      "query": "Measuring GitHub Copilot impact on productivity",
+      "doi": "10.1007/979-8-8688-2196-7_3",
+      "title": "GitHub Copilot Chat in Developer Workflow",
+      "authors": [
+        "Reddy Vootukuri, Naga Santhosh"
+      ],
+      "venue": "Vibe Coding with GitHub Copilot",
+      "year": 2025,
+      "publisher": "Apress",
+      "score": 44.506653,
+      "url": "https://doi.org/10.1007/979-8-8688-2196-7_3"
+    },
+    {
+      "query": "Grounded Copilot How Programmers Interact",
+      "doi": "10.1145/3586030",
+      "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+      "authors": [
+        "Barke, Shraddha",
+        "James, Michael B.",
+        "Polikarpova, Nadia"
+      ],
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "year": 2023,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 44.208675,
+      "url": "https://doi.org/10.1145/3586030"
+    },
+    {
+      "query": "Grounded Copilot How Programmers Interact",
+      "doi": "10.22215/etd/2025-16520",
+      "title": "How Do Novice Programmers Interact with ChatGPT while Solving Code -Tracing Problems?",
+      "authors": [
+        "Adeeb, Elmira"
+      ],
+      "venue": "",
+      "year": null,
+      "publisher": "Carleton University",
+      "score": 32.059734,
+      "url": "https://doi.org/10.22215/etd/2025-16520"
+    },
+    {
+      "query": "Grounded Copilot How Programmers Interact",
+      "doi": "10.1201/9781315381626-30",
+      "title": "Providing Feedback: How to Give Feedback to Programmers",
+      "authors": [],
+      "venue": "Talking to Artists / Talking to Programmers",
+      "year": 2016,
+      "publisher": "A K Peters/CRC Press",
+      "score": 26.422638,
+      "url": "https://doi.org/10.1201/9781315381626-30"
+    },
+    {
+      "query": "Disrupting developer productivity one bot at a time",
+      "doi": "10.1145/2950290.2983989",
+      "title": "Disrupting developer productivity one bot at a time",
+      "authors": [
+        "Storey, Margaret-Anne",
+        "Zagalsky, Alexey"
+      ],
+      "venue": "Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+      "year": 2016,
+      "publisher": "ACM",
+      "score": 45.231018,
+      "url": "https://doi.org/10.1145/2950290.2983989"
+    },
+    {
+      "query": "Disrupting developer productivity one bot at a time",
+      "doi": "10.36227/techrxiv.174743201.10557335/v1",
+      "title": "AI-Driven Code Synthesis for Hackathons: Enhancing Developer Productivity with CodeWizard-A Real-Time, Adaptive Approach",
+      "authors": [
+        "Panchagnula, Tapasvi"
+      ],
+      "venue": "",
+      "year": 2025,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "score": 26.418617,
+      "url": "https://doi.org/10.36227/techrxiv.174743201.10557335/v1"
+    },
+    {
+      "query": "Disrupting developer productivity one bot at a time",
+      "doi": "10.4324/9781138496538-1",
+      "title": "Disrupting journalism",
+      "authors": [
+        "Tandoc, Edson C."
+      ],
+      "venue": "Analyzing Analytics",
+      "year": 2019,
+      "publisher": "Routledge",
+      "score": 26.189156,
+      "url": "https://doi.org/10.4324/9781138496538-1"
+    },
+    {
+      "query": "Promptware Engineering",
+      "doi": "10.1145/3796535",
+      "title": "Promptware Engineering: Software Engineering for Prompt-Enabled Systems",
+      "authors": [
+        "Chen, Zhenpeng",
+        "Wang, Chong",
+        "Sun, Weisong",
+        "Liu, Xuanzhe",
+        "Zhang, Jie M.",
+        "Liu, Yang"
+      ],
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2026,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 18.968596,
+      "url": "https://doi.org/10.1145/3796535"
+    },
+    {
+      "query": "Promptware Engineering",
+      "doi": "10.3403/30087604",
+      "title": "Building and civil engineering. Vocabulary",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "BSI British Standards",
+      "score": 6.4668093,
+      "url": "https://doi.org/10.3403/30087604"
+    },
+    {
+      "query": "Promptware Engineering",
+      "doi": "10.3403/30087604u",
+      "title": "Building and civil engineering. Vocabulary",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "BSI British Standards",
+      "score": 6.437381,
+      "url": "https://doi.org/10.3403/30087604u"
+    },
+    {
+      "query": "Generative AI for Requirements Engineering systematic",
+      "doi": "10.1016/b978-0-44-327606-4.00013-1",
+      "title": "Functional and non-functional requirements for generative AI software",
+      "authors": [
+        "Staron, Miroslaw"
+      ],
+      "venue": "Engineering Generative AI-Based Software",
+      "year": 2026,
+      "publisher": "Elsevier",
+      "score": 32.882298,
+      "url": "https://doi.org/10.1016/b978-0-44-327606-4.00013-1"
+    },
+    {
+      "query": "Generative AI for Requirements Engineering systematic",
+      "doi": "10.1145/3696673.3723053",
+      "title": "The Role of Generative AI Models in Requirements Engineering: A Systematic Literature Review",
+      "authors": [
+        "Vasudevan, Poonkuzhali",
+        "Reddivari, Sandeep"
+      ],
+      "venue": "Proceedings of the 2025 ACM Southeast Conference",
+      "year": 2025,
+      "publisher": "ACM",
+      "score": 30.90223,
+      "url": "https://doi.org/10.1145/3696673.3723053"
+    },
+    {
+      "query": "Generative AI for Requirements Engineering systematic",
+      "doi": "10.1007/978-3-031-55642-5_6",
+      "title": "Advancing Requirements Engineering Through Generative AI: Assessing the Role of LLMs",
+      "authors": [
+        "Arora, Chetan",
+        "Grundy, John",
+        "Abdelrazek, Mohamed"
+      ],
+      "venue": "Generative AI for Effective Software Development",
+      "year": 2024,
+      "publisher": "Springer Nature Switzerland",
+      "score": 30.097198,
+      "url": "https://doi.org/10.1007/978-3-031-55642-5_6"
+    },
+    {
+      "query": "Guidelines for Human-AI Interaction",
+      "doi": "10.1002/9781394266401.ch4",
+      "title": "Guidelines for Human–\n                    <scp>AI</scp>\n                    Interaction and User Experience",
+      "authors": [
+        "Degen, Helmut"
+      ],
+      "venue": "Advances in Human‐AI Collaboration",
+      "year": 2026,
+      "publisher": "Wiley",
+      "score": 29.016088,
+      "url": "https://doi.org/10.1002/9781394266401.ch4"
+    },
+    {
+      "query": "Guidelines for Human-AI Interaction",
+      "doi": "10.1145/3511605",
+      "title": "Assessing Human-AI Interaction Early through Factorial Surveys: A Study on the Guidelines for Human-AI Interaction",
+      "authors": [
+        "Li, Tianyi",
+        "Vorvoreanu, Mihaela",
+        "Debellis, Derek",
+        "Amershi, Saleema"
+      ],
+      "venue": "ACM Transactions on Computer-Human Interaction",
+      "year": 2023,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "score": 27.009876,
+      "url": "https://doi.org/10.1145/3511605"
+    },
+    {
+      "query": "Guidelines for Human-AI Interaction",
+      "doi": "10.1109/hsi49210.2020.9142644",
+      "title": "Trustworthy AI Development Guidelines for Human System Interaction",
+      "authors": [
+        "Wickramasinghe, Chathurika S.",
+        "Marino, Daniel L.",
+        "Grandio, Javier",
+        "Manic, Milos"
+      ],
+      "venue": "2020 13th International Conference on Human System Interaction (HSI)",
+      "year": 2020,
+      "publisher": "IEEE",
+      "score": 26.668232,
+      "url": "https://doi.org/10.1109/hsi49210.2020.9142644"
+    },
+    {
+      "query": "Identifying and characterizing engineered software projects",
+      "doi": "10.7287/peerj.preprints.2617v1",
+      "title": "Curating GitHub for engineered software projects",
+      "authors": [
+        "Munaiah, Nuthan",
+        "Kroh, Steven",
+        "Cabrey, Craig",
+        "Nagappan, Meiyappan"
+      ],
+      "venue": "",
+      "year": 2016,
+      "publisher": "PeerJ",
+      "score": 25.632334,
+      "url": "https://doi.org/10.7287/peerj.preprints.2617v1"
+    },
+    {
+      "query": "Identifying and characterizing engineered software projects",
+      "doi": "10.1109/metric.2004.1357902",
+      "title": "Identifying the causes of poor progress in software projects",
+      "authors": [
+        "Rainer, A.",
+        "Hall, T."
+      ],
+      "venue": "10th International Symposium on Software Metrics, 2004. Proceedings.",
+      "year": null,
+      "publisher": "IEEE",
+      "score": 24.934242,
+      "url": "https://doi.org/10.1109/metric.2004.1357902"
+    },
+    {
+      "query": "Identifying and characterizing engineered software projects",
+      "doi": "10.1145/2901739.2903494",
+      "title": "Characterizing energy-aware software projects",
+      "authors": [
+        "Chowdhury, Shaiful Alam",
+        "Hindle, Abram"
+      ],
+      "venue": "Proceedings of the 13th International Conference on Mining Software Repositories",
+      "year": 2016,
+      "publisher": "ACM",
+      "score": 24.918219,
+      "url": "https://doi.org/10.1145/2901739.2903494"
+    },
+    {
+      "query": "GitHub's missing links",
+      "doi": "10.1201/9781003025672-10",
+      "title": "Github Links",
+      "authors": [
+        "Arangala, Crista"
+      ],
+      "venue": "Linear Algebra With Machine Learning and Data",
+      "year": 2023,
+      "publisher": "Chapman and Hall/CRC",
+      "score": 24.616314,
+      "url": "https://doi.org/10.1201/9781003025672-10"
+    },
+    {
+      "query": "GitHub's missing links",
+      "doi": "10.1093/oxfordhb/9780198706137.013.10",
+      "title": "Missing Links",
+      "authors": [
+        "Kent, Brad"
+      ],
+      "venue": "Oxford Handbooks Online",
+      "year": 2016,
+      "publisher": "Oxford University Press",
+      "score": 24.613426,
+      "url": "https://doi.org/10.1093/oxfordhb/9780198706137.013.10"
+    },
+    {
+      "query": "GitHub's missing links",
+      "doi": "10.3362/9781780442839",
+      "title": "Missing Links",
+      "authors": [],
+      "venue": "",
+      "year": 1995,
+      "publisher": "PRACTICAL ACTION PUBLISHING",
+      "score": 24.102526,
+      "url": "https://doi.org/10.3362/9781780442839"
+    },
+    {
+      "query": "The impact of tangled code changes",
+      "doi": "10.1109/msr.2013.6624018",
+      "title": "The impact of tangled code changes",
+      "authors": [
+        "Herzig, Kim",
+        "Zeller, Andreas"
+      ],
+      "venue": "2013 10th Working Conference on Mining Software Repositories (MSR)",
+      "year": 2013,
+      "publisher": "IEEE",
+      "score": 32.265717,
+      "url": "https://doi.org/10.1109/msr.2013.6624018"
+    },
+    {
+      "query": "The impact of tangled code changes",
+      "doi": "10.1007/s10664-015-9376-6",
+      "title": "The impact of tangled code changes on defect prediction models",
+      "authors": [
+        "Herzig, Kim",
+        "Just, Sascha",
+        "Zeller, Andreas"
+      ],
+      "venue": "Empirical Software Engineering",
+      "year": 2015,
+      "publisher": "Springer Science and Business Media LLC",
+      "score": 28.18648,
+      "url": "https://doi.org/10.1007/s10664-015-9376-6"
+    },
+    {
+      "query": "The impact of tangled code changes",
+      "doi": "10.1109/ase.2019.00101",
+      "title": "CoRA: Decomposing and Describing Tangled Code Changes for Reviewer",
+      "authors": [
+        "Wang, Min",
+        "Lin, Zeqi",
+        "Zou, Yanzhen",
+        "Xie, Bing"
+      ],
+      "venue": "2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "year": 2019,
+      "publisher": "IEEE",
+      "score": 24.241066,
+      "url": "https://doi.org/10.1109/ase.2019.00101"
+    },
+    {
+      "query": "Is there a 'golden' feature set for static code attributes",
+      "doi": "10.1145/3239235.3239523",
+      "title": "Is there a \"golden\" feature set for static warning identification?",
+      "authors": [
+        "Wang, Junjie",
+        "Wang, Song",
+        "Wang, Qing"
+      ],
+      "venue": "Proceedings of the 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
+      "year": 2018,
+      "publisher": "ACM",
+      "score": 27.166098,
+      "url": "https://doi.org/10.1145/3239235.3239523"
+    },
+    {
+      "query": "Is there a 'golden' feature set for static code attributes",
+      "doi": "10.26226/morressier.613b54401459512fce6a7ce7",
+      "title": "SootFX: A Static Code Feature Extraction Tool for Java and Android",
+      "authors": [
+        "Karakaya, Kadiray",
+        "Bodden, Eric"
+      ],
+      "venue": "",
+      "year": 2021,
+      "publisher": "Morressier",
+      "score": 26.445599,
+      "url": "https://doi.org/10.26226/morressier.613b54401459512fce6a7ce7"
+    },
+    {
+      "query": "Is there a 'golden' feature set for static code attributes",
+      "doi": "10.1109/qsic.2007.4385500",
+      "title": "A Multivariate Analysis of Static Code Attributes for Defect Prediction",
+      "authors": [
+        "Turhan, Burak",
+        "Bener, Ayse"
+      ],
+      "venue": "Seventh International Conference on Quality Software (QSIC 2007)",
+      "year": 2007,
+      "publisher": "IEEE",
+      "score": 24.622568,
+      "url": "https://doi.org/10.1109/qsic.2007.4385500"
+    },
+    {
+      "query": "Reporting guidelines for survey research",
+      "doi": "10.1002/9781118715598.ch20",
+      "title": "SURGE (The SUrvey Reporting GuidelinE)",
+      "authors": [
+        "Grimshaw, Jeremy"
+      ],
+      "venue": "Guidelines for Reporting Health Research: A User's Manual",
+      "year": 2014,
+      "publisher": "Wiley",
+      "score": 29.072691,
+      "url": "https://doi.org/10.1002/9781118715598.ch20"
+    },
+    {
+      "query": "Reporting guidelines for survey research",
+      "doi": "10.1302/3114-221763",
+      "title": "Reporting Guidelines for Valid Research",
+      "authors": [],
+      "venue": "OrthoMedia",
+      "year": 2022,
+      "publisher": "British Editorial Society of Bone & Joint Surgery",
+      "score": 28.134804,
+      "url": "https://doi.org/10.1302/3114-221763"
+    },
+    {
+      "query": "Reporting guidelines for survey research",
+      "doi": "10.1002/9781118715598.ch4",
+      "title": "Using Reporting Guidelines Effectively to Ensure Good Reporting of Health Research",
+      "authors": [
+        "Altman, Douglas G.",
+        "Simera, Iveta"
+      ],
+      "venue": "Guidelines for Reporting Health Research: A User's Manual",
+      "year": 2014,
+      "publisher": "Wiley",
+      "score": 25.38861,
+      "url": "https://doi.org/10.1002/9781118715598.ch4"
+    },
+    {
+      "query": "Case Study Research in Software Engineering Guidelines",
+      "doi": "10.1002/9781118181034.ch8",
+      "title": "Using Case Study Research",
+      "authors": [],
+      "venue": "Case Study Research in Software Engineering",
+      "year": 2012,
+      "publisher": "Wiley",
+      "score": 35.622456,
+      "url": "https://doi.org/10.1002/9781118181034.ch8"
+    },
+    {
+      "query": "Case Study Research in Software Engineering Guidelines",
+      "doi": "10.1002/9781118181034.ch7",
+      "title": "Scaling up Case Study Research to Real‐World Software Practice",
+      "authors": [],
+      "venue": "Case Study Research in Software Engineering",
+      "year": 2012,
+      "publisher": "Wiley",
+      "score": 35.33528,
+      "url": "https://doi.org/10.1002/9781118181034.ch7"
+    },
+    {
+      "query": "Case Study Research in Software Engineering Guidelines",
+      "doi": "10.1002/9781118181034.fmatter",
+      "title": "Frontmatter",
+      "authors": [],
+      "venue": "Case Study Research in Software Engineering",
+      "year": 2012,
+      "publisher": "Wiley",
+      "score": 34.521385,
+      "url": "https://doi.org/10.1002/9781118181034.fmatter"
+    },
+    {
+      "query": "Experimentation in Software Engineering",
+      "doi": "10.1007/3-540-27662-9_19",
+      "title": "Experimentation in Software Engineering",
+      "authors": [
+        "Basili, Victor R.",
+        "Selby, Richard W.",
+        "Hutchins, David H."
+      ],
+      "venue": "Foundations of Empirical Software Engineering",
+      "year": null,
+      "publisher": "Springer Berlin Heidelberg",
+      "score": 25.006062,
+      "url": "https://doi.org/10.1007/3-540-27662-9_19"
+    },
+    {
+      "query": "Experimentation in Software Engineering",
+      "doi": "10.1002/9780470238103.ch10",
+      "title": "Empirical Experimentation in Software Engineering",
+      "authors": [
+        "Visaggio, Giuseppe"
+      ],
+      "venue": "Emerging Methods, Technologies, and Process Management in Software Engineering",
+      "year": 2007,
+      "publisher": "Wiley",
+      "score": 24.786766,
+      "url": "https://doi.org/10.1002/9780470238103.ch10"
+    },
+    {
+      "query": "Experimentation in Software Engineering",
+      "doi": "10.1007/3-540-27662-9_1",
+      "title": "The Role of Experimentation in Software Engineering: Past, Current, and Future",
+      "authors": [
+        "Basili, Victor R."
+      ],
+      "venue": "Foundations of Empirical Software Engineering",
+      "year": null,
+      "publisher": "Springer Berlin Heidelberg",
+      "score": 24.696486,
+      "url": "https://doi.org/10.1007/3-540-27662-9_1"
+    },
+    {
+      "query": "A systematic literature review on the use of deep learning",
+      "doi": "10.5220/0010942000003260",
+      "title": "A Systematic Literature Review on Hybrid Deep Learning Smart Recommendation Systems",
+      "authors": [
+        "Dewi, Kadek",
+        "Ciptayani, Putu",
+        "Prayustika, Putu"
+      ],
+      "venue": "Proceedings of the 4th International Conference on Applied Science and Technology on Engineering Science",
+      "year": 2021,
+      "publisher": "SCITEPRESS - Science and Technology Publications",
+      "score": 28.596216,
+      "url": "https://doi.org/10.5220/0010942000003260"
+    },
+    {
+      "query": "A systematic literature review on the use of deep learning",
+      "doi": "10.70062/slrj.v1i1.83",
+      "title": "Systematic Literature Review of Deep Learning Based Approaches for Broiler Chicken Growth Prediction",
+      "authors": [
+        "Irlon Irlon, ",
+        "Raveenthiran Vivekanantharasa, "
+      ],
+      "venue": "Systematic Literature Review Journal",
+      "year": 2025,
+      "publisher": "International Forum of Researchers and Lecturers",
+      "score": 28.35155,
+      "url": "https://doi.org/10.70062/slrj.v1i1.83"
+    },
+    {
+      "query": "A systematic literature review on the use of deep learning",
+      "doi": "10.1201/9781003202240-50",
+      "title": "A Systematic Literature Review on the Use of Facial Recognition in Human Resources using Deep learning",
+      "authors": [
+        "Majumder, Sohom",
+        "Bhattacharya, Sutapa Chatterjee"
+      ],
+      "venue": "Interdisciplinary Research in Technology and Management",
+      "year": 2021,
+      "publisher": "CRC Press",
+      "score": 28.046131,
+      "url": "https://doi.org/10.1201/9781003202240-50"
+    },
+    {
+      "query": "Code duplication on GitHub",
+      "doi": "10.5281/zenodo.60356",
+      "title": "The Series Distance matlab code, GitHub repository,",
+      "authors": [],
+      "venue": "",
+      "year": null,
+      "publisher": "Copernicus GmbH",
+      "score": 26.639809,
+      "url": "https://doi.org/10.5281/zenodo.60356"
+    },
+    {
+      "query": "Code duplication on GitHub",
+      "doi": "10.5194/gmd-2018-180-rc1",
+      "title": "Review of Python code and GitHub repository",
+      "authors": [],
+      "venue": "",
+      "year": 2018,
+      "publisher": "Copernicus GmbH",
+      "score": 26.41788,
+      "url": "https://doi.org/10.5194/gmd-2018-180-rc1"
+    },
+    {
+      "query": "Code duplication on GitHub",
+      "doi": "10.1002/9781394319787.ch4",
+      "title": "Chatting with\n            <scp>GitHub</scp>\n            Copilot",
+      "authors": [],
+      "venue": "Programming with GitHub Copilot",
+      "year": 2024,
+      "publisher": "Wiley",
+      "score": 26.079033,
+      "url": "https://doi.org/10.1002/9781394319787.ch4"
+    },
+    {
+      "query": "The perils of mining SoftWare repositories",
+      "doi": "10.1049/ic:20040467",
+      "title": "The perils and pitfalls of mining SourceForge",
+      "authors": [
+        "Howison, J."
+      ],
+      "venue": "\"International Workshop on Mining Software Repositories (MSR 2004)\" W17S Workshop - 26th International Conference on Software Engineering",
+      "year": 2004,
+      "publisher": "IEE",
+      "score": 38.369,
+      "url": "https://doi.org/10.1049/ic:20040467"
+    },
+    {
+      "query": "The perils of mining SoftWare repositories",
+      "doi": "10.1145/2597073.2597074",
+      "title": "The promises and perils of mining GitHub",
+      "authors": [
+        "Kalliamvakou, Eirini",
+        "Gousios, Georgios",
+        "Blincoe, Kelly",
+        "Singer, Leif",
+        "German, Daniel M.",
+        "Damian, Daniela"
+      ],
+      "venue": "Proceedings of the 11th Working Conference on Mining Software Repositories",
+      "year": 2014,
+      "publisher": "ACM",
+      "score": 33.741623,
+      "url": "https://doi.org/10.1145/2597073.2597074"
+    },
+    {
+      "query": "The perils of mining SoftWare repositories",
+      "doi": "10.1109/msr.2009.5069475",
+      "title": "The promises and perils of mining git",
+      "authors": [
+        "Bird, Christian",
+        "Rigby, Peter C.",
+        "Barr, Earl T.",
+        "Hamilton, David J.",
+        "German, Daniel M.",
+        "Devanbu, Prem"
+      ],
+      "venue": "2009 6th IEEE International Working Conference on Mining Software Repositories",
+      "year": 2009,
+      "publisher": "IEEE",
+      "score": 32.92601,
+      "url": "https://doi.org/10.1109/msr.2009.5069475"
+    },
+    {
+      "query": "Selecting research methods",
+      "doi": "10.4135/9781446263396.d8",
+      "title": "",
+      "authors": [],
+      "venue": "Selecting Research Methods",
+      "year": null,
+      "publisher": "SAGE Publications Ltd",
+      "score": 24.594774,
+      "url": "https://doi.org/10.4135/9781446263396.d8"
+    },
+    {
+      "query": "Selecting research methods",
+      "doi": "10.4135/9781071849163.n6",
+      "title": "Selecting Research Participants",
+      "authors": [],
+      "venue": "Methods in Psychological Research",
+      "year": 2019,
+      "publisher": "SAGE Publications, Inc.",
+      "score": 23.701466,
+      "url": "https://doi.org/10.4135/9781071849163.n6"
+    },
+    {
+      "query": "Selecting research methods",
+      "doi": "10.4135/9781506384955.n6",
+      "title": "Selecting Research Participants",
+      "authors": [],
+      "venue": "Methods in Psychological Research",
+      "year": 2019,
+      "publisher": "SAGE Publications, Inc.",
+      "score": 23.333324,
+      "url": "https://doi.org/10.4135/9781506384955.n6"
+    }
+  ]
+}
