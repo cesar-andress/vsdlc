@@ -1,10 +1,10 @@
-# VSDLC Mining Pilot
+# Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case
 
-Public replication package for a **methodological-empirical audit** of sampling-frame contamination in GitHub repository discovery frames built from AI instruction-artifact path predicates.
+Public replication package for a **discovery-frame validity audit** in mining software repositories, demonstrated on one GitHub frame built from AI-instruction path predicates.
 
-This repository provides a **repository mining framework** (Phases 1--2) that discovers public repositories containing AI instruction artifacts, filters an eligible cohort, and supports frozen audit annotation and evaluation for the repository-discovery reporting study submitted to *Information and Software Technology* (`papers/`).
+This repository provides a **repository mining framework** (Phases 1--2) that discovers public repositories matching the case predicates, filters an eligible cohort, and supports frozen audit annotation and evaluation for the companion *Information and Software Technology* manuscript on discovery-frame validity.
 
-**Study scope:** Target-conditional contamination prevalence and predicate-family structure in one frozen instruction-artifact discovery frame, relative to a conventional application-software target under an exploratory codebook.
+**Study scope:** Resolution coverage, resolved-case membership prevalence, unresolved-case treatment, and predicate-family structure in one frozen path-predicate discovery frame, relative to a declared conventional-application target under an exploratory codebook. Not an adoption study of AI assistants.
 
 **Authors:** César Andrés, David Martín-Moncunill, and José Manuel Baños
 
@@ -20,7 +20,7 @@ Phases implemented: **Phase 1** (seed search) and **Phase 2** (repository filter
 
 ## Evidence nodes (legacy pipeline scope)
 
-The mining framework design targets five evidence nodes for release-unit trace reconstruction; the contamination audit article evaluates annotation and inspection outputs instead:
+The mining framework design targets five evidence nodes for release-unit trace reconstruction; the discovery-frame validity article evaluates annotation and inspection outputs instead:
 
 1. Requirement or issue ID
 2. AI instruction/prompt artifact in version control
