@@ -10,10 +10,10 @@ reviewer responses, or editorial audits.
 
 - Path (local build): `releases/zenodo-v1.0.1-replication-only.tar.gz` (gitignored)
 - Contents: source, scripts, tests, permitted `data/processed` outputs, docs, LICENSE,
-  CITATION.cff, dependency files, and documented generated tables
+  CITATION.cff, dependency files, and documented JSON/CSV tables
   (`docs/GENERATED_TEX_TABLES.md`).
 - Explicitly excluded: `manuscript/`, `papers/`, `submission/`, `related_work_rebuild/`,
-  `*.bib`, `*.pdf` (except none), editorial markdown.
+  `*.bib`, `*.pdf`, `*.tex`, editorial markdown.
 
 ## Legacy archives
 

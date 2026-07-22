@@ -1,21 +1,23 @@
 # Release notes
 
-## v1.0.0-ist — IST submission release (2026-07-09)
+## v0.1.0-msr-contamination-audit — current Zenodo tag (2026-07-22)
 
-**Journal:** *Information and Software Technology* (Elsevier)  
-**Manuscript title:** *Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts*  
-**Git tag (repository root):** `v1.0.0-ist`  
-**Zenodo record:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)  
-**Zenodo version:** `v1.0.0-ist` (upload pending — replaces published `v0.1.0-msr-contamination-audit`)
+**Companion manuscript (IST):** *Discovery-Frame Validity in Mining Software Repositories: Protocol-Dependent Contamination Estimands Demonstrated on AI-Instruction Path Predicates*  
+**Replication package title:** *Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case*  
+**Git tag:** `v0.1.0-msr-contamination-audit`  
+**Zenodo record:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
 
 ### Description
 
-Frozen replication package for the IST journal submission on repository-discovery reporting methodology.
+Frozen **replication-only** package for the discovery-frame validity audit on one AI-instruction path-predicate GitHub frame.
 Supports replay of discovery-frame yield, annotation consensus, complementary consensus-rule sensitivity,
 inter-coder reliability, predicate-family contamination structure (RQ2), EXCLUDE disagreement analysis,
-LLM third-coder characterization, learned metadata baselines, and the functional-evidence proxy audit.
+LLM third-coder characterization, learned metadata baselines, and the functional-evidence inspection diagnostic.
 
-### Authors (all three manuscript authors)
+This archive does **not** include manuscript LaTeX, bibliographies, cover letters, or editorial materials
+(see `docs/ZENODO_PACKAGE.md`).
+
+### Authors
 
 | Author | ORCID |
 |--------|-------|
@@ -29,36 +31,26 @@ LLM third-coder characterization, learned metadata baselines, and the functional
 |-----------|-------------|
 | Mining pipeline | Phase 1 seed search and Phase 2 repository filtering (`src/vsdlc_mining/`, `scripts/`) |
 | Frozen datasets | Discovery candidates, eligible/excluded repositories, annotation exports, inspection worksheets (`data/`) |
-| Evaluation scripts | $\kappa$ bootstrap, RQ2 query-family stats, EXCLUDE disagreement, learned baselines, proxy-audit comparison, consensus sensitivity, LLM adjudicator audit |
+| Evaluation scripts | κ bootstrap, RQ2 family stats, EXCLUDE disagreement, learned baselines, inspection comparison, consensus sensitivity, LLM adjudicator audit |
 | Protocols | Worksheet schema v0.2, annotation and inspection protocols |
-| Manuscript | `manuscript/main.pdf` — author-identified PDF matching `submission-ist-v1.0` |
-| Documentation | `docs/reproducibility.md`, artifact ID map, rerun commands |
+| Documentation | `docs/reproducibility.md`, artifact map, rerun commands |
 
-### Changes from v0.1.0-msr-contamination-audit
+### Canonical numeric outputs
 
-- Added consensus-label scripts and sensitivity outputs (`compute_majority_label.py`, `analyze_human_only_consensus_sensitivity.py`, `analyze_llm_third_adjudicator.py`)
-- Updated processed datasets and manuscript table sources
-- Aligned metadata with three-author IST manuscript (names, ORCIDs, affiliations)
-- Bundled latest author-identified manuscript PDF
-- Removed EMSE submission artifacts from the IST release bundle
+JSON/CSV under `data/processed/` (e.g. `human_only_consensus_sensitivity.json`, `target_sensitivity_results.json`, `llm_third_adjudicator_audit.json`).
+Aligned with the frozen manuscript empirics (human resolution 222/300; human-resolved non-target 126/222; plurality full-sample non-target 173/300 with 4 ties).
 
 ### Citation
 
 ```bibtex
 @software{sanchez2026vsdlcMiningPilot,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts}},
+  title     = {{Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case}},
   year      = {2026},
-  version   = {v1.0.0-ist},
+  version   = {v0.1.0-msr-contamination-audit},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20754778},
   url       = {https://doi.org/10.5281/zenodo.20754778},
-  note      = {Frozen replication package for IST journal submission}
+  note      = {Frozen replication package for the IST discovery-frame validity audit}
 }
 ```
-
----
-
-## v0.1.0-msr-contamination-audit — archived (2026-06-18)
-
-Superseded by `v1.0.0-ist`. The live Zenodo deposit still serves this version until the IST upload is published.

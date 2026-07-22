@@ -55,9 +55,6 @@ editorial*
 IST_*
 ELSEVIER_*
 PRODUCTION_QUALITY*
-# Block root / manuscript TeX; allow documented generated tables under data/processed/
-/*.tex
+# No LaTeX in the replication package (JSON/CSV are canonical outputs)
+*.tex
 **/sections/
-**/main.tex
-**/main_blind.tex
-**/07_related_work*.tex

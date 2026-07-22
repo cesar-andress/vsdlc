@@ -165,24 +165,22 @@ See [`docs/reproducibility.md`](docs/reproducibility.md) for rerun steps, rate-l
 
 ## Citation
 
-**Title:** Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts
+**Title:** Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case
 
-**Release:** IST submission replication package v1.0.0-ist
-
-**Version:** v1.0.0-ist (pending Zenodo upload; live deposit still serves v0.1.0-msr-contamination-audit)
+**Release:** `v0.1.0-msr-contamination-audit`
 
 **DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
 
 ```bibtex
 @software{sanchez2026vsdlcMiningPilot,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts}},
+  title     = {{Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case}},
   year      = {2026},
-  version   = {v1.0.0-ist},
+  version   = {v0.1.0-msr-contamination-audit},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20754778},
   url       = {https://doi.org/10.5281/zenodo.20754778},
-  note      = {Frozen replication package for IST journal submission}
+  note      = {Frozen replication package for the IST discovery-frame validity audit}
 }
 ```
 

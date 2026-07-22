@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Replication Package: Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts"
+title: "Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -15,31 +15,31 @@ authors:
     given-names: José Manuel
     orcid: https://orcid.org/0009-0004-9971-7390
     affiliation: "Universidad Camilo José Cela, Spain"
-version: v1.0.0-ist
+version: v0.1.0-msr-contamination-audit
 license: MIT
 url: "https://doi.org/10.5281/zenodo.20754778"
 doi: 10.5281/zenodo.20754778
-date-released: 2026-07-09
+date-released: 2026-07-22
 keywords:
   - empirical software engineering
   - mining software repositories
-  - repository discovery
+  - discovery frames
   - sampling validity
-  - reporting guidelines
-  - reproducibility
-  - AI-instruction artifacts
   - construct validity
+  - reproducibility
+  - AI-instruction path predicates
 abstract: >-
-  Frozen replication package for the IST journal submission
-  Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts.
-  Includes the mining pipeline (discover and filter), frozen study datasets,
-  annotation worksheets, evaluation scripts, sensitivity analyses, and schema
-  documents for replaying metadata-visible coding, reliability analysis, and
-  functional-evidence proxy audits under alternative targets and consensus rules.
+  Frozen replication package for the discovery-frame validity audit demonstrated
+  on one public GitHub frame of AI-instruction path predicates (companion IST
+  manuscript). Includes the mining pipeline (discover and filter), frozen study
+  datasets, annotation worksheets, evaluation scripts, sensitivity analyses, and
+  schema documents for replaying metadata-visible coding, reliability analysis,
+  and functional-evidence inspection diagnostics under alternative targets and
+  consensus rules. Replication material only: no manuscript LaTeX or PDFs.
 repository-code: "https://github.com/cesar-andres/vsdlc"
 preferred-citation:
   type: article
-  title: "Evidence-Based Reporting for Repository Discovery Frames from AI-Instruction Artifacts"
+  title: "Discovery-Frame Validity in Mining Software Repositories: Protocol-Dependent Contamination Estimands Demonstrated on AI-Instruction Path Predicates"
   authors:
     - family-names: Andrés
       given-names: César

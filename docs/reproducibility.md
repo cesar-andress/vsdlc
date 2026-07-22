@@ -169,7 +169,7 @@ Outputs:
 | Artifact | Path |
 |----------|------|
 | Sensitivity JSON | `data/processed/human_only_consensus_sensitivity.json` |
-| Manuscript table | `data/processed/manuscript_table_human_only_consensus.tex` |
+| Manuscript table | `data/processed/human_only_consensus_sensitivity.json` |
 
 ## LLM third-coder characterization
 
@@ -182,7 +182,7 @@ Outputs:
 | Artifact | Path |
 |----------|------|
 | Audit JSON | `data/processed/llm_third_adjudicator_audit.json` |
-| Manuscript tables | `data/processed/manuscript_table_llm_adjudicator_audit.tex` |
+| Manuscript tables | `data/processed/llm_third_adjudicator_audit.json` |
 
 ## Target-sensitivity analysis (RQ1 supplement)
 
@@ -198,7 +198,7 @@ Outputs:
 | Artifact | Path |
 |----------|------|
 | Sensitivity JSON | `data/processed/target_sensitivity_results.json` |
-| Manuscript table | `data/processed/manuscript_table_target_sensitivity.tex` |
+| Manuscript table | `data/processed/target_sensitivity_results.json` |
 
 Unit tests: `pytest tests/test_target_sensitivity.py`
 
@@ -262,7 +262,7 @@ Outputs:
 - `data/processed/second_inspection_validation_results.json`
 - `data/processed/second_inspection_confusion_matrices.csv`
 - `data/processed/second_inspection_disagreement_stats.json`
-- `data/processed/manuscript_table_rq4_second_inspector.tex`
+- `RQ4 dual-inspector JSON/CSV outputs (see evaluate_second_inspection.py)`
 
 Metrics computed for each comparison (`metadata_consensus_vs_inspector1`, `metadata_consensus_vs_inspector2`, `inspector1_vs_inspector2`):
 - three-class agreement, Cohen's $\kappa$, 95\% bootstrap CI
