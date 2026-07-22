@@ -37,3 +37,27 @@ scratch/
 .DS_Store
 *~
 legacy/
+
+# --- Guardrails: never commit manuscript / editorial material ---
+related_work_rebuild/
+paper/
+papers/
+submission/
+archive/
+manuscript/
+releases/
+*.bib
+*.pdf
+cover_letter*
+response_to_reviewers*
+reviewer*
+editorial*
+IST_*
+ELSEVIER_*
+PRODUCTION_QUALITY*
+# Block root / manuscript TeX; allow documented generated tables under data/processed/
+/*.tex
+**/sections/
+**/main.tex
+**/main_blind.tex
+**/07_related_work*.tex
