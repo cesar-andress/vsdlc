@@ -5,7 +5,7 @@ Scope: `~/papers/vsdlc/vsdlc` (repository mining artifact only)
 
 ## Audit objective
 
-Present the repository as a **replication package** for the EMSE methodological-empirical contamination audit study.
+Present the repository as a **replication package** for the PeerJ Computer Science labelled study of AI-instruction file searches (DOI `10.5281/zenodo.21794793`, tag `v1.0.0`).
 
 ## Scan coverage
 
@@ -90,7 +90,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 
 | Item | Owner action |
 |------|--------------|
-| `CITATION.cff` DOI | Assigned: `10.5281/zenodo.21794793` (archived release v0.1.0) |
+| `CITATION.cff` DOI | Assigned: `10.5281/zenodo.21794793` (release v1.0.0) |
 | `CITATION.cff` `date-released` | Set to actual Zenodo release date |
 | `pyproject.toml` `[project.urls]` | Align with final repository URL |
 | Generated dataset inclusion in Zenodo | Decide whether to bundle `data/raw/*.jsonl` and `data/interim/*.jsonl` or publish regeneration instructions only |

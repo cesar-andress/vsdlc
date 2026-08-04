@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "vsdlc-mining"
 version = "1.0.0"
-description = "Replication package for the AI-instruction-artifact contamination audit (Phases 1–4)."
+description = "Replication package for Repository Composition Across AI-Instruction File Searches (PeerJ Computer Science companion)."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"

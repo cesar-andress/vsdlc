@@ -366,25 +366,25 @@ Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_he
 
 ## Citation (Zenodo)
 
-**Title:** VSDLC Mining Pilot
+**Title:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame — Replication Package
 
-**Release:** VSDLC Replication Package v0.1.0 — AI Instruction Artifact Contamination Audit
+**Release:** v1.0.0 (PeerJ Computer Science companion)
 
-**Version:** v0.1.0
+**Version:** v1.0.0
 
 **DOI:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)
 
-Cite the Zenodo record or `CITATION.cff` in `vsdlc/`.
+Cite the Zenodo record or `CITATION.cff` in this repository.
 
 ```bibtex
-@software{sanchez2026vsdlcMiningPilot,
+@software{andres2026vsdlcReplication,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{VSDLC Mining Pilot}},
+  title     = {{Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame --- Replication Package}},
   year      = {2026},
-  version   = {v0.1.0},
+  version   = {v1.0.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.21794793},
   url       = {https://doi.org/10.5281/zenodo.21794793},
-  note      = {VSDLC Replication Package v0.1.0 --- AI Instruction Artifact Contamination Audit}
+  note      = {Frozen replication package accompanying the PeerJ Computer Science manuscript}
 }
 ```

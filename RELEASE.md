@@ -1,18 +1,16 @@
 # Release notes
 
-## v0.1.0-msr-contamination-audit — current Zenodo tag (2026-07-22)
+## v1.0.0 — current Zenodo / GitHub release (2026-08-04)
 
-**Companion manuscript (IST):** *Discovery-Frame Validity in Mining Software Repositories: Protocol-Dependent Contamination Estimands Demonstrated on AI-Instruction Path Predicates*  
-**Replication package title:** *Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case*  
-**Git tag:** `v0.1.0-msr-contamination-audit`  
+**Companion manuscript (PeerJ Computer Science):** *Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame*  
+**Replication package title:** *Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame — Replication Package*  
+**Git tag:** `v1.0.0`  
 **Zenodo record:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)
 
 ### Description
 
-Frozen **replication-only** package for the discovery-frame validity audit on one AI-instruction path-predicate GitHub frame.
-Supports replay of discovery-frame yield, annotation consensus, complementary consensus-rule sensitivity,
-inter-coder reliability, predicate-family contamination structure (RQ2), EXCLUDE disagreement analysis,
-LLM third-coder characterization, learned metadata baselines, and the functional-evidence inspection diagnostic.
+Frozen **replication-only** package for a labelled empirical study of public GitHub repositories retrieved by AI-instruction filename and path searches within one eligible labelled frame.
+Supports replay of discovery/filter artefacts, Round-1 labelling worksheets, sensitivity tables, inter-pass concordance, predicate-family composition, metadata-only baselines, and the secondary inspection comparison.
 
 This archive does **not** include manuscript LaTeX, bibliographies, cover letters, or editorial materials
 (see `docs/ZENODO_PACKAGE.md`).
@@ -25,32 +23,37 @@ This archive does **not** include manuscript LaTeX, bibliographies, cover letter
 | David Martín-Moncunill | 0000-0003-2422-9005 |
 | José Manuel Baños | 0009-0004-9971-7390 |
 
+**Affiliation:** CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain
+
 ### Main contents
 
 | Component | Description |
 |-----------|-------------|
 | Mining pipeline | Phase 1 seed search and Phase 2 repository filtering (`src/vsdlc_mining/`, `scripts/`) |
 | Frozen datasets | Discovery candidates, eligible/excluded repositories, annotation exports, inspection worksheets (`data/`) |
-| Evaluation scripts | κ bootstrap, RQ2 family stats, EXCLUDE disagreement, learned baselines, inspection comparison, consensus sensitivity, LLM adjudicator audit |
+| Evaluation scripts | Concordance / κ bootstrap, family composition, sensitivity tables, learned baselines, inspection comparison |
 | Protocols | Worksheet schema v0.2, annotation and inspection protocols |
 | Documentation | `docs/reproducibility.md`, artifact map, rerun commands |
 
 ### Canonical numeric outputs
 
-JSON/CSV under `data/processed/` (e.g. `human_only_consensus_sensitivity.json`, `target_sensitivity_results.json`, `llm_third_adjudicator_audit.json`).
-Aligned with the frozen manuscript empirics (human resolution 222/300; human-resolved non-target 126/222; plurality full-sample non-target 173/300 with 4 ties).
+JSON/CSV under `data/processed/` (e.g. sensitivity and concordance artefacts aligned with the frozen PeerJ manuscript empirics: human resolution 222/300; human-resolved non-target 126/222; plurality full-sample non-target 173/300 with 4 ties).
 
 ### Citation
 
 ```bibtex
-@software{sanchez2026vsdlcMiningPilot,
+@software{andres2026vsdlcReplication,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case}},
+  title     = {{Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame --- Replication Package}},
   year      = {2026},
-  version   = {v0.1.0-msr-contamination-audit},
+  version   = {v1.0.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.21794793},
   url       = {https://doi.org/10.5281/zenodo.21794793},
-  note      = {Frozen replication package for the IST discovery-frame validity audit}
+  note      = {Frozen replication package accompanying the PeerJ Computer Science manuscript}
 }
 ```
+
+### Prior tags
+
+Historical tags such as `v0.1.0-msr-contamination-audit` refer to earlier package metadata and must not be used for the PeerJ / Zenodo v1.0.0 release.

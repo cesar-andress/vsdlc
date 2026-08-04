@@ -1,6 +1,6 @@
-# Zenodo release checklist — contamination audit replication package
+# Zenodo release checklist — replication package (PeerJ companion)
 
-Use this checklist before creating a Git tag, GitHub release, or Zenodo upload for this replication package. **Do not publish until every required item is complete.**
+Use this checklist before creating a Git tag, GitHub release, or Zenodo upload for this replication package.
 
 ## Code quality
 
@@ -11,52 +11,46 @@ Use this checklist before creating a Git tag, GitHub release, or Zenodo upload f
 
 ## Documentation
 
-- [ ] `README.md` describes the contamination audit replication package, study scope, and reproducible materials
-- [ ] `docs/reproducibility.md` is up to date
+- [x] `README.md` describes the PeerJ companion replication package, study scope, and reproducible materials
+- [x] `docs/reproducibility.md` cites DOI `10.5281/zenodo.21794793`
 - [ ] Repository traceability dataset schemas are documented in README or `docs/`
 
 ## Licensing and citation metadata
 
-- [ ] `LICENSE` reviewed (MIT unless project policy changes)
-- [ ] `CITATION.cff` authors, title, version, and date-released are correct
-- [ ] `CITATION.cff` repository URL placeholder replaced with final public URL
-- [ ] `CITATION.cff` DOI placeholder replaced after Zenodo minting
-- [ ] No false claim that a DOI already exists in README or other documentation
+- [x] `LICENSE` reviewed (MIT)
+- [x] `CITATION.cff` authors, title, version `1.0.0`, and date-released are correct
+- [x] `CITATION.cff` DOI is `10.5281/zenodo.21794793`
+- [x] README / RELEASE match PeerJ title and Zenodo DOI
 
 ## Versioning
 
-- [ ] Version bumped consistently in:
-  - `pyproject.toml`
-  - `src/vsdlc_mining/__init__.py`
+- [x] Version bumped consistently in:
+  - `pyproject.toml` (if present)
+  - `src/vsdlc_mining/__init__.py` (if versioned)
   - `CITATION.cff`
-- [ ] `date-released` in `CITATION.cff` matches the Zenodo release date
+- [x] `date-released` in `CITATION.cff` matches the Zenodo release date (2026-08-04)
 
 ## Data policy
 
-- [ ] Large/raw data policy stated (what is included in Zenodo bundle vs. regenerated locally)
-- [ ] No secrets, tokens, or `.env` files in the release archive
-- [ ] `.cursor/` IDE rules excluded from the Zenodo bundle and repository
-- [ ] `data/raw/` and `data/interim/` outputs documented (eligible/excluded/summary files)
-- [ ] Redistribution constraints for mined GitHub metadata acknowledged
+- [x] Large/raw data policy stated (what is included in Zenodo bundle vs. regenerated locally)
+- [x] No secrets, tokens, or `.env` files in the release archive
+- [x] `.cursor/` IDE rules excluded from the Zenodo bundle and repository
+- [x] `data/raw/` and `data/interim/` outputs documented
+- [x] Redistribution constraints for mined GitHub metadata acknowledged
 
 ## Git and GitHub release
 
-- [ ] All intended changes committed
-- [ ] Git tag created (e.g. `v0.1.0`)
-- [ ] GitHub release notes prepared (artifact summary, outputs, how to cite)
-- [ ] GitHub release created from the tag
+- [x] All intended changes committed
+- [x] Git tag created: `v1.0.0`
+- [x] GitHub release / tag points at the Zenodo-aligned commit
+- [ ] GitHub About description updated (optional; may require UI if API token lacks permission)
 
 ## Zenodo
 
-- [ ] Zenodo account linked to GitHub (or upload prepared manually)
-- [ ] Zenodo record draft reviewed (title, authors, license, files)
-- [ ] DOI reserved or minted
-- [ ] DOI propagated back to `CITATION.cff` and README citation section
-- [ ] Zenodo record published (only when intentional)
-
-## Post-release (archived release v0.1.0)
-
 - [x] Zenodo record published: [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)
 - [x] DOI propagated to `CITATION.cff`, `README.md`, `docs/reproducibility.md`, `RELEASE.md`
-- [x] Git tag: `v0.1.0-msr-contamination-audit`
-- [ ] External references to this artifact updated with the final DOI (if any)
+- [x] Git tag: `v1.0.0`
+
+## Historical note
+
+Older tags such as `v0.1.0-msr-contamination-audit` and IST-era metadata drafts are superseded by `v1.0.0` / PeerJ alignment. Do not cite them for the current release.
