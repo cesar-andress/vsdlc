@@ -18,7 +18,7 @@ This is an **exploratory pilot only**. Results must be repeated on the full gold
 ## Evaluated repositories
 
 | Metric | Value |
-|:--|:-|
+|---|---|
 | Evaluated repositories | **30** |
 | Primary labels (instrument) | `AI_PRODUCT`, `CONVENTIONAL_SOFTWARE`, `EXCLUDE` |
 | Baseline outputs | `AI_PRODUCT` or `CONVENTIONAL_SOFTWARE` only (never `EXCLUDE`) |
@@ -30,7 +30,7 @@ This is an **exploratory pilot only**. Results must be repeated on the full gold
 Accuracy is measured against the Round 1 instrument labels on the 30-repository pilot set.
 
 | Baseline | Rule (summary) | Accuracy |
-|::-|:::-|::-|
+|---|---|---|
 | `baseline_1_description_topics_keywords` | `AI_PRODUCT` if description/topics contain ai, agent, llm, prompt, mcp, copilot, claude, openai; else `CONVENTIONAL_SOFTWARE` | **0.633** |
 | `baseline_2_name_topics_keywords` | `AI_PRODUCT` if repo name or topics contain agent, framework, sdk, library, benchmark, eval; else `CONVENTIONAL_SOFTWARE` | **0.500** |
 | `baseline_3_instruction_artifact_triggers` | `AI_PRODUCT` if artifact is AGENTS.md, CLAUDE.md, prompts/, or system_prompt.*; else `CONVENTIONAL_SOFTWARE` | **0.467** |

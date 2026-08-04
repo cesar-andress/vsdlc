@@ -9,7 +9,7 @@ from repository name and matched artifact paths; Phases 1-2 do not persist GitHu
 ## Population snapshot
 
 | Metric | Count |
-|:--|::|
+|---|---|
 | Total eligible | 83 |
 | `agent_product_flag=true` | 80 (96.4%) |
 | `agent_product_flag=false` | 3 |

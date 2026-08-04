@@ -24,7 +24,7 @@ Does **not** change Phase 2 eligibility.
 ## Primary labels (exactly one)
 
 | Code | Definition |
-|:|::|
+|---|---|
 | `AI_PRODUCT` | Primary consumers build, evaluate, operate, secure, or orchestrate AI systems |
 | `CONVENTIONAL_SOFTWARE` | Primary consumers are end users or non-AI developers; AI may be internal or a core feature |
 | `EXCLUDE` | Non-product, dotfiles, docs-only, prompt packs, courses, awesome lists, insufficient evidence |
@@ -42,7 +42,7 @@ Pipe-separated in CSV:
 ## Ordered decision flow
 
 | Step | Rule | Label |
-|:|:|:-|
+|---|---|---|
 | **0** | Non-product gate: dotfiles, docs-only, pure prompt/skill collection, course, awesome list, not buildable/usable | `EXCLUDE` |
 | **1** | Evidence floor: no description **and** no topics | `EXCLUDE` unless name unambiguous |
 | **2** | Consumer test: AI builders/operators/evaluators/security researchers vs end users/non-AI developers | `AI_PRODUCT` or `CONVENTIONAL_SOFTWARE` |
@@ -82,7 +82,7 @@ Assign `primary_label` before opening `agent_product_flag`.
 ## Rounds and adjudication
 
 | Round | `annotation_round` |
-|:-|:::-|
+|---|---|
 | Independent A / B | `1` |
 | Adjudication | `1` or `2` → `adjudicated_label` |
 

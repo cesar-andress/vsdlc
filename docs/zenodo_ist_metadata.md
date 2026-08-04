@@ -8,9 +8,9 @@ Historical filename retained (`zenodo_ist_metadata.md`); **venue is PeerJ Comput
 ## Record fields
 
 | Field | Value |
-|:-|:-|
+|---|---|
 | **Upload type** | Software |
-| **Title** | Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package) |
+| **Title** | Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame (replication package) |
 | **Version** | v1.0.0 |
 | **Publication date** | 2026-08-04 |
 | **License** | MIT |
@@ -20,7 +20,7 @@ Historical filename retained (`zenodo_ist_metadata.md`); **venue is PeerJ Comput
 ## Authors (in this order)
 
 | Name | ORCID | Affiliation |
-|:|:-|::-|
+|---|---|---|
 | César Andrés | 0009-0001-8968-3404 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
 | David Martín-Moncunill | 0000-0003-2422-9005 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
 | José Manuel Baños | 0009-0004-9971-7390 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
@@ -51,7 +51,7 @@ Replication material only: no manuscript LaTeX, PDFs, bibliographies, or editori
 ## Related publication
 
 - **Journal:** PeerJ Computer Science (submitted)
-- **Manuscript title:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame
+- **Manuscript title:** Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame
 
 ## Post-upload verification
 

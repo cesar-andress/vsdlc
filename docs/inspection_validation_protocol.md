@@ -60,7 +60,7 @@ For each repository row in `inspection_sample_50_blank.csv`:
 3. **Decide one primary label** using the same 3-label instrument:
 
 | Code | Definition |
-|:|::|
+|---|---|
 | `AI_PRODUCT` | Primary consumers build, evaluate, operate, secure, or orchestrate AI systems |
 | `CONVENTIONAL_SOFTWARE` | Primary consumers are end users or non-AI developers; AI may be internal or a core feature |
 | `EXCLUDE` | Non-product, dotfiles, docs-only, prompt packs, courses, awesome lists, insufficient evidence |

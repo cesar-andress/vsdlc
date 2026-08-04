@@ -72,7 +72,7 @@ Expected full-run runtime: **~30-60+ minutes** for Phase 1 (17 queries + enrichm
 **Outputs:**
 
 | Path | Description |
-|:|::-|
+|---|---|
 | `data/raw/repo_candidates.jsonl` | Candidate rows for the repository traceability dataset |
 | `data/interim/seed_search_checkpoint.json` | Local resume cache (gitignored) |
 
@@ -87,7 +87,7 @@ python scripts/run_repo_filter.py
 **Outputs:**
 
 | Path | Description |
-|:|::-|
+|---|---|
 | `data/interim/eligible_repos.jsonl` | Filtered eligible repositories |
 | `data/interim/excluded_repos.jsonl` | Excluded repositories with reasons |
 | `data/interim/filter_summary.json` | Aggregate exclusion counts |
@@ -167,7 +167,7 @@ python3.12 scripts/analyze_human_only_consensus_sensitivity.py
 Outputs:
 
 | Artifact | Path |
-|::-|:|
+|---|---|
 | Sensitivity JSON | `data/processed/human_only_consensus_sensitivity.json` |
 | Manuscript table | `data/processed/human_only_consensus_sensitivity.json` |
 
@@ -180,7 +180,7 @@ python3.12 scripts/analyze_llm_third_adjudicator.py
 Outputs:
 
 | Artifact | Path |
-|::-|:|
+|---|---|
 | Audit JSON | `data/processed/llm_third_adjudicator_audit.json` |
 | Manuscript tables | `data/processed/llm_third_adjudicator_audit.json` |
 
@@ -196,7 +196,7 @@ PYTHONPATH=src python3 scripts/analyze_target_sensitivity.py
 Outputs:
 
 | Artifact | Path |
-|::-|:|
+|---|---|
 | Sensitivity JSON | `data/processed/target_sensitivity_results.json` |
 | Manuscript table | `data/processed/target_sensitivity_results.json` |
 
@@ -282,7 +282,7 @@ Minimal robustness extension: an independent **AI-topic/metadata** discovery fra
 ### Predicates (repository search)
 
 | Label | API query fragment |
-|:-|:::-|
+|---|---|
 | `topic:llm` | `topic:llm` |
 | `topic:ai-agent` | `topic:ai-agent` |
 | `topic:mcp` | `topic:mcp` |
@@ -327,7 +327,7 @@ PYTHONPATH=src python3 scripts/analyze_second_frame_contamination.py
 Outputs:
 
 | Artifact | Path |
-|::-|:|
+|---|---|
 | Raw/interim candidates | `data/raw/second_frame_candidates.jsonl` |
 | Eligible repositories | `data/interim/second_frame_eligible_repos.jsonl` |
 | Filter summary | `data/interim/second_frame_filter_summary.json` |
@@ -366,7 +366,7 @@ Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_he
 
 ## Citation (Zenodo)
 
-**Title:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)
+**Title:** Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame (replication package)
 
 **Release:** v1.0.0 (PeerJ Computer Science companion)
 
@@ -379,7 +379,7 @@ Cite the Zenodo record or `CITATION.cff` in this repository.
 ```bibtex
 @software{andres2026vsdlcReplication,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)}},
+  title     = {{Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame (replication package)}},
   year      = {2026},
   version   = {v1.0.0},
   publisher = {Zenodo},

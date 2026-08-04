@@ -10,7 +10,7 @@ Present the repository as a **replication package** for the PeerJ Computer Scien
 ## Scan coverage
 
 | Area | Files scanned |
-|:|:::-|
+|---|---|
 | README | `README.md` |
 | Docs | `docs/reproducibility.md`, `docs/zenodo_release_checklist.md` |
 | Metadata | `CITATION.cff`, `pyproject.toml`, `MANIFEST.in`, `requirements.txt`, `LICENSE` |
@@ -30,7 +30,7 @@ No matches were found for: `paper_ieeesw`, `IEEE Computer`, `IEEE Software`, `re
 The following wording was **indirectly publication-oriented** or **terminology-inconsistent**:
 
 | File | Line (approx.) | Problematic text | Suggested replacement | Action |
-|:|:::-|:::|::::-|:--|
+|---|---|---|---|---|
 | `README.md` | 3 | `V-SDLC (Verified Software Development Lifecycle) research programme` | Frame as provenance research artifact | **Rewritten** |
 | `README.md` | 149 | `After publication, cite using CITATION.cff` | `After the Zenodo record is released, cite using CITATION.cff` | **Rewritten** |
 | `README.md` | 157 | `Pre-publication checklist` | `Release checklist` | **Rewritten** |
@@ -57,7 +57,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 ## Terminology standardization applied
 
 | Role | Canonical term |
-|:|:::-|
+|---|---|
 | Project name | **VSDLC Mining Pilot** |
 | Research theme | **AI-assisted software development provenance** |
 | Software deliverable | **Repository mining framework** |
@@ -67,7 +67,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 ### Replacements made
 
 | Former usage | Replaced with |
-|::--|:::|
+|---|---|
 | V-SDLC research programme | AI-assisted software development provenance (research theme) |
 | research programme / companion tone | initial public research artifact |
 | publication (citation context) | Zenodo release / DOI assignment |
@@ -89,7 +89,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 ## Remaining manual decisions
 
 | Item | Owner action |
-|:|::--|
+|---|---|
 | `CITATION.cff` DOI | Assigned: `10.5281/zenodo.21794793` (release v1.0.0) |
 | `CITATION.cff` `date-released` | Set to actual Zenodo release date |
 | `pyproject.toml` `[project.urls]` | Align with final repository URL |

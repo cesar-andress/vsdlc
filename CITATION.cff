@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)"
+title: "Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame (replication package)"
 message: "If you use this software or data, please cite it using the metadata from this file."
 type: software
 authors:
@@ -38,7 +38,7 @@ abstract: >-
   codebook, and protocols accompanying the PeerJ Computer Science manuscript.
 preferred-citation:
   type: article
-  title: "Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame"
+  title: "Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame"
   authors:
     - family-names: Andrés
       given-names: César

@@ -1,6 +1,6 @@
-# Repository Composition Across AI-Instruction File Searches (Replication Package)
+# Repository composition across AI-instruction file searches (replication package)
 
-**Companion to:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame  
+**Companion to:** Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame  
 **Venue:** PeerJ Computer Science (submitted)  
 **Zenodo DOI:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)  
 **Version:** v1.0.0  
@@ -14,7 +14,7 @@ Frozen replication package for a labelled empirical study of public GitHub repos
 ## What this artifact contains
 
 | Component | Description |
-|::--|::-|
+|-----------|-------------|
 | Mining pipeline | Python package for seed search and repository filtering |
 | Frozen datasets | JSONL and interim filter outputs under `data/` |
 | Annotation materials | Worksheets, codebook (schema v0.2), annotation and inspection protocols |
@@ -38,8 +38,8 @@ export GITHUB_TOKEN="..."   # required only for live API re-runs; never commit t
 Cite the PeerJ manuscript (when available) and this Zenodo record. See [`CITATION.cff`](CITATION.cff).
 
 ```
-Andrés C, Martín-Moncunill D, Baños JM. 2026. Repository Composition Across
-AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame.
+Andrés C, Martín-Moncunill D, Baños JM. 2026. Repository composition across
+AI-instruction file searches: a labelled study of an eligible GitHub frame.
 Manuscript submitted to PeerJ Computer Science.
 Replication package: https://doi.org/10.5281/zenodo.21794793
 ```

@@ -17,7 +17,7 @@ The v0.1 four-class schema (`TOOL` / `ASSIST` / `MIXED` / `UNCLEAR`) is **deprec
 ## 2. Primary instrument (3 labels)
 
 | `primary_label` | Role in study |
-|:::--|:::|
+|---|---|
 | `CONVENTIONAL_SOFTWARE` | **Target population** for provenance |
 | `AI_PRODUCT` | Non-target (AI-system product) |
 | `EXCLUDE` | Non-target (out of scope / insufficient evidence) |
@@ -52,7 +52,7 @@ Gold CSV = template fields + `agent_product_flag` + `sample_stratum`; annotation
 `scripts/compute_annotation_agreement.py` → `data/processed/annotation_agreement.json`
 
 | Metric | Definition |
-|:--|::|
+|---|---|
 | Three-class κ | `primary_label`: `AI_PRODUCT`, `CONVENTIONAL_SOFTWARE`, `EXCLUDE` |
 | Binary κ | `target_population` = `CONVENTIONAL_SOFTWARE`; `non_target` = `AI_PRODUCT` ∪ `EXCLUDE` |
 | Confusion matrix | Both schemes |

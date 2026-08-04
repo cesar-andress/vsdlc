@@ -2,8 +2,8 @@
 
 ## v1.0.0: current Zenodo / GitHub release (2026-08-04)
 
-**Companion manuscript (PeerJ Computer Science):** *Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame*  
-**Replication package title:** *Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)*  
+**Companion manuscript (PeerJ Computer Science):** *Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame*  
+**Replication package title:** *Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame (replication package)*  
 **Git tag:** `v1.0.0`  
 **Zenodo record:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)
 
@@ -18,7 +18,7 @@ This archive does **not** include manuscript LaTeX, bibliographies, cover letter
 ### Authors
 
 | Author | ORCID |
-|:--|:-|
+|---|---|
 | César Andrés | 0009-0001-8968-3404 |
 | David Martín-Moncunill | 0000-0003-2422-9005 |
 | José Manuel Baños | 0009-0004-9971-7390 |
@@ -28,7 +28,7 @@ This archive does **not** include manuscript LaTeX, bibliographies, cover letter
 ### Main contents
 
 | Component | Description |
-|::--|::-|
+|---|---|
 | Mining pipeline | Phase 1 seed search and Phase 2 repository filtering (`src/vsdlc_mining/`, `scripts/`) |
 | Frozen datasets | Discovery candidates, eligible/excluded repositories, annotation exports, inspection worksheets (`data/`) |
 | Evaluation scripts | Concordance / κ bootstrap, family composition, sensitivity tables, learned baselines, inspection comparison |
@@ -44,7 +44,7 @@ JSON/CSV under `data/processed/` (e.g. sensitivity and concordance artefacts ali
 ```bibtex
 @software{andres2026vsdlcReplication,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)}},
+  title     = {{Repository composition across AI-instruction file searches: a labelled study of an eligible GitHub frame (replication package)}},
   year      = {2026},
   version   = {v1.0.0},
   publisher = {Zenodo},
