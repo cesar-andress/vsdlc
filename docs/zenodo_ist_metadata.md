@@ -19,11 +19,11 @@ Historical filename retained (`zenodo_ist_metadata.md`); **venue is PeerJ Comput
 
 ## Authors (in this order)
 
-| Name | ORCID | Affiliation |
-|---|---|---|
-| César Andrés | 0009-0001-8968-3404 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
-| David Martín-Moncunill | 0000-0003-2422-9005 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
-| José Manuel Baños | 0009-0004-9971-7390 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
+| Name | ORCID | Email | Affiliation |
+|---|---|---|---|
+| César Andrés | 0009-0001-8968-3404 | cesar.andress@ucjc.edu | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
+| David Martín-Moncunill | 0000-0003-2422-9005 | david.martinm@ucjc.edu | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
+| José Manuel Baños | 0009-0004-9971-7390 | jmanuel.banos@ucjc.edu | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
 
 ## Keywords
 

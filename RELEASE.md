@@ -17,11 +17,11 @@ This archive does **not** include manuscript LaTeX, bibliographies, cover letter
 
 ### Authors
 
-| Author | ORCID |
-|---|---|
-| César Andrés | 0009-0001-8968-3404 |
-| David Martín-Moncunill | 0000-0003-2422-9005 |
-| José Manuel Baños | 0009-0004-9971-7390 |
+| Author | ORCID | Email |
+|---|---|---|
+| César Andrés (corresponding) | 0009-0001-8968-3404 | cesar.andress@ucjc.edu |
+| David Martín-Moncunill | 0000-0003-2422-9005 | david.martinm@ucjc.edu |
+| José Manuel Baños | 0009-0004-9971-7390 | jmanuel.banos@ucjc.edu |
 
 **Affiliation:** CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain
 
