@@ -6,15 +6,18 @@ authors:
   - family-names: Andrés
     given-names: César
     orcid: "https://orcid.org/0009-0001-8968-3404"
-    affiliation: "Universidad Camilo José Cela, Spain"
+    affiliation: "CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain"
+    email: cesar.andress@ucjc.edu
   - family-names: Martín-Moncunill
     given-names: David
     orcid: "https://orcid.org/0000-0003-2422-9005"
-    affiliation: "Universidad Camilo José Cela, Spain"
+    affiliation: "CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain"
+    email: david.martinm@ucjc.edu
   - family-names: Baños
     given-names: José Manuel
     orcid: "https://orcid.org/0009-0004-9971-7390"
-    affiliation: "Universidad Camilo José Cela, Spain"
+    affiliation: "CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain"
+    email: jmanuel.banos@ucjc.edu
 version: "1.0.0"
 license: MIT
 doi: "10.5281/zenodo.20754778"

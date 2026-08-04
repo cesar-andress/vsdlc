@@ -8,7 +8,8 @@
 
 Frozen replication package for a labelled empirical study of public GitHub repositories retrieved by AI-instruction filename and path searches. The package supports replaying discovery/filter artefacts, Round-1 labelling worksheets, sensitivity tables, metadata-only baselines, and secondary inspection outputs within one eligible labelled analysis frame.
 
-**Authors:** César Andrés, David Martín-Moncunill, and José Manuel Baños (Universidad Camilo José Cela, Spain)
+**Authors:** César Andrés, David Martín-Moncunill, and José Manuel Baños  
+**Affiliation:** CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain
 
 ## What this artifact contains
 
