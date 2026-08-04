@@ -1,52 +1,52 @@
 cff-version: 1.2.0
-title: "Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case"
-message: "If you use this software, please cite it as below."
+title: "Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame — Replication Package"
+message: "If you use this software or data, please cite it using the metadata from this file."
 type: software
 authors:
   - family-names: Andrés
     given-names: César
-    orcid: https://orcid.org/0009-0001-8968-3404
+    orcid: "https://orcid.org/0009-0001-8968-3404"
     affiliation: "Universidad Camilo José Cela, Spain"
   - family-names: Martín-Moncunill
     given-names: David
-    orcid: https://orcid.org/0000-0003-2422-9005
+    orcid: "https://orcid.org/0000-0003-2422-9005"
     affiliation: "Universidad Camilo José Cela, Spain"
   - family-names: Baños
     given-names: José Manuel
-    orcid: https://orcid.org/0009-0004-9971-7390
+    orcid: "https://orcid.org/0009-0004-9971-7390"
     affiliation: "Universidad Camilo José Cela, Spain"
-version: v0.1.0-msr-contamination-audit
+version: "1.0.0"
 license: MIT
+doi: "10.5281/zenodo.20754778"
 url: "https://doi.org/10.5281/zenodo.20754778"
-doi: 10.5281/zenodo.20754778
-date-released: 2026-07-22
+date-released: "2026-08-04"
 keywords:
   - empirical software engineering
   - mining software repositories
-  - discovery frames
-  - sampling validity
-  - construct validity
+  - GitHub
+  - AI-instruction files
+  - labelling
   - reproducibility
-  - AI-instruction path predicates
+  - PeerJ Computer Science
 abstract: >-
-  Frozen replication package for the discovery-frame validity audit demonstrated
-  on one public GitHub frame of AI-instruction path predicates (companion IST
-  manuscript). Includes the mining pipeline (discover and filter), frozen study
-  datasets, annotation worksheets, evaluation scripts, sensitivity analyses, and
-  schema documents for replaying metadata-visible coding, reliability analysis,
-  and functional-evidence inspection diagnostics under alternative targets and
-  consensus rules. Replication material only: no manuscript LaTeX or PDFs.
-repository-code: "https://github.com/cesar-andres/vsdlc"
+  Frozen replication package for a labelled empirical study of public GitHub
+  repositories retrieved by AI-instruction filename and path searches within one
+  eligible labelled frame. Includes mining outputs, worksheets, analysis scripts,
+  codebook, and protocols accompanying the PeerJ Computer Science manuscript.
 preferred-citation:
   type: article
-  title: "Discovery-Frame Validity in Mining Software Repositories: Protocol-Dependent Contamination Estimands Demonstrated on AI-Instruction Path Predicates"
+  title: "Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame"
   authors:
     - family-names: Andrés
       given-names: César
+      orcid: "https://orcid.org/0009-0001-8968-3404"
     - family-names: Martín-Moncunill
       given-names: David
+      orcid: "https://orcid.org/0000-0003-2422-9005"
     - family-names: Baños
       given-names: José Manuel
+      orcid: "https://orcid.org/0009-0004-9971-7390"
   year: 2026
-  journal: "Information and Software Technology"
-  notes: "Manuscript under review; cite the Zenodo record for the replication package."
+  journal: "PeerJ Computer Science"
+  notes: "Manuscript submitted; cite this Zenodo record for the replication package."
+  doi: "10.5281/zenodo.20754778"
