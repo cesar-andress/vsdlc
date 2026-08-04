@@ -1,11 +1,11 @@
-# Metadata vs repository inspection — validation protocol
+# Metadata vs repository inspection: validation protocol
 
 **Inputs:** `data/processed/inspection_sample_50_blank.csv`  
 **Reference (held out during inspection):** `data/processed/inspection_sample_50.csv`  
 **Completed worksheet:** `data/processed/inspection_sample_50_completed.csv`  
 **Schema:** `~/papers/vsdlc/docs/classification_schema.md` (v0.2)
 
----
+:
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Test whether labels derived from repository **metadata** (description, topics, d
 
 The inspector works from the blind worksheet and must not use prior annotator labels.
 
----
+:
 
 ## Functional evidence requirement
 
@@ -49,7 +49,7 @@ The inspector must record **one sentence of functional evidence** in `functional
 
 `inspection_evidence` may still summarize the overall inspection, but `functional_evidence` must cite concrete repository function or absence of executable product evidence.
 
----
+:
 
 ## Procedure
 
@@ -60,7 +60,7 @@ For each repository row in `inspection_sample_50_blank.csv`:
 3. **Decide one primary label** using the same 3-label instrument:
 
 | Code | Definition |
-|------|------------|
+|:|::|
 | `AI_PRODUCT` | Primary consumers build, evaluate, operate, secure, or orchestrate AI systems |
 | `CONVENTIONAL_SOFTWARE` | Primary consumers are end users or non-AI developers; AI may be internal or a core feature |
 | `EXCLUDE` | Non-product, dotfiles, docs-only, prompt packs, courses, awesome lists, insufficient evidence |
@@ -81,7 +81,7 @@ For each repository row in `inspection_sample_50_blank.csv`:
 
 Save the completed file as `data/processed/inspection_sample_50_completed.csv` with the same `repo_full_name` values and column order as the blank worksheet, with `inspection_label` filled for every row.
 
----
+:
 
 ## Second independent inspector (same $n{=}50$ sample)
 
@@ -122,7 +122,7 @@ PYTHONPATH=src python3 scripts/evaluate_second_inspection.py
 
 See `docs/reproducibility.md` for output artifacts and metric definitions.
 
----
+:
 
 ## Evaluation
 
@@ -149,7 +149,7 @@ Evaluation warns when:
 - `functional_evidence` is missing for a completed row
 - fewer than two evidence-source booleans are `true`
 
----
+:
 
 ## Constraints
 

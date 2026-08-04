@@ -1,4 +1,4 @@
-# Repository Composition Across AI-Instruction File Searches — Replication Package
+# Repository Composition Across AI-Instruction File Searches (Replication Package)
 
 **Companion to:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame  
 **Venue:** PeerJ Computer Science (submitted)  
@@ -14,7 +14,7 @@ Frozen replication package for a labelled empirical study of public GitHub repos
 ## What this artifact contains
 
 | Component | Description |
-|-----------|-------------|
+|::--|::-|
 | Mining pipeline | Python package for seed search and repository filtering |
 | Frozen datasets | JSONL and interim filter outputs under `data/` |
 | Annotation materials | Worksheets, codebook (schema v0.2), annotation and inspection protocols |
@@ -30,7 +30,7 @@ cd vsdlc
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e ".[dev]"
-export GITHUB_TOKEN="..."   # required only for live API re-runs — never commit tokens
+export GITHUB_TOKEN="..."   # required only for live API re-runs; never commit tokens
 ```
 
 ## Citation
@@ -46,4 +46,4 @@ Replication package: https://doi.org/10.5281/zenodo.21794793
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE).
+MIT: see [`LICENSE`](LICENSE).

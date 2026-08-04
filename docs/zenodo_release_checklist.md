@@ -1,4 +1,4 @@
-# Zenodo release checklist — replication package (PeerJ companion)
+# Zenodo release checklist: replication package (PeerJ companion)
 
 Use this checklist before creating a Git tag, GitHub release, or Zenodo upload for this replication package.
 

@@ -1,4 +1,4 @@
-# Zenodo upload metadata — replication package
+# Zenodo upload metadata: replication package
 
 Use this checklist when verifying the published record
 [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793).
@@ -8,9 +8,9 @@ Historical filename retained (`zenodo_ist_metadata.md`); **venue is PeerJ Comput
 ## Record fields
 
 | Field | Value |
-|-------|-------|
+|:-|:-|
 | **Upload type** | Software |
-| **Title** | Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame — Replication Package |
+| **Title** | Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package) |
 | **Version** | v1.0.0 |
 | **Publication date** | 2026-08-04 |
 | **License** | MIT |
@@ -20,7 +20,7 @@ Historical filename retained (`zenodo_ist_metadata.md`); **venue is PeerJ Comput
 ## Authors (in this order)
 
 | Name | ORCID | Affiliation |
-|------|-------|-------------|
+|:|:-|::-|
 | César Andrés | 0009-0001-8968-3404 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
 | David Martín-Moncunill | 0000-0003-2422-9005 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
 | José Manuel Baños | 0009-0004-9971-7390 | CRIA-BDHS Research Group, Escuela Politécnica Superior de Tecnología y Ciencia, Universidad Camilo José Cela, Spain |
@@ -58,5 +58,5 @@ Replication material only: no manuscript LaTeX, PDFs, bibliographies, or editori
 - [x] All three authors visible on the Zenodo record
 - [x] Version / git tag `v1.0.0` matches this release
 - [x] Description and keywords match this document
-- [x] Archive contains `vsdlc` sources, `CITATION.cff`, `RELEASE.md` — **no** manuscript PDF/LaTeX
+- [x] Archive contains `vsdlc` sources, `CITATION.cff`, `RELEASE.md`: **no** manuscript PDF/LaTeX
 - [x] DOI `10.5281/zenodo.21794793` resolves

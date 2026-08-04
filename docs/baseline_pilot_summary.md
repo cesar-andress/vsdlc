@@ -1,11 +1,11 @@
 # Baseline pilot summary (30-repository sample)
 
-**Status:** pilot analysis — not final results  
+**Status:** pilot analysis: not final results  
 **Sample:** `data/processed/gold_sample_30_pilot.csv`  
 **Annotator reference:** `data/processed/gold_sample_30_claude.csv` (`annotator_id: claude_r2`, Round 1)  
 **Comparison script:** `scripts/evaluate_baseline_heuristics.py`
 
----
+:
 
 ## Scope
 
@@ -13,31 +13,31 @@ This note summarizes a **pilot** baseline-comparison experiment on **30 eligible
 
 This is an **exploratory pilot only**. Results must be repeated on the full gold sample with independent dual annotation and adjudication before any go/no-go decision.
 
----
+:
 
 ## Evaluated repositories
 
 | Metric | Value |
-|--------|-------|
+|:--|:-|
 | Evaluated repositories | **30** |
 | Primary labels (instrument) | `AI_PRODUCT`, `CONVENTIONAL_SOFTWARE`, `EXCLUDE` |
 | Baseline outputs | `AI_PRODUCT` or `CONVENTIONAL_SOFTWARE` only (never `EXCLUDE`) |
 
----
+:
 
 ## Baseline accuracies
 
 Accuracy is measured against the Round 1 instrument labels on the 30-repository pilot set.
 
 | Baseline | Rule (summary) | Accuracy |
-|----------|----------------|----------|
+|::-|:::-|::-|
 | `baseline_1_description_topics_keywords` | `AI_PRODUCT` if description/topics contain ai, agent, llm, prompt, mcp, copilot, claude, openai; else `CONVENTIONAL_SOFTWARE` | **0.633** |
 | `baseline_2_name_topics_keywords` | `AI_PRODUCT` if repo name or topics contain agent, framework, sdk, library, benchmark, eval; else `CONVENTIONAL_SOFTWARE` | **0.500** |
 | `baseline_3_instruction_artifact_triggers` | `AI_PRODUCT` if artifact is AGENTS.md, CLAUDE.md, prompts/, or system_prompt.*; else `CONVENTIONAL_SOFTWARE` | **0.467** |
 
 The best-performing trivial baseline reaches only **63.3%** accuracy. None approaches the inter-rater reliability thresholds pre-registered for the decontamination study (κ ≥ 0.60 three-class, or κ ≥ 0.70 binary decontamination).
 
----
+:
 
 ## Key finding
 
@@ -49,13 +49,13 @@ Keyword, naming, and artifact-path rules systematically conflate distinct reposi
 - Runnable AI tooling from non-product prompt/skill collections
 - Target conventional software from repositories with insufficient public evidence
 
----
+:
 
 ## Specific failure modes
 
 ### 1. AI-central end-user apps misclassified as `AI_PRODUCT`
 
-Heuristics fire on agent/AI keywords or artifact paths, but the **consumer test** assigns `CONVENTIONAL_SOFTWARE` because end users—not AI-system builders—are the primary audience.
+Heuristics fire on agent/AI keywords or artifact paths, but the **consumer test** assigns `CONVENTIONAL_SOFTWARE` because end users:not AI-system builders:are the primary audience.
 
 **Examples:** `9mtm/Agent-Player`, `AIDotNet/OpenCowork`, `AIStoryBuilders/AIStoryBuilders`, `ARPAHLS/OPSIE`
 
@@ -77,15 +77,15 @@ Instruction-artifact presence in a path (e.g. embedded `AGENTS.md`, `.cursor/rul
 
 **Examples:** `0-AI-UG/cate`, `0xdpfly/gin-app-start`, `AMAP-EAI/Nav-R2`, `ARCLab-MIT/kspdg`
 
----
+:
 
 ## Interpretation
 
-The proposed annotation instrument—consumer test, non-product gate, evidence floor, packaging cues, and runnable-vs-collection rule—**adds information beyond trivial regex baselines**.
+The proposed annotation instrument:consumer test, non-product gate, evidence floor, packaging cues, and runnable-vs-collection rule:**adds information beyond trivial regex baselines**.
 
 Disagreements between instrument labels and baseline predictions identify scientifically informative cases: repositories where AI-instruction artifacts co-occur with ordinary software, end-user AI applications, or non-product content. These are precisely the cases a provenance study must decontaminate before estimating target-population completeness.
 
----
+:
 
 ## Caveats
 
@@ -95,7 +95,7 @@ Disagreements between instrument labels and baseline predictions identify scient
 - Must be **repeated on the full gold sample** with independent annotation (two annotators) and adjudication before drawing study-level conclusions.
 - Do **not** treat these accuracies as final decontamination performance metrics.
 
----
+:
 
 ## Next steps
 
@@ -105,6 +105,6 @@ Disagreements between instrument labels and baseline predictions identify scient
 4. Compute inter-rater agreement via `scripts/compute_annotation_agreement.py`.
 5. Apply go/no-go thresholds in `docs/decontamination_study_plan.md`.
 
----
+:
 
 *Pilot summary only. Not a final empirical report.*

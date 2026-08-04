@@ -1,4 +1,4 @@
-# Reproducibility guide — VSDLC Mining Pilot
+# Reproducibility guide: VSDLC Mining Pilot
 
 This document explains how to independently rerun the repository mining framework and regenerate the repository traceability dataset.
 
@@ -6,8 +6,8 @@ This document explains how to independently rerun the repository mining framewor
 
 Phases implemented in this artifact:
 
-1. **Phase 1 — Seed search** (`scripts/run_seed_search.py`)
-2. **Phase 2 — Repository filter** (`scripts/run_repo_filter.py`)
+1. **Phase 1: Seed search** (`scripts/run_seed_search.py`)
+2. **Phase 2: Repository filter** (`scripts/run_repo_filter.py`)
 
 Later stages (cloning, release-unit extraction, trace scoring) are out of scope for this release.
 
@@ -51,9 +51,9 @@ python scripts/run_repo_filter.py \
   --limit-repos 20
 ```
 
-Expected test-run runtime: **~2–5 minutes** (mostly code-search rate limits).
+Expected test-run runtime: **~2-5 minutes** (mostly code-search rate limits).
 
-### Full run — Phase 1 (seed search)
+### Full run: Phase 1 (seed search)
 
 ```bash
 python scripts/run_seed_search.py
@@ -65,18 +65,18 @@ If interrupted by rate limits or manual stop:
 python scripts/run_seed_search.py --resume
 ```
 
-Expected full-run runtime: **~30–60+ minutes** for Phase 1 (17 queries + enrichment), plus additional time for Phase 2 on large corpora.
+Expected full-run runtime: **~30-60+ minutes** for Phase 1 (17 queries + enrichment), plus additional time for Phase 2 on large corpora.
 
 **Inputs:** GitHub code-search queries defined in `src/vsdlc_mining/config.py`.
 
 **Outputs:**
 
 | Path | Description |
-|------|-------------|
+|:|::-|
 | `data/raw/repo_candidates.jsonl` | Candidate rows for the repository traceability dataset |
 | `data/interim/seed_search_checkpoint.json` | Local resume cache (gitignored) |
 
-### Full run — Phase 2 (repository filter)
+### Full run: Phase 2 (repository filter)
 
 Requires Phase 1 output.
 
@@ -87,7 +87,7 @@ python scripts/run_repo_filter.py
 **Outputs:**
 
 | Path | Description |
-|------|-------------|
+|:|::-|
 | `data/interim/eligible_repos.jsonl` | Filtered eligible repositories |
 | `data/interim/excluded_repos.jsonl` | Excluded repositories with reasons |
 | `data/interim/filter_summary.json` | Aggregate exclusion counts |
@@ -104,7 +104,7 @@ Exact result counts will vary with GitHub index state and API quotas at run time
 ## Data policy
 
 - Only **public GitHub metadata** is collected via the API.
-- **No repository cloning** is performed in Phases 1–2.
+- **No repository cloning** is performed in Phases 1-2.
 - **No secrets** should appear in outputs; do not commit `GITHUB_TOKEN`.
 - Redistributing mined metadata must respect **repository licenses** and **GitHub Terms of Service**.
 
@@ -126,7 +126,7 @@ python3 scripts/compute_kappa_bootstrap_ci.py
 ```
 
 Defaults:
-- Human--human pairs: `data/processed/gold_sample_330_three_annotator_comparison.csv` (`human1_label` vs `human2_label`, $n{=}300$)
+- Human/human pairs: `data/processed/gold_sample_330_three_annotator_comparison.csv` (`human1_label` vs `human2_label`, $n{=}300$)
 - Metadata vs inspection: `inspection_sample_50.csv` vs `inspection_sample_50_completed_fixed.csv` ($n{=}50$)
 
 The script computes point estimates and **95% percentile bootstrap confidence intervals** (10{,}000 resamples, seed 42) for:
@@ -167,7 +167,7 @@ python3.12 scripts/analyze_human_only_consensus_sensitivity.py
 Outputs:
 
 | Artifact | Path |
-|----------|------|
+|::-|:|
 | Sensitivity JSON | `data/processed/human_only_consensus_sensitivity.json` |
 | Manuscript table | `data/processed/human_only_consensus_sensitivity.json` |
 
@@ -180,7 +180,7 @@ python3.12 scripts/analyze_llm_third_adjudicator.py
 Outputs:
 
 | Artifact | Path |
-|----------|------|
+|::-|:|
 | Audit JSON | `data/processed/llm_third_adjudicator_audit.json` |
 | Manuscript tables | `data/processed/llm_third_adjudicator_audit.json` |
 
@@ -196,7 +196,7 @@ PYTHONPATH=src python3 scripts/analyze_target_sensitivity.py
 Outputs:
 
 | Artifact | Path |
-|----------|------|
+|::-|:|
 | Sensitivity JSON | `data/processed/target_sensitivity_results.json` |
 | Manuscript table | `data/processed/target_sensitivity_results.json` |
 
@@ -282,7 +282,7 @@ Minimal robustness extension: an independent **AI-topic/metadata** discovery fra
 ### Predicates (repository search)
 
 | Label | API query fragment |
-|-------|-------------------|
+|:-|:::-|
 | `topic:llm` | `topic:llm` |
 | `topic:ai-agent` | `topic:ai-agent` |
 | `topic:mcp` | `topic:mcp` |
@@ -310,16 +310,16 @@ Random seed for sampling: **42** (target sample size **100**; uses all eligible 
 cd ~/papers/vsdlc/vsdlc
 export GITHUB_TOKEN="..."   # required; never commit
 
-# Phase A — discover topic-frame candidates
+# Phase A: discover topic-frame candidates
 PYTHONPATH=src python3 scripts/run_second_frame_search.py
 
-# Phase B — apply eligibility filters (resume-safe)
+# Phase B: apply eligibility filters (resume-safe)
 PYTHONPATH=src python3 scripts/run_second_frame_filter.py --resume
 
-# Phase C — sample n<=100 and create annotation blank worksheet
+# Phase C: sample n<=100 and create annotation blank worksheet
 PYTHONPATH=src python3 scripts/create_second_frame_sample.py
 
-# Phase D — after human annotation
+# Phase D: after human annotation
 # Save completed labels to data/processed/second_frame_annotation_completed.csv
 PYTHONPATH=src python3 scripts/analyze_second_frame_contamination.py
 ```
@@ -327,7 +327,7 @@ PYTHONPATH=src python3 scripts/analyze_second_frame_contamination.py
 Outputs:
 
 | Artifact | Path |
-|----------|------|
+|::-|:|
 | Raw/interim candidates | `data/raw/second_frame_candidates.jsonl` |
 | Eligible repositories | `data/interim/second_frame_eligible_repos.jsonl` |
 | Filter summary | `data/interim/second_frame_filter_summary.json` |
@@ -366,7 +366,7 @@ Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_he
 
 ## Citation (Zenodo)
 
-**Title:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame — Replication Package
+**Title:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)
 
 **Release:** v1.0.0 (PeerJ Computer Science companion)
 
@@ -379,7 +379,7 @@ Cite the Zenodo record or `CITATION.cff` in this repository.
 ```bibtex
 @software{andres2026vsdlcReplication,
   author    = {Andr{\'e}s, C{\'e}sar and Mart{\'i}n-Moncunill, David and Ba\~nos, Jos{\'e} Manuel},
-  title     = {{Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame --- Replication Package}},
+  title     = {{Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame (Replication Package)}},
   year      = {2026},
   version   = {v1.0.0},
   publisher = {Zenodo},

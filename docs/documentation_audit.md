@@ -1,4 +1,4 @@
-# Documentation consistency audit — VSDLC Mining Pilot
+# Documentation consistency audit: VSDLC Mining Pilot
 
 Audit date: 2026-06-18  
 Scope: `~/papers/vsdlc/vsdlc` (repository mining artifact only)
@@ -10,7 +10,7 @@ Present the repository as a **replication package** for the PeerJ Computer Scien
 ## Scan coverage
 
 | Area | Files scanned |
-|------|----------------|
+|:|:::-|
 | README | `README.md` |
 | Docs | `docs/reproducibility.md`, `docs/zenodo_release_checklist.md` |
 | Metadata | `CITATION.cff`, `pyproject.toml`, `MANIFEST.in`, `requirements.txt`, `LICENSE` |
@@ -30,7 +30,7 @@ No matches were found for: `paper_ieeesw`, `IEEE Computer`, `IEEE Software`, `re
 The following wording was **indirectly publication-oriented** or **terminology-inconsistent**:
 
 | File | Line (approx.) | Problematic text | Suggested replacement | Action |
-|------|----------------|------------------|----------------------|--------|
+|:|:::-|:::|::::-|:--|
 | `README.md` | 3 | `V-SDLC (Verified Software Development Lifecycle) research programme` | Frame as provenance research artifact | **Rewritten** |
 | `README.md` | 149 | `After publication, cite using CITATION.cff` | `After the Zenodo record is released, cite using CITATION.cff` | **Rewritten** |
 | `README.md` | 157 | `Pre-publication checklist` | `Release checklist` | **Rewritten** |
@@ -38,17 +38,17 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 | `docs/reproducibility.md` | 126 | `Example (fill after publication)` | `Example (fill after DOI assignment)` | **Rewritten** |
 | `docs/zenodo_release_checklist.md` | 24 | `README or paper drafts` | `README or other documentation` | **Rewritten** |
 | `docs/zenodo_release_checklist.md` | 32 | `matches publication date` | `matches the Zenodo release date` | **Rewritten** |
-| `docs/zenodo_release_checklist.md` | 57–59 | `Post-publication` / `Paper/companion repository references` | `Post-release` / external artifact references only | **Rewritten** |
-| `CITATION.cff` | 22–26 | `V-SDLC mining pipeline` abstract wording | Repository mining framework + traceability dataset | **Rewritten** |
+| `docs/zenodo_release_checklist.md` | 57-59 | `Post-publication` / `Paper/companion repository references` | `Post-release` / external artifact references only | **Rewritten** |
+| `CITATION.cff` | 22-26 | `V-SDLC mining pipeline` abstract wording | Repository mining framework + traceability dataset | **Rewritten** |
 | `pyproject.toml` | 8 | `V-SDLC traceability research` | `AI-assisted software development provenance` | **Rewritten** |
-| `src/vsdlc_mining/__init__.py` | 1 | `V-SDLC GitHub repository mining pilot` | `VSDLC Mining Pilot — repository mining framework` | **Rewritten** |
+| `src/vsdlc_mining/__init__.py` | 1 | `V-SDLC GitHub repository mining pilot` | `VSDLC Mining Pilot: repository mining framework` | **Rewritten** |
 
 ### Clean areas (no changes required)
 
-- `scripts/run_seed_search.py`, `scripts/run_repo_filter.py` — operational CLI only
-- `src/vsdlc_mining/config.py`, `models.py`, `github_client.py`, etc. — no publication language
-- `tests/` — no publication language
-- `MANIFEST.in`, `requirements.txt`, `LICENSE` — neutral
+- `scripts/run_seed_search.py`, `scripts/run_repo_filter.py`: operational CLI only
+- `src/vsdlc_mining/config.py`, `models.py`, `github_client.py`, etc.: no publication language
+- `tests/`: no publication language
+- `MANIFEST.in`, `requirements.txt`, `LICENSE`: neutral
 
 ### Generated data note
 
@@ -57,7 +57,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 ## Terminology standardization applied
 
 | Role | Canonical term |
-|------|----------------|
+|:|:::-|
 | Project name | **VSDLC Mining Pilot** |
 | Research theme | **AI-assisted software development provenance** |
 | Software deliverable | **Repository mining framework** |
@@ -67,7 +67,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 ### Replacements made
 
 | Former usage | Replaced with |
-|--------------|---------------|
+|::--|:::|
 | V-SDLC research programme | AI-assisted software development provenance (research theme) |
 | research programme / companion tone | initial public research artifact |
 | publication (citation context) | Zenodo release / DOI assignment |
@@ -89,7 +89,7 @@ The following wording was **indirectly publication-oriented** or **terminology-i
 ## Remaining manual decisions
 
 | Item | Owner action |
-|------|--------------|
+|:|::--|
 | `CITATION.cff` DOI | Assigned: `10.5281/zenodo.21794793` (release v1.0.0) |
 | `CITATION.cff` `date-released` | Set to actual Zenodo release date |
 | `pyproject.toml` `[project.urls]` | Align with final repository URL |

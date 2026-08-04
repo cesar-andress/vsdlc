@@ -4,12 +4,12 @@ Generated: 2026-06-19 00:49:54 (local)
 Source: `data/interim/eligible_repos.jsonl` (83 repositories at time of report).
 
 Sampling method: deterministic random draw (`random.seed(42)`). Descriptions are **inferred** 
-from repository name and matched artifact paths; Phases 1–2 do not persist GitHub descriptions.
+from repository name and matched artifact paths; Phases 1-2 do not persist GitHub descriptions.
 
 ## Population snapshot
 
 | Metric | Count |
-|--------|------:|
+|:--|::|
 | Total eligible | 83 |
 | `agent_product_flag=true` | 80 (96.4%) |
 | `agent_product_flag=false` | 3 |
@@ -33,7 +33,7 @@ from repository name and matched artifact paths; Phases 1–2 do not persist Git
 - `.aiderignore`: 1
 - `.windsurfrules`: 1
 
-## Sample A — 20 random eligible repositories
+## Sample A: 20 random eligible repositories
 
 ### 1. `CSlawyer1985/case-type-guide`
 
@@ -255,7 +255,7 @@ from repository name and matched artifact paths; Phases 1–2 do not persist Git
 - **agent_product_flag:** False
 - **URL:** https://github.com/Automattic/newspack-workspace
 
-## Sample B — 10 random `agent_product_flag=true` repositories
+## Sample B: 10 random `agent_product_flag=true` repositories
 
 Overlap with Sample A: 2 repositories (`AgentWrapper/agent-orchestrator, Alexli18/binex`)
 
@@ -371,11 +371,11 @@ Overlap with Sample A: 2 repositories (`AgentWrapper/agent-orchestrator, Alexli1
 
 ## Classification rubric (audit-only, no rule changes)
 
-- **A — Normal software with AI assistance:** application/library codebase signals dominate; 
+- **A: Normal software with AI assistance:** application/library codebase signals dominate; 
 instruction files appear as project conventions rather than product documentation.
-- **B — AI tooling project:** agent/prompt/cursor/copilot artifacts dominate; repo reads as tooling, 
+- **B: AI tooling project:** agent/prompt/cursor/copilot artifacts dominate; repo reads as tooling, 
 templates, or agent infrastructure.
-- **C — Mixed:** substantive application code **and** prominent agent-instruction surfaces.
+- **C: Mixed:** substantive application code **and** prominent agent-instruction surfaces.
 
 ## Sample-level classification (heuristic)
 
@@ -385,7 +385,7 @@ templates, or agent infrastructure.
 - **B:** 5
 - **C:** 12
 
-### Sample B — agent-flagged (n=10)
+### Sample B: agent-flagged (n=10)
 
 - **A:** 1
 - **B:** 4
@@ -416,5 +416,5 @@ eligible set (3 repos: `Automattic/newspack-workspace`, `AyayaXiaowang/Ayaya_Mil
 
 1. **Agent-product prevalence:** 80/83 eligible repos flagged.
 2. **Artifact types:** dominant hits are markdown prompt/rule files and agent config paths, not application entrypoints alone.
-3. **Engineering signals:** CI 72/83, tests 50/83, releases/tags 58/83 — eligible set is not 'docs-only'; most passed CI/test gate.
+3. **Engineering signals:** CI 72/83, tests 50/83, releases/tags 58/83: eligible set is not 'docs-only'; most passed CI/test gate.
 4. **Non-agent-flagged eligible repos (3):** `Automattic/newspack-workspace`, `AyayaXiaowang/Ayaya_Miliastra_Editor`, `BNETDocs/bnetdocs-web`
