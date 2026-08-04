@@ -372,7 +372,7 @@ Keyword-only strawman comparison (legacy): `python3 scripts/evaluate_baseline_he
 
 **Version:** v0.1.0
 
-**DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
+**DOI:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)
 
 Cite the Zenodo record or `CITATION.cff` in `vsdlc/`.
 
@@ -383,8 +383,8 @@ Cite the Zenodo record or `CITATION.cff` in `vsdlc/`.
   year      = {2026},
   version   = {v0.1.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.20754778},
-  url       = {https://doi.org/10.5281/zenodo.20754778},
+  doi       = {10.5281/zenodo.21794793},
+  url       = {https://doi.org/10.5281/zenodo.21794793},
   note      = {VSDLC Replication Package v0.1.0 --- AI Instruction Artifact Contamination Audit}
 }
 ```

@@ -2,7 +2,7 @@
 
 **Companion to:** Repository Composition Across AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame  
 **Venue:** PeerJ Computer Science (submitted)  
-**Zenodo DOI:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)  
+**Zenodo DOI:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)  
 **Version:** v1.0.0  
 **License:** MIT
 
@@ -41,7 +41,7 @@ Cite the PeerJ manuscript (when available) and this Zenodo record. See [`CITATIO
 Andrés C, Martín-Moncunill D, Baños JM. 2026. Repository Composition Across
 AI-Instruction File Searches: A Labelled Study of an Eligible GitHub Frame.
 Manuscript submitted to PeerJ Computer Science.
-Replication package: https://doi.org/10.5281/zenodo.20754778
+Replication package: https://doi.org/10.5281/zenodo.21794793
 ```
 
 ## License

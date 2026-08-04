@@ -1,7 +1,7 @@
 # Zenodo upload metadata — replication package
 
 Use this checklist when updating the existing record
-[10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778).
+[10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793).
 
 ## Record fields
 
@@ -58,4 +58,4 @@ Reported prevalence is target-conditional and consensus-protocol-dependent. Inst
 - [ ] Version / git tag `v0.1.0-msr-contamination-audit` matches this release
 - [ ] Description and keywords match this document
 - [ ] Archive contains `vsdlc` sources, `CITATION.cff`, `RELEASE.md` — **no** manuscript PDF/LaTeX
-- [ ] DOI `10.5281/zenodo.20754778` still resolves (same concept DOI)
+- [ ] DOI `10.5281/zenodo.21794793` still resolves (same concept DOI)

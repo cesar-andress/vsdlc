@@ -20,8 +20,8 @@ authors:
     email: jmanuel.banos@ucjc.edu
 version: "1.0.0"
 license: MIT
-doi: "10.5281/zenodo.20754778"
-url: "https://doi.org/10.5281/zenodo.20754778"
+doi: "10.5281/zenodo.21794793"
+url: "https://doi.org/10.5281/zenodo.21794793"
 date-released: "2026-08-04"
 keywords:
   - empirical software engineering
@@ -52,4 +52,4 @@ preferred-citation:
   year: 2026
   journal: "PeerJ Computer Science"
   notes: "Manuscript submitted; cite this Zenodo record for the replication package."
-  doi: "10.5281/zenodo.20754778"
+  doi: "10.5281/zenodo.21794793"

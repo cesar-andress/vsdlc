@@ -5,7 +5,7 @@
 **Companion manuscript (IST):** *Discovery-Frame Validity in Mining Software Repositories: Protocol-Dependent Contamination Estimands Demonstrated on AI-Instruction Path Predicates*  
 **Replication package title:** *Discovery-Frame Validity Audit: Replication Package for the AI-Instruction Predicate Case*  
 **Git tag:** `v0.1.0-msr-contamination-audit`  
-**Zenodo record:** [10.5281/zenodo.20754778](https://doi.org/10.5281/zenodo.20754778)
+**Zenodo record:** [10.5281/zenodo.21794793](https://doi.org/10.5281/zenodo.21794793)
 
 ### Description
 
@@ -49,8 +49,8 @@ Aligned with the frozen manuscript empirics (human resolution 222/300; human-res
   year      = {2026},
   version   = {v0.1.0-msr-contamination-audit},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.20754778},
-  url       = {https://doi.org/10.5281/zenodo.20754778},
+  doi       = {10.5281/zenodo.21794793},
+  url       = {https://doi.org/10.5281/zenodo.21794793},
   note      = {Frozen replication package for the IST discovery-frame validity audit}
 }
 ```
